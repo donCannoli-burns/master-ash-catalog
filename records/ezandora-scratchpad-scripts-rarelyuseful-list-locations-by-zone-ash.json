@@ -26,14 +26,12 @@
     "sub": [
       "string",
       "adventuring",
-      "list",
-      "by",
       "locations",
-      "zone"
+      "zone",
+      "append",
+      "relay / IOTM / automation"
     ],
     "meta": [
-      "append",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +41,9 @@
       "provenance",
       "source-code",
       "compatibility",
-      "historical"
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

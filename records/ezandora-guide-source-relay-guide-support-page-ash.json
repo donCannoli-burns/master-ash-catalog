@@ -27,23 +27,23 @@
       "iotm",
       "string",
       "value",
-      "generate",
       "htmlgenerate",
-      "body"
+      "body",
+      "element"
     ],
     "meta": [
-      "element",
       "write",
-      "set",
       "span",
       "add",
-      "and",
       "append",
       "as",
       "attribute",
       "contents",
       "cssblock",
-      "cssclass"
+      "cssclass",
+      "desaturated",
+      "head",
+      "indented"
     ]
   },
   "wiki_searches": [

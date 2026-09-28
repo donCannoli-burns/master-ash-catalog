@@ -29,12 +29,9 @@
       "adventuring",
       "combat",
       "properties",
-      "library"
+      "append"
     ],
     "meta": [
-      "list",
-      "append",
-      "print",
       "silent",
       "add",
       "components",
@@ -43,7 +40,10 @@
       "every",
       "get_property_boolean",
       "get_property_float",
-      "get_property_int"
+      "get_property_int",
+      "get_property_location",
+      "get_property_monster",
+      "join"
     ]
   },
   "official_links": [

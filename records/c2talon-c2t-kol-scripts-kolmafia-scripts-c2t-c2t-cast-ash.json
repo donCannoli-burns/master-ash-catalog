@@ -35,7 +35,6 @@
       "c2t_cast_join",
       "first",
       "glove",
-      "main",
       "not",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +42,8 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

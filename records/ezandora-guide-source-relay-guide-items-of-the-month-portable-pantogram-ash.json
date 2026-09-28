@@ -35,7 +35,6 @@
       "pantogram",
       "quests",
       "portable",
-      "generate",
       "iotmportable",
       "tasks",
       "kingdom-of-loathing",
@@ -43,7 +42,8 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance"
     ]
   },
   "wiki_searches": [

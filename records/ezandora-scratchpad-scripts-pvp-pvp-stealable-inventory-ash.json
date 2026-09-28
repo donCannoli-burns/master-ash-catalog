@@ -36,14 +36,14 @@
       "available_minus_storage_amount",
       "item_is_pvp_stealable",
       "item_price",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

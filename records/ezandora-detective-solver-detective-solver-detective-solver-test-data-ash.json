@@ -27,15 +27,13 @@
       "character",
       "iotm",
       "string",
-      "test",
       "data",
-      "detective"
+      "detective",
+      "solver"
     ],
     "meta": [
-      "solver",
       "add",
       "append",
-      "list",
       "strings",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +41,9 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

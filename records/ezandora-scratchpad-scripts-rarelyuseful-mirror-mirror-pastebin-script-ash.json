@@ -37,13 +37,13 @@
       "inventory",
       "mirror",
       "pastebin",
-      "script",
       "item_is_pvp_stealable",
       "item_price",
-      "main",
       "minimum",
       "price",
-      "kingdom-of-loathing"
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
     ]
   },
   "wiki_searches": [

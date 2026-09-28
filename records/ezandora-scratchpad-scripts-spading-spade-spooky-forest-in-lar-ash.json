@@ -28,13 +28,11 @@
       "iotm",
       "properties",
       "forest",
-      "in",
-      "lar"
+      "lar",
+      "spade"
     ],
     "meta": [
-      "spade",
       "spooky",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +41,9 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical",
+      "runtime"
     ]
   },
   "wiki_searches": [

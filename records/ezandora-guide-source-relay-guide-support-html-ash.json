@@ -28,11 +28,10 @@
       "character",
       "iotm",
       "value",
-      "of",
-      "tag"
+      "tag",
+      "div"
     ],
     "meta": [
-      "div",
       "class",
       "htmlappend",
       "span",
@@ -42,8 +41,9 @@
       "suffix",
       "wrap",
       "anchor",
-      "and",
-      "font"
+      "font",
+      "htmlconvert",
+      "htmlescape"
     ]
   },
   "wiki_searches": [

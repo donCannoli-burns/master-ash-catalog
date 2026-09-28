@@ -32,8 +32,6 @@
       "round"
     ],
     "meta": [
-      "for",
-      "main",
       "output",
       "powf",
       "kingdom-of-loathing",
@@ -43,7 +41,9 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

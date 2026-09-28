@@ -32,7 +32,6 @@
       "encounter"
     ],
     "meta": [
-      "main",
       "spade",
       "types",
       "kingdom-of-loathing",
@@ -43,7 +42,8 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

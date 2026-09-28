@@ -20,19 +20,18 @@
   "keywords": {
     "key": [
       "relay",
-      "list",
-      "familiar"
+      "familiar",
+      "farming"
     ],
     "sub": [
-      "farming",
       "value",
       "automation",
       "iotm",
       "string",
-      "adventuring"
+      "adventuring",
+      "combat"
     ],
     "meta": [
-      "combat",
       "effects",
       "equipment",
       "skills",
@@ -42,8 +41,9 @@
       "object",
       "append",
       "archive",
-      "for",
-      "index"
+      "index",
+      "key",
+      "keys"
     ]
   },
   "wiki_searches": [

@@ -32,7 +32,6 @@
       "events"
     ],
     "meta": [
-      "generate",
       "resource",
       "sevents",
       "scrimbo2015generate",
@@ -43,7 +42,8 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

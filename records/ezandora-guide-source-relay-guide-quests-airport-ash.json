@@ -20,19 +20,18 @@
   "keywords": {
     "key": [
       "airport",
-      "generate",
-      "tasks"
+      "tasks",
+      "pvp"
     ],
     "sub": [
-      "pvp",
       "quests",
       "relay",
       "qsleaze",
       "qstench",
-      "qspooky"
+      "qspooky",
+      "stash"
     ],
     "meta": [
-      "stash",
       "automation",
       "cli",
       "effects",
@@ -43,7 +42,8 @@
       "string",
       "adventuring",
       "clan",
-      "profit"
+      "profit",
+      "properties"
     ]
   },
   "wiki_searches": [

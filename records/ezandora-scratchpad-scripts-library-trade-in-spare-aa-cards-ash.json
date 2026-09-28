@@ -28,12 +28,10 @@
       "mall",
       "aa",
       "cards",
-      "in",
-      "spare"
+      "spare",
+      "trade"
     ],
     "meta": [
-      "trade",
-      "main",
       "trade_in_spares",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +41,9 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical",
+      "runtime"
     ]
   },
   "wiki_searches": [

@@ -36,14 +36,14 @@
       "relay",
       "verify",
       "csv",
-      "helper",
-      "init",
       "item",
-      "list",
       "map",
       "return",
       "activity",
-      "amount"
+      "amount",
+      "check",
+      "escape",
+      "export"
     ]
   },
   "wiki_searches": [

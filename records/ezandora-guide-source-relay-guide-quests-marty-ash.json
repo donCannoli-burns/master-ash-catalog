@@ -36,14 +36,14 @@
       "inventory",
       "marty",
       "qmarty",
-      "generate",
-      "init",
       "tasks",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
-      "community-script"
+      "community-script",
+      "archive",
+      "provenance"
     ]
   },
   "wiki_searches": [

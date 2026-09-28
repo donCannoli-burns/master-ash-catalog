@@ -28,11 +28,10 @@
       "doghouse",
       "inventory",
       "haunted",
-      "generate",
-      "iotmhaunted"
+      "iotmhaunted",
+      "resource"
     ],
     "meta": [
-      "resource",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "source-code",
       "compatibility",
       "historical",
-      "runtime"
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

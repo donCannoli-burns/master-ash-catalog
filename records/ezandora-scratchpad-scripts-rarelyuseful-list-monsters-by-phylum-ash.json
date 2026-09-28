@@ -27,15 +27,11 @@
       "string",
       "adventuring",
       "combat",
-      "by",
-      "list",
-      "monsters"
+      "monsters",
+      "phylum",
+      "line"
     ],
     "meta": [
-      "phylum",
-      "generate",
-      "line",
-      "main",
       "monster",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +39,11 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
     ]
   },
   "wiki_searches": [

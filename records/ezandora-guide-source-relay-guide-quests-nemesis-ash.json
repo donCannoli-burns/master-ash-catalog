@@ -34,16 +34,16 @@
     "meta": [
       "value",
       "qnemesis",
-      "generate",
       "inventory",
       "properties",
       "nemesis",
       "tasks",
       "cave",
       "clown",
-      "init",
       "island",
-      "kingdom-of-loathing"
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
     ]
   },
   "wiki_searches": [

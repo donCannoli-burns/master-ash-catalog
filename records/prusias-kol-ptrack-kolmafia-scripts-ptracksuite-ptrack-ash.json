@@ -41,10 +41,10 @@
       "add",
       "breakpoint",
       "item",
-      "print",
       "blacklist",
       "breakpoints",
-      "compare"
+      "compare",
+      "price"
     ]
   },
   "wiki_searches": [

@@ -32,8 +32,6 @@
       "profit"
     ],
     "meta": [
-      "set",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +41,9 @@
       "provenance",
       "source-code",
       "compatibility",
-      "historical"
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

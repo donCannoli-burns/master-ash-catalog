@@ -36,14 +36,14 @@
       "outfit",
       "string",
       "value",
-      "initialise",
       "adventuring",
       "ascension",
       "profit",
       "properties",
       "quests",
       "tracking",
-      "statics"
+      "statics",
+      "awoloil"
     ]
   },
   "wiki_searches": [

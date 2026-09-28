@@ -34,7 +34,6 @@
     "meta": [
       "winners",
       "yesterday",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

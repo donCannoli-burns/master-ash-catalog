@@ -26,14 +26,12 @@
     "sub": [
       "string",
       "area",
-      "in",
       "person",
       "append",
-      "initialise"
+      "matches",
+      "relay / IOTM / automation"
     ],
     "meta": [
-      "list",
-      "matches",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +41,9 @@
       "provenance",
       "source-code",
       "compatibility",
-      "historical"
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

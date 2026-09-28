@@ -28,8 +28,8 @@
       "inventory",
       "drink",
       "tps",
-      "main",
-      "relay / IOTM / automation"
+      "relay / IOTM / automation",
+      "scripting"
     ],
     "meta": [
       "kingdom-of-loathing",

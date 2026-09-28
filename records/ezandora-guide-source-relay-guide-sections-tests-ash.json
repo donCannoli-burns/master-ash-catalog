@@ -27,13 +27,11 @@
       "cli",
       "iotm",
       "string",
-      "generate",
-      "test",
-      "adventuring"
+      "adventuring",
+      "combat",
+      "tests"
     ],
     "meta": [
-      "combat",
-      "tests",
       "all",
       "banish",
       "counter",
@@ -43,7 +41,9 @@
       "minor",
       "self",
       "state",
-      "text"
+      "text",
+      "kingdom-of-loathing",
+      "koLmafia"
     ]
   },
   "wiki_searches": [

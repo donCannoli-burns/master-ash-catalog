@@ -28,22 +28,22 @@
       "modifier",
       "string",
       "effects",
-      "an",
-      "effect"
+      "effect",
+      "item"
     ],
     "meta": [
-      "item",
       "multiple",
-      "of",
       "sources",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

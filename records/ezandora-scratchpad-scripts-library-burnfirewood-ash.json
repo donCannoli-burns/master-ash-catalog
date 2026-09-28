@@ -34,7 +34,6 @@
     "meta": [
       "burn",
       "firewood",
-      "main",
       "message",
       "next",
       "pick",
@@ -43,7 +42,8 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance"
     ]
   },
   "wiki_searches": [

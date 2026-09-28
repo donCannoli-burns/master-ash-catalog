@@ -28,13 +28,10 @@
       "add",
       "check",
       "gold",
-      "help",
-      "htmlprint"
+      "htmlprint",
+      "updates / library"
     ],
     "meta": [
-      "init",
-      "main",
-      "print",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +40,10 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

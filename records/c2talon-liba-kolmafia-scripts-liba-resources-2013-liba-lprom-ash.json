@@ -28,11 +28,10 @@
       "inventory",
       "liba_lprom",
       "recovery",
-      "to",
-      "item"
+      "item",
+      "liba_lprom_enter"
     ],
     "meta": [
-      "liba_lprom_enter",
       "liba_lprom_error",
       "liba_lprom_have",
       "liba_lprom_item",
@@ -43,7 +42,8 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance"
     ]
   },
   "wiki_searches": [

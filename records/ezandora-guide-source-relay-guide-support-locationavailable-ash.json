@@ -38,12 +38,12 @@
       "adventuring",
       "properties",
       "clickable",
-      "get",
-      "init",
       "private",
       "urlfor",
       "cache",
-      "check"
+      "check",
+      "compatibility",
+      "constant"
     ]
   },
   "wiki_searches": [

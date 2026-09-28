@@ -34,8 +34,6 @@
     "meta": [
       "madness",
       "qmadness",
-      "generate",
-      "init",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +41,9 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

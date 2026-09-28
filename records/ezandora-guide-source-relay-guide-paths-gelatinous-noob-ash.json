@@ -40,10 +40,10 @@
       "noob",
       "properties",
       "quests",
-      "generate",
-      "initialise",
       "path",
-      "statics"
+      "statics",
+      "tasks",
+      "kingdom-of-loathing"
     ]
   },
   "wiki_searches": [

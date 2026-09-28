@@ -32,7 +32,6 @@
       "string"
     ],
     "meta": [
-      "generate",
       "combat",
       "consumption",
       "mall",
@@ -43,7 +42,8 @@
       "classes",
       "tasks",
       "clubber",
-      "sclasses"
+      "sclasses",
+      "sseal"
     ]
   },
   "wiki_searches": [

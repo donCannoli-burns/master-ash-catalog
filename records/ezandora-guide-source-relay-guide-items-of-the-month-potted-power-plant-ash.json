@@ -35,7 +35,6 @@
       "properties",
       "skills",
       "potted",
-      "generate",
       "iotmpotted",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +42,8 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

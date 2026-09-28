@@ -36,7 +36,6 @@
       "spading",
       "string",
       "adventuring",
-      "generate",
       "inventory",
       "path",
       "profit",
@@ -44,7 +43,8 @@
       "append",
       "category",
       "checklist",
-      "checklists"
+      "checklists",
+      "entry"
     ]
   },
   "wiki_searches": [

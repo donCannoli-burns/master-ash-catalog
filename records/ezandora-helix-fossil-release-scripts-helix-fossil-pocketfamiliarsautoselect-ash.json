@@ -36,15 +36,15 @@
       "auto",
       "select",
       "build",
-      "for",
-      "main",
       "score",
       "slot",
       "team",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
-      "automation"
+      "automation",
+      "community-script",
+      "archive"
     ]
   },
   "wiki_searches": [

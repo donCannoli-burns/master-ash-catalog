@@ -35,7 +35,6 @@
     "meta": [
       "mall",
       "properties",
-      "generate",
       "checklists",
       "entries",
       "limit",
@@ -44,7 +43,8 @@
       "mode",
       "name",
       "ncinformation",
-      "status"
+      "kingdom-of-loathing",
+      "koLmafia"
     ]
   },
   "wiki_searches": [

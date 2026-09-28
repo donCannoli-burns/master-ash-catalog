@@ -32,7 +32,6 @@
       "c2t_apron_relay_text"
     ],
     "meta": [
-      "main",
       "select",
       "success",
       "kingdom-of-loathing",
@@ -43,7 +42,8 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

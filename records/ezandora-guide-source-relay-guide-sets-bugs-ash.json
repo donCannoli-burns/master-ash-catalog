@@ -36,7 +36,6 @@
       "quests",
       "skills",
       "bugs",
-      "generate",
       "sbugs",
       "tasks",
       "kingdom-of-loathing",
@@ -44,7 +43,8 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance"
     ]
   },
   "wiki_searches": [

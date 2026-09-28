@@ -35,7 +35,6 @@
       "properties",
       "quests",
       "tracking",
-      "generate",
       "message",
       "messages",
       "random",
@@ -43,7 +42,8 @@
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
-      "automation"
+      "automation",
+      "community-script"
     ]
   },
   "wiki_searches": [

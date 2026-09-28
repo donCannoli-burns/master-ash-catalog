@@ -25,11 +25,11 @@
     ],
     "sub": [
       "relay_guide",
-      "main",
       "relay / IOTM / automation",
       "scripting",
       "utility",
-      "workflow"
+      "workflow",
+      "game-state"
     ],
     "meta": [
       "kingdom-of-loathing",

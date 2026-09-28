@@ -34,7 +34,6 @@
     "meta": [
       "string",
       "value",
-      "get",
       "adventuring",
       "inventory",
       "left",
@@ -43,7 +42,8 @@
       "skills",
       "banishers",
       "banishes",
-      "for"
+      "limited",
+      "active"
     ]
   },
   "wiki_searches": [

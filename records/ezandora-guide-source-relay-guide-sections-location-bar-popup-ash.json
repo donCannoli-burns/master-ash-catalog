@@ -38,12 +38,12 @@
       "adventuring",
       "combat",
       "effects",
-      "generate",
       "popup",
       "properties",
       "tracking",
       "information",
-      "item"
+      "item",
+      "method2"
     ]
   },
   "wiki_searches": [

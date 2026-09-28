@@ -42,8 +42,8 @@
       "text",
       "add",
       "count",
-      "get",
-      "list"
+      "map",
+      "matchers"
     ]
   },
   "wiki_searches": [

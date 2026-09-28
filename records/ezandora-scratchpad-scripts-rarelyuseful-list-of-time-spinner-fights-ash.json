@@ -28,12 +28,10 @@
       "string",
       "value",
       "fights",
-      "list",
-      "of"
+      "time-spinner",
+      "relay / IOTM / automation"
     ],
     "meta": [
-      "time-spinner",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +41,9 @@
       "provenance",
       "source-code",
       "compatibility",
-      "historical"
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

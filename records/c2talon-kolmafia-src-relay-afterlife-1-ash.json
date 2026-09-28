@@ -38,13 +38,13 @@
       "append_div",
       "append_line",
       "insert_class_sign_dropdowns",
-      "main",
       "modify_decision",
       "modify_deli",
       "modify_pet_store",
       "kingdom-of-loathing",
       "koLmafia",
-      "ash-script"
+      "ash-script",
+      "automation"
     ]
   },
   "wiki_searches": [

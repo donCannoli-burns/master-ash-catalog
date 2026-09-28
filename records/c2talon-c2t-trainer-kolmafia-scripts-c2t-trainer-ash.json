@@ -35,7 +35,6 @@
       "c2t_trainer_print",
       "c2t_trainer_process",
       "c2t_trainer_train",
-      "main",
       "requests",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +42,8 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

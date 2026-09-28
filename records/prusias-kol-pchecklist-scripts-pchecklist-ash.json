@@ -26,24 +26,24 @@
     "sub": [
       "mall",
       "file",
-      "generate",
       "item",
-      "new",
-      "print"
+      "amount",
+      "verfiy",
+      "checklist"
     ],
     "meta": [
-      "amount",
-      "custom",
-      "help",
-      "list",
-      "main",
-      "status",
-      "total",
-      "verfiy",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
-      "automation"
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

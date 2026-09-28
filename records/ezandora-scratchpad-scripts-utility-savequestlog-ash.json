@@ -34,7 +34,6 @@
     "meta": [
       "quest",
       "save",
-      "main",
       "shrink",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +42,8 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

@@ -38,12 +38,12 @@
       "equipment",
       "guild",
       "qguild",
-      "generate",
-      "init",
       "tasks",
       "kingdom-of-loathing",
       "koLmafia",
-      "ash-script"
+      "ash-script",
+      "automation",
+      "community-script"
     ]
   },
   "wiki_searches": [

@@ -41,9 +41,9 @@
       "license",
       "properties",
       "quests",
-      "to",
       "tracking",
-      "generate"
+      "path",
+      "tasks"
     ]
   },
   "wiki_searches": [

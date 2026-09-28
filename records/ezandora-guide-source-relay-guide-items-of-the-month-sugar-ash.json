@@ -34,7 +34,6 @@
     "meta": [
       "quests",
       "sugar",
-      "generate",
       "iotmsugar",
       "resource",
       "suggestions",
@@ -43,7 +42,8 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance"
     ]
   },
   "wiki_searches": [

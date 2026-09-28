@@ -27,9 +27,9 @@
       "iotm",
       "string",
       "requirement",
-      "initialise",
       "requirements",
-      "relay / IOTM / automation"
+      "relay / IOTM / automation",
+      "scripting"
     ],
     "meta": [
       "kingdom-of-loathing",

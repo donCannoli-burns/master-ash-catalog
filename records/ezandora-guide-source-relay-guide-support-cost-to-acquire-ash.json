@@ -33,7 +33,6 @@
     ],
     "meta": [
       "cost",
-      "to",
       "cost_to_acquire",
       "set_cost_to_acquire_override",
       "kingdom-of-loathing",
@@ -43,7 +42,8 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

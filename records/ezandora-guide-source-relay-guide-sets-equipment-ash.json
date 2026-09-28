@@ -32,7 +32,6 @@
       "properties"
     ],
     "meta": [
-      "generate",
       "sequipment",
       "resource",
       "tasks",
@@ -43,7 +42,8 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

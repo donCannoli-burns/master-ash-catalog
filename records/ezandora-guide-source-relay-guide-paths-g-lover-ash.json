@@ -32,7 +32,6 @@
       "g-lover"
     ],
     "meta": [
-      "generate",
       "glover",
       "path",
       "resource",
@@ -43,7 +42,8 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

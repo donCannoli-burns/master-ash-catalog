@@ -35,7 +35,6 @@
       "properties",
       "quests",
       "thanksgarden",
-      "generate",
       "iotmthanksgarden",
       "resource",
       "tasks",
@@ -43,7 +42,8 @@
       "koLmafia",
       "ash-script",
       "automation",
-      "community-script"
+      "community-script",
+      "archive"
     ]
   },
   "wiki_searches": [

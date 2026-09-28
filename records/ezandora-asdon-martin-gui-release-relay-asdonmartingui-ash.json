@@ -29,21 +29,21 @@
       "banish",
       "familiar",
       "htmlgenerate",
-      "in"
+      "inventory"
     ],
     "meta": [
-      "inventory",
-      "for",
-      "generate",
       "skills",
       "string",
       "value",
-      "initialise",
-      "list",
       "mall",
       "monster",
       "ascension",
-      "get"
+      "item",
+      "pvp",
+      "quests",
+      "source",
+      "page",
+      "available"
     ]
   },
   "wiki_searches": [

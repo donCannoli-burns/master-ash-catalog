@@ -33,7 +33,6 @@
     ],
     "meta": [
       "backup",
-      "generate",
       "iotmbackup",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +42,8 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

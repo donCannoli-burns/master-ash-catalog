@@ -29,12 +29,9 @@
       "adventuring",
       "combat",
       "areas",
-      "by"
+      "element"
     ],
     "meta": [
-      "element",
-      "list",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +40,10 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

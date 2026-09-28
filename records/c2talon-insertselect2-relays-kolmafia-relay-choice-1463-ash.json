@@ -24,12 +24,12 @@
       "string"
     ],
     "sub": [
-      "main",
       "community ASH",
       "scripting",
       "utility",
       "workflow",
-      "game-state"
+      "game-state",
+      "reference"
     ],
     "meta": [
       "kingdom-of-loathing",

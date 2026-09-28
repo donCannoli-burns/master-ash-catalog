@@ -26,10 +26,10 @@
     "sub": [
       "iotm",
       "ration",
-      "main",
       "relay / IOTM / automation",
       "scripting",
-      "utility"
+      "utility",
+      "workflow"
     ],
     "meta": [
       "kingdom-of-loathing",

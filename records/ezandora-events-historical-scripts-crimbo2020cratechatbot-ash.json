@@ -32,9 +32,7 @@
       "crimbo2020crate"
     ],
     "meta": [
-      "get",
       "last",
-      "main",
       "seconds",
       "since",
       "started",
@@ -43,7 +41,9 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

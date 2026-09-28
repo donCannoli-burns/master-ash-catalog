@@ -32,7 +32,6 @@
       "skills"
     ],
     "meta": [
-      "generate",
       "path",
       "resource",
       "kingdom-of-loathing",
@@ -43,7 +42,8 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

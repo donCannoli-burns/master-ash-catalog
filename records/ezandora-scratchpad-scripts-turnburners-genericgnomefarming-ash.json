@@ -34,7 +34,6 @@
     "meta": [
       "generic",
       "gnome",
-      "for",
       "location",
       "accessory",
       "advance",
@@ -43,7 +42,8 @@
       "extra",
       "farm",
       "items",
-      "main"
+      "prepare",
+      "slot"
     ]
   },
   "wiki_searches": [

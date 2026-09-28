@@ -39,11 +39,11 @@
       "far",
       "file",
       "future",
-      "list",
       "state",
-      "to",
       "try",
-      "append"
+      "append",
+      "escape",
+      "execute"
     ]
   },
   "wiki_searches": [

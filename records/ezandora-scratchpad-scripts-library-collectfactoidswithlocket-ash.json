@@ -33,8 +33,6 @@
     ],
     "meta": [
       "locket",
-      "with",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +41,9 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical",
+      "runtime"
     ]
   },
   "wiki_searches": [

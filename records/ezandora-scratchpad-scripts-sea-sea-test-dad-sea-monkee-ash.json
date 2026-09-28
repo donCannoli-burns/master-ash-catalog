@@ -35,7 +35,6 @@
     ],
     "meta": [
       "sea",
-      "test",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -45,7 +44,8 @@
       "provenance",
       "source-code",
       "compatibility",
-      "historical"
+      "historical",
+      "runtime"
     ]
   },
   "wiki_searches": [

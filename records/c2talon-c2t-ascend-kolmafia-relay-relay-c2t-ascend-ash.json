@@ -35,7 +35,6 @@
       "checkbox",
       "fail",
       "input",
-      "main",
       "select",
       "success",
       "text",
@@ -43,7 +42,8 @@
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
-      "automation"
+      "automation",
+      "community-script"
     ]
   },
   "wiki_searches": [

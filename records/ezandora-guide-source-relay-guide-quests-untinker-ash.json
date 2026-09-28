@@ -33,8 +33,6 @@
     ],
     "meta": [
       "quntinker",
-      "generate",
-      "init",
       "tasks",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +41,9 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

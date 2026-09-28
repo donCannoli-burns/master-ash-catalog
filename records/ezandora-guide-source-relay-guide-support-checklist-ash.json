@@ -32,18 +32,18 @@
       "value"
     ],
     "meta": [
-      "list",
       "adventuring",
       "ascension",
-      "generate",
       "append",
       "clear",
       "entry",
       "format",
       "html",
-      "init",
       "keys",
-      "prepend"
+      "prepend",
+      "remove",
+      "span",
+      "subentry"
     ]
   },
   "wiki_searches": [

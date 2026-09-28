@@ -42,9 +42,9 @@
       "properties",
       "quests",
       "bit",
-      "generate",
       "s8bit",
-      "resource"
+      "resource",
+      "tasks"
     ]
   },
   "wiki_searches": [

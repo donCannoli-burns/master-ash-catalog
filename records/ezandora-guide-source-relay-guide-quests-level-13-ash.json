@@ -38,12 +38,12 @@
       "quests",
       "skills",
       "level",
-      "generate",
       "append",
       "equals",
-      "list",
       "method",
-      "potato"
+      "potato",
+      "qlevel13generate",
+      "qlevel13init"
     ]
   },
   "wiki_searches": [

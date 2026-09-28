@@ -26,13 +26,12 @@
     "sub": [
       "automation",
       "effects",
-      "generate",
       "iotm",
       "modifier",
-      "spading"
+      "spading",
+      "string"
     ],
     "meta": [
-      "string",
       "tasks",
       "adventuring",
       "ascension",
@@ -43,7 +42,8 @@
       "properties",
       "quests",
       "tracking",
-      "psychoanalytic"
+      "psychoanalytic",
+      "iotmpartist"
     ]
   },
   "wiki_searches": [

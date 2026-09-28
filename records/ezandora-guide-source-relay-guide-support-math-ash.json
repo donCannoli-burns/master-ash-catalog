@@ -28,22 +28,22 @@
       "iotm",
       "string",
       "vec2i",
-      "in",
-      "range"
+      "range",
+      "vec2f"
     ],
     "meta": [
-      "vec2f",
       "clamp",
       "description",
       "floor",
-      "for",
       "output",
       "round",
       "abs",
       "append",
       "average",
       "averagef",
-      "calculate"
+      "calculate",
+      "cdf",
+      "ceiling"
     ]
   },
   "wiki_searches": [

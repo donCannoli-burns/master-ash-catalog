@@ -36,14 +36,14 @@
       "string",
       "terminal",
       "update",
-      "generate",
       "handle",
       "inventory",
       "quests",
       "source_terminal_gui",
       "description",
       "append",
-      "button"
+      "button",
+      "clicked"
     ]
   },
   "wiki_searches": [

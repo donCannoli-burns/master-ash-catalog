@@ -32,7 +32,6 @@
       "army"
     ],
     "meta": [
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "source-code",
       "compatibility",
       "historical",
-      "runtime"
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

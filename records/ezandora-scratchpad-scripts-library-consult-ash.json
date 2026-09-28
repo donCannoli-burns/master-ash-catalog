@@ -34,16 +34,16 @@
     "meta": [
       "properties",
       "get_clan_id_safe",
-      "main",
       "switch",
-      "to",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

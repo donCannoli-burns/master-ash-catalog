@@ -32,8 +32,6 @@
       "avatar"
     ],
     "meta": [
-      "of",
-      "generate",
       "path",
       "resource",
       "staff",
@@ -43,7 +41,9 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

@@ -35,7 +35,6 @@
       "tracking",
       "quest",
       "tavern",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

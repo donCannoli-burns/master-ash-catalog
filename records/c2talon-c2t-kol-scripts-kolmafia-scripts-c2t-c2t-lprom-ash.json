@@ -39,11 +39,11 @@
       "c2t_lprom_enter",
       "c2t_lprom_error",
       "c2t_lprom_leave",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
-      "automation"
+      "automation",
+      "community-script"
     ]
   },
   "wiki_searches": [

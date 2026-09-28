@@ -26,13 +26,12 @@
     "sub": [
       "batfellow",
       "automation",
-      "generate",
       "iotm",
       "string",
-      "limit"
+      "limit",
+      "mode"
     ],
     "meta": [
-      "mode",
       "inventory",
       "tasks",
       "resources",
@@ -43,7 +42,8 @@
       "downtown",
       "general",
       "jokester",
-      "resource"
+      "resource",
+      "task"
     ]
   },
   "wiki_searches": [

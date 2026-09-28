@@ -41,9 +41,9 @@
       "checkbox",
       "fail",
       "input",
-      "main",
       "select",
-      "success"
+      "success",
+      "text"
     ]
   },
   "wiki_searches": [

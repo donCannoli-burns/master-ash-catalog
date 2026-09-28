@@ -32,8 +32,6 @@
       "preference"
     ],
     "meta": [
-      "get",
-      "set",
       "boolean",
       "process",
       "read",
@@ -43,7 +41,9 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

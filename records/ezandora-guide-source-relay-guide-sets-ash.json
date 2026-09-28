@@ -32,8 +32,6 @@
       "combat"
     ],
     "meta": [
-      "generate",
-      "init",
       "items",
       "missing",
       "resources",
@@ -43,7 +41,9 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

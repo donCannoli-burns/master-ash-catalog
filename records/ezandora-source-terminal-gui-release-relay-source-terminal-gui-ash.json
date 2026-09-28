@@ -32,18 +32,18 @@
       "choice"
     ],
     "meta": [
-      "list",
       "mall",
       "ascension",
-      "for",
       "htmlgenerate",
-      "in",
       "pvp",
       "value",
       "item",
-      "initialise",
       "automation",
-      "cli"
+      "cli",
+      "consumption",
+      "effects",
+      "iotm",
+      "lookup"
     ]
   },
   "wiki_searches": [

@@ -19,31 +19,31 @@
   },
   "keywords": {
     "key": [
-      "list",
       "relay",
-      "familiar"
+      "familiar",
+      "value"
     ],
     "sub": [
-      "value",
       "automation",
       "iotm",
       "string",
       "adventuring",
-      "combat"
+      "combat",
+      "effects"
     ],
     "meta": [
-      "effects",
       "equipment",
       "skills",
       "object",
       "append",
-      "for",
       "index",
       "key",
       "keys",
-      "are",
       "clear",
-      "components"
+      "components",
+      "contains",
+      "equal",
+      "first"
     ]
   },
   "wiki_searches": [

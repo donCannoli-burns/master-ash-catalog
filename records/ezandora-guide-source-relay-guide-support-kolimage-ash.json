@@ -36,14 +36,14 @@
       "quests",
       "kolimages",
       "constant",
-      "generate",
       "html",
       "image",
-      "init",
-      "initialise",
       "kingdom-of-loathing",
       "koLmafia",
-      "ash-script"
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
     ]
   },
   "wiki_searches": [

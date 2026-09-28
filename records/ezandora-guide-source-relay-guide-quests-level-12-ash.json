@@ -42,8 +42,8 @@
       "tasks",
       "battlefield",
       "description",
-      "generate",
-      "qlevel12explosions"
+      "qlevel12explosions",
+      "qlevel12init"
     ]
   },
   "wiki_searches": [

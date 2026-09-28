@@ -33,17 +33,17 @@
     ],
     "meta": [
       "string",
-      "in",
-      "list",
       "mall",
       "ascension",
       "iotm",
       "pvp",
       "value",
-      "for",
       "page",
       "bastille",
-      "initialise"
+      "item",
+      "automation",
+      "consumption",
+      "effects"
     ]
   },
   "wiki_searches": [

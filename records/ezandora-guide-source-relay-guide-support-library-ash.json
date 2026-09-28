@@ -36,14 +36,14 @@
       "relay",
       "string",
       "automation",
-      "in",
       "iotm",
       "math",
       "modifier",
       "outfit",
       "lookup",
-      "for",
-      "item"
+      "item",
+      "monster",
+      "turns"
     ]
   },
   "official_links": [

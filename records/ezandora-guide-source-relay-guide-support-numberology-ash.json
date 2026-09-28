@@ -33,9 +33,7 @@
     ],
     "meta": [
       "calculate",
-      "for",
       "idlookup",
-      "initialise",
       "input",
       "moon",
       "outputs",
@@ -43,7 +41,9 @@
       "values",
       "kingdom-of-loathing",
       "koLmafia",
-      "ash-script"
+      "ash-script",
+      "automation",
+      "community-script"
     ]
   },
   "wiki_searches": [

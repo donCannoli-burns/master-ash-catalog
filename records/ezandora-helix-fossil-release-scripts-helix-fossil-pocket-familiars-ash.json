@@ -28,22 +28,22 @@
       "location",
       "relay",
       "skills",
-      "list",
-      "mall"
+      "mall",
+      "ascension"
     ],
     "meta": [
-      "ascension",
-      "in",
       "pvp",
       "string",
       "value",
-      "for",
       "item",
       "automation",
       "consumption",
       "effects",
-      "initialise",
-      "iotm"
+      "iotm",
+      "lookup",
+      "math",
+      "modifier",
+      "outfit"
     ]
   },
   "wiki_searches": [

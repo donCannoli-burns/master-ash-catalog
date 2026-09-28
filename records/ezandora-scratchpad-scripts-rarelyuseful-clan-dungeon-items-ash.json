@@ -36,14 +36,14 @@
       "items",
       "append",
       "item_amount_almost_everywhere",
-      "list",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

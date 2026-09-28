@@ -38,12 +38,12 @@
       "quests",
       "c2t_hccs_choices",
       "c2t_hccs_choice",
-      "main",
       "mobius",
       "ring",
       "kingdom-of-loathing",
       "koLmafia",
-      "ash-script"
+      "ash-script",
+      "automation"
     ]
   },
   "wiki_searches": [

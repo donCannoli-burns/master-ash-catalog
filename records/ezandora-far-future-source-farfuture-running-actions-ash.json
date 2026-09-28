@@ -28,11 +28,10 @@
       "string",
       "adventuring",
       "actions",
-      "to",
-      "try"
+      "try",
+      "acquire"
     ],
     "meta": [
-      "acquire",
       "clever",
       "crew",
       "escape",
@@ -43,7 +42,8 @@
       "matching",
       "option",
       "reach",
-      "reassure"
+      "reassure",
+      "sublocation"
     ]
   },
   "wiki_searches": [

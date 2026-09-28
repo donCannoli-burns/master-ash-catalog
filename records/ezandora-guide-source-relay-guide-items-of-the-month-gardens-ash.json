@@ -32,7 +32,6 @@
       "gardens"
     ],
     "meta": [
-      "generate",
       "entry",
       "garden",
       "iotmgardens",
@@ -43,7 +42,8 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

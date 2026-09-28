@@ -33,7 +33,6 @@
     ],
     "meta": [
       "state",
-      "initialise",
       "areas",
       "boss",
       "bosses",
@@ -43,7 +42,8 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

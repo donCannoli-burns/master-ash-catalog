@@ -26,10 +26,10 @@
     "sub": [
       "string",
       "error",
-      "set",
       "relay / IOTM / automation",
       "scripting",
-      "utility"
+      "utility",
+      "workflow"
     ],
     "meta": [
       "kingdom-of-loathing",

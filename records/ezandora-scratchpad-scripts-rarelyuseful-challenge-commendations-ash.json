@@ -32,18 +32,18 @@
       "append"
     ],
     "meta": [
-      "by",
       "components",
       "joined",
-      "list",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

@@ -40,10 +40,10 @@
       "tracking",
       "handle",
       "location",
-      "at",
       "check",
-      "do",
-      "equips"
+      "equips",
+      "item",
+      "worth"
     ]
   },
   "wiki_searches": [

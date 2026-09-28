@@ -25,25 +25,25 @@
     ],
     "sub": [
       "string",
-      "list",
       "page",
       "familiar",
       "iotm",
-      "value"
+      "value",
+      "update"
     ],
     "meta": [
-      "generate",
-      "update",
-      "for",
-      "to",
       "ascension",
       "automation",
       "briefcase",
       "cli",
       "tab",
-      "of",
       "output",
-      "set"
+      "span",
+      "tag",
+      "text",
+      "collect",
+      "div",
+      "enchantment"
     ]
   },
   "wiki_searches": [

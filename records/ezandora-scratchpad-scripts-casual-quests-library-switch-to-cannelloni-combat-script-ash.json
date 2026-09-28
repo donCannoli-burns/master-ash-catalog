@@ -29,12 +29,9 @@
       "iotm",
       "properties",
       "cannelloni",
-      "script"
+      "switch"
     ],
     "meta": [
-      "switch",
-      "to",
-      "main",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +40,10 @@
       "archive",
       "provenance",
       "source-code",
-      "compatibility"
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

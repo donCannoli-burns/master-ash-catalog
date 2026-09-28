@@ -27,9 +27,9 @@
       "iotm",
       "string",
       "example",
-      "main",
       "relay / IOTM / automation",
-      "scripting"
+      "scripting",
+      "utility"
     ],
     "meta": [
       "kingdom-of-loathing",

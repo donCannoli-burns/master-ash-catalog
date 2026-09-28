@@ -42,8 +42,8 @@
       "properties",
       "quests",
       "tea",
-      "generate",
-      "initialise"
+      "iotmtea",
+      "resource"
     ]
   },
   "wiki_searches": [

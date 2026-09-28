@@ -39,11 +39,11 @@
       "upkeep",
       "gain",
       "entry",
-      "initialise",
       "initialize",
       "simulate",
       "user",
-      "add"
+      "add",
+      "between"
     ]
   },
   "wiki_searches": [

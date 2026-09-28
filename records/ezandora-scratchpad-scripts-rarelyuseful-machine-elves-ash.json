@@ -39,11 +39,11 @@
       "quests",
       "elves",
       "elfable",
-      "is",
       "item_is_pvp_stealable",
-      "main",
       "to_effect",
-      "kingdom-of-loathing"
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
     ]
   },
   "wiki_searches": [

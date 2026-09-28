@@ -29,10 +29,9 @@
       "iotm",
       "modifier",
       "string",
-      "generate"
+      "iotmgrimstone"
     ],
     "meta": [
-      "iotmgrimstone",
       "tasks",
       "adventuring",
       "combat",
@@ -43,7 +42,8 @@
       "hare",
       "stepmother",
       "witch",
-      "wolf"
+      "wolf",
+      "kingdom-of-loathing"
     ]
   },
   "wiki_searches": [

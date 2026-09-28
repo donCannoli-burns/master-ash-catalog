@@ -29,21 +29,21 @@
       "boxing",
       "daycare",
       "scavenge",
-      "on"
+      "scavenging"
     ],
     "meta": [
-      "scavenging",
       "spent",
       "turns",
-      "main",
       "next",
-      "total",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
     ]
   },
   "wiki_searches": [

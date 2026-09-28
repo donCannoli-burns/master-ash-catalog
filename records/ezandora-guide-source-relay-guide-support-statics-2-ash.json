@@ -27,12 +27,11 @@
       "consumption",
       "iotm",
       "statics",
-      "and",
       "drinks",
-      "initialise"
+      "pvpfood",
+      "relay / IOTM / automation"
     ],
     "meta": [
-      "pvpfood",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "source-code",
       "compatibility",
       "historical",
-      "runtime"
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

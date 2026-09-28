@@ -28,13 +28,11 @@
       "iotm",
       "string",
       "tracking",
-      "library",
       "extract",
-      "from"
+      "id",
+      "link"
     ],
     "meta": [
-      "id",
-      "link",
       "player",
       "recurse",
       "showplayer",
@@ -44,7 +42,9 @@
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

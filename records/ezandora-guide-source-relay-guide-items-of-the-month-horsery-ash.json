@@ -28,11 +28,10 @@
       "profit",
       "properties",
       "horsery",
-      "generate",
-      "iotmhorsery"
+      "iotmhorsery",
+      "tasks"
     ],
     "meta": [
-      "tasks",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "source-code",
       "compatibility",
       "historical",
-      "runtime"
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

@@ -28,8 +28,8 @@
       "iotm",
       "string",
       "acquire_worthless_trinkets",
-      "main",
-      "relay / IOTM / automation"
+      "relay / IOTM / automation",
+      "scripting"
     ],
     "meta": [
       "kingdom-of-loathing",

@@ -28,12 +28,10 @@
       "properties",
       "string",
       "level",
-      "to",
-      "main"
+      "powerlevel",
+      "reaches"
     ],
     "meta": [
-      "powerlevel",
-      "reaches",
       "stat",
       "until",
       "kingdom-of-loathing",
@@ -43,7 +41,9 @@
       "community-script",
       "archive",
       "provenance",
-      "source-code"
+      "source-code",
+      "compatibility",
+      "historical"
     ]
   },
   "wiki_searches": [

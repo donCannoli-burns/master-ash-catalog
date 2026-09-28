@@ -34,7 +34,6 @@
     "meta": [
       "quests",
       "boom",
-      "generate",
       "iotmboom",
       "tasks",
       "kingdom-of-loathing",
@@ -43,7 +42,8 @@
       "automation",
       "community-script",
       "archive",
-      "provenance"
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

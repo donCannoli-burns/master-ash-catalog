@@ -28,22 +28,22 @@
       "string",
       "qmemories",
       "adventuring",
-      "generate",
-      "tasks"
+      "tasks",
+      "memories"
     ],
     "meta": [
-      "memories",
       "fear",
       "future",
       "hyboria",
-      "init",
       "primordial",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

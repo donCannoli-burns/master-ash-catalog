@@ -20,30 +20,30 @@
   "keywords": {
     "key": [
       "relay",
-      "list",
-      "familiar"
+      "familiar",
+      "iotm"
     ],
     "sub": [
-      "iotm",
       "value",
       "string",
       "ascension",
       "automation",
-      "math"
+      "math",
+      "vec2i"
     ],
     "meta": [
-      "vec2i",
       "adventuring",
       "combat",
       "effects",
       "equipment",
-      "for",
-      "in",
       "properties",
       "skills",
       "first",
       "genie",
-      "object"
+      "object",
+      "range",
+      "vec2f",
+      "append"
     ]
   },
   "wiki_searches": [

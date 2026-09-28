@@ -39,11 +39,11 @@
       "equipment",
       "pulls",
       "tracking",
-      "list",
       "append",
-      "generate",
-      "init",
-      "pull"
+      "pull",
+      "pullable_amount",
+      "kingdom-of-loathing",
+      "koLmafia"
     ]
   },
   "wiki_searches": [

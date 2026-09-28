@@ -19,31 +19,31 @@
   },
   "keywords": {
     "key": [
-      "generate",
       "tasks",
-      "resource"
+      "resource",
+      "location"
     ],
     "sub": [
-      "init",
-      "location",
       "airport",
       "path",
       "iotm",
-      "initialise"
-    ],
-    "meta": [
-      "for",
       "familiar",
       "counter",
-      "equipment",
-      "of",
+      "equipment"
+    ],
+    "meta": [
       "banish",
       "combat",
-      "in",
       "effects",
       "htmlgenerate",
       "clan",
-      "inventory"
+      "inventory",
+      "monster",
+      "relay",
+      "quests",
+      "skills",
+      "source",
+      "string"
     ]
   },
   "wiki_searches": [

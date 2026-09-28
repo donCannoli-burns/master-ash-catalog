@@ -28,11 +28,10 @@
       "string",
       "sendcrate",
       "crate",
-      "main",
-      "run"
+      "run",
+      "send"
     ],
     "meta": [
-      "send",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "source-code",
       "compatibility",
       "historical",
-      "runtime"
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

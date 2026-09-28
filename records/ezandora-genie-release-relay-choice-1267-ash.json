@@ -32,18 +32,18 @@
       "value"
     ],
     "meta": [
-      "list",
       "mall",
       "string",
       "ascension",
-      "for",
-      "in",
       "iotm",
       "pvp",
       "quests",
-      "generate",
-      "initialise",
-      "item"
+      "item",
+      "automation",
+      "consumption",
+      "effects",
+      "lookup",
+      "math"
     ]
   },
   "wiki_searches": [

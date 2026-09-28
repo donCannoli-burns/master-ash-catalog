@@ -35,15 +35,15 @@
       "inventory",
       "artist",
       "qartist",
-      "generate",
-      "init",
       "tasks",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
       "automation",
       "community-script",
-      "archive"
+      "archive",
+      "provenance",
+      "source-code"
     ]
   },
   "wiki_searches": [

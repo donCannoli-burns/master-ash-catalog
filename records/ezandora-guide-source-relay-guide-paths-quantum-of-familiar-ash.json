@@ -26,13 +26,12 @@
     "sub": [
       "iotm",
       "string",
-      "of",
       "properties",
       "quantum",
-      "generate"
+      "path",
+      "relay / IOTM / automation"
     ],
     "meta": [
-      "path",
       "kingdom-of-loathing",
       "koLmafia",
       "ash-script",
@@ -43,7 +42,8 @@
       "source-code",
       "compatibility",
       "historical",
-      "runtime"
+      "runtime",
+      "reference"
     ]
   },
   "wiki_searches": [

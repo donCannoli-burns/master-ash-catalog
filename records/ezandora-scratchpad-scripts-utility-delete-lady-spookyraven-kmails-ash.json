@@ -32,7 +32,6 @@
       "kmail"
     ],
     "meta": [
-      "main",
       "save",
       "kingdom-of-loathing",
       "koLmafia",
@@ -43,7 +42,8 @@
       "provenance",
       "source-code",
       "compatibility",
-      "historical"
+      "historical",
+      "runtime"
     ]
   },
   "wiki_searches": [

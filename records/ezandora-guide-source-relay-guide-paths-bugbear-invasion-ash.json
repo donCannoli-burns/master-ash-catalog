@@ -37,13 +37,13 @@
       "combat",
       "inventory",
       "quests",
-      "generate",
       "path",
       "resource",
       "tasks",
       "kingdom-of-loathing",
       "koLmafia",
-      "ash-script"
+      "ash-script",
+      "automation"
     ]
   },
   "wiki_searches": [
