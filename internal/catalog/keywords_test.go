@@ -15,3 +15,16 @@ func TestWikiSearches(t *testing.T) {
 		t.Fatal("expected noun searches")
 	}
 }
+
+
+func TestKeywordsDropGenericFunctionWords(t *testing.T) {
+	s := KeywordSeeds{Primary: []string{"relay", "inventory", "combat", "equipment", "familiar"}, Aliases: map[string][]string{}}
+	k := KeywordsFor("AsdonMartinGUI", "void main(){}", "relay / IOTM", []string{"get", "generate", "in", "for", "BanishSourceForMonster", "CounterExists"}, s)
+	for _, group := range [][]string{k.Key, k.Sub, k.Meta} {
+		for _, word := range group {
+			if keywordStopwords[word] {
+				t.Fatalf("generic token leaked into keyword index: %q", word)
+			}
+		}
+	}
+}

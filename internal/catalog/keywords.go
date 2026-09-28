@@ -10,6 +10,15 @@ import (
 
 var wordRE = regexp.MustCompile(`[A-Za-z][A-Za-z0-9'_-]*`)
 var generic = map[string]bool{"ash": true, "script": true, "scripts": true, "lib": true, "library": true, "helper": true, "helpers": true, "main": true, "master": true, "test": true, "beta": true, "lite": true, "relay": true, "kol": true, "kolmafia": true}
+var keywordStopwords = map[string]bool{
+	"a": true, "an": true, "and": true, "are": true, "at": true, "by": true, "do": true,
+	"for": true, "from": true, "get": true, "in": true, "into": true, "is": true, "main": true,
+	"of": true, "on": true, "or": true, "set": true, "the": true, "to": true, "with": true,
+	"ash": true, "script": true, "scripts": true, "lib": true, "library": true, "helper": true,
+	"helpers": true, "master": true, "test": true, "beta": true, "lite": true, "kol": true,
+	"kolmafia": true, "generate": true, "init": true, "initialise": true, "list": true,
+	"new": true, "print": true, "custom": true, "help": true, "status": true, "total": true,
+}
 var behaviorSignals = []struct {
 	Name    string
 	Needles []string
@@ -139,7 +148,7 @@ func rank(m map[string]int) []string {
 	}
 	a := []kv{}
 	for k, v := range m {
-		if k != "" {
+		if k != "" && !keywordStopwords[k] {
 			a = append(a, kv{k, v})
 		}
 	}
