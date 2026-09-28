@@ -7,7 +7,7 @@
 - baseline_sha: `4b56fcf980feb61b87b3d596964dc7e956bd44eb`
 - original_working_branch: `main`
 - pre_recovery_remote_head: `68ce1a03584a2e85b55b87016fb7e14e2bc86400`
-- recovery_checkpoint_sha: PENDING_THIS_CHECKPOINT_COMMIT
+- recovery_checkpoint_sha: 61a7fb22d83ef843d2521d78fcd865037a9a847d
 - recovery_state: CHECKPOINTED
 - recovery_date_utc: 2026-09-28
 
