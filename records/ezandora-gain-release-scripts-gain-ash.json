@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/gain/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Gain/blob/75109224c2fd4485c48eed16cb590462220b2154/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "gain is cataloged as relay / IOTM / automation. Indexed focus: modifier, effects, familiar. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Gain.git",
+    "delete": "git delete Ezandora-Gain",
+    "project_id": "Ezandora-Gain"
+  },
   "keywords": {
     "key": [
       "modifier",

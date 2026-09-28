@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-lib/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_lib/blob/903a2210d878852b8a609e6b1ab912e5800e7aeb/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "c2t_lib is cataloged as community ASH. Indexed focus: choice, clan, mall. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_lib.git",
+    "delete": "git delete C2Talon-c2t_lib",
+    "project_id": "C2Talon-c2t_lib"
+  },
   "keywords": {
     "key": [
       "choice",

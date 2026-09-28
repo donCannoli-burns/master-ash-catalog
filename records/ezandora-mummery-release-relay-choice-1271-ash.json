@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/mummery/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Mummery/blob/ff212f950f01e985f8f8a4e0ca8f27fd191eeef0/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "choice.1271 is cataloged as relay / IOTM / automation. Indexed focus: relay, choice, combat. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Mummery.git",
+    "delete": "git delete Ezandora-Mummery",
+    "project_id": "Ezandora-Mummery"
+  },
   "keywords": {
     "key": [
       "relay",

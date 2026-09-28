@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-megg/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_megg/blob/7b59be574dce7ed69f9939f6a755748f36f223d3/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "choice.1516 is cataloged as community ASH. Indexed focus: relay, choice, string. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_megg.git",
+    "delete": "git delete C2Talon-c2t_megg",
+    "project_id": "C2Talon-c2t_megg"
+  },
   "keywords": {
     "key": [
       "relay",

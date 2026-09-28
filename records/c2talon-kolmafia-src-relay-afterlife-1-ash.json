@@ -18,6 +18,12 @@
     "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
     "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
   },
+  "classification": "community ASH",
+  "description": "afterlife.1 is cataloged as community ASH. Indexed focus: mall, cli, equipment. Static behavior classification: mutating.",
+  "install": {
+    "available": false,
+    "reason": "Repository layout does not expose this file through a KoLmafia Git permissible folder (scripts/data/images/relay/ccs/planting)."
+  },
   "keywords": {
     "key": [
       "mall",

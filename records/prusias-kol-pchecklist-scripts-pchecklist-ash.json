@@ -17,6 +17,14 @@
     "evidence_path": "archive/prusias-kol/pchecklist/_source_license/LICENSE",
     "evidence_url": "https://github.com/Prusias-kol/pChecklist/blob/0e8672a88c5a4a3576bba203a33ef06354b62413/LICENSE"
   },
+  "classification": "checklist",
+  "description": "pChecklist is cataloged as checklist. Indexed focus: inventory, string, checklist. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Prusias-kol/pChecklist.git",
+    "delete": "git delete Prusias-kol-pChecklist",
+    "project_id": "Prusias-kol-pChecklist"
+  },
   "keywords": {
     "key": [
       "inventory",

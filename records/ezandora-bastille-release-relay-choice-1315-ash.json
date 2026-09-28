@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/bastille/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Bastille/blob/7d2377c836e2febf17cf19bcd9e4f44678c762d3/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "choice.1315 is cataloged as relay / IOTM / automation. Indexed focus: choice, iotm, relay. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Bastille.git",
+    "delete": "git delete Ezandora-Bastille",
+    "project_id": "Ezandora-Bastille"
+  },
   "keywords": {
     "key": [
       "choice",

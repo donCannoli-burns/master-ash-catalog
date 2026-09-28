@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/genie/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Genie/blob/1120c3b298911103b992f8fddb60a1dc0096da1b/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "choice.1267 is cataloged as relay / IOTM / automation. Indexed focus: combat, equipment, familiar. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Genie.git",
+    "delete": "git delete Ezandora-Genie",
+    "project_id": "Ezandora-Genie"
+  },
   "keywords": {
     "key": [
       "combat",

@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "FarFuture is cataloged as relay / IOTM / automation. Indexed focus: relay, choice, string. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Far-Future.git",
+    "delete": "git delete Ezandora-Far-Future",
+    "project_id": "Ezandora-Far-Future"
+  },
   "keywords": {
     "key": [
       "relay",

@@ -19,6 +19,14 @@
     "evidence_path": "archive/ezandora/choice-override/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Choice-Override/blob/ee6803c317d2050a7d71fdadb22baddc47234ef1/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "choice is cataloged as relay / IOTM / automation. Indexed focus: choice, relay, cli. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Choice-Override.git",
+    "delete": "git delete Ezandora-Choice-Override",
+    "project_id": "Ezandora-Choice-Override"
+  },
   "keywords": {
     "key": [
       "choice",

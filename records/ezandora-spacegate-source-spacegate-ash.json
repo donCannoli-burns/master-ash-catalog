@@ -17,6 +17,12 @@
     "evidence_path": "archive/ezandora/spacegate/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Spacegate/blob/bd27bee2c91d20da3d83e2f60c6c61cea56a15ec/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Spacegate is cataloged as relay / IOTM / automation. Indexed focus: equipment, choice, relay. Static behavior classification: high-impact.",
+  "install": {
+    "available": false,
+    "reason": "This archived file is outside the KoLmafia manifest root and is not advertised as a direct Git install."
+  },
   "keywords": {
     "key": [
       "equipment",

@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-trainer/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_trainer/blob/a45c7ee184f15e3e8241f8281094e02aa164f70a/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "c2t_trainer is cataloged as community ASH. Indexed focus: inventory, quests, ascension. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_trainer.git",
+    "delete": "git delete C2Talon-c2t_trainer",
+    "project_id": "C2Talon-c2t_trainer"
+  },
   "keywords": {
     "key": [
       "inventory",

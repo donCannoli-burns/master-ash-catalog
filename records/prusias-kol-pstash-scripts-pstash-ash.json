@@ -17,6 +17,14 @@
     "evidence_path": "archive/prusias-kol/pstash/_source_license/LICENSE",
     "evidence_url": "https://github.com/Prusias-kol/pStash/blob/13056599984749d2efe9174554ff4177d9b90ba2/LICENSE"
   },
+  "classification": "clan / stash",
+  "description": "pStash is cataloged as clan / stash. Indexed focus: clan, stash, cli. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Prusias-kol/pStash.git",
+    "delete": "git delete Prusias-kol-pStash",
+    "project_id": "Prusias-kol-pStash"
+  },
   "keywords": {
     "key": [
       "clan",

@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-megg-relaycombat/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_megg_relayCombat/blob/f2c9cf1610aa63e27f2c8887a0e0fa9487248a48/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "fight is cataloged as community ASH. Indexed focus: relay, combat, fight. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_megg_relayCombat.git",
+    "delete": "git delete C2Talon-c2t_megg_relayCombat",
+    "project_id": "C2Talon-c2t_megg_relayCombat"
+  },
   "keywords": {
     "key": [
       "relay",

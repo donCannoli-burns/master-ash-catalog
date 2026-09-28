@@ -18,6 +18,14 @@
     "evidence_path": "archive/c2talon/insertselect2/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/insertSelect2/blob/6f1a26a448ba4695049c22c95c261fe9921f59b3/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "insertSelect2 is cataloged as community ASH. Indexed focus: string, insert, select2. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/insertSelect2.git",
+    "delete": "git delete C2Talon-insertSelect2",
+    "project_id": "C2Talon-insertSelect2"
+  },
   "keywords": {
     "key": [
       "string",

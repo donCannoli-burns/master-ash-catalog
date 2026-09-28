@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/insertselect2-relays/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/insertSelect2-relays/blob/1e74d891dea7a44b8476a254a648aac7e6f1691a/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "choice.1463 is cataloged as community ASH. Indexed focus: relay, choice, string. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/insertSelect2-relays.git",
+    "delete": "git delete C2Talon-insertSelect2-relays",
+    "project_id": "C2Talon-insertSelect2-relays"
+  },
   "keywords": {
     "key": [
       "relay",

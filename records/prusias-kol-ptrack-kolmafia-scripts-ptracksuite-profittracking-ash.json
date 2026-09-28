@@ -17,6 +17,14 @@
     "evidence_path": "archive/prusias-kol/ptrack/_source_license/LICENSE",
     "evidence_url": "https://github.com/Prusias-kol/pTrack/blob/161022d49b653756b67d04210166048ba67c614e/LICENSE"
   },
+  "classification": "tracking / profit / time",
+  "description": "ProfitTracking is cataloged as tracking / profit / time. Indexed focus: profit, tracking, inventory. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Prusias-kol/pTrack.git",
+    "delete": "git delete Prusias-kol-pTrack",
+    "project_id": "Prusias-kol-pTrack"
+  },
   "keywords": {
     "key": [
       "profit",

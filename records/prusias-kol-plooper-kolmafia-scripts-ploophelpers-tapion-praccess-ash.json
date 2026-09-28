@@ -17,6 +17,14 @@
     "evidence_path": "archive/prusias-kol/plooper/_source_license/LICENSE",
     "evidence_url": "https://github.com/Prusias-kol/pLooper/blob/4d07aeb1796f651e0506fab2aed23e8b307bb247/LICENSE"
   },
+  "classification": "automation loop",
+  "description": "tapion_praccess is cataloged as automation loop. Indexed focus: choice, familiar, cli. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Prusias-kol/pLooper.git",
+    "delete": "git delete Prusias-kol-pLooper",
+    "project_id": "Prusias-kol-pLooper"
+  },
   "keywords": {
     "key": [
       "choice",

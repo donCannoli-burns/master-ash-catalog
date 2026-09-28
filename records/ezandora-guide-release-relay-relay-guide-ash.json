@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "relay_Guide is cataloged as relay / IOTM / automation. Indexed focus: tasks, resource, location. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Guide.git",
+    "delete": "git delete Ezandora-Guide",
+    "project_id": "Ezandora-Guide"
+  },
   "keywords": {
     "key": [
       "tasks",

@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/helix-fossil/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Helix-Fossil/blob/d087db2040c857402ef2f0d1bb645e2876ca329f/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "fambattle is cataloged as relay / IOTM / automation. Indexed focus: relay, familiar, automation. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Helix-Fossil.git",
+    "delete": "git delete Ezandora-Helix-Fossil",
+    "project_id": "Ezandora-Helix-Fossil"
+  },
   "keywords": {
     "key": [
       "relay",

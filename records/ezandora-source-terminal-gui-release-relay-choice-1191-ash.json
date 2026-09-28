@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/source-terminal-gui/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Source-Terminal-GUI/blob/74691e58b517ecb9172288f5f84b6bfb13dcaf1a/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "choice.1191 is cataloged as relay / IOTM / automation. Indexed focus: choice, relay, automation. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Source-Terminal-GUI.git",
+    "delete": "git delete Ezandora-Source-Terminal-GUI",
+    "project_id": "Ezandora-Source-Terminal-GUI"
+  },
   "keywords": {
     "key": [
       "choice",

@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "liba_peridot is cataloged as community ASH. Indexed focus: choice, combat, cli. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/liba.git",
+    "delete": "git delete C2Talon-liba",
+    "project_id": "C2Talon-liba"
+  },
   "keywords": {
     "key": [
       "choice",

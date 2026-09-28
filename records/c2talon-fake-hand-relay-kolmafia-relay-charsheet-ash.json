@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/fake-hand-relay/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/fake_hand_relay/blob/79702d2af5a8a014347b0fc937514d9bd44ef355/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "charsheet is cataloged as community ASH. Indexed focus: relay, charsheet, automation. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/fake_hand_relay.git",
+    "delete": "git delete C2Talon-fake_hand_relay",
+    "project_id": "C2Talon-fake_hand_relay"
+  },
   "keywords": {
     "key": [
       "relay",

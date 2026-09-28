@@ -17,6 +17,14 @@
     "evidence_path": "archive/prusias-kol/pupdates/_source_license/LICENSE",
     "evidence_url": "https://github.com/Prusias-kol/pUpdates/blob/89235d21eeb181ed11f9f184f5e5a14df3d78438/LICENSE"
   },
+  "classification": "updates / library",
+  "description": "pUpdates is cataloged as updates / library. Indexed focus: update, properties, string. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Prusias-kol/pUpdates.git",
+    "delete": "git delete Prusias-kol-pUpdates",
+    "project_id": "Prusias-kol-pUpdates"
+  },
   "keywords": {
     "key": [
       "update",

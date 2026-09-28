@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/briefcase/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Briefcase/blob/2b41fedc2f1eb85aff8d0a42ea45ee225b8b9e02/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Briefcase is cataloged as relay / IOTM / automation. Indexed focus: relay, htmlgenerate, action. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Briefcase.git",
+    "delete": "git delete Ezandora-Briefcase",
+    "project_id": "Ezandora-Briefcase"
+  },
   "keywords": {
     "key": [
       "relay",

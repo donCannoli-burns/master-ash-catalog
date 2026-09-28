@@ -18,6 +18,14 @@
     "evidence_path": "archive/ezandora/sweet-synthesis/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Sweet-Synthesis/blob/fcd0fc5b47e247536cc6b214a63882e807e6e883/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "synthesis is cataloged as relay / IOTM / automation. Indexed focus: mall, choice, inventory. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Sweet-Synthesis.git",
+    "delete": "git delete Ezandora-Sweet-Synthesis",
+    "project_id": "Ezandora-Sweet-Synthesis"
+  },
   "keywords": {
     "key": [
       "mall",

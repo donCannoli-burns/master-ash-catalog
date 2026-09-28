@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/consume/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Consume/blob/77be6e262affd727c65a8d9e5bb2ef7aca897ab9/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "consume is cataloged as relay / IOTM / automation. Indexed focus: consumption, equipment, combat. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Consume.git",
+    "delete": "git delete Ezandora-Consume",
+    "project_id": "Ezandora-Consume"
+  },
   "keywords": {
     "key": [
       "consumption",

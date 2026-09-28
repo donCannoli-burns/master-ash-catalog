@@ -17,6 +17,14 @@
     "evidence_path": "archive/astro3207/gain/_source_license/LICENSE",
     "evidence_url": "https://github.com/Astro3207/Gain/blob/49707ee9ddf6a8935624b8278c948336535cb9b9/LICENSE"
   },
+  "classification": "value / acquisition",
+  "description": "gain is cataloged as value / acquisition. Indexed focus: modifier, effects, familiar. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Astro3207/Gain.git",
+    "delete": "git delete Astro3207-Gain",
+    "project_id": "Astro3207-Gain"
+  },
   "keywords": {
     "key": [
       "modifier",

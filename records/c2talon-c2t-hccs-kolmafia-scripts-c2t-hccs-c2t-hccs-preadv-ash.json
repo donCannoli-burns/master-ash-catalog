@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "c2t_hccs_preAdv is cataloged as community ASH. Indexed focus: cli, familiar, inventory. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_hccs.git",
+    "delete": "git delete C2Talon-c2t_hccs",
+    "project_id": "C2Talon-c2t_hccs"
+  },
   "keywords": {
     "key": [
       "cli",

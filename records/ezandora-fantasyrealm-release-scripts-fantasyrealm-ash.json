@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/fantasyrealm/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/FantasyRealm/blob/92e4ee0ea207999a8ef5c4a8a0a70acb2a0f8785/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "FantasyRealm is cataloged as relay / IOTM / automation. Indexed focus: fantasy, realm, relay. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/FantasyRealm.git",
+    "delete": "git delete Ezandora-FantasyRealm",
+    "project_id": "Ezandora-FantasyRealm"
+  },
   "keywords": {
     "key": [
       "fantasy",

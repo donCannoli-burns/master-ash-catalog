@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/detective-solver/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Detective-Solver/blob/8ea94b963040ebb5bb1efed789fddda4ab7467a1/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Detective Solver is cataloged as relay / IOTM / automation. Indexed focus: relay, choice, string. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Detective-Solver.git",
+    "delete": "git delete Ezandora-Detective-Solver",
+    "project_id": "Ezandora-Detective-Solver"
+  },
   "keywords": {
     "key": [
       "relay",

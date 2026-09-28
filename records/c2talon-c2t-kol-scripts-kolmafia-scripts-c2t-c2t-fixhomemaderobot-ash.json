@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-kol-scripts/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_kol_scripts/blob/1361354f6713e49eef302b6ea230562a8380d635/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "c2t_fixHomemadeRobot is cataloged as community ASH. Indexed focus: familiar, equipment, properties. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_kol_scripts.git",
+    "delete": "git delete C2Talon-c2t_kol_scripts",
+    "project_id": "C2Talon-c2t_kol_scripts"
+  },
   "keywords": {
     "key": [
       "familiar",

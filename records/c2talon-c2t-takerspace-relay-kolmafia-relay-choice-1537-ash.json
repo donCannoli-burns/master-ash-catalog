@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-takerspace-relay/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_takerSpace_relay/blob/46de209fa9569a48c58e0db6af11a7e80ba03a45/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "choice.1537 is cataloged as community ASH. Indexed focus: relay, choice, string. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_takerSpace_relay.git",
+    "delete": "git delete C2Talon-c2t_takerSpace_relay",
+    "project_id": "C2Talon-c2t_takerSpace_relay"
+  },
   "keywords": {
     "key": [
       "relay",

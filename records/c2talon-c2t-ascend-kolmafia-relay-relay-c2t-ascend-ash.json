@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-ascend/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_ascend/blob/19f30df3e9157282ef77e9c31d676577aeb17b53/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "relay_c2t_ascend is cataloged as community ASH. Indexed focus: relay, skills, cli. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_ascend.git",
+    "delete": "git delete C2Talon-c2t_ascend",
+    "project_id": "C2Talon-c2t_ascend"
+  },
   "keywords": {
     "key": [
       "relay",

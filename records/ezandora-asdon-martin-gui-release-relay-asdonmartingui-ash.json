@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/asdon-martin-gui/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Asdon-Martin-GUI/blob/14a0eb623230553b7792e577a6182afda928dc84/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "AsdonMartinGUI is cataloged as relay / IOTM / automation. Indexed focus: location, counter, equipment. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Asdon-Martin-GUI.git",
+    "delete": "git delete Ezandora-Asdon-Martin-GUI",
+    "project_id": "Ezandora-Asdon-Martin-GUI"
+  },
   "keywords": {
     "key": [
       "location",

@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/spacegate/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Spacegate/blob/bd27bee2c91d20da3d83e2f60c6c61cea56a15ec/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Spacegate is cataloged as relay / IOTM / automation. Indexed focus: equipment, relay, choice. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Spacegate.git",
+    "delete": "git delete Ezandora-Spacegate",
+    "project_id": "Ezandora-Spacegate"
+  },
   "keywords": {
     "key": [
       "equipment",

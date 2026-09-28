@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-apron/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_apron/blob/819cb85d55e1846d710a86320d85fafbd371b6c2/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "c2t_apron is cataloged as community ASH. Indexed focus: choice, cli, string. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_apron.git",
+    "delete": "git delete C2Talon-c2t_apron",
+    "project_id": "C2Talon-c2t_apron"
+  },
   "keywords": {
     "key": [
       "choice",

@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/comb-beach/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Comb-Beach/blob/115ef971229ba7ad4613fbaf511754732e4d4c58/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "CombBeach is cataloged as relay / IOTM / automation. Indexed focus: relay, familiar, farming. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Comb-Beach.git",
+    "delete": "git delete Ezandora-Comb-Beach",
+    "project_id": "Ezandora-Comb-Beach"
+  },
   "keywords": {
     "key": [
       "relay",

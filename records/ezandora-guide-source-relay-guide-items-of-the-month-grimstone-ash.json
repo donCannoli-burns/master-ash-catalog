@@ -17,6 +17,12 @@
     "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Grimstone is cataloged as relay / IOTM / automation. Indexed focus: familiar, mall, relay. Static behavior classification: read-mostly.",
+  "install": {
+    "available": false,
+    "reason": "This archived file is outside the KoLmafia manifest root and is not advertised as a direct Git install."
+  },
   "keywords": {
     "key": [
       "familiar",

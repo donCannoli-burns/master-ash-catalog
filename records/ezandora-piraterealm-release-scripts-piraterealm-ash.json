@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/piraterealm/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/PirateRealm/blob/7107f0a468a3101bc358fad83b2c0ae4a1c93882/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "PirateRealm is cataloged as relay / IOTM / automation. Indexed focus: choice, equipment, familiar. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/PirateRealm.git",
+    "delete": "git delete Ezandora-PirateRealm",
+    "project_id": "Ezandora-PirateRealm"
+  },
   "keywords": {
     "key": [
       "choice",

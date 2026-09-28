@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/neverending-party/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Neverending-Party/blob/5ae4439353fdea15684837f4c5d1c8c7995cf0f5/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Party is cataloged as relay / IOTM / automation. Indexed focus: choice, relay, tracking. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Neverending-Party.git",
+    "delete": "git delete Ezandora-Neverending-Party",
+    "project_id": "Ezandora-Neverending-Party"
+  },
   "keywords": {
     "key": [
       "choice",

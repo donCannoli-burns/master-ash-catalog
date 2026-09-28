@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Retrieve Ultimate Mind Destroyer is cataloged as relay / IOTM / automation. Indexed focus: familiar, choice, cli. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Scratchpad.git",
+    "delete": "git delete Ezandora-Scratchpad",
+    "project_id": "Ezandora-Scratchpad"
+  },
   "keywords": {
     "key": [
       "familiar",

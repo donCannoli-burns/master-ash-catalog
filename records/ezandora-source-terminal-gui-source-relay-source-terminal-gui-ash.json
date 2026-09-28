@@ -17,6 +17,12 @@
     "evidence_path": "archive/ezandora/source-terminal-gui/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Source-Terminal-GUI/blob/74691e58b517ecb9172288f5f84b6bfb13dcaf1a/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "Source_Terminal_GUI is cataloged as relay / IOTM / automation. Indexed focus: relay, choice, cli. Static behavior classification: mutating.",
+  "install": {
+    "available": false,
+    "reason": "This archived file is outside the KoLmafia manifest root and is not advertised as a direct Git install."
+  },
   "keywords": {
     "key": [
       "relay",

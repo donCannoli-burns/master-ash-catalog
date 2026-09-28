@@ -17,6 +17,14 @@
     "evidence_path": "archive/ezandora/latte/_source_license/LICENSE",
     "evidence_url": "https://github.com/Ezandora/Latte/blob/7c349842116da4cb75eebbfa65d19e05ef60b053/LICENSE"
   },
+  "classification": "relay / IOTM / automation",
+  "description": "choice.1329 is cataloged as relay / IOTM / automation. Indexed focus: relay, choice, familiar. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/Ezandora/Latte.git",
+    "delete": "git delete Ezandora-Latte",
+    "project_id": "Ezandora-Latte"
+  },
   "keywords": {
     "key": [
       "relay",

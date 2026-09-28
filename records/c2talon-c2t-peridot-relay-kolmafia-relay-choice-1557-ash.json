@@ -17,6 +17,14 @@
     "evidence_path": "archive/c2talon/c2t-peridot-relay/_source_license/LICENSE",
     "evidence_url": "https://github.com/C2Talon/c2t_peridot_relay/blob/07c4ee4e39b8492fc4c760db03ab60dc5bac05ca/LICENSE"
   },
+  "classification": "community ASH",
+  "description": "choice.1557 is cataloged as community ASH. Indexed focus: relay, choice, string. Static behavior classification: read-mostly.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/c2t_peridot_relay.git",
+    "delete": "git delete C2Talon-c2t_peridot_relay",
+    "project_id": "C2Talon-c2t_peridot_relay"
+  },
   "keywords": {
     "key": [
       "relay",

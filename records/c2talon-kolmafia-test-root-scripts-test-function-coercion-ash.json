@@ -18,6 +18,12 @@
     "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
     "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
   },
+  "classification": "community ASH",
+  "description": "test_function_coercion is cataloged as community ASH. Indexed focus: string, test_function_coercion, format_date_time_private. Static behavior classification: read-mostly.",
+  "install": {
+    "available": false,
+    "reason": "Repository layout does not expose this file through a KoLmafia Git permissible folder (scripts/data/images/relay/ccs/planting)."
+  },
   "keywords": {
     "key": [
       "string",
