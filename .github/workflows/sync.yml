@@ -1,0 +1,65 @@
+name: sync catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 8 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "catalog/**"
+      - "cmd/**"
+      - "internal/**"
+      - "go.mod"
+      - ".github/workflows/sync.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  sync:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.23.x"
+      - name: Test
+        run: go test ./...
+      - name: Sync licensed ASH sources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: go run ./cmd/askwiki sync
+      - name: Build static ask-wiki
+        run: go run ./cmd/askwiki build
+      - name: Verify archive / record / HTML invariants
+        run: go run ./cmd/askwiki check
+      - name: Commit refreshed catalog
+        shell: bash
+        run: |
+          if git diff --quiet -- archive records docs; then
+            echo "Catalog already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive records docs
+          git commit -m "chore(catalog): refresh licensed ASH snapshots"
+          git push
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload ask-wiki Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy ask-wiki
+        id: deployment
+        uses: actions/deploy-pages@v4
