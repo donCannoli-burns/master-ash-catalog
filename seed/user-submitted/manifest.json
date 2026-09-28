@@ -1,0 +1,12 @@
+{
+  "purpose": "Local/user-submitted provenance seeds observed during initial catalog construction. Script bytes are intentionally not committed here unless redistribution rights are separately established.",
+  "items": [
+    {"name":"MrEdge73's Support Script -- ClanAdministrator(LITE).ash","observed_author":"MrEdge73 / Justin Edge","observed_player":"mredge73","observed_year":2009,"observed_version":"20100914","provenance":"http://kolmafia.us/showthread.php?t=2113"},
+    {"name":"MrEdge73's Support Script -- Functions (Beta).ash","observed_author":"Justin Edge (mredge73)","observed_player":"mredge73","observed_year":2009,"observed_version":"20110903","provenance":"http://kolmafia.us/showthread.php?t=2113","notes":"Header thanks Bale and Zarqon."},
+    {"name":"don-campground.ash","observed_author":"Bale (legacy base), modernized locally","observed_year":null,"observed_version":"2.0","notes":"Header says Campground v2.0 and annotates telescope results; preserve Bale provenance before any redistribution."},
+    {"name":"don_util_refined.ash","observed_author":"local refinement","notes":"Imports zlib.ash, ProfitTracking.ash, TimeTracking.ash and DicsLibrary.ash; refinement notes emphasize removing import-time mutations."},
+    {"name":"DON Master ASH Lib README + manifest","observed_author":"donCannoli-burns","observed_version":"0.1.0","notes":"Manifest records hashes for don_master_lib.ash, don_master_smoke.ash and README; the actual don_master_lib.ash payload was not part of this seed."},
+    {"name":"scripts.zip","notes":"89 ASH files observed; mixed provenance, so not republished wholesale without source/license reconciliation."},
+    {"name":"scripts_1.ash.zip","notes":"369 ASH files observed under scripts/; mixed provenance, so not republished wholesale without source/license reconciliation."}
+  ]
+}
