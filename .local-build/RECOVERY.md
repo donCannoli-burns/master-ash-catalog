@@ -67,10 +67,25 @@ The surviving local files are byte-identical to the corresponding current GitHub
 - GitHub-hosted runner emitted Node.js action-runtime deprecation warnings.
 - Neither warning failed the build, catalog invariant check, artifact upload, or Pages deployment.
 
+## Post-recovery acceptance audit
+
+- source repair commit: `853bce2efff333319298333ca96477e0ce2e16e8`
+- regenerated catalog head: `f28b7185df58b1fa7f0afc42fcad4b08327a3034`
+- repair workflow run: `36380183788`
+- unit tests: PASS
+- source sync: PASS
+- static build: PASS
+- invariant check: PASS
+- Pages deployment: PASS
+- representative HTML readback: PASS
+- representative 3/6/12 keyword readback: PASS
+
+The acceptance audit found and repaired two narrow defects: script pages did not expose already-known player/provenance metadata explicitly, and generic function words could leak into keyword sets. The regenerated pages now expose known author/player/year/version/provenance fields, and the keyword ranker filters generic tokens before cardinality fill.
+
 ## Last completed capability
 
 A scheduled/manual/push-triggered Go catalog pipeline can discover configured sources, license-gate vendoring, generate per-script provenance JSON + HTML, validate archive/record/page invariants, commit refreshed catalog data, and deploy the resulting static wiki to GitHub Pages.
 
 ## Next smallest action
 
-Perform a narrow post-recovery acceptance audit of representative generated script pages and the source/credit registry. Do not redesign the architecture unless that audit finds a concrete defect.
+Review blocked source licenses/provenance one repository at a time if broader byte-level archival coverage is desired. Do not bypass the redistribution gate merely to increase script count.
