@@ -1,6 +1,6 @@
 # master-ash-catalog
 
-**Unofficial name:** **ask-wiki**
+**Unofficial name:** **ASH-WIKI**
 
 A static, provenance-first script compendium and wiki for KoLmafia `.ash` automation. The repository keeps script snapshots, their machine-readable records, and the generated static wiki together so a script is never separated from its source, hash, credit, license evidence, and warning surface.
 
@@ -13,7 +13,7 @@ archive/                 licensed third-party ASH snapshots, preserving source p
 records/                 one JSON provenance/index record per vendored .ash file
 catalog/sources.json     source registry, credit index, official links, keyword seed
 seed/                    metadata-only seeds that still need rights/provenance reconciliation
-docs/                    generated static ask-wiki (GitHub Pages-ready)
+docs/                    generated static ASH-WIKI (GitHub Pages-ready)
 cmd/askwiki/             Go CLI
 internal/catalog/        sync, provenance, license, keyword, static-site code
 .github/workflows/       automated sync + Pages deployment

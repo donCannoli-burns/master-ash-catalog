@@ -1,4 +1,4 @@
-name: publish ask-wiki
+name: publish ASH-WIKI
 
 on:
   workflow_dispatch:
