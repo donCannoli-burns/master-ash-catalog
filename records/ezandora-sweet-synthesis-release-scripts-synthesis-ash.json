@@ -9,9 +9,8 @@
   "commit": "fcd0fc5b47e247536cc6b214a63882e807e6e883",
   "sha256": "d37e23a9e962708ca806dc959878f35dfc097c8ba69ecbbb72c8e204a0af508c",
   "bytes": 19070,
-  "author": "Ezandora. This script is in the public domain.",
-  "player": "Ezandora. This script is in the public domain.",
-  "year": 1999,
+  "author": "Ezandora",
+  "player": "Ezandora",
   "license": {
     "status": "allowed",
     "name": "Unlicense/Public Domain",
