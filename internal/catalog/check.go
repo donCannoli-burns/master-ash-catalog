@@ -37,11 +37,26 @@ func Check(recordsDir, docsDir string) error {
 		if len(r.Keywords.Key) != 3 || len(r.Keywords.Sub) != 6 || len(r.Keywords.Meta) != 12 {
 			return fmt.Errorf("keyword cardinality %s: %d/%d/%d", r.ID, len(r.Keywords.Key), len(r.Keywords.Sub), len(r.Keywords.Meta))
 		}
-		if _, err := os.Stat(filepath.Join(docsDir, "scripts", r.ID+".html")); err != nil {
+		if strings.TrimSpace(r.Classification) == "" || strings.TrimSpace(r.Description) == "" {
+			return fmt.Errorf("missing classification/description for %s", r.ID)
+		}
+		if r.Install.Available && (r.Install.Checkout == "" || r.Install.Delete == "" || r.Install.ProjectID == "") {
+			return fmt.Errorf("incomplete install metadata for %s", r.ID)
+		}
+		pagePath := filepath.Join(docsDir, "scripts", r.ID+".html")
+		page, err := os.ReadFile(pagePath)
+		if err != nil {
 			return fmt.Errorf("missing HTML companion for %s", r.ID)
 		}
+		pageText := string(page)
+		if !strings.Contains(pageText, "../third-party.html") {
+			return fmt.Errorf("script page %s missing third-party notice link", r.ID)
+		}
+		if r.Install.Available && (!strings.Contains(pageText, r.Install.Checkout) || !strings.Contains(pageText, r.Install.Delete)) {
+			return fmt.Errorf("script page %s missing install/delete commands", r.ID)
+		}
 	}
-	for _, name := range []string{"index.html", "credits.html", "official.html", "about.html", "assets/style.css", "assets/app.js", "assets/catalog.json"} {
+	for _, name := range []string{"index.html", "az.html", "classifications.html", "sources.html", "authors.html", "years.html", "credits.html", "official.html", "about.html", "third-party.html", "license.html", "assets/style.css", "assets/app.js", "assets/catalog.json"} {
 		if _, err := os.Stat(filepath.Join(docsDir, name)); err != nil {
 			return fmt.Errorf("missing generated artifact %s", name)
 		}

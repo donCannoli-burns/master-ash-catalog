@@ -23,6 +23,14 @@ internal/catalog/        sync, provenance, license, keyword, static-site code
 
 The goal is to keep **actual scripts**, not just bookmarks. But public visibility is not the same as redistribution permission. `askwiki sync` clones configured repositories, detects repository-level license evidence, and only copies `.ash` bytes into `archive/` when the license is recognized. Unknown/unrecognized license states produce metadata-only blocked records instead of silently relicensing someone else's work. See [THIRD_PARTY.md](THIRD_PARTY.md).
 
+## Static hyper-indexed wiki
+
+The generated GitHub Pages site includes dedicated A–Z, classification, source-repository, author/player, and release-year indexes. Every vendored script record links back into those static indexes and includes a brief deterministic classification/description.
+
+When the source repository layout is directly installable by KoLmafia, the script page also shows copyable gCLI snippets for `git checkout <repo>` and the exact `git delete <project-id>` derived from KoLmafia's Git project naming rule. Source-tree files that are not exposed through KoLmafia's permissible Git folders do **not** receive misleading install commands.
+
+Every script page carries a short risk warning and links to the full [Third-Party Scripts and Disclaimer](THIRD_PARTY.md).
+
 ## Every vendored script gets an HTML5 record
 
 The static site generates a companion page for every archived `.ash` file with, when detectable:

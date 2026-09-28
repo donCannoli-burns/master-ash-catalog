@@ -59,6 +59,9 @@ type Record struct {
 	Version        string     `json:"version,omitempty"`
 	ProvenanceURL  string     `json:"provenance_url,omitempty"`
 	License        License    `json:"license"`
+	Classification string     `json:"classification,omitempty"`
+	Description    string     `json:"description,omitempty"`
+	Install        InstallInfo `json:"install,omitempty"`
 	Keywords       KeywordSet `json:"keywords"`
 	WikiSearches   []Link     `json:"wiki_searches,omitempty"`
 	OfficialLinks  []Link     `json:"official_links,omitempty"`
@@ -86,4 +89,12 @@ type Behavior struct {
 	Class      string   `json:"class"`
 	Signals    []string `json:"signals,omitempty"`
 	ImportSafe string   `json:"import_safe"` // likely, unknown, unlikely
+}
+
+type InstallInfo struct {
+	Available bool   `json:"available"`
+	Checkout  string `json:"checkout,omitempty"`
+	Delete    string `json:"delete,omitempty"`
+	ProjectID string `json:"project_id,omitempty"`
+	Reason    string `json:"reason,omitempty"`
 }

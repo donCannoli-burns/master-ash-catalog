@@ -151,7 +151,11 @@ func syncRepo(repoURL string, sources []Source, cfg Config, opts SyncOptions, re
 		lic := license
 		lic.EvidenceURL = repoURL + "/blob/" + commit + "/" + license.EvidencePath
 		lic.EvidencePath = filepath.ToSlash(filepath.Join("archive", safe(loc.Owner), safe(loc.Repo), "_source_license", filepath.Base(license.EvidencePath)))
-		rec := Record{ID: id, Title: title, ArchivePath: filepath.ToSlash(filepath.Join("archive", safe(loc.Owner), safe(loc.Repo), rel)), SourceID: sources[0].ID, SourceURL: sources[0].URL, RepositoryURL: repoURL, RepositoryPath: filepath.ToSlash(rel), Commit: commit, SHA256: hash, Bytes: size, Author: author, Player: player, Year: year, Version: version, ProvenanceURL: prov, License: lic, Keywords: KeywordsFor(title, content, sources[0].Category, funcs, cfg.KeywordSeeds), WikiSearches: WikiSearches(title), OfficialLinks: relevantOfficial(cfg.OfficialLinks, content, title), Behavior: BehaviorFor(content), Functions: funcs, Imports: imports, IndexedAt: time.Unix(0, 0).UTC()}
+		keywords := KeywordsFor(title, content, sources[0].Category, funcs, cfg.KeywordSeeds)
+		behavior := BehaviorFor(content)
+		classification, description := ClassifyAndDescribe(title, sources[0].Category, keywords, behavior)
+		install := InstallInfoForPath(dir, loc, filepath.ToSlash(rel))
+		rec := Record{ID: id, Title: title, ArchivePath: filepath.ToSlash(filepath.Join("archive", safe(loc.Owner), safe(loc.Repo), rel)), SourceID: sources[0].ID, SourceURL: sources[0].URL, RepositoryURL: repoURL, RepositoryPath: filepath.ToSlash(rel), Commit: commit, SHA256: hash, Bytes: size, Author: author, Player: player, Year: year, Version: version, ProvenanceURL: prov, License: lic, Classification: classification, Description: description, Install: install, Keywords: keywords, WikiSearches: WikiSearches(title), OfficialLinks: relevantOfficial(cfg.OfficialLinks, content, title), Behavior: behavior, Functions: funcs, Imports: imports, IndexedAt: time.Unix(0, 0).UTC()}
 		if err := WriteJSON(filepath.Join(opts.RecordsDir, id+".json"), rec); err != nil {
 			return err
 		}
