@@ -2,121 +2,800 @@
   "name": "master-ash-catalog",
   "unofficial_name": "ask-wiki",
   "official_links": [
-    {"name":"Kingdom of Loathing Forums","url":"https://forums.kingdomofloathing.com/vb/","kind":"official/community"},
-    {"name":"KoLmafia Forums","url":"https://kolmafia.us/","kind":"community"},
-    {"name":"KoLmafia Wiki","url":"https://wiki.kolmafia.us/","kind":"documentation"},
-    {"name":"Kingdom of Loathing Wiki","url":"https://wiki.kingdomofloathing.com/","kind":"game-wiki"},
-    {"name":"Loathers.net","url":"https://www.loathers.net/","kind":"community-analysis"},
-    {"name":"Loathers Calendar","url":"https://calendar.loathers.net/","kind":"community-calendar"},
-    {"name":"Kingdom of Loathing","url":"https://www.kingdomofloathing.com/","kind":"official-game"},
-    {"name":"SourceForge","url":"https://sourceforge.net/","kind":"legacy-host"},
-    {"name":"SourceForge SVN","url":"https://svn.code.sf.net/","kind":"legacy-vcs"},
-    {"name":"KoL Ultimate Reference Repository","url":"https://docs.google.com/spreadsheets/d/1VOqnh4hWEad_KUPWY4iz6TdpQZfzB_nvJqf-WWvRhEc/edit#gid=0","kind":"community-reference"},
-    {"name":"Ascension Speed Society Discord","url":"https://discord.gg/sbtgSCzSB","kind":"community"},
-    {"name":"r/kol","url":"https://www.reddit.com/r/kol/","kind":"community"},
-    {"name":"Pastebin","url":"https://pastebin.com/","kind":"legacy-snippet-host"}
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "KoLmafia Wiki",
+      "url": "https://wiki.kolmafia.us/",
+      "kind": "documentation"
+    },
+    {
+      "name": "Kingdom of Loathing Wiki",
+      "url": "https://wiki.kingdomofloathing.com/",
+      "kind": "game-wiki"
+    },
+    {
+      "name": "Loathers.net",
+      "url": "https://www.loathers.net/",
+      "kind": "community-analysis"
+    },
+    {
+      "name": "Loathers Calendar",
+      "url": "https://calendar.loathers.net/",
+      "kind": "community-calendar"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    },
+    {
+      "name": "SourceForge",
+      "url": "https://sourceforge.net/",
+      "kind": "legacy-host"
+    },
+    {
+      "name": "SourceForge SVN",
+      "url": "https://svn.code.sf.net/",
+      "kind": "legacy-vcs"
+    },
+    {
+      "name": "KoL Ultimate Reference Repository",
+      "url": "https://docs.google.com/spreadsheets/d/1VOqnh4hWEad_KUPWY4iz6TdpQZfzB_nvJqf-WWvRhEc/edit#gid=0",
+      "kind": "community-reference"
+    },
+    {
+      "name": "Ascension Speed Society Discord",
+      "url": "https://discord.gg/sbtgSCzSB",
+      "kind": "community"
+    },
+    {
+      "name": "r/kol",
+      "url": "https://www.reddit.com/r/kol/",
+      "kind": "community"
+    },
+    {
+      "name": "Pastebin",
+      "url": "https://pastebin.com/",
+      "kind": "legacy-snippet-host"
+    },
+    {
+      "name": "Go-app",
+      "url": "https://go-app.dev/",
+      "kind": "Go build/UI reference"
+    },
+    {
+      "name": "Go x/net/html",
+      "url": "https://pkg.go.dev/golang.org/x/net/html",
+      "kind": "Go HTML parser reference"
+    },
+    {
+      "name": "tdewolff/minify HTML",
+      "url": "https://pkg.go.dev/github.com/tdewolff/minify/v2/html",
+      "kind": "Go HTML minifier reference"
+    },
+    {
+      "name": "chenjunqian/go-markitdown",
+      "url": "https://pkg.go.dev/github.com/chenjunqian/go-markitdown",
+      "kind": "Go markup reference"
+    },
+    {
+      "name": "goldmark wikilink",
+      "url": "https://pkg.go.dev/go.abhg.dev/goldmark/wikilink",
+      "kind": "Go wiki-link reference"
+    }
   ],
   "credits": [
-    {"name":"C2Talon","profile":"https://github.com/C2Talon","role":"ASH/script source owner"},
-    {"name":"twistedmage","profile":"https://github.com/twistedmage","role":"ASH/script source owner"},
-    {"name":"Ezandora","profile":"https://github.com/Ezandora","role":"ASH/script source owner"},
-    {"name":"IronTetsubo","profile":"https://github.com/IronTetsubo","role":"ASH/script source owner"},
-    {"name":"Prusias-kol","profile":"https://github.com/Prusias-kol","role":"ASH/script source owner"},
-    {"name":"Astro3207","profile":"https://github.com/Astro3207","role":"ASH/script source owner"},
-    {"name":"Stary2001","profile":"https://github.com/Stary2001","role":"Python ecosystem reference"},
-    {"name":"bphillab","profile":"https://github.com/bphillab","role":"Python/MCP ecosystem reference"},
-    {"name":"gausie","profile":"https://github.com/gausie","role":"Python ecosystem reference"},
-    {"name":"kivy","profile":"https://github.com/kivy","role":"Python/JNI ecosystem reference"},
-    {"name":"MrFizzyBubbs","profile":"https://github.com/MrFizzyBubbs","role":"pymafia reference"},
-    {"name":"tadpoleloop","profile":"https://github.com/tadpoleloop","role":"pymafia reference"},
-    {"name":"Malibu-Stacey","profile":"https://github.com/Malibu-Stacey","role":"pymafia reference"},
-    {"name":"lewismd13","profile":"https://github.com/lewismd13","role":"pymafia reference"},
-    {"name":"loathers","profile":"https://github.com/loathers","role":"KoLmafia ecosystem source owner"},
-    {"name":"oreillymedia","profile":"https://github.com/oreillymedia","role":"HTMLBook format reference"},
-    {"name":"AustenConrad","profile":"https://github.com/AustenConrad","role":"Go wiki implementation reference"},
-    {"name":"librity","profile":"https://github.com/librity","role":"Go wiki implementation reference"},
-    {"name":"donCannoli-burns","profile":"https://github.com/donCannoli-burns","role":"catalog maintainer"}
+    {
+      "name": "C2Talon",
+      "profile": "https://github.com/C2Talon",
+      "role": "ASH/script source owner"
+    },
+    {
+      "name": "twistedmage",
+      "profile": "https://github.com/twistedmage",
+      "role": "ASH/script source owner"
+    },
+    {
+      "name": "Ezandora",
+      "profile": "https://github.com/Ezandora",
+      "role": "ASH/script source owner"
+    },
+    {
+      "name": "IronTetsubo",
+      "profile": "https://github.com/IronTetsubo",
+      "role": "ASH/script source owner"
+    },
+    {
+      "name": "Prusias-kol",
+      "profile": "https://github.com/Prusias-kol",
+      "role": "ASH/script source owner"
+    },
+    {
+      "name": "Astro3207",
+      "profile": "https://github.com/Astro3207",
+      "role": "ASH/script source owner"
+    },
+    {
+      "name": "Stary2001",
+      "profile": "https://github.com/Stary2001",
+      "role": "Python ecosystem reference"
+    },
+    {
+      "name": "bphillab",
+      "profile": "https://github.com/bphillab",
+      "role": "Python/MCP ecosystem reference"
+    },
+    {
+      "name": "gausie",
+      "profile": "https://github.com/gausie",
+      "role": "Python ecosystem reference"
+    },
+    {
+      "name": "kivy",
+      "profile": "https://github.com/kivy",
+      "role": "Python/JNI ecosystem reference"
+    },
+    {
+      "name": "MrFizzyBubbs",
+      "profile": "https://github.com/MrFizzyBubbs",
+      "role": "pymafia reference"
+    },
+    {
+      "name": "tadpoleloop",
+      "profile": "https://github.com/tadpoleloop",
+      "role": "pymafia reference"
+    },
+    {
+      "name": "Malibu-Stacey",
+      "profile": "https://github.com/Malibu-Stacey",
+      "role": "pymafia reference"
+    },
+    {
+      "name": "lewismd13",
+      "profile": "https://github.com/lewismd13",
+      "role": "pymafia reference"
+    },
+    {
+      "name": "loathers",
+      "profile": "https://github.com/loathers",
+      "role": "KoLmafia ecosystem source owner"
+    },
+    {
+      "name": "oreillymedia",
+      "profile": "https://github.com/oreillymedia",
+      "role": "HTMLBook format reference"
+    },
+    {
+      "name": "AustenConrad",
+      "profile": "https://github.com/AustenConrad",
+      "role": "Go wiki implementation reference"
+    },
+    {
+      "name": "librity",
+      "profile": "https://github.com/librity",
+      "role": "Go wiki implementation reference"
+    },
+    {
+      "name": "donCannoli-burns",
+      "profile": "https://github.com/donCannoli-burns",
+      "role": "catalog maintainer"
+    },
+    {
+      "name": "tdewolff",
+      "profile": "https://github.com/tdewolff",
+      "role": "Go HTML minifier reference"
+    },
+    {
+      "name": "chenjunqian",
+      "profile": "https://github.com/chenjunqian",
+      "role": "Go markup reference"
+    }
   ],
   "keyword_seeds": {
     "primary": [
-      "character","inventory","item-management","equipment","skills","effects","adventuring","combat","consult","math","string","datatype","modifier","relay","browser","properties","cli","automation","quests","ascension","maximizer","daily-deeds","recovery","consumption","pvp","farming","mall","clan","familiar","outfit","choice","iotm","tracking","profit","value","stash","rollover","crafting","diet","spading","logging","update"
+      "character",
+      "inventory",
+      "item-management",
+      "equipment",
+      "skills",
+      "effects",
+      "adventuring",
+      "combat",
+      "consult",
+      "math",
+      "string",
+      "datatype",
+      "modifier",
+      "relay",
+      "browser",
+      "properties",
+      "cli",
+      "automation",
+      "quests",
+      "ascension",
+      "maximizer",
+      "daily-deeds",
+      "recovery",
+      "consumption",
+      "pvp",
+      "farming",
+      "mall",
+      "clan",
+      "familiar",
+      "outfit",
+      "choice",
+      "iotm",
+      "tracking",
+      "profit",
+      "value",
+      "stash",
+      "rollover",
+      "crafting",
+      "diet",
+      "spading",
+      "logging",
+      "update"
     ],
     "aliases": {
-      "inventory":["item_amount","available_amount","retrieve_item","closet","storage"],
-      "equipment":["equip(","outfit","slot"],
-      "skills":["have_skill","use_skill","skill"],
-      "effects":["have_effect","effect"],
-      "adventuring":["adventure(","adv1(","location"],
-      "combat":["run_combat","attack(","monster","consult"],
-      "relay":["relay","buffer","write("],
-      "properties":["get_property","set_property"],
-      "cli":["cli_execute"],
-      "quests":["quest","questlog"],
-      "ascension":["ascend","kingliberated","ronin","hardcore"],
-      "recovery":["restore_hp","restore_mp","recovery"],
-      "consumption":["eat(","drink(","chew(","fullness","inebriety","spleen"],
-      "pvp":["pvp","swagger"],
-      "mall":["mall","shop","buy(","autosell"],
-      "clan":["clan","stash","whitelist"],
-      "familiar":["familiar","use_familiar","familiar_weight"],
-      "choice":["choice","run_choice","choiceadv"],
-      "tracking":["track","log","history"],
-      "profit":["profit","meat","price"],
-      "rollover":["rollover","minutes_to_rollover"],
-      "iotm":["source terminal","briefcase","genie","latte","bastille","spacegate"]
+      "inventory": [
+        "item_amount",
+        "available_amount",
+        "retrieve_item",
+        "closet",
+        "storage"
+      ],
+      "equipment": [
+        "equip(",
+        "outfit",
+        "slot"
+      ],
+      "skills": [
+        "have_skill",
+        "use_skill",
+        "skill"
+      ],
+      "effects": [
+        "have_effect",
+        "effect"
+      ],
+      "adventuring": [
+        "adventure(",
+        "adv1(",
+        "location"
+      ],
+      "combat": [
+        "run_combat",
+        "attack(",
+        "monster",
+        "consult"
+      ],
+      "relay": [
+        "relay",
+        "buffer",
+        "write("
+      ],
+      "properties": [
+        "get_property",
+        "set_property"
+      ],
+      "cli": [
+        "cli_execute"
+      ],
+      "quests": [
+        "quest",
+        "questlog"
+      ],
+      "ascension": [
+        "ascend",
+        "kingliberated",
+        "ronin",
+        "hardcore"
+      ],
+      "recovery": [
+        "restore_hp",
+        "restore_mp",
+        "recovery"
+      ],
+      "consumption": [
+        "eat(",
+        "drink(",
+        "chew(",
+        "fullness",
+        "inebriety",
+        "spleen"
+      ],
+      "pvp": [
+        "pvp",
+        "swagger"
+      ],
+      "mall": [
+        "mall",
+        "shop",
+        "buy(",
+        "autosell"
+      ],
+      "clan": [
+        "clan",
+        "stash",
+        "whitelist"
+      ],
+      "familiar": [
+        "familiar",
+        "use_familiar",
+        "familiar_weight"
+      ],
+      "choice": [
+        "choice",
+        "run_choice",
+        "choiceadv"
+      ],
+      "tracking": [
+        "track",
+        "log",
+        "history"
+      ],
+      "profit": [
+        "profit",
+        "meat",
+        "price"
+      ],
+      "rollover": [
+        "rollover",
+        "minutes_to_rollover"
+      ],
+      "iotm": [
+        "source terminal",
+        "briefcase",
+        "genie",
+        "latte",
+        "bastille",
+        "spacegate"
+      ]
     }
   },
   "sources": [
-    {"id":"c2talon-owner","url":"https://github.com/C2Talon","kind":"github-owner","category":"community ASH","author":"C2Talon","player":"C2Talon","discover":true,"max_repos":100,"notes":"Discover public repositories; only recognized-license repos are vendored."},
-    {"id":"ezandora-owner","url":"https://github.com/Ezandora","kind":"github-owner","category":"relay / IOTM / automation","author":"Ezandora","player":"Ezandora","discover":true,"max_repos":100,"notes":"Discover public repositories; only recognized-license repos are vendored."},
-    {"id":"twistedmage-assorted","url":"https://github.com/twistedmage/assorted-kol-scripts","kind":"repo","category":"legacy utility / scripts","author":"twistedmage","player":"twistedmage","include":["scripts/"]},
-    {"id":"iron-kolmafia-ash","url":"https://github.com/IronTetsubo/KoLmafia-ash","kind":"repo","category":"legacy utility / scripts","author":"IronTetsubo","player":"IronTetsubo","include":["scripts/"]},
-    {"id":"c2t-kol-scripts","url":"https://github.com/C2Talon/c2t_kol_scripts","kind":"repo","category":"automation","author":"C2Talon","player":"C2Talon"},
-    {"id":"c2t-hccs","url":"https://github.com/C2Talon/c2t_hccs","kind":"repo","category":"community service / ascension","author":"C2Talon","player":"C2Talon"},
-    {"id":"c2t-ascend","url":"https://github.com/C2Talon/c2t_ascend","kind":"repo","category":"ascension","author":"C2Talon","player":"C2Talon"},
-    {"id":"c2t-insert-select2","url":"https://github.com/C2Talon/insertSelect2-relays","kind":"repo","category":"relay / scripting","author":"C2Talon","player":"C2Talon"},
-    {"id":"c2t-liba","url":"https://github.com/C2Talon/liba","kind":"repo","category":"ASH library","author":"C2Talon","player":"C2Talon"},
-    {"id":"c2t-lib","url":"https://github.com/C2Talon/c2t_lib","kind":"repo","category":"ASH library","author":"C2Talon","player":"C2Talon"},
-    {"id":"prusias-plooper","url":"https://github.com/Prusias-kol/pLooper","kind":"repo","category":"automation loop","author":"Prusias-kol","player":"Prusias"},
-    {"id":"prusias-ptrack","url":"https://github.com/Prusias-kol/pTrack","kind":"repo","category":"tracking / profit / time","author":"Prusias-kol","player":"Prusias"},
-    {"id":"prusias-pupdates","url":"https://github.com/Prusias-kol/pUpdates","kind":"repo","category":"updates / library","author":"Prusias-kol","player":"Prusias"},
-    {"id":"prusias-pwrapper","url":"https://github.com/Prusias-kol/pwrapper","kind":"repo","category":"wrapper / utility","author":"Prusias-kol","player":"Prusias"},
-    {"id":"prusias-pchecklist","url":"https://github.com/Prusias-kol/pChecklist","kind":"repo","category":"checklist","author":"Prusias-kol","player":"Prusias"},
-    {"id":"prusias-pstash","url":"https://github.com/Prusias-kol/pStash","kind":"repo","category":"clan / stash","author":"Prusias-kol","player":"Prusias"},
-    {"id":"prusias-darkmode","url":"https://github.com/Prusias-kol/kol-darkmode","kind":"repo","category":"relay / interface","author":"Prusias-kol","player":"Prusias","include":["relay/"]},
-    {"id":"ez-guide","url":"https://github.com/Ezandora/Guide","kind":"repo","category":"relay / guide","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-gain","url":"https://github.com/Ezandora/Gain","kind":"repo","category":"value / acquisition","author":"Ezandora","player":"Ezandora"},
-    {"id":"astro-gain","url":"https://github.com/Astro3207/Gain","kind":"repo","category":"value / acquisition","author":"Astro3207","player":"Astro3207"},
-    {"id":"ez-consume","url":"https://github.com/Ezandora/Consume","kind":"repo","category":"consumption / diet","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-choice-override","url":"https://github.com/Ezandora/Choice-Override","kind":"repo","category":"choice / relay","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-source-terminal","url":"https://github.com/Ezandora/Source-Terminal-GUI","kind":"repo","category":"relay / IOTM","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-detective","url":"https://github.com/Ezandora/Detective-Solver","kind":"repo","category":"relay / IOTM","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-far-future","url":"https://github.com/Ezandora/Far-Future","kind":"repo","category":"relay / IOTM","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-asdon","url":"https://github.com/Ezandora/Asdon-Martin-GUI","kind":"repo","category":"relay / IOTM","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-briefcase","url":"https://github.com/Ezandora/Briefcase","kind":"repo","category":"relay / IOTM","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-genie","url":"https://github.com/Ezandora/Genie","kind":"repo","category":"relay / IOTM","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-synthesis","url":"https://github.com/Ezandora/Sweet-Synthesis","kind":"repo","category":"relay / IOTM / effects","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-fantasyrealm","url":"https://github.com/Ezandora/FantasyRealm","kind":"repo","category":"relay / IOTM / adventuring","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-spacegate","url":"https://github.com/Ezandora/Spacegate","kind":"repo","category":"relay / IOTM / adventuring","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-nep","url":"https://github.com/Ezandora/Neverending-Party","kind":"repo","category":"relay / IOTM / adventuring","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-piraterealm","url":"https://github.com/Ezandora/PirateRealm","kind":"repo","category":"relay / IOTM / adventuring","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-mummery","url":"https://github.com/Ezandora/Mummery","kind":"repo","category":"relay / IOTM / familiar","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-latte","url":"https://github.com/Ezandora/Latte","kind":"repo","category":"relay / IOTM","author":"Ezandora","player":"Ezandora"},
-    {"id":"ez-bastille","url":"https://github.com/Ezandora/Bastille","kind":"repo","category":"relay / IOTM / minigame","author":"Ezandora","player":"Ezandora"},
-    {"id":"c2-vim-kolmafia","url":"https://github.com/C2Talon/vim-kolmafia","kind":"reference","category":"scripting editor"},
-    {"id":"kol-adv","url":"https://github.com/Stary2001/kol-adv","kind":"reference","category":"python ecosystem"},
-    {"id":"kolmafia-mcp","url":"https://github.com/bphillab/kolmafia_mcp","kind":"reference","category":"python ecosystem"},
-    {"id":"frattlesnake","url":"https://github.com/gausie/frattlesnake","kind":"reference","category":"python ecosystem"},
-    {"id":"pyjnius","url":"https://github.com/kivy/pyjnius","kind":"reference","category":"python / JNI"},
-    {"id":"pymafia-mrfizzy","url":"https://github.com/MrFizzyBubbs/pymafia","kind":"reference","category":"python ecosystem"},
-    {"id":"pymafia-tadpole","url":"https://github.com/tadpoleloop/pymafia","kind":"reference","category":"python ecosystem"},
-    {"id":"pymafia-malibu","url":"https://github.com/Malibu-Stacey/pymafia","kind":"reference","category":"python ecosystem"},
-    {"id":"pymafia-lewis","url":"https://github.com/lewismd13/pymafia","kind":"reference","category":"python ecosystem"},
-    {"id":"kolmafia-docker","url":"https://github.com/loathers/kolmafia-docker","kind":"reference","category":"container ecosystem"},
-    {"id":"htmlbook","url":"https://github.com/oreillymedia/HTMLBook","kind":"reference","category":"HTML format"},
-    {"id":"go-wiki-example","url":"https://github.com/AustenConrad/go-lang-example-wiki-app","kind":"reference","category":"Go wiki reference"},
-    {"id":"gowiki","url":"https://github.com/librity/gowiki","kind":"reference","category":"Go wiki reference"},
-    {"id":"bale-relay-overrides","url":"https://kolmafia.us/threads/bales-relay-overrides.12644/","kind":"forum","category":"relay / provenance","author":"Bale","player":"Bale"},
-    {"id":"coldfront-just-the-facts","url":"https://kol.coldfront.net/thekolwiki/index.php/Just_the_Facts","kind":"reference","category":"historical KoL wiki"}
+    {
+      "id": "c2talon-owner",
+      "url": "https://github.com/C2Talon",
+      "kind": "github-owner",
+      "category": "community ASH",
+      "author": "C2Talon",
+      "player": "C2Talon",
+      "discover": true,
+      "max_repos": 100,
+      "notes": "Discover public repositories; only recognized-license repos are vendored."
+    },
+    {
+      "id": "ezandora-owner",
+      "url": "https://github.com/Ezandora",
+      "kind": "github-owner",
+      "category": "relay / IOTM / automation",
+      "author": "Ezandora",
+      "player": "Ezandora",
+      "discover": true,
+      "max_repos": 100,
+      "notes": "Discover public repositories; only recognized-license repos are vendored."
+    },
+    {
+      "id": "c2talon-kol",
+      "url": "https://github.com/C2Talon/kol",
+      "kind": "repo",
+      "category": "similar archive / KoL scripts",
+      "author": "C2Talon",
+      "player": "C2Talon",
+      "notes": "Explicit source requested by catalog maintainer; normal license gate applies."
+    },
+    {
+      "id": "twistedmage-assorted",
+      "url": "https://github.com/twistedmage/assorted-kol-scripts",
+      "kind": "repo",
+      "category": "legacy utility / scripts",
+      "author": "twistedmage",
+      "player": "twistedmage",
+      "include": [
+        "scripts/"
+      ]
+    },
+    {
+      "id": "iron-kolmafia-ash",
+      "url": "https://github.com/IronTetsubo/KoLmafia-ash",
+      "kind": "repo",
+      "category": "legacy utility / scripts",
+      "author": "IronTetsubo",
+      "player": "IronTetsubo",
+      "include": [
+        "scripts/"
+      ]
+    },
+    {
+      "id": "c2t-kol-scripts",
+      "url": "https://github.com/C2Talon/c2t_kol_scripts",
+      "kind": "repo",
+      "category": "automation",
+      "author": "C2Talon",
+      "player": "C2Talon"
+    },
+    {
+      "id": "c2t-hccs",
+      "url": "https://github.com/C2Talon/c2t_hccs",
+      "kind": "repo",
+      "category": "community service / ascension",
+      "author": "C2Talon",
+      "player": "C2Talon"
+    },
+    {
+      "id": "c2t-ascend",
+      "url": "https://github.com/C2Talon/c2t_ascend",
+      "kind": "repo",
+      "category": "ascension",
+      "author": "C2Talon",
+      "player": "C2Talon"
+    },
+    {
+      "id": "c2t-insert-select2",
+      "url": "https://github.com/C2Talon/insertSelect2-relays",
+      "kind": "repo",
+      "category": "relay / scripting",
+      "author": "C2Talon",
+      "player": "C2Talon"
+    },
+    {
+      "id": "c2t-liba",
+      "url": "https://github.com/C2Talon/liba",
+      "kind": "repo",
+      "category": "ASH library",
+      "author": "C2Talon",
+      "player": "C2Talon"
+    },
+    {
+      "id": "c2t-lib",
+      "url": "https://github.com/C2Talon/c2t_lib",
+      "kind": "repo",
+      "category": "ASH library",
+      "author": "C2Talon",
+      "player": "C2Talon"
+    },
+    {
+      "id": "prusias-plooper",
+      "url": "https://github.com/Prusias-kol/pLooper",
+      "kind": "repo",
+      "category": "automation loop",
+      "author": "Prusias-kol",
+      "player": "Prusias"
+    },
+    {
+      "id": "prusias-ptrack",
+      "url": "https://github.com/Prusias-kol/pTrack",
+      "kind": "repo",
+      "category": "tracking / profit / time",
+      "author": "Prusias-kol",
+      "player": "Prusias"
+    },
+    {
+      "id": "prusias-pupdates",
+      "url": "https://github.com/Prusias-kol/pUpdates",
+      "kind": "repo",
+      "category": "updates / library",
+      "author": "Prusias-kol",
+      "player": "Prusias"
+    },
+    {
+      "id": "prusias-pwrapper",
+      "url": "https://github.com/Prusias-kol/pwrapper",
+      "kind": "repo",
+      "category": "wrapper / utility",
+      "author": "Prusias-kol",
+      "player": "Prusias"
+    },
+    {
+      "id": "prusias-pchecklist",
+      "url": "https://github.com/Prusias-kol/pChecklist",
+      "kind": "repo",
+      "category": "checklist",
+      "author": "Prusias-kol",
+      "player": "Prusias"
+    },
+    {
+      "id": "prusias-pstash",
+      "url": "https://github.com/Prusias-kol/pStash",
+      "kind": "repo",
+      "category": "clan / stash",
+      "author": "Prusias-kol",
+      "player": "Prusias"
+    },
+    {
+      "id": "prusias-darkmode",
+      "url": "https://github.com/Prusias-kol/kol-darkmode",
+      "kind": "repo",
+      "category": "relay / interface",
+      "author": "Prusias-kol",
+      "player": "Prusias",
+      "include": [
+        "relay/"
+      ]
+    },
+    {
+      "id": "ez-guide",
+      "url": "https://github.com/Ezandora/Guide",
+      "kind": "repo",
+      "category": "relay / guide",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-gain",
+      "url": "https://github.com/Ezandora/Gain",
+      "kind": "repo",
+      "category": "value / acquisition",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "astro-gain",
+      "url": "https://github.com/Astro3207/Gain",
+      "kind": "repo",
+      "category": "value / acquisition",
+      "author": "Astro3207",
+      "player": "Astro3207"
+    },
+    {
+      "id": "ez-consume",
+      "url": "https://github.com/Ezandora/Consume",
+      "kind": "repo",
+      "category": "consumption / diet",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-choice-override",
+      "url": "https://github.com/Ezandora/Choice-Override",
+      "kind": "repo",
+      "category": "choice / relay",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-source-terminal",
+      "url": "https://github.com/Ezandora/Source-Terminal-GUI",
+      "kind": "repo",
+      "category": "relay / IOTM",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-detective",
+      "url": "https://github.com/Ezandora/Detective-Solver",
+      "kind": "repo",
+      "category": "relay / IOTM",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-far-future",
+      "url": "https://github.com/Ezandora/Far-Future",
+      "kind": "repo",
+      "category": "relay / IOTM",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-asdon",
+      "url": "https://github.com/Ezandora/Asdon-Martin-GUI",
+      "kind": "repo",
+      "category": "relay / IOTM",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-briefcase",
+      "url": "https://github.com/Ezandora/Briefcase",
+      "kind": "repo",
+      "category": "relay / IOTM",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-genie",
+      "url": "https://github.com/Ezandora/Genie",
+      "kind": "repo",
+      "category": "relay / IOTM",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-synthesis",
+      "url": "https://github.com/Ezandora/Sweet-Synthesis",
+      "kind": "repo",
+      "category": "relay / IOTM / effects",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-fantasyrealm",
+      "url": "https://github.com/Ezandora/FantasyRealm",
+      "kind": "repo",
+      "category": "relay / IOTM / adventuring",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-spacegate",
+      "url": "https://github.com/Ezandora/Spacegate",
+      "kind": "repo",
+      "category": "relay / IOTM / adventuring",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-nep",
+      "url": "https://github.com/Ezandora/Neverending-Party",
+      "kind": "repo",
+      "category": "relay / IOTM / adventuring",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-piraterealm",
+      "url": "https://github.com/Ezandora/PirateRealm",
+      "kind": "repo",
+      "category": "relay / IOTM / adventuring",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-mummery",
+      "url": "https://github.com/Ezandora/Mummery",
+      "kind": "repo",
+      "category": "relay / IOTM / familiar",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-latte",
+      "url": "https://github.com/Ezandora/Latte",
+      "kind": "repo",
+      "category": "relay / IOTM",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "ez-bastille",
+      "url": "https://github.com/Ezandora/Bastille",
+      "kind": "repo",
+      "category": "relay / IOTM / minigame",
+      "author": "Ezandora",
+      "player": "Ezandora"
+    },
+    {
+      "id": "c2-vim-kolmafia",
+      "url": "https://github.com/C2Talon/vim-kolmafia",
+      "kind": "reference",
+      "category": "scripting editor"
+    },
+    {
+      "id": "kol-adv",
+      "url": "https://github.com/Stary2001/kol-adv",
+      "kind": "reference",
+      "category": "python ecosystem"
+    },
+    {
+      "id": "kolmafia-mcp",
+      "url": "https://github.com/bphillab/kolmafia_mcp",
+      "kind": "reference",
+      "category": "python ecosystem"
+    },
+    {
+      "id": "frattlesnake",
+      "url": "https://github.com/gausie/frattlesnake",
+      "kind": "reference",
+      "category": "python ecosystem"
+    },
+    {
+      "id": "pyjnius",
+      "url": "https://github.com/kivy/pyjnius",
+      "kind": "reference",
+      "category": "python / JNI"
+    },
+    {
+      "id": "pymafia-mrfizzy",
+      "url": "https://github.com/MrFizzyBubbs/pymafia",
+      "kind": "reference",
+      "category": "python ecosystem"
+    },
+    {
+      "id": "pymafia-tadpole",
+      "url": "https://github.com/tadpoleloop/pymafia",
+      "kind": "reference",
+      "category": "python ecosystem"
+    },
+    {
+      "id": "pymafia-malibu",
+      "url": "https://github.com/Malibu-Stacey/pymafia",
+      "kind": "reference",
+      "category": "python ecosystem"
+    },
+    {
+      "id": "pymafia-lewis",
+      "url": "https://github.com/lewismd13/pymafia",
+      "kind": "reference",
+      "category": "python ecosystem"
+    },
+    {
+      "id": "kolmafia-docker",
+      "url": "https://github.com/loathers/kolmafia-docker",
+      "kind": "reference",
+      "category": "container ecosystem"
+    },
+    {
+      "id": "htmlbook",
+      "url": "https://github.com/oreillymedia/HTMLBook",
+      "kind": "reference",
+      "category": "HTML format"
+    },
+    {
+      "id": "go-wiki-example",
+      "url": "https://github.com/AustenConrad/go-lang-example-wiki-app",
+      "kind": "reference",
+      "category": "Go wiki reference"
+    },
+    {
+      "id": "gowiki",
+      "url": "https://github.com/librity/gowiki",
+      "kind": "reference",
+      "category": "Go wiki reference"
+    },
+    {
+      "id": "bale-relay-overrides",
+      "url": "https://kolmafia.us/threads/bales-relay-overrides.12644/",
+      "kind": "forum",
+      "category": "relay / provenance",
+      "author": "Bale",
+      "player": "Bale"
+    },
+    {
+      "id": "coldfront-just-the-facts",
+      "url": "https://kol.coldfront.net/thekolwiki/index.php/Just_the_Facts",
+      "kind": "reference",
+      "category": "historical KoL wiki"
+    },
+    {
+      "id": "go-app",
+      "url": "https://go-app.dev/",
+      "kind": "reference",
+      "category": "Go application reference"
+    },
+    {
+      "id": "go-x-net-html",
+      "url": "https://pkg.go.dev/golang.org/x/net/html",
+      "kind": "reference",
+      "category": "Go HTML parser reference"
+    },
+    {
+      "id": "tdewolff-minify-html",
+      "url": "https://pkg.go.dev/github.com/tdewolff/minify/v2/html",
+      "kind": "reference",
+      "category": "Go HTML minifier reference"
+    },
+    {
+      "id": "chenjunqian-go-markitdown",
+      "url": "https://pkg.go.dev/github.com/chenjunqian/go-markitdown",
+      "kind": "reference",
+      "category": "Go markup reference"
+    },
+    {
+      "id": "goldmark-wikilink",
+      "url": "https://pkg.go.dev/go.abhg.dev/goldmark/wikilink",
+      "kind": "reference",
+      "category": "Go wiki-link reference"
+    }
   ]
 }
