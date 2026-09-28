@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	reAuthor  = regexp.MustCompile(`(?i)(?:created\s+by|author\s*[:=]|by\s+)([A-Za-z0-9_. '\\-]{2,60})`)
+	reAuthor  = regexp.MustCompile(`(?im)^\\s*(?://+|#|/\\*+|\\*+)?\\s*(?:created\\s+by|author\\s*[:=])\\s*([A-Za-z0-9_. '()\\-]{2,60})\\s*$`)
 	reNotify  = regexp.MustCompile(`(?i)//\s*notify\s+["']?([^"';]+)`)
 	reVersion = regexp.MustCompile(`(?i)\bversion\s*[:=]?\s*([0-9][0-9A-Za-z._-]*)`)
 	reYear    = regexp.MustCompile(`\b(19[89][0-9]|20[0-3][0-9])\b`)
@@ -48,18 +48,23 @@ func AnalyzeFile(path string) (author string, player string, year int, version, 
 	if m := reVersion.FindStringSubmatch(header); len(m) > 1 {
 		version = m[1]
 	}
-	if ys := reYear.FindAllString(header, -1); len(ys) > 0 {
-		best := 9999
-		for _, y := range ys {
+	bestYear := 9999
+	for _, line := range head {
+		lc := strings.ToLower(line)
+		if !(strings.Contains(lc, "copyright") || strings.Contains(lc, "created") || strings.Contains(lc, "release") || strings.Contains(lc, "version") || strings.Contains(lc, "updated") || strings.Contains(lc, "date")) {
+			continue
+		}
+		for _, y := range reYear.FindAllString(line, -1) {
 			n, _ := strconv.Atoi(y)
-			if n < best {
-				best = n
+			if n < bestYear {
+				bestYear = n
 			}
 		}
-		if best != 9999 {
-			year = best
-		}
 	}
+	if bestYear != 9999 {
+		year = bestYear
+	}
+
 	if u := reURL.FindString(header); u != "" {
 		provenance = strings.TrimRight(u, ").,;]")
 	}

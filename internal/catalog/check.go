@@ -57,8 +57,18 @@ func Check(recordsDir, docsDir string) error {
 		}
 	}
 	for _, name := range []string{"index.html", "az.html", "classifications.html", "sources.html", "authors.html", "years.html", "credits.html", "official.html", "about.html", "third-party.html", "license.html", "assets/style.css", "assets/app.js", "assets/catalog.json"} {
-		if _, err := os.Stat(filepath.Join(docsDir, name)); err != nil {
+		path := filepath.Join(docsDir, name)
+		if _, err := os.Stat(path); err != nil {
 			return fmt.Errorf("missing generated artifact %s", name)
+		}
+		if strings.HasSuffix(name, ".html") {
+			page, err := os.ReadFile(path)
+			if err != nil {
+				return err
+			}
+			if !strings.Contains(string(page), "third-party.html") {
+				return fmt.Errorf("generated page %s missing third-party notice link", name)
+			}
 		}
 	}
 	return nil
