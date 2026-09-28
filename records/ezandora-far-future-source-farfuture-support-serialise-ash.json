@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-far-future-source-farfuture-support-serialise-ash",
+  "title": "Serialise",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Support/Serialise.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Support/Serialise.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "7cdf5fd601992b25c1379dd115f34c5ee97678e2924b5fea90bf4c07b6b9655d",
+  "bytes": 2116,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "serialise",
+      "map",
+      "deserialise",
+      "relay / IOTM / automation",
+      "scripting"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: serialise",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=serialise",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: serialise",
+      "url": "https://wiki.kolmafia.us/index.php?search=serialise",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "deserialiseMap",
+    "serialiseMap"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

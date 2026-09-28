@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-navigation-bar-ash",
+  "title": "Navigation Bar",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Navigation Bar.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Navigation Bar.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "f8d1550a553e83fafd56a8394d6b7c9805f77c99ad8f03c866d9edea1510908e",
+  "bytes": 4199,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "browser"
+    ],
+    "sub": [
+      "character",
+      "cli",
+      "iotm",
+      "string",
+      "value",
+      "bar"
+    ],
+    "meta": [
+      "navigation",
+      "generate",
+      "navbar",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: navigation",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=navigation",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: navigation",
+      "url": "https://wiki.kolmafia.us/index.php?search=navigation",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: bar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bar",
+      "url": "https://wiki.kolmafia.us/index.php?search=bar",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateNavbar"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

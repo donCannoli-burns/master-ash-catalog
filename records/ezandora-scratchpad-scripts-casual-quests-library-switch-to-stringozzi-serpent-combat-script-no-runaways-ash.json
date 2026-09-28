@@ -1,0 +1,109 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-library-switch-to-stringozzi-serpent-combat-script-no-runaways-ash",
+  "title": "switch to stringozzi serpent combat script no runaways",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Library/switch to stringozzi serpent combat script no runaways.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Library/switch to stringozzi serpent combat script no runaways.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a20198eaeb20ba1f2b3da842cdad9171af724b5606d38a452d336ce507591207",
+  "bytes": 90,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "combat"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "no",
+      "runaways",
+      "script"
+    ],
+    "meta": [
+      "serpent",
+      "stringozzi",
+      "switch",
+      "to",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: switch",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=switch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: switch",
+      "url": "https://wiki.kolmafia.us/index.php?search=switch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: stringozzi",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=stringozzi",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: stringozzi",
+      "url": "https://wiki.kolmafia.us/index.php?search=stringozzi",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: serpent",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=serpent",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: serpent",
+      "url": "https://wiki.kolmafia.us/index.php?search=serpent",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: combat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=combat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: combat",
+      "url": "https://wiki.kolmafia.us/index.php?search=combat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

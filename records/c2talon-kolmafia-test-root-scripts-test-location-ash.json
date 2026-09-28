@@ -1,0 +1,76 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-test-location-ash",
+  "title": "test_location",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/test_location.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/test_location.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "650705db8fb1fdbfdd2e62f9e8519fb34fd14ead26f1758b0b37cdcda1a5ed82",
+  "bytes": 551,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "adventuring",
+      "value",
+      "test_location"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: test_location",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=test_location",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: test_location",
+      "url": "https://wiki.kolmafia.us/index.php?search=test_location",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "adventuring:adventure"
+    ],
+    "import_safe": "unknown"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

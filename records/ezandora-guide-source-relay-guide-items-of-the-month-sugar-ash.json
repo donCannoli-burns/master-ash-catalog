@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-sugar-ash",
+  "title": "Sugar",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Sugar.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Sugar.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "1ae0e91808e3f49b78bf6d8735bca4a9e1fc2d590927a92953d59fdfbd91e51f",
+  "bytes": 1966,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "ascension",
+      "inventory",
+      "properties"
+    ],
+    "meta": [
+      "quests",
+      "sugar",
+      "generate",
+      "iotmsugar",
+      "resource",
+      "suggestions",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: sugar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sugar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sugar",
+      "url": "https://wiki.kolmafia.us/index.php?search=sugar",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMSugarGenerateResource",
+    "SugarGenerateSuggestions"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

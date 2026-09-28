@@ -1,0 +1,90 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2026-liba-baseballdiamond-ash",
+  "title": "liba_baseballDiamond",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2026/liba_baseballDiamond.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2026/liba_baseballDiamond.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "8f2b54c54d79e6378c3c6326b5339d1008a4a776ce1f4b0183181c4282f3ae8f",
+  "bytes": 724,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "liba_baseball",
+      "inventory",
+      "diamond"
+    ],
+    "sub": [
+      "diamond_have",
+      "diamond_item",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_baseball",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_baseball",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_baseball",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_baseball",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: diamond",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=diamond",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: diamond",
+      "url": "https://wiki.kolmafia.us/index.php?search=diamond",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "liba_baseballDiamond_have",
+    "liba_baseballDiamond_item"
+  ],
+  "imports": [
+    "liba_eternityCodpiece.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

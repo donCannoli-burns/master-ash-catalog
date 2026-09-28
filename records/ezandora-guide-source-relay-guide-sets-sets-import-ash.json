@@ -1,0 +1,119 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-sets-import-ash",
+  "title": "Sets import",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Sets import.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Sets import.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "1f6d2224f04bb08754afd5ce84566dc2dcf04a42fdd3f48636e3be68526f577f",
+  "bytes": 1434,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "pvp",
+      "relay"
+    ],
+    "sub": [
+      "skills",
+      "automation",
+      "equipment",
+      "iotm",
+      "combat",
+      "quests"
+    ],
+    "meta": [
+      "import",
+      "sets",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: sets",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sets",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sets",
+      "url": "https://wiki.kolmafia.us/index.php?search=sets",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: import",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=import",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: import",
+      "url": "https://wiki.kolmafia.us/index.php?search=import",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "imports": [
+    "relay/Guide/Sets/8-bit Realm.ash",
+    "relay/Guide/Sets/Aftercore.ash",
+    "relay/Guide/Sets/Area Unlocks.ash",
+    "relay/Guide/Sets/Bounty Hunter Hunter.ash",
+    "relay/Guide/Sets/Buff Upkeep.ash",
+    "relay/Guide/Sets/Bugs.ash",
+    "relay/Guide/Sets/Calculate Universe.ash",
+    "relay/Guide/Sets/Classes.ash",
+    "relay/Guide/Sets/Copied Monsters.ash",
+    "relay/Guide/Sets/Council.ash",
+    "relay/Guide/Sets/Counters.ash",
+    "relay/Guide/Sets/Daily Dungeon.ash",
+    "relay/Guide/Sets/Demon Summon.ash",
+    "relay/Guide/Sets/Dispensary.ash",
+    "relay/Guide/Sets/Dungeons of Doom.ash",
+    "relay/Guide/Sets/Equipment.ash",
+    "relay/Guide/Sets/Events.ash",
+    "relay/Guide/Sets/Familiars.ash",
+    "relay/Guide/Sets/Fax.ash",
+    "relay/Guide/Sets/Florist.ash",
+    "relay/Guide/Sets/Hole in the Sky.ash",
+    "relay/Guide/Sets/Holiday.ash",
+    "relay/Guide/Sets/Misc Items.ash",
+    "relay/Guide/Sets/Misc Tasks.ash",
+    "relay/Guide/Sets/Old Level 9 quest.ash",
+    "relay/Guide/Sets/Olfaction.ash",
+    "relay/Guide/Sets/PVP.ash",
+    "relay/Guide/Sets/Powerlevel.ash",
+    "relay/Guide/Sets/Pulverise.ash",
+    "relay/Guide/Sets/Reminders.ash",
+    "relay/Guide/Sets/Semi-rare.ash",
+    "relay/Guide/Sets/Skills.ash",
+    "relay/Guide/Sets/Sweet Synthesis.ash",
+    "relay/Guide/Support/Library.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

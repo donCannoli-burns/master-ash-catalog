@@ -1,0 +1,104 @@
+{
+  "id": "ezandora-events-historical-scripts-crimbo2020sendbackcrates-ash",
+  "title": "Crimbo2020SendBackCrates",
+  "archive_path": "archive/ezandora/events/Historical/scripts/Crimbo2020SendBackCrates.ash",
+  "source_id": "ezandora-owner--events",
+  "source_url": "https://github.com/Ezandora/Events",
+  "repository_url": "https://github.com/Ezandora/Events",
+  "repository_path": "Historical/scripts/Crimbo2020SendBackCrates.ash",
+  "commit": "3656bd353ff8474b741ae84a5079d7a95be5a4e5",
+  "sha256": "ff492508b60b51ba636ba60a6b676b62ee3026bd4b9a6dd59e9e4b482f576274",
+  "bytes": 7177,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/events/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Events/blob/3656bd353ff8474b741ae84a5079d7a95be5a4e5/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "string"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "iotm",
+      "effects",
+      "properties",
+      "back"
+    ],
+    "meta": [
+      "crates",
+      "crimbo2020send",
+      "kmail",
+      "kmails",
+      "processed",
+      "save",
+      "all",
+      "delete",
+      "has",
+      "load",
+      "main",
+      "substrings"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: crimbo2020send",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=crimbo2020send",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: crimbo2020send",
+      "url": "https://wiki.kolmafia.us/index.php?search=crimbo2020send",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: back",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=back",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: back",
+      "url": "https://wiki.kolmafia.us/index.php?search=back",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: crates",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=crates",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: crates",
+      "url": "https://wiki.kolmafia.us/index.php?search=crates",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "KMailDeleteKMail",
+    "KMailSaveKMail",
+    "loadProcessedKMails",
+    "main",
+    "saveProcessedKMails",
+    "stringHasAllSubstrings"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-classes-ash",
+  "title": "Classes",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Classes.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Classes.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "2031fe2e8c4eb038693ba2b3ea71a76978b5ddc43b6c403734f580ca524df28f",
+  "bytes": 11166,
+  "author": "seal",
+  "player": "seal",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "equipment",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "character",
+      "effects",
+      "iotm",
+      "skills",
+      "string"
+    ],
+    "meta": [
+      "generate",
+      "combat",
+      "consumption",
+      "mall",
+      "profit",
+      "properties",
+      "quests",
+      "resource",
+      "classes",
+      "tasks",
+      "clubber",
+      "sclasses"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: classes",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=classes",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: classes",
+      "url": "https://wiki.kolmafia.us/index.php?search=classes",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SClassesGenerateResource",
+    "SClassesGenerateTasks",
+    "SDiscoBanditGenerateResource",
+    "SPastamancerGenerateTasks",
+    "SSealClubberGenerateResource",
+    "SSealClubberInfernalSealsGenerateResource",
+    "STurtleTamerGenerateTasks",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

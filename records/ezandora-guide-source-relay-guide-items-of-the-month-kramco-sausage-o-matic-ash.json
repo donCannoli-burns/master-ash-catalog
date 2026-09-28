@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-kramco-sausage-o-matic-ash",
+  "title": "Kramco Sausage-o-Matic",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Kramco Sausage-o-Matic.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Kramco Sausage-o-Matic.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "d2ba4c15c98d665edb0400c7105981c8611c0d4a674c8567d743277b87e5d4f1",
+  "bytes": 5650,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "cli",
+      "equipment",
+      "iotm",
+      "string",
+      "adventuring",
+      "ascension"
+    ],
+    "meta": [
+      "profit",
+      "properties",
+      "kramco",
+      "sausage-o-matic",
+      "generate",
+      "iotmkramco",
+      "omatic",
+      "sausage",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: kramco",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=kramco",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: kramco",
+      "url": "https://wiki.kolmafia.us/index.php?search=kramco",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sausage-o-matic",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sausage+o+matic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sausage-o-matic",
+      "url": "https://wiki.kolmafia.us/index.php?search=sausage+o+matic",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMKramcoSausageOMaticGenerateResource",
+    "IOTMKramcoSausageOMaticGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

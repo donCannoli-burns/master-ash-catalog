@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-machine-elves-ash",
+  "title": "machine elves",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/machine elves.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/machine elves.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "03dfc1e81305e33756448adf472cd910a68462b7a41d8d40a3a3203c39c1d02f",
+  "bytes": 1654,
+  "author": "value.historical_price",
+  "player": "value.historical_price",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "consumption",
+      "mall",
+      "pvp"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "iotm",
+      "modifier",
+      "profit",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "effects",
+      "inventory",
+      "machine",
+      "quests",
+      "elves",
+      "elfable",
+      "is",
+      "item_is_pvp_stealable",
+      "main",
+      "to_effect",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: machine",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=machine",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: machine",
+      "url": "https://wiki.kolmafia.us/index.php?search=machine",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: elves",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=elves",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: elves",
+      "url": "https://wiki.kolmafia.us/index.php?search=elves",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "isMachineElfable",
+    "item_is_pvp_stealable",
+    "main",
+    "to_effect"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

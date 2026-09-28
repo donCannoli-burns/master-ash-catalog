@@ -1,0 +1,82 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-zapwand-ash",
+  "title": "zapwand",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/zapwand.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/zapwand.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "14c1d5a1f66bc0b53dd0b9fce62cc1a25daa27b6d9c445900a4b9f33410a9249",
+  "bytes": 2195,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "combat",
+      "effects",
+      "iotm",
+      "outfit"
+    ],
+    "meta": [
+      "string",
+      "adventuring",
+      "equipment",
+      "inventory",
+      "properties",
+      "zapwand",
+      "adventure",
+      "sneaky",
+      "do",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: zapwand",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=zapwand",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: zapwand",
+      "url": "https://wiki.kolmafia.us/index.php?search=zapwand",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "doSneakyAdventure",
+    "main",
+    "sneakyAdventure"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

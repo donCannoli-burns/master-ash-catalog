@@ -1,0 +1,148 @@
+{
+  "id": "ezandora-genie-release-scripts-genie-ash",
+  "title": "genie",
+  "archive_path": "archive/ezandora/genie/Release/scripts/genie.ash",
+  "source_id": "ezandora-owner--genie",
+  "source_url": "https://github.com/Ezandora/Genie",
+  "repository_url": "https://github.com/Ezandora/Genie",
+  "repository_path": "Release/scripts/genie.ash",
+  "commit": "1120c3b298911103b992f8fddb60a1dc0096da1b",
+  "sha256": "2ec74dc69b58af214b153015beaed78d4a83545738e0ccc9c16bb8507076e194",
+  "bytes": 43306,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/genie/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Genie/blob/1120c3b298911103b992f8fddb60a1dc0096da1b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "list",
+      "familiar"
+    ],
+    "sub": [
+      "iotm",
+      "value",
+      "string",
+      "ascension",
+      "automation",
+      "math"
+    ],
+    "meta": [
+      "vec2i",
+      "adventuring",
+      "combat",
+      "effects",
+      "equipment",
+      "for",
+      "in",
+      "properties",
+      "skills",
+      "first",
+      "genie",
+      "object"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: genie",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=genie",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: genie",
+      "url": "https://wiki.kolmafia.us/index.php?search=genie",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "purchasing:retrieve_item",
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "ErrorSet",
+    "TriangularDistributionCalculateCDF",
+    "Vec2fAverage",
+    "Vec2fDescription",
+    "Vec2fValueInRange",
+    "Vec2iDescription",
+    "Vec2iEquals",
+    "Vec2iIntersectsWithVec2i",
+    "Vec2iValueInInterval",
+    "Vec2iValueInRange",
+    "abs",
+    "averagef",
+    "capitaliseFirstLetter",
+    "ceiling",
+    "clampNormalf",
+    "clampNormali",
+    "clampf",
+    "clampi",
+    "copyBuffer",
+    "fabs",
+    "floor",
+    "floorForOutput",
+    "format_intraday_time_to_string",
+    "format_today_to_string",
+    "get_property_ascension",
+    "get_property_boolean",
+    "get_property_element",
+    "get_property_float",
+    "get_property_int",
+    "get_property_item",
+    "get_property_location",
+    "get_property_monster",
+    "int_to_wordy",
+    "listAppend",
+    "listAppendList",
+    "listClear",
+    "listContainsValue",
+    "listFirstObject",
+    "listGetRandomObject",
+    "listJoinComponents",
+    "listKeyForIndex",
+    "listKeysMeetStrictRequirements",
+    "listLastObject",
+    "listPrepend",
+    "listRemoveKeys",
+    "listSum",
+    "llistKeyForIndex",
+    "main",
+    "mapsAreEqual",
+    "numberIsInRangeInclusive",
+    "pluralise",
+    "pluraliseWordy",
+    "pow2f",
+    "pow2i",
+    "powf",
+    "powi",
+    "random_safe",
+    "randomf",
+    "removeFirstWord",
+    "round",
+    "roundForOutput",
+    "slot_to_plural_string",
+    "slot_to_string",
+    "sqrt",
+    "stringHasPrefix",
+    "stringHasSuffix",
+    "to_buffer",
+    "to_int_silent"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

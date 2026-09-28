@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-guzzlr-ash",
+  "title": "Guzzlr",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Guzzlr.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Guzzlr.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "400a98d18aaf785e93a5c789d9596b58dd573162f60c29701a2268fe5a24d275",
+  "bytes": 3646,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "relay",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "familiar",
+      "mall",
+      "tracking",
+      "adventuring",
+      "automation"
+    ],
+    "meta": [
+      "combat",
+      "effects",
+      "iotm",
+      "string",
+      "value",
+      "consumption",
+      "profit",
+      "properties",
+      "quests",
+      "guzzlr",
+      "main",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: guzzlr",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=guzzlr",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: guzzlr",
+      "url": "https://wiki.kolmafia.us/index.php?search=guzzlr",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "purchasing:retrieve_item",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

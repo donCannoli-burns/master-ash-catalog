@@ -1,0 +1,88 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-8-bit-realm-ash",
+  "title": "8-bit Realm",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/8-bit Realm.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/8-bit Realm.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "72a0b9a6e615c2c29ababe960fbd8bbd1f6c9d198fc4a26a88c80959aecdddf8",
+  "bytes": 8907,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 2015,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "choice",
+      "combat"
+    ],
+    "sub": [
+      "familiar",
+      "inventory",
+      "relay",
+      "automation",
+      "crafting",
+      "equipment"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "string",
+      "realm",
+      "adventuring",
+      "mall",
+      "properties",
+      "quests",
+      "bit",
+      "generate",
+      "s8bit",
+      "resource"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bit",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bit",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bit",
+      "url": "https://wiki.kolmafia.us/index.php?search=bit",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: realm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=realm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: realm",
+      "url": "https://wiki.kolmafia.us/index.php?search=realm",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "S8bitRealmGenerateResource",
+    "S8bitRealmGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

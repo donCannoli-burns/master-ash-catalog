@@ -1,0 +1,83 @@
+{
+  "id": "c2talon-c2t-apron-kolmafia-relay-relay-c2t-apron-ash",
+  "title": "relay_c2t_apron",
+  "archive_path": "archive/c2talon/c2t-apron/kolmafia/relay/relay_c2t_apron.ash",
+  "source_id": "c2talon-owner--c2t_apron",
+  "source_url": "https://github.com/C2Talon/c2t_apron",
+  "repository_url": "https://github.com/C2Talon/c2t_apron",
+  "repository_path": "kolmafia/relay/relay_c2t_apron.ash",
+  "commit": "819cb85d55e1846d710a86320d85fafbd371b6c2",
+  "sha256": "528157b65f3bff82881e423ff604bc7112ed5f41c74f447c09524c6e8addec1c",
+  "bytes": 3385,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-apron/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_apron/blob/819cb85d55e1846d710a86320d85fafbd371b6c2/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "properties",
+      "string"
+    ],
+    "sub": [
+      "value",
+      "relay_c2t_apron",
+      "c2t_apron_relay_fail",
+      "c2t_apron_relay_form",
+      "c2t_apron_relay_multi",
+      "c2t_apron_relay_text"
+    ],
+    "meta": [
+      "main",
+      "select",
+      "success",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: relay_c2t_apron",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=relay_c2t_apron",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: relay_c2t_apron",
+      "url": "https://wiki.kolmafia.us/index.php?search=relay_c2t_apron",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "likely"
+  },
+  "functions": [
+    "c2t_apron_relay_failSuccess",
+    "c2t_apron_relay_form",
+    "c2t_apron_relay_multiSelect",
+    "c2t_apron_relay_text",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

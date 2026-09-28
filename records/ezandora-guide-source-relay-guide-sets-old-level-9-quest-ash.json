@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-old-level-9-quest-ash",
+  "title": "Old Level 9 quest",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Old Level 9 quest.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Old Level 9 quest.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3a05ec727924bc03cc1e2c09fe5a60f1e338b5318f97fcc15a176b41960eb2cb",
+  "bytes": 2510,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "adventuring",
+      "tracking",
+      "level"
+    ],
+    "meta": [
+      "old",
+      "quest",
+      "level9generate",
+      "sold",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: old",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=old",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: old",
+      "url": "https://wiki.kolmafia.us/index.php?search=old",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: quest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quest",
+      "url": "https://wiki.kolmafia.us/index.php?search=quest",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SOldLevel9GenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

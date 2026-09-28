@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-tea-tree-ash",
+  "title": "Tea Tree",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Tea Tree.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Tea Tree.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "d1fad74c8517aed574675ebf745aabd5613c955ef3a377c3a91f505fea311193",
+  "bytes": 7176,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "consumption",
+      "familiar",
+      "inventory"
+    ],
+    "sub": [
+      "mall",
+      "pvp",
+      "relay",
+      "automation",
+      "combat",
+      "crafting"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "string",
+      "tree",
+      "ascension",
+      "effects",
+      "profit",
+      "properties",
+      "quests",
+      "tea",
+      "generate",
+      "initialise"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: tea",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tea",
+      "url": "https://wiki.kolmafia.us/index.php?search=tea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: tree",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tree",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tree",
+      "url": "https://wiki.kolmafia.us/index.php?search=tree",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMTeaTreeGenerateResource",
+    "initialiseTeaTreeTeas"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

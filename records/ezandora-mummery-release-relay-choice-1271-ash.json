@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-mummery-release-relay-choice-1271-ash",
+  "title": "choice.1271",
+  "archive_path": "archive/ezandora/mummery/Release/relay/choice.1271.ash",
+  "source_id": "ezandora-owner--mummery",
+  "source_url": "https://github.com/Ezandora/Mummery",
+  "repository_url": "https://github.com/Ezandora/Mummery",
+  "repository_path": "Release/relay/choice.1271.ash",
+  "commit": "ff212f950f01e985f8f8a4e0ca8f27fd191eeef0",
+  "sha256": "70a7cdc422e3d2943c1bf1ae5143282ce3c9119d7449810ba2f25bee7b8a50b0",
+  "bytes": 11668,
+  "author": "Z-Rex",
+  "player": "Z-Rex",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/mummery/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Mummery/blob/ff212f950f01e985f8f8a4e0ca8f27fd191eeef0/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "combat"
+    ],
+    "sub": [
+      "familiar",
+      "mall",
+      "automation",
+      "iotm",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "profit",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

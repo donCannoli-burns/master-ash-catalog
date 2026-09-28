@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-day-1-eat-ash",
+  "title": "Day 1 Eat",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Day 1 Eat.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Day 1 Eat.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "c6e9a11ecc957775c0d2ecbf939d61372f7bd33015dcb77ef6b26ccd2d485a48",
+  "bytes": 1945,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "provenance_url": "http://www.houeland.com/kol/diets?customvalue=4600\u0026custompvpvalue=0\u0026nightcap=no\u0026itemsavailable=tuxedo\u0026semirares=0\u0026ismonday=no\u0026foodspace=16\u0026boozespace=15\u0026spleenspace=15",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "pvp",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "consumption",
+      "diet",
+      "iotm",
+      "value"
+    ],
+    "meta": [
+      "effects",
+      "properties",
+      "day",
+      "eat",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: day",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: day",
+      "url": "https://wiki.kolmafia.us/index.php?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: eat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=eat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: eat",
+      "url": "https://wiki.kolmafia.us/index.php?search=eat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

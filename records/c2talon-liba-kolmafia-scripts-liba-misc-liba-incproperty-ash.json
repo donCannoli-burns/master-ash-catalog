@@ -1,0 +1,89 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-misc-liba-incproperty-ash",
+  "title": "liba_incProperty",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/misc/liba_incProperty.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/misc/liba_incProperty.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "55d1f78e05a2ead9c40b52b68fa7a2b207043fe3b252fd10c739e3339cd649e0",
+  "bytes": 636,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "properties",
+      "string",
+      "value"
+    ],
+    "sub": [
+      "liba_inc",
+      "property",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_inc",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_inc",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_inc",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_inc",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: property",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=property",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: property",
+      "url": "https://wiki.kolmafia.us/index.php?search=property",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "unlikely"
+  },
+  "functions": [
+    "liba_incProperty"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "c2talon-c2t-kol-scripts-kolmafia-scripts-c2t-c2t-cartographyhunt-ash",
+  "title": "c2t_cartographyHunt",
+  "archive_path": "archive/c2talon/c2t-kol-scripts/kolmafia/scripts/c2t/c2t_cartographyHunt.ash",
+  "source_id": "c2talon-owner--c2t_kol_scripts",
+  "source_url": "https://github.com/C2Talon/c2t_kol_scripts",
+  "repository_url": "https://github.com/C2Talon/c2t_kol_scripts",
+  "repository_path": "kolmafia/scripts/c2t/c2t_cartographyHunt.ash",
+  "commit": "1361354f6713e49eef302b6ea230562a8380d635",
+  "sha256": "72e7af6068f6680777e30249619dead487b88f6dc6371b758e64efa29e2a8876",
+  "bytes": 2022,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-kol-scripts/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_kol_scripts/blob/1361354f6713e49eef302b6ea230562a8380d635/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "combat",
+      "skills"
+    ],
+    "sub": [
+      "value",
+      "adventuring",
+      "c2t_cartography",
+      "hunt",
+      "properties",
+      "relay"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_cartography",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_cartography",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_cartography",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_cartography",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hunt",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hunt",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hunt",
+      "url": "https://wiki.kolmafia.us/index.php?search=hunt",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unlikely"
+  },
+  "functions": [
+    "c2t_cartographyHunt"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

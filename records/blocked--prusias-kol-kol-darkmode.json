@@ -1,0 +1,10 @@
+{
+  "commit": "62b6ff10480824d91058ee81be72ba16e7c1d998",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/Prusias-kol/kol-darkmode",
+  "source_id": "prusias-darkmode",
+  "status": "metadata-only; bytes not redistributed"
+}

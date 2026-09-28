@@ -1,0 +1,104 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-paths-import-ash",
+  "title": "Paths import",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Paths import.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Paths import.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "5c7405ba8d1b5d7589de9ee66092d9f8a018bd0efcd6534ee44a741179c3eaa9",
+  "bytes": 915,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "import",
+      "paths",
+      "relay / IOTM / automation",
+      "scripting",
+      "utility"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: paths",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=paths",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: paths",
+      "url": "https://wiki.kolmafia.us/index.php?search=paths",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: import",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=import",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: import",
+      "url": "https://wiki.kolmafia.us/index.php?search=import",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "imports": [
+    "relay/Guide/Paths/Actually Ed the Undying.ash",
+    "relay/Guide/Paths/Avatar of Jarlsberg.ash",
+    "relay/Guide/Paths/Avatar of Sneaky Pete.ash",
+    "relay/Guide/Paths/Avatar of West of Loathing.ash",
+    "relay/Guide/Paths/Bad Moon.ash",
+    "relay/Guide/Paths/Bugbear Invasion.ash",
+    "relay/Guide/Paths/Community Service.ash",
+    "relay/Guide/Paths/Explosions.ash",
+    "relay/Guide/Paths/G-Lover.ash",
+    "relay/Guide/Paths/Gelatinous Noob.ash",
+    "relay/Guide/Paths/Heavy Rains.ash",
+    "relay/Guide/Paths/KOLHS.ash",
+    "relay/Guide/Paths/License to Adventure.ash",
+    "relay/Guide/Paths/Low Key.ash",
+    "relay/Guide/Paths/Nuclear Autumn.ash",
+    "relay/Guide/Paths/Quantum of Familiar.ash",
+    "relay/Guide/Paths/The Source.ash",
+    "relay/Guide/Paths/Way of the Surprising Fist.ash",
+    "relay/Guide/Paths/Zombie Slayer.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

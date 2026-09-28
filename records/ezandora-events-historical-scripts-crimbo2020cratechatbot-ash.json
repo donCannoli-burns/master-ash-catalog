@@ -1,0 +1,91 @@
+{
+  "id": "ezandora-events-historical-scripts-crimbo2020cratechatbot-ash",
+  "title": "Crimbo2020CrateChatbot",
+  "archive_path": "archive/ezandora/events/Historical/scripts/Crimbo2020CrateChatbot.ash",
+  "source_id": "ezandora-owner--events",
+  "source_url": "https://github.com/Ezandora/Events",
+  "repository_url": "https://github.com/Ezandora/Events",
+  "repository_path": "Historical/scripts/Crimbo2020CrateChatbot.ash",
+  "commit": "3656bd353ff8474b741ae84a5079d7a95be5a4e5",
+  "sha256": "66e01f64500374fda4328d29d0307d250a438bd504ac42cc78c59baa10a01b0a",
+  "bytes": 1284,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/events/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Events/blob/3656bd353ff8474b741ae84a5079d7a95be5a4e5/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "combat"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "properties",
+      "string",
+      "chatbot",
+      "crimbo2020crate"
+    ],
+    "meta": [
+      "get",
+      "last",
+      "main",
+      "seconds",
+      "since",
+      "started",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: crimbo2020crate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=crimbo2020crate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: crimbo2020crate",
+      "url": "https://wiki.kolmafia.us/index.php?search=crimbo2020crate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: chatbot",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=chatbot",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: chatbot",
+      "url": "https://wiki.kolmafia.us/index.php?search=chatbot",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "getSecondsSinceLastCombatStarted",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

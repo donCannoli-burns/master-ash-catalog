@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-neverending-party-ash",
+  "title": "Neverending Party",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Neverending Party.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Neverending Party.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3271cd9102408a7d2dbdbe18cbc3380e88b7d76682e1ff20cb5bd3222c47ab02",
+  "bytes": 11685,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "character",
+      "equipment",
+      "inventory",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "string",
+      "party",
+      "adventuring",
+      "ascension",
+      "profit",
+      "properties",
+      "tracking",
+      "neverending",
+      "generate",
+      "iotmneverending",
+      "resource",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: neverending",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=neverending",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: neverending",
+      "url": "https://wiki.kolmafia.us/index.php?search=neverending",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: party",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=party",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: party",
+      "url": "https://wiki.kolmafia.us/index.php?search=party",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMNeverendingPartyGenerate",
+    "IOTMNeverendingPartyGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-guide-source-relay-guide-limit-mode-spelunking-ash",
+  "title": "Spelunking",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Limit Mode/Spelunking.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Limit Mode/Spelunking.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "fb7ab2c0e5afee4c2dbc68c38c33ac940181d634ed7e62a454653ca3d715d239",
+  "bytes": 45944,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "provenance_url": "http://forums.kingdomofloathing.com/vb/showthread.php?p=4721915#post4721915",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "combat",
+      "iotm",
+      "string",
+      "spelunking",
+      "adventuring",
+      "inventory"
+    ],
+    "meta": [
+      "mall",
+      "properties",
+      "generate",
+      "checklists",
+      "entries",
+      "limit",
+      "location",
+      "lookup",
+      "mode",
+      "name",
+      "ncinformation",
+      "status"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spelunking",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spelunking",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spelunking",
+      "url": "https://wiki.kolmafia.us/index.php?search=spelunking",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "LimitModeSpelunkingGenerateChecklists",
+    "SpelunkingGenerateEquipmentEntries",
+    "SpelunkingGenerateNCInformation",
+    "SpelunkingLookupLocationStatusName"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

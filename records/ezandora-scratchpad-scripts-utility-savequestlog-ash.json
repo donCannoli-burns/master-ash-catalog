@@ -1,0 +1,101 @@
+{
+  "id": "ezandora-scratchpad-scripts-utility-savequestlog-ash",
+  "title": "SaveQuestLog",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Utility/SaveQuestLog.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Utility/SaveQuestLog.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "23afdb39fd20a1768fab019c0365c016dc710e51c9d039d52ed91ecd843bd423",
+  "bytes": 1492,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "ascension",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "properties",
+      "quests",
+      "string",
+      "tracking",
+      "log"
+    ],
+    "meta": [
+      "quest",
+      "save",
+      "main",
+      "shrink",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: save",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=save",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: save",
+      "url": "https://wiki.kolmafia.us/index.php?search=save",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: quest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quest",
+      "url": "https://wiki.kolmafia.us/index.php?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: log",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=log",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: log",
+      "url": "https://wiki.kolmafia.us/index.php?search=log",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "shrinkQuestLog"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

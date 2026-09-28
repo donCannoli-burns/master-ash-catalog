@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-grimstone-ash",
+  "title": "Grimstone",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Grimstone.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Grimstone.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "20985f7fe204ce46026f67e3f6b012e9d56f1a62b7357b53b3ef84211659978c",
+  "bytes": 16655,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "mall",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "iotm",
+      "modifier",
+      "string",
+      "generate"
+    ],
+    "meta": [
+      "iotmgrimstone",
+      "tasks",
+      "adventuring",
+      "combat",
+      "properties",
+      "skills",
+      "grimstone",
+      "gnome",
+      "hare",
+      "stepmother",
+      "witch",
+      "wolf"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: grimstone",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=grimstone",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: grimstone",
+      "url": "https://wiki.kolmafia.us/index.php?search=grimstone",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMGrimstoneGenerateTasks",
+    "IOTMGrimstoneGnomeGenerateTasks",
+    "IOTMGrimstoneHareGenerateTasks",
+    "IOTMGrimstoneStepmotherGenerateTasks",
+    "IOTMGrimstoneWitchGenerateTasks",
+    "IOTMGrimstoneWolfGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-asdon-martin-gui-release-relay-campground-workshed-9508-ash",
+  "title": "campground.workshed.9508",
+  "archive_path": "archive/ezandora/asdon-martin-gui/Release/relay/campground.workshed.9508.ash",
+  "source_id": "ezandora-owner--asdon-martin-gui",
+  "source_url": "https://github.com/Ezandora/Asdon-Martin-GUI",
+  "repository_url": "https://github.com/Ezandora/Asdon-Martin-GUI",
+  "repository_path": "Release/relay/campground.workshed.9508.ash",
+  "commit": "14a0eb623230553b7792e577a6182afda928dc84",
+  "sha256": "ca4c960db615586318d58d9ea5db64f3b0a22d81ad7e389c05255dd138448d5b",
+  "bytes": 167,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/asdon-martin-gui/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Asdon-Martin-GUI/blob/14a0eb623230553b7792e577a6182afda928dc84/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "quests",
+      "campground",
+      "workshed",
+      "main",
+      "relay / IOTM / automation",
+      "scripting"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: campground",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=campground",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: campground",
+      "url": "https://wiki.kolmafia.us/index.php?search=campground",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: workshed",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=workshed",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: workshed",
+      "url": "https://wiki.kolmafia.us/index.php?search=workshed",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/AsdonMartinGUI.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-strings-ash",
+  "title": "Strings",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Strings.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Strings.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "5c4ee8f9bc39f57c914ae1969a866ea11ce7f372d4e69a90282a0472b0eb2bd5",
+  "bytes": 6539,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "properties",
+      "string"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "effects",
+      "iotm",
+      "math",
+      "value"
+    ],
+    "meta": [
+      "adventuring",
+      "combat",
+      "equipment",
+      "inventory",
+      "strings",
+      "has",
+      "pluralise",
+      "buffer",
+      "capitalise",
+      "copy",
+      "first",
+      "format_intraday_time_to_string"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: strings",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=strings",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: strings",
+      "url": "https://wiki.kolmafia.us/index.php?search=strings",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "capitaliseFirstLetter",
+    "copyBuffer",
+    "format_intraday_time_to_string",
+    "format_today_to_string",
+    "get_property_ascension",
+    "get_property_boolean",
+    "get_property_element",
+    "get_property_float",
+    "get_property_int",
+    "get_property_item",
+    "get_property_location",
+    "get_property_monster",
+    "int_to_wordy",
+    "pluralise",
+    "pluraliseWordy",
+    "slot_to_plural_string",
+    "slot_to_string",
+    "stringHasPrefix",
+    "stringHasSuffix",
+    "to_buffer"
+  ],
+  "imports": [
+    "relay/Guide/Support/List.ash",
+    "relay/Guide/Support/Math.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

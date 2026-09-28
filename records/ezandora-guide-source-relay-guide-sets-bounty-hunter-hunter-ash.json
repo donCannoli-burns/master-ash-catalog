@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-bounty-hunter-hunter-ash",
+  "title": "Bounty Hunter Hunter",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Bounty Hunter Hunter.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Bounty Hunter Hunter.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "8f6f6c951a477cdf41c98ebb34ac0521b6e001e7c53d0675194dbe413f3c1aa1",
+  "bytes": 10384,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "properties",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "iotm",
+      "modifier",
+      "string",
+      "update"
+    ],
+    "meta": [
+      "value",
+      "adventuring",
+      "hunter",
+      "profit",
+      "bounty",
+      "generate",
+      "sbounty",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bounty",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bounty",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bounty",
+      "url": "https://wiki.kolmafia.us/index.php?search=bounty",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hunter",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hunter",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hunter",
+      "url": "https://wiki.kolmafia.us/index.php?search=hunter",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SBountyHunterHunterGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

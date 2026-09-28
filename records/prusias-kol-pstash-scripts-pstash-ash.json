@@ -1,0 +1,106 @@
+{
+  "id": "prusias-kol-pstash-scripts-pstash-ash",
+  "title": "pStash",
+  "archive_path": "archive/prusias-kol/pstash/scripts/pStash.ash",
+  "source_id": "prusias-pstash",
+  "source_url": "https://github.com/Prusias-kol/pStash",
+  "repository_url": "https://github.com/Prusias-kol/pStash",
+  "repository_path": "scripts/pStash.ash",
+  "commit": "13056599984749d2efe9174554ff4177d9b90ba2",
+  "sha256": "fa0a0fd3b1a173cc8c1493774932bd3635a7cfd11b1a0629b2a76dbafa3df911",
+  "bytes": 16188,
+  "author": "user.",
+  "player": "user.",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/prusias-kol/pstash/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Prusias-kol/pStash/blob/13056599984749d2efe9174554ff4177d9b90ba2/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "clan",
+      "stash",
+      "cli"
+    ],
+    "sub": [
+      "update",
+      "iotm",
+      "properties",
+      "string",
+      "tracking",
+      "value"
+    ],
+    "meta": [
+      "profit",
+      "relay",
+      "verify",
+      "csv",
+      "helper",
+      "init",
+      "item",
+      "list",
+      "map",
+      "return",
+      "activity",
+      "amount"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: stash",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=stash",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: stash",
+      "url": "https://wiki.kolmafia.us/index.php?search=stash",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "checkForUpdate",
+    "csvEscape",
+    "exportStashActivityLogCsv",
+    "goldHTMLprint",
+    "helperReturnItem",
+    "helperVerifyMap",
+    "in_stash",
+    "init",
+    "listIterateMap",
+    "listStash",
+    "main",
+    "printHelp",
+    "returnToStash",
+    "totalItemAmount",
+    "verifyInit",
+    "verifyStash",
+    "who_took"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

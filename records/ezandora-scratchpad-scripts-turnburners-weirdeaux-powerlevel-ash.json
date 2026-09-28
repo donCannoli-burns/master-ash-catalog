@@ -1,0 +1,93 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-weirdeaux-powerlevel-ash",
+  "title": "Weirdeaux Powerlevel",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Weirdeaux Powerlevel.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Weirdeaux Powerlevel.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "3c458ed14679817eb01648ddcbef5fee51c1e9a3dbfda3fdb53250c342762f48",
+  "bytes": 452,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "adventuring",
+      "automation",
+      "effects",
+      "iotm",
+      "outfit",
+      "equipment"
+    ],
+    "meta": [
+      "powerlevel",
+      "weirdeaux",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: weirdeaux",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=weirdeaux",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: weirdeaux",
+      "url": "https://wiki.kolmafia.us/index.php?search=weirdeaux",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: powerlevel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=powerlevel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: powerlevel",
+      "url": "https://wiki.kolmafia.us/index.php?search=powerlevel",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "scripts/Library/PrecheckSemirare.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

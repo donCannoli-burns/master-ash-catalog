@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-ash",
+  "title": "Quests",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "eb76473183a8dfd1f29b28ae5a94dfaf9f9cf6ecbc49465f3fe51f7b25cfb80e",
+  "bytes": 3449,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "quests",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "adventuring",
+      "profit",
+      "generate",
+      "init",
+      "resources"
+    ],
+    "meta": [
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: quests",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quests",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quests",
+      "url": "https://wiki.kolmafia.us/index.php?search=quests",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QuestsGenerateResources",
+    "QuestsGenerateTasks",
+    "QuestsInit"
+  ],
+  "imports": [
+    "relay/Guide/Quests/Quest import.ash",
+    "relay/Guide/Support/Checklist.ash",
+    "relay/Guide/Support/LocationAvailable.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

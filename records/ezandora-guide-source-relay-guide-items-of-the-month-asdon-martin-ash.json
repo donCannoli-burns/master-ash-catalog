@@ -1,0 +1,91 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-asdon-martin-ash",
+  "title": "Asdon Martin",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Asdon Martin.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Asdon Martin.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "36a1d188cefffe36664c7c990937286e3fb90e7c943f33c9cba10bf02c399773",
+  "bytes": 7856,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "consumption",
+      "familiar",
+      "iotm"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "cli",
+      "modifier",
+      "string",
+      "martin"
+    ],
+    "meta": [
+      "ascension",
+      "inventory",
+      "properties",
+      "skills",
+      "asdon",
+      "generate",
+      "iotmasdon",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: asdon",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=asdon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: asdon",
+      "url": "https://wiki.kolmafia.us/index.php?search=asdon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: martin",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=martin",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: martin",
+      "url": "https://wiki.kolmafia.us/index.php?search=martin",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMAsdonMartinGenerateResource",
+    "IOTMAsdonMartinGenerateTasks"
+  ],
+  "imports": [
+    "relay/Guide/Support/Ingredients.ash",
+    "relay/Guide/Support/Library 2.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

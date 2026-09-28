@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-garbage-tote-ash",
+  "title": "Garbage Tote",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Garbage Tote.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Garbage Tote.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "42b1638a52b884aa9c39696044493a317faaabc30f6e8c17f9a1399bf15afb16",
+  "bytes": 3397,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "equipment"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "effects",
+      "inventory",
+      "profit",
+      "properties"
+    ],
+    "meta": [
+      "tote",
+      "garbage",
+      "generate",
+      "iotmgarbage",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: garbage",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=garbage",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: garbage",
+      "url": "https://wiki.kolmafia.us/index.php?search=garbage",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: tote",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tote",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tote",
+      "url": "https://wiki.kolmafia.us/index.php?search=tote",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMGarbageToteGenerate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

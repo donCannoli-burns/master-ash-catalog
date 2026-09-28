@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-upgrade-marbles-ash",
+  "title": "upgrade marbles",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/upgrade marbles.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/upgrade marbles.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "5663cd92bf70494b83d392898d9810e31e57c418545df0b16611842f26f8cea6",
+  "bytes": 826,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "inventory",
+      "marbles",
+      "upgrade",
+      "main",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: upgrade",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=upgrade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: upgrade",
+      "url": "https://wiki.kolmafia.us/index.php?search=upgrade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: marbles",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=marbles",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: marbles",
+      "url": "https://wiki.kolmafia.us/index.php?search=marbles",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

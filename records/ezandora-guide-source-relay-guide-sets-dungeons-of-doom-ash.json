@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-dungeons-of-doom-ash",
+  "title": "Dungeons of Doom",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Dungeons of Doom.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Dungeons of Doom.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "000868fef3c4c66bf17fcb00812a411d6f49c2ed10f3830ec853a4035b60e26a",
+  "bytes": 2784,
+  "author": "the oracle",
+  "player": "the oracle",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "adventuring",
+      "combat",
+      "inventory"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "ascension",
+      "automation",
+      "consult",
+      "effects"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "string",
+      "consumption",
+      "doom",
+      "of",
+      "profit",
+      "properties",
+      "dungeons",
+      "generate",
+      "sdungeons",
+      "tasks"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: dungeons",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=dungeons",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: dungeons",
+      "url": "https://wiki.kolmafia.us/index.php?search=dungeons",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: doom",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=doom",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: doom",
+      "url": "https://wiki.kolmafia.us/index.php?search=doom",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SDungeonsOfDoomGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

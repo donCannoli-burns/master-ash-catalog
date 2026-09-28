@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-all-quests-ash",
+  "title": "All Quests",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/All Quests.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/All Quests.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6b48e4e74a554e62725a11ebe2d4a47553cd182c5aae9aeb05cba306aae1dae5",
+  "bytes": 2871,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "quests",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "consumption",
+      "iotm",
+      "string",
+      "all"
+    ],
+    "meta": [
+      "inventory",
+      "profit",
+      "properties",
+      "count",
+      "do",
+      "done",
+      "insure",
+      "main",
+      "quest",
+      "script",
+      "tattered",
+      "with"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: all",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=all",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: all",
+      "url": "https://wiki.kolmafia.us/index.php?search=all",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: quests",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quests",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quests",
+      "url": "https://wiki.kolmafia.us/index.php?search=quests",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "doQuestScript",
+    "doneWithAllQuests",
+    "insureTatteredCount",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

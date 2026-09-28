@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-consult-ash",
+  "title": "Consult",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/Consult.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/Consult.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "ecb597efeade0669ac2188f612caa0d9179fcc1e609d40ff20cc6017d1759edd",
+  "bytes": 2149,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "clan",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "consult",
+      "automation",
+      "iotm",
+      "string",
+      "combat"
+    ],
+    "meta": [
+      "properties",
+      "get_clan_id_safe",
+      "main",
+      "switch",
+      "to",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: consult",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=consult",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: consult",
+      "url": "https://wiki.kolmafia.us/index.php?search=consult",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "consult",
+    "get_clan_id_safe",
+    "main",
+    "switchToClan"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

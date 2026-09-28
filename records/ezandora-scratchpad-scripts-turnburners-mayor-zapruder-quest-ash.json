@@ -1,0 +1,103 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-mayor-zapruder-quest-ash",
+  "title": "Mayor Zapruder Quest",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Mayor Zapruder Quest.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Mayor Zapruder Quest.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a159314c652ddfba061fb37fcc7e5edf08e15fc034d4ea74f1b0050ebe31ee5d",
+  "bytes": 2659,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "cli",
+      "combat"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "adventuring",
+      "automation",
+      "inventory",
+      "iotm"
+    ],
+    "meta": [
+      "string",
+      "consumption",
+      "properties",
+      "quests",
+      "mayor",
+      "quest",
+      "zapruder",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: mayor",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=mayor",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: mayor",
+      "url": "https://wiki.kolmafia.us/index.php?search=mayor",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: zapruder",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=zapruder",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: zapruder",
+      "url": "https://wiki.kolmafia.us/index.php?search=zapruder",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: quest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quest",
+      "url": "https://wiki.kolmafia.us/index.php?search=quest",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "scripts/Helix Fossil/Helix Fossil Interface.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

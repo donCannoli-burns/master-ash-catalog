@@ -1,0 +1,97 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-avatar-of-west-of-loathing-ash",
+  "title": "Avatar of West of Loathing",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Avatar of West of Loathing.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Avatar of West of Loathing.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "30654f8fbbd9109ee2f05f1ae7099da64ecac690c49779bcb78fccb5e7600c78",
+  "bytes": 9324,
+  "author": "subentries_sort_value",
+  "player": "subentries_sort_value",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "combat",
+      "inventory"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "effects",
+      "iotm",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "avatar",
+      "loathing",
+      "of",
+      "west",
+      "ascension",
+      "profit",
+      "properties",
+      "generate",
+      "path",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: avatar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=avatar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: avatar",
+      "url": "https://wiki.kolmafia.us/index.php?search=avatar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: west",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=west",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: west",
+      "url": "https://wiki.kolmafia.us/index.php?search=west",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: loathing",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=loathing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: loathing",
+      "url": "https://wiki.kolmafia.us/index.php?search=loathing",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathAvatarOfWestOfLoathingGenerateResource",
+    "PathAvatarOfWestOfLoathingGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2017-liba-genie-ash",
+  "title": "liba_genie",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2017/liba_genie.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2017/liba_genie.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "695297dd8169168134171c328a090cb5248c438e1e29a3b89cc52ce2c196f7a7",
+  "bytes": 2206,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "choice",
+      "cli"
+    ],
+    "sub": [
+      "effects",
+      "string",
+      "inventory",
+      "iotm",
+      "liba_genie",
+      "properties"
+    ],
+    "meta": [
+      "liba_genie_enter",
+      "liba_genie_have",
+      "liba_genie_item",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_genie",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_genie",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_genie",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_genie",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unlikely"
+  },
+  "functions": [
+    "liba_genie",
+    "liba_genie_enter",
+    "liba_genie_have",
+    "liba_genie_item"
+  ],
+  "imports": [
+    "liba_inChoice.ash",
+    "liba_rawUse.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

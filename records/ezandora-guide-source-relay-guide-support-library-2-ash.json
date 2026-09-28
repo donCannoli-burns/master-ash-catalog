@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-library-2-ash",
+  "title": "Library 2",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Library 2.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Library 2.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3451c3eebefde35c080d3c46de0a57075e6037c8e67588d3d6cdf2842f8f441f",
+  "bytes": 19383,
+  "author": "value.averageAdventuresForConsumable",
+  "player": "value.averageAdventuresForConsumable",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "familiar",
+      "iotm"
+    ],
+    "sub": [
+      "pvp",
+      "quests",
+      "relay",
+      "automation",
+      "combat",
+      "crafting"
+    ],
+    "meta": [
+      "effects",
+      "modifier",
+      "outfit",
+      "skills",
+      "string",
+      "value",
+      "adventuring",
+      "consumption",
+      "inventory",
+      "mall",
+      "profit",
+      "properties"
+    ]
+  },
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "CatBurglarChargesLeftToday",
+    "HTMLBoldIfTrue",
+    "HTMLGenerateFutureTextByLocationAvailability",
+    "HTMLGreyOutIfLocationUnavailable",
+    "KramcoCalculateTurnWillAlwaysSeeGoblin",
+    "PathCommunityServiceEstimateTurnsTakenForTask",
+    "asdonMartinFailsFuelableTests",
+    "asdonMartinFailsFuelableTestsPrivate",
+    "can_equip_outfit",
+    "can_equip_replacement",
+    "craftableUsingOnlyActiveNPCStores",
+    "craftableUsingOnlyActiveNPCStoresPrivate"
+  ],
+  "imports": [
+    "relay/Guide/Support/Counter.ash",
+    "relay/Guide/Support/Equipment Requirement.ash",
+    "relay/Guide/Support/HTML.ash",
+    "relay/Guide/Support/Ingredients.ash",
+    "relay/Guide/Support/LocationAvailable.ash",
+    "relay/Guide/Support/Statics 2.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

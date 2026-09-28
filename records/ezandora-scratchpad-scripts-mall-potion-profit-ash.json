@@ -1,0 +1,93 @@
+{
+  "id": "ezandora-scratchpad-scripts-mall-potion-profit-ash",
+  "title": "Potion profit",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Mall/Potion profit.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Mall/Potion profit.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "98bb4b30bf04ae8a7e2a1ecc61dc5e5a769087c2a1d43e8901a50d279abfc67d",
+  "bytes": 3032,
+  "author": "potions_price_delta",
+  "player": "potions_price_delta",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "profit",
+      "mall",
+      "cli"
+    ],
+    "sub": [
+      "relay",
+      "ascension",
+      "automation",
+      "crafting",
+      "iotm",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "consumption",
+      "potion",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: potion",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=potion",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: potion",
+      "url": "https://wiki.kolmafia.us/index.php?search=potion",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: profit",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=profit",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: profit",
+      "url": "https://wiki.kolmafia.us/index.php?search=profit",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "scripts/Destiny Ascension/Destiny Ascension/Support/Library.ash",
+    "scripts/RarelyUseful/Capital.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

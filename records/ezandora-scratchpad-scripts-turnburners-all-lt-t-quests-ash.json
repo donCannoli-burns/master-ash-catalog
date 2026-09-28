@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-all-lt-t-quests-ash",
+  "title": "All LT\u0026T Quests",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/All LT\u0026T Quests.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/All LT\u0026T Quests.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "8d0a7bd4784ae3363ed06bdecaa3f812cac77cb2eebd18e73180f5b581c84169",
+  "bytes": 1215,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "quests",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "automation",
+      "iotm",
+      "value",
+      "consumption",
+      "profit"
+    ],
+    "meta": [
+      "properties",
+      "all",
+      "lt",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: all",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=all",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: all",
+      "url": "https://wiki.kolmafia.us/index.php?search=all",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: quests",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quests",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quests",
+      "url": "https://wiki.kolmafia.us/index.php?search=quests",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

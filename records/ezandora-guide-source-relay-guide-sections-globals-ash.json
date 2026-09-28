@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-globals-ash",
+  "title": "Globals",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Globals.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Globals.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "80d2c37fbf7e75f88c6575532d1dee9aa8a777e4e0a1facec7b8f38c1e2602a3",
+  "bytes": 2389,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "quests",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "register",
+      "generation",
+      "function",
+      "adventuring"
+    ],
+    "meta": [
+      "checklist",
+      "globals",
+      "specific",
+      "append",
+      "function1",
+      "function3",
+      "init",
+      "list",
+      "resource",
+      "task",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: globals",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=globals",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: globals",
+      "url": "https://wiki.kolmafia.us/index.php?search=globals",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "RegisterChecklistGenerationFunction",
+    "RegisterGenerationFunction",
+    "RegisterInitFunction",
+    "RegisterResourceGenerationFunction",
+    "RegisterSpecificChecklistGenerationFunction1",
+    "RegisterSpecificChecklistGenerationFunction3",
+    "RegisterTaskGenerationFunction",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-couchfishing-ash",
+  "title": "CouchFishing",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/CouchFishing.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/CouchFishing.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6a89a61a44fe29780878835908d5887b8eac8f6fa72e29f0b5522e4eca8dd667",
+  "bytes": 4303,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "clan",
+      "cli"
+    ],
+    "sub": [
+      "familiar",
+      "inventory",
+      "adventuring",
+      "automation",
+      "combat",
+      "iotm"
+    ],
+    "meta": [
+      "spading",
+      "string",
+      "consumption",
+      "fishing",
+      "profit",
+      "skills",
+      "couch",
+      "best",
+      "farm",
+      "fish",
+      "main",
+      "parse"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: couch",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=couch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: couch",
+      "url": "https://wiki.kolmafia.us/index.php?search=couch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fishing",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fishing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fishing",
+      "url": "https://wiki.kolmafia.us/index.php?search=fishing",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "parseFishingState",
+    "pickBestFishToFarm"
+  ],
+  "imports": [
+    "relay/Guide/Support/LocationAvailable.ash",
+    "scripts/TurnBurners/NewYou.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

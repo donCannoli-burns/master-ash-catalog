@@ -1,0 +1,76 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-test-directives-2-ash",
+  "title": "test_directives_2",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/test_directives_2.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/test_directives_2.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "1927711fd321a6f927161cc5eb66d48ef659897aca0e6b0d5d7f5b07e04e7574",
+  "bytes": 110,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "test_directives_2",
+      "main",
+      "automation"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: test_directives_2",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=test_directives_2",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: test_directives_2",
+      "url": "https://wiki.kolmafia.us/index.php?search=test_directives_2",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

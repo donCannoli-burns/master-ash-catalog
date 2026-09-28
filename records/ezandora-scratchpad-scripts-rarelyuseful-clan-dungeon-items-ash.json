@@ -1,0 +1,108 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-clan-dungeon-items-ash",
+  "title": "Clan Dungeon Items",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Clan Dungeon Items.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Clan Dungeon Items.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "69e8dcdf11027e1e4f31353a9ea5f922286d791354d002a48dd3260563fd45d9",
+  "bytes": 6417,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "clan",
+      "familiar",
+      "inventory"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "iotm",
+      "skills",
+      "string",
+      "mall"
+    ],
+    "meta": [
+      "dungeon",
+      "items",
+      "append",
+      "item_amount_almost_everywhere",
+      "list",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: clan",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=clan",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: clan",
+      "url": "https://wiki.kolmafia.us/index.php?search=clan",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: dungeon",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=dungeon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: dungeon",
+      "url": "https://wiki.kolmafia.us/index.php?search=dungeon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: items",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=items",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: items",
+      "url": "https://wiki.kolmafia.us/index.php?search=items",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "item_amount_almost_everywhere",
+    "listAppend",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

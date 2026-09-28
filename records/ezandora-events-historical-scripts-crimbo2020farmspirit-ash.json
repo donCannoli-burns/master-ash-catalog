@@ -1,0 +1,101 @@
+{
+  "id": "ezandora-events-historical-scripts-crimbo2020farmspirit-ash",
+  "title": "Crimbo2020FarmSpirit",
+  "archive_path": "archive/ezandora/events/Historical/scripts/Crimbo2020FarmSpirit.ash",
+  "source_id": "ezandora-owner--events",
+  "source_url": "https://github.com/Ezandora/Events",
+  "repository_url": "https://github.com/Ezandora/Events",
+  "repository_path": "Historical/scripts/Crimbo2020FarmSpirit.ash",
+  "commit": "3656bd353ff8474b741ae84a5079d7a95be5a4e5",
+  "sha256": "97bd1307ed2512dbf292011429afba489cf90818804b63f2e3444dc082ddc5af",
+  "bytes": 16831,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/events/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Events/blob/3656bd353ff8474b741ae84a5079d7a95be5a4e5/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "choice",
+      "familiar"
+    ],
+    "sub": [
+      "relay",
+      "cli",
+      "automation",
+      "farming",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "outfit",
+      "spading",
+      "string",
+      "value",
+      "spirit",
+      "inventory",
+      "crimbo2020farm",
+      "current",
+      "for",
+      "get",
+      "largest",
+      "prepare"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: crimbo2020farm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=crimbo2020farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: crimbo2020farm",
+      "url": "https://wiki.kolmafia.us/index.php?search=crimbo2020farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spirit",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spirit",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spirit",
+      "url": "https://wiki.kolmafia.us/index.php?search=spirit",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "RestoreArchivedEquipment",
+    "discoverChoiceIDFromPageText",
+    "getCurrentLargestStat",
+    "getCurrentLargestStatRatio",
+    "mafiaIsPastRevision",
+    "main",
+    "my_active_basestat",
+    "parseArguments",
+    "pickSpirit",
+    "prepareForSpirit",
+    "prepareForSpiritFirst",
+    "runHouses",
+    "run_choice_by_text"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

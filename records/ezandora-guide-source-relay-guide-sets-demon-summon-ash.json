@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-demon-summon-ash",
+  "title": "Demon Summon",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Demon Summon.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Demon Summon.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "8f1922e0bc1160181657b5a38bfeb64e74823ab96376b0c04c9b9f9d13e027ed",
+  "bytes": 3512,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "inventory",
+      "iotm",
+      "string",
+      "value",
+      "ascension"
+    ],
+    "meta": [
+      "profit",
+      "properties",
+      "summon",
+      "demon",
+      "generate",
+      "resource",
+      "sdemon",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: demon",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=demon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: demon",
+      "url": "https://wiki.kolmafia.us/index.php?search=demon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: summon",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=summon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: summon",
+      "url": "https://wiki.kolmafia.us/index.php?search=summon",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SDemonSummonGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

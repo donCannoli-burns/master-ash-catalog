@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-acquire-db-knife-ash",
+  "title": "acquire db knife",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/acquire db knife.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/acquire db knife.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "135d1cc39a45d4f7a898d14b6d8f719c9fcd45ce91a304d18b99971997402593",
+  "bytes": 496,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "skills"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "inventory",
+      "properties",
+      "acquire"
+    ],
+    "meta": [
+      "db",
+      "knife",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: acquire",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=acquire",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: acquire",
+      "url": "https://wiki.kolmafia.us/index.php?search=acquire",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: knife",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=knife",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: knife",
+      "url": "https://wiki.kolmafia.us/index.php?search=knife",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-test-pasta-thralls-ash",
+  "title": "test_pasta_thralls",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/test_pasta_thralls.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/test_pasta_thralls.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "fa81445c1898ad1df975229ea32479f0a1943ae899b34ad3d99ce4df51053306",
+  "bytes": 286,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "test_pasta_thralls",
+      "automation",
+      "ash"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: test_pasta_thralls",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=test_pasta_thralls",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: test_pasta_thralls",
+      "url": "https://wiki.kolmafia.us/index.php?search=test_pasta_thralls",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

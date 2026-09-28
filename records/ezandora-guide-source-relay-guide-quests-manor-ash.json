@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-manor-ash",
+  "title": "Manor",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Manor.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Manor.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "430b8659b0d7adffdabc894541d5905f8f062f33677fde69f72dd873b02dc3d3",
+  "bytes": 28663,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "combat",
+      "iotm",
+      "modifier",
+      "outfit"
+    ],
+    "meta": [
+      "spading",
+      "string",
+      "update",
+      "value",
+      "adventuring",
+      "effects",
+      "equipment",
+      "inventory",
+      "profit",
+      "properties",
+      "manor",
+      "qmanor"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: manor",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=manor",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: manor",
+      "url": "https://wiki.kolmafia.us/index.php?search=manor",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QManorGenerateTasks",
+    "QManorInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

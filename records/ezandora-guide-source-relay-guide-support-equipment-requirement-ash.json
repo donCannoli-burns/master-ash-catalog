@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-equipment-requirement-ash",
+  "title": "Equipment Requirement",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Equipment Requirement.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Equipment Requirement.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "aa6ba45e23452cd92fd65d510e483676893c31770ff46edd80017b8c9a912235",
+  "bytes": 1760,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "requirement",
+      "initialise",
+      "requirements",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: equipment",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=equipment",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: equipment",
+      "url": "https://wiki.kolmafia.us/index.php?search=equipment",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: requirement",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=requirement",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: requirement",
+      "url": "https://wiki.kolmafia.us/index.php?search=requirement",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "initialiseEquipmentRequirements"
+  ],
+  "imports": [
+    "relay/Guide/Support/Library.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

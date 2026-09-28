@@ -1,0 +1,78 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-smithsness-ash",
+  "title": "Smithsness",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Smithsness.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Smithsness.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "82084f3675bc54b3d94eee59205e12d9a420cde22bd1fa52d4c8590339e82468",
+  "bytes": 6651,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "familiar",
+      "inventory"
+    ],
+    "sub": [
+      "pvp",
+      "relay",
+      "automation",
+      "effects",
+      "iotm",
+      "string"
+    ],
+    "meta": [
+      "smithsness",
+      "ascension",
+      "consumption",
+      "profit",
+      "quests",
+      "skills",
+      "generate",
+      "suggestions",
+      "coal",
+      "iotmsmithsness",
+      "resource",
+      "smithereens"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: smithsness",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=smithsness",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: smithsness",
+      "url": "https://wiki.kolmafia.us/index.php?search=smithsness",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMSmithsnessGenerateResource",
+    "smithsnessGenerateCoalSuggestions",
+    "smithsnessGenerateSmithereensSuggestions"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

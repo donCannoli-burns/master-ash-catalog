@@ -1,0 +1,114 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-filllocketwithpocketwishes-ash",
+  "title": "FillLocketWithPocketWishes",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/FillLocketWithPocketWishes.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/FillLocketWithPocketWishes.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "bb112fd53c78c1232d5c74457d51181ebbdd152c789294abdc31e19d58b90c7e",
+  "bytes": 3755,
+  "author": "value.id",
+  "player": "value.id",
+  "year": 1994,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "cli",
+      "iotm"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "equipment",
+      "string",
+      "update",
+      "value"
+    ],
+    "meta": [
+      "inventory",
+      "properties",
+      "fill",
+      "locket",
+      "pocket",
+      "wishes",
+      "with",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fill",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fill",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fill",
+      "url": "https://wiki.kolmafia.us/index.php?search=fill",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: locket",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=locket",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: locket",
+      "url": "https://wiki.kolmafia.us/index.php?search=locket",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: with",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=with",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: with",
+      "url": "https://wiki.kolmafia.us/index.php?search=with",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: pocket",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pocket",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pocket",
+      "url": "https://wiki.kolmafia.us/index.php?search=pocket",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Support/Library.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

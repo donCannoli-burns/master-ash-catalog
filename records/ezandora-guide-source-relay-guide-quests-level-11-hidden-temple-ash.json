@@ -1,0 +1,97 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-11-hidden-temple-ash",
+  "title": "Level 11 - Hidden Temple",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 11 - Hidden Temple.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 11 - Hidden Temple.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "8373bf46819e5d5150be3d321775e48844cb3818d61a4d6f0212a574889ae9fc",
+  "bytes": 5580,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "combat",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "character",
+      "inventory",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "string",
+      "value",
+      "temple",
+      "adventuring",
+      "consumption",
+      "effects",
+      "profit",
+      "properties",
+      "hidden",
+      "level",
+      "qlevel11hidden",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hidden",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hidden",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hidden",
+      "url": "https://wiki.kolmafia.us/index.php?search=hidden",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: temple",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=temple",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: temple",
+      "url": "https://wiki.kolmafia.us/index.php?search=temple",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel11HiddenTempleGenerateTasks",
+    "QLevel11HiddenTempleInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

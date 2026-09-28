@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-psychoanalytic-ash",
+  "title": "Psychoanalytic",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Psychoanalytic.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Psychoanalytic.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "98353afb998fa36a65c9c14d3c5028e61b4229002c0790baa217a6117c704c72",
+  "bytes": 27240,
+  "author": "card",
+  "player": "card",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "generate",
+      "iotm",
+      "modifier",
+      "spading"
+    ],
+    "meta": [
+      "string",
+      "tasks",
+      "adventuring",
+      "ascension",
+      "equipment",
+      "inventory",
+      "mall",
+      "profit",
+      "properties",
+      "quests",
+      "tracking",
+      "psychoanalytic"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: psychoanalytic",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=psychoanalytic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: psychoanalytic",
+      "url": "https://wiki.kolmafia.us/index.php?search=psychoanalytic",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMPArtistGenerateTasks",
+    "IOTMPCrackpotGenerateTasks",
+    "IOTMPGourdGenerateTasks",
+    "IOTMPJickGenerateTasks",
+    "IOTMPMeatGenerateTasks",
+    "IOTMPOldManGenerateTasks",
+    "IOTMPShadyPastGenerateTasks",
+    "IOTMPsychoanalyticGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

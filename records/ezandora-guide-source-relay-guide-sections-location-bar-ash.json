@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-location-bar-ash",
+  "title": "Location Bar",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Location Bar.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Location Bar.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "100f1e99227955e1bc207e25eda3d24d4f448a1777288dec1ad730a7137a86e7",
+  "bytes": 28092,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "adventuring",
+      "clan"
+    ],
+    "sub": [
+      "effects",
+      "ascension",
+      "automation",
+      "cli",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "string",
+      "value",
+      "bar",
+      "combat",
+      "inventory",
+      "location",
+      "properties",
+      "quests",
+      "tracking",
+      "generate",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: location",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=location",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: location",
+      "url": "https://wiki.kolmafia.us/index.php?search=location",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: bar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bar",
+      "url": "https://wiki.kolmafia.us/index.php?search=bar",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateLocationBar"
+  ],
+  "imports": [
+    "relay/Guide/Sections/Location Bar Popup.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-handleautumnaton-ash",
+  "title": "HandleAutumnaton",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/HandleAutumnaton.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/HandleAutumnaton.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "b27ca5654f11a3de5516663725726db2e9bfa90014227d6261d4457116bbc914",
+  "bytes": 12725,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "profit",
+      "equipment",
+      "inventory"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "choice",
+      "ascension",
+      "automation",
+      "autumnaton"
+    ],
+    "meta": [
+      "iotm",
+      "string",
+      "value",
+      "adventuring",
+      "properties",
+      "tracking",
+      "handle",
+      "location",
+      "at",
+      "check",
+      "do",
+      "equips"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: handle",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=handle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: handle",
+      "url": "https://wiki.kolmafia.us/index.php?search=handle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: autumnaton",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=autumnaton",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: autumnaton",
+      "url": "https://wiki.kolmafia.us/index.php?search=autumnaton",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "autumnatonCheck",
+    "autumnatonDoLocationEquips",
+    "autumnatonInit",
+    "autumnatonItemWorth",
+    "autumnatonProfitAtLocation",
+    "main"
+  ],
+  "imports": [
+    "scripts/Destiny Ascension/Destiny Ascension/Support/Library.ash",
+    "scripts/Library/ArchiveEquipment.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

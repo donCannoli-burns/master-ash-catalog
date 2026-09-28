@@ -1,0 +1,86 @@
+{
+  "id": "c2talon-c2t-hccs-kolmafia-scripts-c2t-hccs-c2t-hccs-properties-ash",
+  "title": "c2t_hccs_properties",
+  "archive_path": "archive/c2talon/c2t-hccs/kolmafia/scripts/c2t_hccs/c2t_hccs_properties.ash",
+  "source_id": "c2talon-owner--c2t_hccs",
+  "source_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_path": "kolmafia/scripts/c2t_hccs/c2t_hccs_properties.ash",
+  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "sha256": "73ebfbfe66cd2da1321fa35cd3512d8ce2d361176da2fa90c12cf58d8fba2ff4",
+  "bytes": 3133,
+  "author": "disabling a resource",
+  "player": "disabling a resource",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "clan",
+      "familiar",
+      "properties"
+    ],
+    "sub": [
+      "cli",
+      "combat",
+      "string",
+      "iotm",
+      "tracking",
+      "c2t_hccs_properties"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_hccs_properties",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_hccs_properties",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_hccs_properties",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_hccs_properties",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "unlikely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

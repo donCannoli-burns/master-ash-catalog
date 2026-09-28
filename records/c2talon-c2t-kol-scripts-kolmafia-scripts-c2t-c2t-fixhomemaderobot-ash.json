@@ -1,0 +1,102 @@
+{
+  "id": "c2talon-c2t-kol-scripts-kolmafia-scripts-c2t-c2t-fixhomemaderobot-ash",
+  "title": "c2t_fixHomemadeRobot",
+  "archive_path": "archive/c2talon/c2t-kol-scripts/kolmafia/scripts/c2t/c2t_fixHomemadeRobot.ash",
+  "source_id": "c2talon-owner--c2t_kol_scripts",
+  "source_url": "https://github.com/C2Talon/c2t_kol_scripts",
+  "repository_url": "https://github.com/C2Talon/c2t_kol_scripts",
+  "repository_path": "kolmafia/scripts/c2t/c2t_fixHomemadeRobot.ash",
+  "commit": "1361354f6713e49eef302b6ea230562a8380d635",
+  "sha256": "c903630a0e028b92b0cdc8bab975747eac0a13eb947fc0c3890cd863b33d61ac",
+  "bytes": 1048,
+  "author": "c2t",
+  "player": "c2t",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-kol-scripts/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_kol_scripts/blob/1361354f6713e49eef302b6ea230562a8380d635/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "equipment",
+      "properties"
+    ],
+    "sub": [
+      "string",
+      "c2t_fix",
+      "homemade",
+      "robot",
+      "c2t_api",
+      "fam"
+    ],
+    "meta": [
+      "level",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_fix",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_fix",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_fix",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_fix",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: homemade",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=homemade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: homemade",
+      "url": "https://wiki.kolmafia.us/index.php?search=homemade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: robot",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=robot",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: robot",
+      "url": "https://wiki.kolmafia.us/index.php?search=robot",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "c2t_apiFamLevel",
+    "c2t_fixHomemadeRobot",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

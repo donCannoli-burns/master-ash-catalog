@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-prepostspadetest-ash",
+  "title": "PrePostSpadeTest",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/PrePostSpadeTest.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/PrePostSpadeTest.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "c36623951949ca67cafff725e30e9d0d5e2c99bd190057a587f561c34000752f",
+  "bytes": 491,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "spading",
+      "string",
+      "adventuring",
+      "ascension",
+      "properties"
+    ],
+    "meta": [
+      "post",
+      "pre",
+      "spade",
+      "test",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pre",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pre",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pre",
+      "url": "https://wiki.kolmafia.us/index.php?search=pre",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: post",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=post",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: post",
+      "url": "https://wiki.kolmafia.us/index.php?search=post",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spade",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spade",
+      "url": "https://wiki.kolmafia.us/index.php?search=spade",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

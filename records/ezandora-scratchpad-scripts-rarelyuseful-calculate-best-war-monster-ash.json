@@ -1,0 +1,108 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-calculate-best-war-monster-ash",
+  "title": "Calculate best war monster",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Calculate best war monster.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Calculate best war monster.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "0e3a34f6120a875f26e8f58e4209947a06d50ef70b2df6ac0af3c7e235039f1f",
+  "bytes": 2452,
+  "author": "value.dimes_from_monster",
+  "player": "value.dimes_from_monster",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "modifier",
+      "string",
+      "value",
+      "adventuring",
+      "combat",
+      "effects"
+    ],
+    "meta": [
+      "equipment",
+      "best",
+      "calculate",
+      "monster",
+      "war",
+      "clamp",
+      "clampf",
+      "main",
+      "normalf",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: calculate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=calculate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: calculate",
+      "url": "https://wiki.kolmafia.us/index.php?search=calculate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: best",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=best",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: best",
+      "url": "https://wiki.kolmafia.us/index.php?search=best",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: war",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=war",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: war",
+      "url": "https://wiki.kolmafia.us/index.php?search=war",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monster",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monster",
+      "url": "https://wiki.kolmafia.us/index.php?search=monster",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "clampNormalf",
+    "clampf",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

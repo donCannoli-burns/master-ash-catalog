@@ -1,0 +1,109 @@
+{
+  "id": "ezandora-piraterealm-release-scripts-piraterealm-ash",
+  "title": "PirateRealm",
+  "archive_path": "archive/ezandora/piraterealm/Release/scripts/PirateRealm.ash",
+  "source_id": "ezandora-owner--piraterealm",
+  "source_url": "https://github.com/Ezandora/PirateRealm",
+  "repository_url": "https://github.com/Ezandora/PirateRealm",
+  "repository_path": "Release/scripts/PirateRealm.ash",
+  "commit": "7107f0a468a3101bc358fad83b2c0ae4a1c93882",
+  "sha256": "5cfea6880a92210963262cd440bf9b9235e90b4bb81bd1fcb9145224e66d30d2",
+  "bytes": 28881,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/piraterealm/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/PirateRealm/blob/7107f0a468a3101bc358fad83b2c0ae4a1c93882/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "equipment",
+      "familiar"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "tracking",
+      "cli",
+      "combat",
+      "pirate"
+    ],
+    "meta": [
+      "automation",
+      "effects",
+      "inventory",
+      "iotm",
+      "skills",
+      "string",
+      "value",
+      "properties",
+      "quests",
+      "run",
+      "realm",
+      "state"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pirate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pirate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pirate",
+      "url": "https://wiki.kolmafia.us/index.php?search=pirate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: realm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=realm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: realm",
+      "url": "https://wiki.kolmafia.us/index.php?search=realm",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "purchasing:retrieve_item",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "RestoreArchivedEquipment",
+    "main",
+    "outputHelp",
+    "parseFunALog",
+    "parsePirateCharpaneState",
+    "pirateHandleShop",
+    "pirateRunFightingTurn",
+    "pirateRunLoop",
+    "pirateRunSailingTurn",
+    "pirateSetup",
+    "pirateStartRun",
+    "random_safe",
+    "randomf",
+    "readPirateFileState",
+    "run_choice_by_text",
+    "run_choice_by_text_list",
+    "statCheck",
+    "writePirateFileState"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

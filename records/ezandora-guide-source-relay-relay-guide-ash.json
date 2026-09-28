@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-guide-source-relay-relay-guide-ash",
+  "title": "relay_Guide",
+  "archive_path": "archive/ezandora/guide/Source/relay/relay_Guide.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/relay_Guide.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "b4977d29e178f1c09f211ddfa28e541b371ab80fc0c3a1ab7a6059dfb0dc525c",
+  "bytes": 169,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "relay_guide",
+      "main",
+      "relay / IOTM / automation",
+      "scripting",
+      "utility",
+      "workflow"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: relay_guide",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=relay_guide",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: relay_guide",
+      "url": "https://wiki.kolmafia.us/index.php?search=relay_guide",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Main.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

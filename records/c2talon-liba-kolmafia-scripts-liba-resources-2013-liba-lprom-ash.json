@@ -1,0 +1,88 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2013-liba-lprom-ash",
+  "title": "liba_lprom",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2013/liba_lprom.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2013/liba_lprom.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "c4409316a31bf06a2a305bfb42e61f22b3338761432a34203d33087c66dec244",
+  "bytes": 5235,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "skills",
+      "string"
+    ],
+    "sub": [
+      "effects",
+      "inventory",
+      "liba_lprom",
+      "recovery",
+      "to",
+      "item"
+    ],
+    "meta": [
+      "liba_lprom_enter",
+      "liba_lprom_error",
+      "liba_lprom_have",
+      "liba_lprom_item",
+      "liba_lprom_skill",
+      "skill",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_lprom",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_lprom",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_lprom",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_lprom",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "liba_lprom",
+    "liba_lprom_enter",
+    "liba_lprom_error",
+    "liba_lprom_have",
+    "liba_lprom_itemToSkill",
+    "liba_lprom_skillToItem"
+  ],
+  "imports": [
+    "liba_clamp.ash",
+    "liba_inChoice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

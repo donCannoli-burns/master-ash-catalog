@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-miniature-crystal-ball-ash",
+  "title": "Miniature Crystal Ball",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Miniature Crystal Ball.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Miniature Crystal Ball.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "10b4d8a5f55eb8afd4e2fc5aa0828491ddc1d075da8f7d5351b119d58dfd49a1",
+  "bytes": 2848,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "inventory",
+      "mall"
+    ],
+    "sub": [
+      "relay",
+      "tracking",
+      "automation",
+      "cli",
+      "equipment",
+      "iotm"
+    ],
+    "meta": [
+      "string",
+      "adventuring",
+      "ball",
+      "combat",
+      "crystal",
+      "properties",
+      "miniature",
+      "generate",
+      "iotmminiature",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: miniature",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=miniature",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: miniature",
+      "url": "https://wiki.kolmafia.us/index.php?search=miniature",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: crystal",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=crystal",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: crystal",
+      "url": "https://wiki.kolmafia.us/index.php?search=crystal",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: ball",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ball",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ball",
+      "url": "https://wiki.kolmafia.us/index.php?search=ball",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMMiniatureCrystalBallGenerate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

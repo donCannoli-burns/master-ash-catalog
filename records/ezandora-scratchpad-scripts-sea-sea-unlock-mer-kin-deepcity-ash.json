@@ -1,0 +1,104 @@
+{
+  "id": "ezandora-scratchpad-scripts-sea-sea-unlock-mer-kin-deepcity-ash",
+  "title": "Unlock Mer-Kin Deepcity",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Sea/Sea/Unlock Mer-Kin Deepcity.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Sea/Sea/Unlock Mer-Kin Deepcity.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "225b92b2ef6e06bce861e63f6e951633fa427c87e17f27327b6c03fa8f44ce3e",
+  "bytes": 9210,
+  "author": "calling adventure.php directly with visit_url",
+  "player": "calling adventure.php directly with visit_url",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "combat",
+      "cli"
+    ],
+    "sub": [
+      "familiar",
+      "relay",
+      "ascension",
+      "automation",
+      "effects",
+      "iotm"
+    ],
+    "meta": [
+      "outfit",
+      "properties",
+      "quests",
+      "stash",
+      "string",
+      "tracking",
+      "adventuring",
+      "clan",
+      "equipment",
+      "inventory",
+      "deepcity",
+      "mer-kin"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: unlock",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=unlock",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: unlock",
+      "url": "https://wiki.kolmafia.us/index.php?search=unlock",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: mer-kin",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=mer+kin",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: mer-kin",
+      "url": "https://wiki.kolmafia.us/index.php?search=mer+kin",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: deepcity",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=deepcity",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: deepcity",
+      "url": "https://wiki.kolmafia.us/index.php?search=deepcity",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "doNextStepInSeaFloor",
+    "doSneakyAdventure",
+    "main",
+    "trainLasso"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

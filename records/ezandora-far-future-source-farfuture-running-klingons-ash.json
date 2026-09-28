@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-far-future-source-farfuture-running-klingons-ash",
+  "title": "Klingons",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Running/Klingons.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Running/Klingons.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "0196423f9ba4f30a921382d8a2a570075cf8da386851f0c2dc07844804dabbab",
+  "bytes": 1821,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "klingons",
+      "skills",
+      "action",
+      "choose"
+    ],
+    "meta": [
+      "next",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: klingons",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=klingons",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: klingons",
+      "url": "https://wiki.kolmafia.us/index.php?search=klingons",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "KlingonsChooseNextAction"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

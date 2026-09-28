@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-choice-override-release-relay-choice-ash",
+  "title": "choice",
+  "archive_path": "archive/ezandora/choice-override/Release/relay/choice.ash",
+  "source_id": "ezandora-owner--choice-override",
+  "source_url": "https://github.com/Ezandora/Choice-Override",
+  "repository_url": "https://github.com/Ezandora/Choice-Override",
+  "repository_path": "Release/relay/choice.ash",
+  "commit": "ee6803c317d2050a7d71fdadb22baddc47234ef1",
+  "sha256": "95c69f1ce4277d73ae1849a7f19257923c7a7dfa5652ff0eca98afe4d0b83202",
+  "bytes": 4167,
+  "author": "Ezandora.",
+  "player": "Ezandora.",
+  "version": "1.1.1.",
+  "provenance_url": "https://github.com/Ezandora/Choice-Override.git",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/choice-override/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Choice-Override/blob/ee6803c317d2050a7d71fdadb22baddc47234ef1/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "cli"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "value",
+      "override",
+      "page"
+    ],
+    "meta": [
+      "text",
+      "script",
+      "against",
+      "decode",
+      "discover",
+      "encode",
+      "exists",
+      "full",
+      "get",
+      "idfrom",
+      "main",
+      "name"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "choiceOverrideDecodePageText",
+    "choiceOverrideDiscoverChoiceIDFromPageText",
+    "choiceOverrideEncodePageText",
+    "choiceOverrideGetFullScriptName",
+    "choiceOverrideScriptProbablyExists",
+    "choiceOverrideTestAgainstChoiceZero",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

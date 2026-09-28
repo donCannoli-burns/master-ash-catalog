@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-burn-lp-rom-ash",
+  "title": "Burn LP Rom",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/Burn LP Rom.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/Burn LP Rom.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "e09e598f5176f9c23235f7524cdaa1f8dc82013d5e317b1fb39217c6269e6fc3",
+  "bytes": 673,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "skills",
+      "effects",
+      "properties",
+      "recovery",
+      "burn"
+    ],
+    "meta": [
+      "lp",
+      "rom",
+      "cast",
+      "lpromskill",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: burn",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=burn",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: burn",
+      "url": "https://wiki.kolmafia.us/index.php?search=burn",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: rom",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=rom",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: rom",
+      "url": "https://wiki.kolmafia.us/index.php?search=rom",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "castLPROMSkill",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

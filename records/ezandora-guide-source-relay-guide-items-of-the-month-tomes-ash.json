@@ -1,0 +1,80 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-tomes-ash",
+  "title": "Tomes",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Tomes.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Tomes.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "5ed7d82fcb8b932c6e4895e55ef1a753f52f1172f03f922084a476ccb44a55d7",
+  "bytes": 8666,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "effects",
+      "equipment",
+      "iotm",
+      "skills"
+    ],
+    "meta": [
+      "string",
+      "value",
+      "combat",
+      "consumption",
+      "inventory",
+      "properties",
+      "tomes",
+      "generate",
+      "iotmtomes",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: tomes",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tomes",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tomes",
+      "url": "https://wiki.kolmafia.us/index.php?search=tomes",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMTomesGenerateResource"
+  ],
+  "imports": [
+    "relay/Guide/Items of the Month/Smithsness.ash",
+    "relay/Guide/Items of the Month/Sugar.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

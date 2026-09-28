@@ -1,0 +1,104 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-farm-halloween-once-ash",
+  "title": "farm halloween once",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/farm halloween once.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/farm halloween once.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "682b1152406c7011f8676138636b6544fe772c3a826bf392c4a82943742a1114",
+  "bytes": 4375,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "relay",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "familiar",
+      "adventuring",
+      "automation",
+      "iotm",
+      "outfit"
+    ],
+    "meta": [
+      "equipment",
+      "farm",
+      "halloween",
+      "once",
+      "main",
+      "run_combat_replacement",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: farm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farm",
+      "url": "https://wiki.kolmafia.us/index.php?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: halloween",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=halloween",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: halloween",
+      "url": "https://wiki.kolmafia.us/index.php?search=halloween",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: once",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=once",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: once",
+      "url": "https://wiki.kolmafia.us/index.php?search=once",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "run_combat_replacement"
+  ],
+  "imports": [
+    "scripts/Library/burn familiars.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

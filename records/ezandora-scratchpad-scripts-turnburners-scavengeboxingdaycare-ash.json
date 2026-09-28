@@ -1,0 +1,101 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-scavengeboxingdaycare-ash",
+  "title": "ScavengeBoxingDaycare",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/ScavengeBoxingDaycare.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/ScavengeBoxingDaycare.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "09d6b5d7251fa792c69fd438bd309aaa59b68da8311fd22f1b511110f879afbd",
+  "bytes": 1223,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "properties",
+      "boxing",
+      "daycare",
+      "scavenge",
+      "on"
+    ],
+    "meta": [
+      "scavenging",
+      "spent",
+      "turns",
+      "main",
+      "next",
+      "total",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: scavenge",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=scavenge",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: scavenge",
+      "url": "https://wiki.kolmafia.us/index.php?search=scavenge",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: boxing",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=boxing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: boxing",
+      "url": "https://wiki.kolmafia.us/index.php?search=boxing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: daycare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=daycare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: daycare",
+      "url": "https://wiki.kolmafia.us/index.php?search=daycare",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "nextTurnsSpentOnScavenging",
+    "totalTurnsSpentOnScavenging"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

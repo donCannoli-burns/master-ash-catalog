@@ -1,0 +1,73 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-record-literals-ash",
+  "title": "record_literals",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/record_literals.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/record_literals.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "e6bb098e106d21806c861a89bba27c2f358acfc24d26dc2bd5c00023f3d08054",
+  "bytes": 1195,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "string",
+      "record_literals",
+      "automation"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: record_literals",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=record_literals",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: record_literals",
+      "url": "https://wiki.kolmafia.us/index.php?search=record_literals",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

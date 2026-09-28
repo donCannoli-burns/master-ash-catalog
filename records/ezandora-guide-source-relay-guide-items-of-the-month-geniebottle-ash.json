@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-geniebottle-ash",
+  "title": "GenieBottle",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/GenieBottle.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/GenieBottle.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "2c627195e3ad15cc4c197cbcd39b98ac449b17cd2b64d26187c42bb050879dad",
+  "bytes": 1350,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "iotm",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "string",
+      "ascension",
+      "bottle",
+      "combat",
+      "inventory",
+      "properties"
+    ],
+    "meta": [
+      "genie",
+      "generate",
+      "iotmgenie",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: genie",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=genie",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: genie",
+      "url": "https://wiki.kolmafia.us/index.php?search=genie",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: bottle",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bottle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bottle",
+      "url": "https://wiki.kolmafia.us/index.php?search=bottle",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMGenieBottleGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

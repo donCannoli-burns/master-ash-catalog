@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-far-future-source-farfuture-parsing-blue-messages-ash",
+  "title": "Blue Messages",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Parsing/Blue Messages.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Parsing/Blue Messages.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "e48fea2a2bbe79fb0c78e1c4f62a9ecfaaac53946e245b5a12a8ba857a37820b",
+  "bytes": 2113,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "blue",
+      "messages",
+      "skills",
+      "process"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: blue",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=blue",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: blue",
+      "url": "https://wiki.kolmafia.us/index.php?search=blue",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: messages",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=messages",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: messages",
+      "url": "https://wiki.kolmafia.us/index.php?search=messages",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "processBlueMessages"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

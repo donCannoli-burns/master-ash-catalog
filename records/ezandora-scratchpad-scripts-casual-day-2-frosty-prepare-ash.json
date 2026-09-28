@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-day-2-frosty-prepare-ash",
+  "title": "Day 2 Frosty Prepare",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Day 2 Frosty Prepare.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Day 2 Frosty Prepare.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "15446a272a9af4aa24f12497c4522d898107ac5b58b602ce7fbc6001470a509b",
+  "bytes": 1028,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "outfit",
+      "consumption",
+      "effects",
+      "equipment",
+      "inventory"
+    ],
+    "meta": [
+      "day",
+      "frosty",
+      "prepare",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: day",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: day",
+      "url": "https://wiki.kolmafia.us/index.php?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: frosty",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=frosty",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: frosty",
+      "url": "https://wiki.kolmafia.us/index.php?search=frosty",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: prepare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=prepare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: prepare",
+      "url": "https://wiki.kolmafia.us/index.php?search=prepare",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

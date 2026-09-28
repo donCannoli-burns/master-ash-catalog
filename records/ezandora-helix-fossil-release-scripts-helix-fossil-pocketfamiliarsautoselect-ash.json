@@ -1,0 +1,115 @@
+{
+  "id": "ezandora-helix-fossil-release-scripts-helix-fossil-pocketfamiliarsautoselect-ash",
+  "title": "PocketFamiliarsAutoSelect",
+  "archive_path": "archive/ezandora/helix-fossil/Release/scripts/Helix Fossil/PocketFamiliarsAutoSelect.ash",
+  "source_id": "ezandora-owner--helix-fossil",
+  "source_url": "https://github.com/Ezandora/Helix-Fossil",
+  "repository_url": "https://github.com/Ezandora/Helix-Fossil",
+  "repository_path": "Release/scripts/Helix Fossil/PocketFamiliarsAutoSelect.ash",
+  "commit": "d087db2040c857402ef2f0d1bb645e2876ca329f",
+  "sha256": "eaf5a881a7866de4460d217db03e284e7e09518e51e0d5dbf3fb50436854bb52",
+  "bytes": 20035,
+  "author": "1.",
+  "player": "1.",
+  "year": 2000,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/helix-fossil/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Helix-Fossil/blob/d087db2040c857402ef2f0d1bb645e2876ca329f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "familiar",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "familiars",
+      "pocket",
+      "equipment",
+      "inventory"
+    ],
+    "meta": [
+      "auto",
+      "select",
+      "build",
+      "for",
+      "main",
+      "score",
+      "slot",
+      "team",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pocket",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pocket",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pocket",
+      "url": "https://wiki.kolmafia.us/index.php?search=pocket",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: familiars",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=familiars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: familiars",
+      "url": "https://wiki.kolmafia.us/index.php?search=familiars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: auto",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=auto",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: auto",
+      "url": "https://wiki.kolmafia.us/index.php?search=auto",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: select",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=select",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: select",
+      "url": "https://wiki.kolmafia.us/index.php?search=select",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "PocketFamiliarsBuildTeam",
+    "PocketFamiliarsScoreFamiliarForSlot",
+    "main"
+  ],
+  "imports": [
+    "scripts/Helix Fossil/Pocket Familiars.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

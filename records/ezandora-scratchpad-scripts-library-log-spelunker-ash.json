@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-log-spelunker-ash",
+  "title": "Log spelunker",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/Log spelunker.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/Log spelunker.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "9352b5923db1fa479749a4d960c6e00ca899beb5c0a627425c6134c99618fbcc",
+  "bytes": 969,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "tracking",
+      "log",
+      "spelunker",
+      "main",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: log",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=log",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: log",
+      "url": "https://wiki.kolmafia.us/index.php?search=log",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spelunker",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spelunker",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spelunker",
+      "url": "https://wiki.kolmafia.us/index.php?search=spelunker",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

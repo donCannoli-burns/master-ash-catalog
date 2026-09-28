@@ -1,0 +1,80 @@
+{
+  "id": "c2talon-insertselect2-relays-kolmafia-relay-choice-1463-ash",
+  "title": "choice.1463",
+  "archive_path": "archive/c2talon/insertselect2-relays/kolmafia/relay/choice.1463.ash",
+  "source_id": "c2talon-owner--insertselect2-relays",
+  "source_url": "https://github.com/C2Talon/insertSelect2-relays",
+  "repository_url": "https://github.com/C2Talon/insertSelect2-relays",
+  "repository_path": "kolmafia/relay/choice.1463.ash",
+  "commit": "1e74d891dea7a44b8476a254a648aac7e6f1691a",
+  "sha256": "1c533b2a995535e0e2875cd6308f167e6c755b2e467aa50376ec15c5ae5f0a63",
+  "bytes": 264,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/insertselect2-relays/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/insertSelect2-relays/blob/1e74d891dea7a44b8476a254a648aac7e6f1691a/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "string"
+    ],
+    "sub": [
+      "main",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "insertSelect2.ash",
+    "relay/choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

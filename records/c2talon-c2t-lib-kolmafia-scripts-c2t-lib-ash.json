@@ -1,0 +1,123 @@
+{
+  "id": "c2talon-c2t-lib-kolmafia-scripts-c2t-lib-ash",
+  "title": "c2t_lib",
+  "archive_path": "archive/c2talon/c2t-lib/kolmafia/scripts/c2t_lib.ash",
+  "source_id": "c2talon-owner--c2t_lib",
+  "source_url": "https://github.com/C2Talon/c2t_lib",
+  "repository_url": "https://github.com/C2Talon/c2t_lib",
+  "repository_path": "kolmafia/scripts/c2t_lib.ash",
+  "commit": "903a2210d878852b8a609e6b1ab912e5800e7aeb",
+  "sha256": "e2b4b6d3bc734a993193296edb705692388239f0330ace65451398ac4064093d",
+  "bytes": 20593,
+  "author": "default for most clans",
+  "player": "default for most clans",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-lib/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_lib/blob/903a2210d878852b8a609e6b1ab912e5800e7aeb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "clan",
+      "mall"
+    ],
+    "sub": [
+      "skills",
+      "combat",
+      "familiar",
+      "pvp",
+      "adventuring",
+      "cli"
+    ],
+    "meta": [
+      "inventory",
+      "maximizer",
+      "properties",
+      "string",
+      "value",
+      "c2t_is",
+      "now",
+      "ascension",
+      "c2t_bb",
+      "effects",
+      "profit",
+      "relay"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_lib",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_lib",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_lib",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_lib",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "purchasing:buy",
+      "execution:visit_url",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "_c2t_whitelist",
+    "c2t_assert",
+    "c2t_bb",
+    "c2t_bbIf",
+    "c2t_bbSubmit",
+    "c2t_bbWhile",
+    "c2t_breakHippyStone",
+    "c2t_buy",
+    "c2t_dropHardcore",
+    "c2t_enteredCombat",
+    "c2t_equipCast",
+    "c2t_famWeight",
+    "c2t_freeAdv",
+    "c2t_inChoice",
+    "c2t_incProperty",
+    "c2t_isSausageGoblinNow",
+    "c2t_isVoidFree",
+    "c2t_isVoidFreeNow",
+    "c2t_isVoidNow",
+    "c2t_isVoidNowFree",
+    "c2t_isVoterNow",
+    "c2t_joinClan",
+    "c2t_lastMaximize",
+    "c2t_maxProfCopy",
+    "c2t_minMaximize",
+    "c2t_pageUse",
+    "c2t_pilcrow",
+    "c2t_priority",
+    "c2t_sausageGoblinOdds",
+    "c2t_setChoice",
+    "c2t_whitelist",
+    "c2t_wishFight"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

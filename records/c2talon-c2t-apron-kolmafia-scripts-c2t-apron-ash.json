@@ -1,0 +1,81 @@
+{
+  "id": "c2talon-c2t-apron-kolmafia-scripts-c2t-apron-ash",
+  "title": "c2t_apron",
+  "archive_path": "archive/c2talon/c2t-apron/kolmafia/scripts/c2t_apron.ash",
+  "source_id": "c2talon-owner--c2t_apron",
+  "source_url": "https://github.com/C2Talon/c2t_apron",
+  "repository_url": "https://github.com/C2Talon/c2t_apron",
+  "repository_path": "kolmafia/scripts/c2t_apron.ash",
+  "commit": "819cb85d55e1846d710a86320d85fafbd371b6c2",
+  "sha256": "3d2c06a75f3d583dbfec13e9b875cbf439a7d9c0a19db873f7e2c5d2ae5c7b6e",
+  "bytes": 2722,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-apron/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_apron/blob/819cb85d55e1846d710a86320d85fafbd371b6c2/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "string"
+    ],
+    "sub": [
+      "value",
+      "c2t_apron",
+      "consumption",
+      "inventory",
+      "properties",
+      "relay"
+    ],
+    "meta": [
+      "c2t_apron_error",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_apron",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_apron",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_apron",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_apron",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "c2t_apron",
+    "c2t_apron_error",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

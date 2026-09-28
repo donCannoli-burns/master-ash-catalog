@@ -1,0 +1,99 @@
+{
+  "id": "prusias-kol-ptrack-kolmafia-scripts-ptracksuite-profittracking-ash",
+  "title": "ProfitTracking",
+  "archive_path": "archive/prusias-kol/ptrack/kolmafia/scripts/ptrackSuite/ProfitTracking.ash",
+  "source_id": "prusias-ptrack",
+  "source_url": "https://github.com/Prusias-kol/pTrack",
+  "repository_url": "https://github.com/Prusias-kol/pTrack",
+  "repository_path": "kolmafia/scripts/ptrackSuite/ProfitTracking.ash",
+  "commit": "161022d49b653756b67d04210166048ba67c614e",
+  "sha256": "acf395e17ecebad025c13b9258223e03476b023d2261489f90b3a3be0f709453",
+  "bytes": 12144,
+  "author": "value.amount",
+  "player": "value.amount",
+  "license": {
+    "status": "allowed",
+    "name": "GPL",
+    "evidence_path": "archive/prusias-kol/ptrack/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Prusias-kol/pTrack/blob/161022d49b653756b67d04210166048ba67c614e/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "profit",
+      "tracking",
+      "inventory"
+    ],
+    "sub": [
+      "mall",
+      "cli",
+      "logging",
+      "string",
+      "value",
+      "log"
+    ],
+    "meta": [
+      "ascension",
+      "consumption",
+      "properties",
+      "compare",
+      "checkpoint",
+      "accountval",
+      "all",
+      "check",
+      "events",
+      "exists",
+      "item",
+      "items"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: profit",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=profit",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: profit",
+      "url": "https://wiki.kolmafia.us/index.php?search=profit",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: tracking",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tracking",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tracking",
+      "url": "https://wiki.kolmafia.us/index.php?search=tracking",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "LogAccountvalCheckpoint",
+    "LogItems",
+    "LogMeat",
+    "LogNetworthCheckpoint",
+    "ProfitCheckEvents",
+    "ProfitCompare",
+    "ProfitCompareAll",
+    "ProfitCompareItem",
+    "ProfitLog",
+    "ProfitLogExists",
+    "Yesterdate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

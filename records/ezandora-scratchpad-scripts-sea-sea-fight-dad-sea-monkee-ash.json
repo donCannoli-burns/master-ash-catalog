@@ -1,0 +1,131 @@
+{
+  "id": "ezandora-scratchpad-scripts-sea-sea-fight-dad-sea-monkee-ash",
+  "title": "Fight Dad Sea Monkee",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Sea/Sea/Fight Dad Sea Monkee.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Sea/Sea/Fight Dad Sea Monkee.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "106f37427b852590b9dab6e5e0dcb52c780ee05f610df736d550a18e849f326e",
+  "bytes": 25981,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "version": "1.0",
+  "provenance_url": "http://kol.coldfront.net/thekolwiki/index.php/Clothing_of_Loathing",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "skills",
+      "string"
+    ],
+    "sub": [
+      "value",
+      "ascension",
+      "automation",
+      "combat",
+      "iotm",
+      "outfit"
+    ],
+    "meta": [
+      "spading",
+      "fight",
+      "match",
+      "consumption",
+      "dad",
+      "effects",
+      "element",
+      "equipment",
+      "lookup",
+      "decode",
+      "monkee",
+      "sea"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fight",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fight",
+      "url": "https://wiki.kolmafia.us/index.php?search=fight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: dad",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=dad",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: dad",
+      "url": "https://wiki.kolmafia.us/index.php?search=dad",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sea",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sea",
+      "url": "https://wiki.kolmafia.us/index.php?search=sea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monkee",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monkee",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monkee",
+      "url": "https://wiki.kolmafia.us/index.php?search=monkee",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:attack",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "componentsJoinedByString",
+    "decodeClue4",
+    "decodeClue5",
+    "decodeClue6",
+    "doFight",
+    "findSubstringFromMap",
+    "guessRound11",
+    "indexOfObject",
+    "lastIndexOfObject",
+    "lookupElementHTML",
+    "lookupElementHTMLColor",
+    "lookupElementString",
+    "lookupElementValue",
+    "main",
+    "matchEarlyRoundKeyword",
+    "matchRound10",
+    "matchRound8",
+    "matchRound9",
+    "matchRounds67",
+    "prepareForDadFight"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

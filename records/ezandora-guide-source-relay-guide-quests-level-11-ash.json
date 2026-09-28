@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-11-ash",
+  "title": "Level 11",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 11.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 11.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "961bbd4b6901f0d8908cb5e7258ddb02a410de6ce8652b466d61cec1e2b74287",
+  "bytes": 10270,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "inventory",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "character",
+      "combat",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "spading",
+      "string",
+      "value",
+      "adventuring",
+      "ascension",
+      "equipment",
+      "mall",
+      "properties",
+      "tracking",
+      "level",
+      "tasks",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel11BaseGenerateTasks",
+    "QLevel11GenerateTasks",
+    "QLevel11Init"
+  ],
+  "imports": [
+    "relay/Guide/Quests/Level 11 - Copperhead.ash",
+    "relay/Guide/Quests/Level 11 - Desert.ash",
+    "relay/Guide/Quests/Level 11 - Hidden City.ash",
+    "relay/Guide/Quests/Level 11 - Hidden Temple.ash",
+    "relay/Guide/Quests/Level 11 - Manor.ash",
+    "relay/Guide/Quests/Level 11 - Palindome.ash",
+    "relay/Guide/Quests/Level 11 - Pyramid.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

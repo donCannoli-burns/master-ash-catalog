@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-gain-release-scripts-gain-ash",
+  "title": "gain",
+  "archive_path": "archive/ezandora/gain/Release/scripts/gain.ash",
+  "source_id": "ezandora-owner--gain",
+  "source_url": "https://github.com/Ezandora/Gain",
+  "repository_url": "https://github.com/Ezandora/Gain",
+  "repository_path": "Release/scripts/gain.ash",
+  "commit": "75109224c2fd4485c48eed16cb590462220b2154",
+  "sha256": "b8187b97cb1bfd0ce5a03c6ed9997ca1a8e7a15d0b097a9762439ac79d40a22f",
+  "bytes": 41088,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/gain/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Gain/blob/75109224c2fd4485c48eed16cb590462220b2154/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "modifier",
+      "effects",
+      "familiar"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "skills",
+      "update",
+      "automation",
+      "combat"
+    ],
+    "meta": [
+      "equipment",
+      "iotm",
+      "string",
+      "value",
+      "upkeep",
+      "entry",
+      "profit",
+      "properties",
+      "gain",
+      "initialise",
+      "modifiers",
+      "user"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: gain",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gain",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gain",
+      "url": "https://wiki.kolmafia.us/index.php?search=gain",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "ModifierAddUserModifier",
+    "ModifierConvertUserModifierToMafia",
+    "ModifierOutputExampleUsage",
+    "ModifierUpkeepEffects",
+    "ModifierUpkeepEntryBaseCost",
+    "ModifierUpkeepEntryDescription",
+    "ModifierUpkeepEntryEfficiency",
+    "ModifierUpkeepEntryMeatSpendPerTurn",
+    "blockLimitedBuffs",
+    "gain_fabs",
+    "globalSetup",
+    "initialiseModifiers",
+    "initialiseMutuallyExclusiveEffects",
+    "is_float",
+    "main",
+    "my_active_basestat",
+    "numeric_modifier_including_percentages_on_base_modifiers",
+    "updateDynamicModifiers"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

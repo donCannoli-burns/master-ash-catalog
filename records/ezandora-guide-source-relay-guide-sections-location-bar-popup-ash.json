@@ -1,0 +1,105 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-location-bar-popup-ash",
+  "title": "Location Bar Popup",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Location Bar Popup.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Location Bar Popup.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "fe3c938d7b97ce1dcdb1bdd2948962bb209e8f3cda4e982ca900776225a1053c",
+  "bytes": 57598,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "equipment",
+      "familiar"
+    ],
+    "sub": [
+      "mall",
+      "modifier",
+      "automation",
+      "consumption",
+      "iotm",
+      "skills"
+    ],
+    "meta": [
+      "string",
+      "location",
+      "bar",
+      "adventuring",
+      "combat",
+      "effects",
+      "generate",
+      "popup",
+      "properties",
+      "tracking",
+      "information",
+      "item"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: location",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=location",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: location",
+      "url": "https://wiki.kolmafia.us/index.php?search=location",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: bar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bar",
+      "url": "https://wiki.kolmafia.us/index.php?search=bar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: popup",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=popup",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: popup",
+      "url": "https://wiki.kolmafia.us/index.php?search=popup",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "createItemInformationTableMethod2",
+    "generateItemInformationMethod2",
+    "generateLocationBarModifierEntries",
+    "generateLocationBarTable",
+    "generateLocationPopup",
+    "listAppend"
+  ],
+  "imports": [
+    "relay/Guide/Paths/Bad Moon.ash",
+    "relay/Guide/Support/Banishers.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-lt-t-quest-ash",
+  "title": "LT\u0026T Quest",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/LT\u0026T Quest.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/LT\u0026T Quest.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "76e484621ae906c246e7661ba6210416a4152797efe646895a839574bcf53505",
+  "bytes": 3367,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "effects",
+      "cli",
+      "familiar"
+    ],
+    "sub": [
+      "quests",
+      "relay",
+      "adventuring",
+      "automation",
+      "iotm",
+      "inventory"
+    ],
+    "meta": [
+      "profit",
+      "properties",
+      "recovery",
+      "skills",
+      "lt",
+      "quest",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: quest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quest",
+      "url": "https://wiki.kolmafia.us/index.php?search=quest",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/QuestState.ash",
+    "scripts/Library/Powerleveling Upkeep.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "c2talon-c2t-hccs-kolmafia-scripts-c2t-hccs-c2t-hccs-ash",
+  "title": "c2t_hccs",
+  "archive_path": "archive/c2talon/c2t-hccs/kolmafia/scripts/c2t_hccs/c2t_hccs.ash",
+  "source_id": "c2talon-owner--c2t_hccs",
+  "source_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_path": "kolmafia/scripts/c2t_hccs/c2t_hccs.ash",
+  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "sha256": "e5da4ec45032f891d0a6f80b983d85be519f8b18b1b70cda2131d9e1012260cb",
+  "bytes": 95983,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "familiar",
+      "equipment"
+    ],
+    "sub": [
+      "properties",
+      "clan",
+      "cli",
+      "recovery",
+      "c2t_hccs_pre",
+      "automation"
+    ],
+    "meta": [
+      "combat",
+      "crafting",
+      "maximizer",
+      "string",
+      "effects",
+      "skills",
+      "tracking",
+      "c2t_hccs",
+      "c2t_hccs_shadow",
+      "c2t_hccs_unlock",
+      "rift",
+      "boss"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_hccs",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_hccs",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_hccs",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_hccs",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "purchasing:retrieve_item",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "c2t_hccs_allTheBuffs",
+    "c2t_hccs_breakfast",
+    "c2t_hccs_buffExp",
+    "c2t_hccs_exit",
+    "c2t_hccs_fightGodLobster",
+    "c2t_hccs_fights",
+    "c2t_hccs_freeRestCheck",
+    "c2t_hccs_getPyramidPower",
+    "c2t_hccs_init",
+    "c2t_hccs_levelingFamiliar",
+    "c2t_hccs_levelup",
+    "c2t_hccs_lovePotion",
+    "c2t_hccs_mod2log",
+    "c2t_hccs_preCoil",
+    "c2t_hccs_preFamiliar",
+    "c2t_hccs_preHotRes",
+    "c2t_hccs_preHp",
+    "c2t_hccs_preItem",
+    "c2t_hccs_preMox",
+    "c2t_hccs_preMus",
+    "c2t_hccs_preMys",
+    "c2t_hccs_preNoncombat",
+    "c2t_hccs_preSpell",
+    "c2t_hccs_preWeapon",
+    "c2t_hccs_printRunTime",
+    "c2t_hccs_shadowRiftBoss",
+    "c2t_hccs_shadowRiftFights",
+    "c2t_hccs_testHandler",
+    "c2t_hccs_unlockDistantWoods",
+    "c2t_hccs_unlockGuildMoxie",
+    "c2t_hccs_wandererFight",
+    "main"
+  ],
+  "imports": [
+    "c2t_apriling.ash",
+    "c2t_cast.ash",
+    "c2t_hccs_aux.ash",
+    "c2t_hccs_constants.ash",
+    "c2t_hccs_lib.ash",
+    "c2t_hccs_preAdv.ash",
+    "c2t_hccs_properties.ash",
+    "c2t_hccs_resources.ash",
+    "c2t_lib.ash",
+    "c2t_mayam.ash",
+    "liba_eternityCodpiece.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

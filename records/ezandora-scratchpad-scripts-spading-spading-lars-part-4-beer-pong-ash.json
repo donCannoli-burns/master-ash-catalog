@@ -1,0 +1,111 @@
+{
+  "id": "ezandora-scratchpad-scripts-spading-spading-lars-part-4-beer-pong-ash",
+  "title": "Spading LARS Part 4 Beer Pong",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Spading/Spading LARS Part 4 Beer Pong.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Spading/Spading LARS Part 4 Beer Pong.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "1b95a0eba2d7dba8fb4cf5463fc864ed2b820f338db3156964209bb6a508ca02",
+  "bytes": 2367,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "spading"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "beer",
+      "pong",
+      "properties"
+    ],
+    "meta": [
+      "lars",
+      "part",
+      "do",
+      "fake",
+      "for",
+      "insult",
+      "main",
+      "response",
+      "text",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spading",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spading",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spading",
+      "url": "https://wiki.kolmafia.us/index.php?search=spading",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lars",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lars",
+      "url": "https://wiki.kolmafia.us/index.php?search=lars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: part",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=part",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: part",
+      "url": "https://wiki.kolmafia.us/index.php?search=part",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: beer",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=beer",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: beer",
+      "url": "https://wiki.kolmafia.us/index.php?search=beer",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "beerPongResponseForText",
+    "doFakeInsultBeerPong",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

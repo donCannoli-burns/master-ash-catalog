@@ -1,0 +1,107 @@
+{
+  "id": "ezandora-detective-solver-detective-solver-detective-solver-test-data-ash",
+  "title": "Detective Solver Test Data",
+  "archive_path": "archive/ezandora/detective-solver/Detective Solver/Detective Solver Test Data.ash",
+  "source_id": "ezandora-owner--detective-solver",
+  "source_url": "https://github.com/Ezandora/Detective-Solver",
+  "repository_url": "https://github.com/Ezandora/Detective-Solver",
+  "repository_path": "Detective Solver/Detective Solver Test Data.ash",
+  "commit": "8ea94b963040ebb5bb1efed789fddda4ab7467a1",
+  "sha256": "e8a1d46c6b9b08f0e3cb708a91b447779dc65e8e28502f6adb672ac4375e561e",
+  "bytes": 12631714,
+  "author": "the name of Stephen Colon",
+  "player": "the name of Stephen Colon",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/detective-solver/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Detective-Solver/blob/8ea94b963040ebb5bb1efed789fddda4ab7467a1/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "character",
+      "iotm",
+      "string",
+      "test",
+      "data",
+      "detective"
+    ],
+    "meta": [
+      "solver",
+      "add",
+      "append",
+      "list",
+      "strings",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: detective",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=detective",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: detective",
+      "url": "https://wiki.kolmafia.us/index.php?search=detective",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: solver",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=solver",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: solver",
+      "url": "https://wiki.kolmafia.us/index.php?search=solver",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: data",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=data",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: data",
+      "url": "https://wiki.kolmafia.us/index.php?search=data",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "addTestStrings",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "c2talon-c2t-takerspace-relay-kolmafia-relay-c2t-takerspace-relay-ash",
+  "title": "c2t_takerSpace_relay",
+  "archive_path": "archive/c2talon/c2t-takerspace-relay/kolmafia/relay/c2t_takerSpace_relay.ash",
+  "source_id": "c2talon-owner--c2t_takerspace_relay",
+  "source_url": "https://github.com/C2Talon/c2t_takerSpace_relay",
+  "repository_url": "https://github.com/C2Talon/c2t_takerSpace_relay",
+  "repository_path": "kolmafia/relay/c2t_takerSpace_relay.ash",
+  "commit": "46de209fa9569a48c58e0db6af11a7e80ba03a45",
+  "sha256": "92521d15553fa8fbb4a547dd82059d61a82a2b08b4109a0d893ba55dddbed4d8",
+  "bytes": 5680,
+  "author": "the script",
+  "player": "the script",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-takerspace-relay/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_takerSpace_relay/blob/46de209fa9569a48c58e0db6af11a7e80ba03a45/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "browser"
+    ],
+    "sub": [
+      "c2t_taker",
+      "cli",
+      "string",
+      "value",
+      "inventory",
+      "properties"
+    ],
+    "meta": [
+      "space_relay",
+      "afford",
+      "buttons",
+      "known",
+      "space_relay_can",
+      "space_relay_improved",
+      "space_relay_purge",
+      "space_relay_sticky",
+      "supplies",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_taker",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_taker",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_taker",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_taker",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: space_relay",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=space_relay",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: space_relay",
+      "url": "https://wiki.kolmafia.us/index.php?search=space_relay",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "c2t_takerSpace_relay",
+    "c2t_takerSpace_relay_canAfford",
+    "c2t_takerSpace_relay_improvedButtons",
+    "c2t_takerSpace_relay_purgeKnown",
+    "c2t_takerSpace_relay_stickySupplies"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

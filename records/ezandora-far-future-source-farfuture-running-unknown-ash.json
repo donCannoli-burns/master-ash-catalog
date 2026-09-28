@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-far-future-source-farfuture-running-unknown-ash",
+  "title": "Unknown",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Running/Unknown.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Running/Unknown.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "0b6450472dd5fdca3a716af244eda0cbb73a54b030f1e9c4c0d7060ab6faec30",
+  "bytes": 1064,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "adventuring",
+      "unknown",
+      "action",
+      "choose"
+    ],
+    "meta": [
+      "next",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: unknown",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=unknown",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: unknown",
+      "url": "https://wiki.kolmafia.us/index.php?search=unknown",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "UnknownChooseNextAction"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "ezandora-voting-booth-release-scripts-votingbooth-ash",
+  "title": "VotingBooth",
+  "archive_path": "archive/ezandora/voting-booth/Release/scripts/VotingBooth.ash",
+  "source_id": "ezandora-owner--voting-booth",
+  "source_url": "https://github.com/Ezandora/Voting-Booth",
+  "repository_url": "https://github.com/Ezandora/Voting-Booth",
+  "repository_path": "Release/scripts/VotingBooth.ash",
+  "commit": "631538efacd268be879e5afe87fe0ebbe90cd76b",
+  "sha256": "2b88d18cf187d7e5c38f9d4b006db6c6b02290f9673cb5d08b0d03e8d47fcaad",
+  "bytes": 22102,
+  "author": "hand",
+  "player": "hand",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/voting-booth/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Voting-Booth/blob/631538efacd268be879e5afe87fe0ebbe90cd76b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "combat",
+      "effects"
+    ],
+    "sub": [
+      "familiar",
+      "automation",
+      "inventory",
+      "iotm",
+      "spading",
+      "string"
+    ],
+    "meta": [
+      "tracking",
+      "value",
+      "adventuring",
+      "ascension",
+      "booth",
+      "mall",
+      "profit",
+      "properties",
+      "voting",
+      "in",
+      "main",
+      "vote"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: voting",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=voting",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: voting",
+      "url": "https://wiki.kolmafia.us/index.php?search=voting",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: booth",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=booth",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: booth",
+      "url": "https://wiki.kolmafia.us/index.php?search=booth",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "voteInVotingBooth"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

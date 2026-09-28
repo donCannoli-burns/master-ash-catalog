@@ -1,0 +1,78 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-pvp-ash",
+  "title": "PVP",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/PVP.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/PVP.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "01d728a28bb26771584770ad8cfcba1ce59d8a08c96e2e3a8b886b5ad7e77c79",
+  "bytes": 28122,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 1993,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "effects",
+      "pvp"
+    ],
+    "sub": [
+      "combat",
+      "familiar",
+      "quests",
+      "relay",
+      "automation",
+      "consumption"
+    ],
+    "meta": [
+      "iotm",
+      "logging",
+      "modifier",
+      "outfit",
+      "skills",
+      "string",
+      "adventuring",
+      "equipment",
+      "inventory",
+      "mall",
+      "profit",
+      "properties"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pvp",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pvp",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pvp",
+      "url": "https://wiki.kolmafia.us/index.php?search=pvp",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SPVPGenerateTasks",
+    "SPVPGenerateTooltipForConsumables"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

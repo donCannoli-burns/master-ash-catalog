@@ -1,0 +1,78 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-6-ash",
+  "title": "Level 6",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 6.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 6.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "b006e50a4d84050e984a234c657ce969668608e852e6eadaf99ecf5698650870",
+  "bytes": 7487,
+  "author": "w needed",
+  "player": "w needed",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "quests",
+      "relay",
+      "ascension"
+    ],
+    "sub": [
+      "automation",
+      "combat",
+      "crafting",
+      "iotm",
+      "modifier",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "adventuring",
+      "effects",
+      "inventory",
+      "properties",
+      "skills",
+      "level",
+      "area",
+      "complete",
+      "qlevel6generate",
+      "qlevel6init",
+      "qlevel6turns"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel6GenerateTasks",
+    "QLevel6Init",
+    "QLevel6TurnsToCompleteArea"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

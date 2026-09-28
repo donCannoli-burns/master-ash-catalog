@@ -1,0 +1,104 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-genericgnomefarming-ash",
+  "title": "GenericGnomeFarming",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/GenericGnomeFarming.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/GenericGnomeFarming.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "177bc9a5472be762bf1f053382d8be50e4ad17f11ef93c5d0e94c89cb5b21735",
+  "bytes": 1824,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "farming",
+      "adventuring",
+      "automation",
+      "equipment",
+      "iotm",
+      "string"
+    ],
+    "meta": [
+      "generic",
+      "gnome",
+      "for",
+      "location",
+      "accessory",
+      "advance",
+      "area",
+      "calculate",
+      "extra",
+      "farm",
+      "items",
+      "main"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: generic",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=generic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: generic",
+      "url": "https://wiki.kolmafia.us/index.php?search=generic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: gnome",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gnome",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gnome",
+      "url": "https://wiki.kolmafia.us/index.php?search=gnome",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: farming",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farming",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farming",
+      "url": "https://wiki.kolmafia.us/index.php?search=farming",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "advanceAccessorySlot",
+    "calculateExtraItemsForLocation",
+    "farmArea",
+    "main",
+    "prepareTurnForLocation"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

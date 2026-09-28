@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-meteor-lore-ash",
+  "title": "Meteor Lore",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Meteor Lore.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Meteor Lore.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "8f03cdb6ebdd021dc85b4b94ba8aa2f60b443aeb0c6094f0b1df6e4f3fb6abd7",
+  "bytes": 4748,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "ascension"
+    ],
+    "sub": [
+      "automation",
+      "equipment",
+      "inventory",
+      "iotm",
+      "skills",
+      "string"
+    ],
+    "meta": [
+      "adventuring",
+      "combat",
+      "consumption",
+      "lore",
+      "properties",
+      "quests",
+      "meteor",
+      "generate",
+      "iotmmeteor",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: meteor",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=meteor",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: meteor",
+      "url": "https://wiki.kolmafia.us/index.php?search=meteor",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lore",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lore",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lore",
+      "url": "https://wiki.kolmafia.us/index.php?search=lore",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMMeteorLoreGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

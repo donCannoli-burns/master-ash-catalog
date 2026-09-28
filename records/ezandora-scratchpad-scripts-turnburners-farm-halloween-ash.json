@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-farm-halloween-ash",
+  "title": "Farm halloween",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Farm halloween.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Farm halloween.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "341f8d870b1357c8147258ab765edf3ea19df6c747fd722e6e9c256a5c97ed0f",
+  "bytes": 515,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "familiar"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "iotm",
+      "inventory",
+      "farm",
+      "halloween"
+    ],
+    "meta": [
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: farm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farm",
+      "url": "https://wiki.kolmafia.us/index.php?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: halloween",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=halloween",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: halloween",
+      "url": "https://wiki.kolmafia.us/index.php?search=halloween",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

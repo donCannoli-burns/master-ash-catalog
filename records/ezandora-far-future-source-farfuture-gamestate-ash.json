@@ -1,0 +1,88 @@
+{
+  "id": "ezandora-far-future-source-farfuture-gamestate-ash",
+  "title": "GameState",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/GameState.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/GameState.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "04de6f53408efb59d866ec17ce1f8cb6df9dcad110b9f2bbee5ce99b05fb91f6",
+  "bytes": 6442,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "state",
+      "adventuring",
+      "skills",
+      "file"
+    ],
+    "meta": [
+      "game",
+      "read",
+      "test",
+      "write",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: game",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=game",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: game",
+      "url": "https://wiki.kolmafia.us/index.php?search=game",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: state",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=state",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: state",
+      "url": "https://wiki.kolmafia.us/index.php?search=state",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "readFileState",
+    "testFileState",
+    "writeFileState"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

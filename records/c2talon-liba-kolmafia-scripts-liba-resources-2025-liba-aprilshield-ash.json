@@ -1,0 +1,93 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2025-liba-aprilshield-ash",
+  "title": "liba_aprilShield",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2025/liba_aprilShield.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2025/liba_aprilShield.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "c3d879b3996634f529219e0d468d89e61f4f7cd4c89f85dab5db51c04ba1ec68",
+  "bytes": 3210,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "skills",
+      "liba_april"
+    ],
+    "sub": [
+      "effects",
+      "inventory",
+      "mall",
+      "profit",
+      "shield",
+      "shield_have"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_april",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_april",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_april",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_april",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: shield",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=shield",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: shield",
+      "url": "https://wiki.kolmafia.us/index.php?search=shield",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "purchasing:buy"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "liba_aprilShield",
+    "liba_aprilShield_have"
+  ],
+  "imports": [
+    "liba_equipCast.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

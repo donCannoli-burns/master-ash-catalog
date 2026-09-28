@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-page-ash",
+  "title": "Page",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Page.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Page.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "af9d5d860131b7c44644b6331bbe019dc330f03d6642b9772df3cc545cdaaa82",
+  "bytes": 15630,
+  "author": "value.importance",
+  "player": "value.importance",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "page",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "value",
+      "generate",
+      "htmlgenerate",
+      "body"
+    ],
+    "meta": [
+      "element",
+      "write",
+      "set",
+      "span",
+      "add",
+      "and",
+      "append",
+      "as",
+      "attribute",
+      "contents",
+      "cssblock",
+      "cssclass"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: page",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=page",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: page",
+      "url": "https://wiki.kolmafia.us/index.php?search=page",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "CSSBlockGenerate",
+    "HTMLGenerateElementSpan",
+    "HTMLGenerateElementSpanDesaturated",
+    "HTMLGenerateIndentedText",
+    "HTMLGenerateSimpleTableLines",
+    "PageAddCSSClass",
+    "PageGenerate",
+    "PageGenerateAndWriteOut",
+    "PageGenerateAsElementInBody",
+    "PageGenerateBodyContents",
+    "PageGenerateStyle",
+    "PageInit",
+    "PageSetBodyAttribute",
+    "PageSetTitle",
+    "PageWrite",
+    "PageWriteHead",
+    "listAppend"
+  ],
+  "imports": [
+    "relay/Guide/Settings.ash",
+    "relay/Guide/Support/HTML.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

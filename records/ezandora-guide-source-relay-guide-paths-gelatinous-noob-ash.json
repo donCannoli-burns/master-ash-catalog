@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-gelatinous-noob-ash",
+  "title": "Gelatinous Noob",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Gelatinous Noob.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Gelatinous Noob.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "a491466bd9ba58d4206a5a5c241390af2a84cd058c00d1e32be55d043ab49a63",
+  "bytes": 23485,
+  "author": "5",
+  "player": "5",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "equipment",
+      "familiar"
+    ],
+    "sub": [
+      "pvp",
+      "relay",
+      "automation",
+      "combat",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "profit",
+      "string",
+      "gelatinous",
+      "consumption",
+      "inventory",
+      "noob",
+      "properties",
+      "quests",
+      "generate",
+      "initialise",
+      "path",
+      "statics"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: gelatinous",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gelatinous",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gelatinous",
+      "url": "https://wiki.kolmafia.us/index.php?search=gelatinous",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: noob",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=noob",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: noob",
+      "url": "https://wiki.kolmafia.us/index.php?search=noob",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathGelatinousNoobGenerateTasks",
+    "initialiseGelatinousStatics"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-temple-unlock-ash",
+  "title": "Temple Unlock",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Temple Unlock.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Temple Unlock.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "af16c6a642bcaf0ea18b67f825770f4f062b9c5336a1435fe82e776b98dbf9a3",
+  "bytes": 2670,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "combat",
+      "effects",
+      "iotm",
+      "outfit"
+    ],
+    "meta": [
+      "string",
+      "adventuring",
+      "equipment",
+      "inventory",
+      "properties",
+      "quests",
+      "temple",
+      "unlock",
+      "adventure",
+      "sneaky",
+      "do",
+      "main"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: temple",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=temple",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: temple",
+      "url": "https://wiki.kolmafia.us/index.php?search=temple",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: unlock",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=unlock",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: unlock",
+      "url": "https://wiki.kolmafia.us/index.php?search=unlock",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "doSneakyAdventure",
+    "main",
+    "sneakyAdventure"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

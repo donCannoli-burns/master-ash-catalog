@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-utility-heartstone-monsters-ash",
+  "title": "Heartstone Monsters",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Utility/Heartstone Monsters.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Utility/Heartstone Monsters.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "edb08868628c638187d86e0875a7ae37baeeaba4232ab2106d13c4efc1af6bfb",
+  "bytes": 2703,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "string",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "adventuring",
+      "combat",
+      "for",
+      "heartstone",
+      "monsters"
+    ],
+    "meta": [
+      "letter",
+      "each",
+      "list",
+      "locations",
+      "main",
+      "monster",
+      "output",
+      "possible",
+      "wishables",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: heartstone",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=heartstone",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: heartstone",
+      "url": "https://wiki.kolmafia.us/index.php?search=heartstone",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monsters",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monsters",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monsters",
+      "url": "https://wiki.kolmafia.us/index.php?search=monsters",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "letterForMonster",
+    "listPossibleLocationsForEachLetter",
+    "main",
+    "outputWishablesForString"
+  ],
+  "imports": [
+    "relay/Guide/Support/LocationAvailable.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

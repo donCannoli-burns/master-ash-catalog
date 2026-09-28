@@ -1,0 +1,86 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-misc-liba-incombat-ash",
+  "title": "liba_inCombat",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/misc/liba_inCombat.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/misc/liba_inCombat.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "bd5238acee532a7cd20daa9d5aea16cb1dae7e96acf87d495603183b3492acb1",
+  "bytes": 1318,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "string",
+      "liba_in"
+    ],
+    "sub": [
+      "relay",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_in",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_in",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_in",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_in",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: combat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=combat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: combat",
+      "url": "https://wiki.kolmafia.us/index.php?search=combat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "liba_inCombat"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

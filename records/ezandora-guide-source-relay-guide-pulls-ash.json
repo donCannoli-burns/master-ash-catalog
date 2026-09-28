@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-guide-source-relay-guide-pulls-ash",
+  "title": "Pulls",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Pulls.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Pulls.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e66cab1b07dd4207420a1b9122c0dab53be6b56ff4641ff9d1424806bc86d216",
+  "bytes": 39824,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "pvp"
+    ],
+    "sub": [
+      "quests",
+      "relay",
+      "rollover",
+      "automation",
+      "consumption",
+      "inventory"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "profit",
+      "string",
+      "equipment",
+      "pulls",
+      "tracking",
+      "list",
+      "append",
+      "generate",
+      "init",
+      "pull"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pulls",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pulls",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pulls",
+      "url": "https://wiki.kolmafia.us/index.php?search=pulls",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PullsInit",
+    "generatePullList",
+    "listAppend",
+    "pullable_amount"
+  ],
+  "imports": [
+    "relay/Guide/QuestState.ash",
+    "relay/Guide/Support/Checklist.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

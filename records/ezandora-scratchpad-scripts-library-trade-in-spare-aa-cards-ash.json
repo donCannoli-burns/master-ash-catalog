@@ -1,0 +1,97 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-trade-in-spare-aa-cards-ash",
+  "title": "trade in spare aa cards",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/trade in spare aa cards.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/trade in spare aa cards.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "de2556457f615b445d303f706185e52b31475078b1ee804171128a7137ca9937",
+  "bytes": 1365,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "inventory",
+      "mall",
+      "aa",
+      "cards",
+      "in",
+      "spare"
+    ],
+    "meta": [
+      "trade",
+      "main",
+      "trade_in_spares",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: trade",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=trade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: trade",
+      "url": "https://wiki.kolmafia.us/index.php?search=trade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spare",
+      "url": "https://wiki.kolmafia.us/index.php?search=spare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: cards",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cards",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cards",
+      "url": "https://wiki.kolmafia.us/index.php?search=cards",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main",
+    "trade_in_spares"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

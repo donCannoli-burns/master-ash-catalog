@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-heavy-rains-locations-ash",
+  "title": "Heavy rains locations",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Heavy rains locations.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Heavy rains locations.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "95ab261fcd7c397ae25858c024566c8fe32e4686511aaba4d84171b01eaff354",
+  "bytes": 519,
+  "author": "value.recommended_stat",
+  "player": "value.recommended_stat",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "value",
+      "adventuring",
+      "heavy",
+      "locations",
+      "rains",
+      "main"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: heavy",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=heavy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: heavy",
+      "url": "https://wiki.kolmafia.us/index.php?search=heavy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: rains",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=rains",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: rains",
+      "url": "https://wiki.kolmafia.us/index.php?search=rains",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: locations",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=locations",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: locations",
+      "url": "https://wiki.kolmafia.us/index.php?search=locations",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

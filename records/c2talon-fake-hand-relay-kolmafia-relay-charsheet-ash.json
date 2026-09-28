@@ -1,0 +1,79 @@
+{
+  "id": "c2talon-fake-hand-relay-kolmafia-relay-charsheet-ash",
+  "title": "charsheet",
+  "archive_path": "archive/c2talon/fake-hand-relay/kolmafia/relay/charsheet.ash",
+  "source_id": "c2talon-owner--fake_hand_relay",
+  "source_url": "https://github.com/C2Talon/fake_hand_relay",
+  "repository_url": "https://github.com/C2Talon/fake_hand_relay",
+  "repository_path": "kolmafia/relay/charsheet.ash",
+  "commit": "79702d2af5a8a014347b0fc937514d9bd44ef355",
+  "sha256": "99e65c1a22055ef0b39f9d7e5822c8349cd1e0a06c24aa46e049831b1f24dfad",
+  "bytes": 104,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/fake-hand-relay/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/fake_hand_relay/blob/79702d2af5a8a014347b0fc937514d9bd44ef355/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "charsheet",
+      "main"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: charsheet",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=charsheet",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: charsheet",
+      "url": "https://wiki.kolmafia.us/index.php?search=charsheet",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "fake_hand_relay.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

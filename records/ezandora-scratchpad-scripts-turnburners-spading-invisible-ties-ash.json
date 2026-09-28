@@ -1,0 +1,114 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-spading-invisible-ties-ash",
+  "title": "Spading invisible ties",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Spading invisible ties.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Spading invisible ties.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "e044c8047333ec012f097950da4a4d124c2f3885a0317a48638213a99bb8eeb8",
+  "bytes": 7259,
+  "author": "Plains",
+  "player": "Plains",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "clan",
+      "skills",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "combat",
+      "familiar",
+      "inventory",
+      "relay",
+      "spading"
+    ],
+    "meta": [
+      "adventuring",
+      "automation",
+      "effects",
+      "iotm",
+      "string",
+      "value",
+      "properties",
+      "quests",
+      "invisible",
+      "ties",
+      "adventure",
+      "in"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spading",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spading",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spading",
+      "url": "https://wiki.kolmafia.us/index.php?search=spading",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: invisible",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=invisible",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: invisible",
+      "url": "https://wiki.kolmafia.us/index.php?search=invisible",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: ties",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ties",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ties",
+      "url": "https://wiki.kolmafia.us/index.php?search=ties",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "adventureInLocation",
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Support/LocationAvailable.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

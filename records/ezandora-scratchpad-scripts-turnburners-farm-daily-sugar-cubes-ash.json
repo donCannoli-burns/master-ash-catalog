@@ -1,0 +1,115 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-farm-daily-sugar-cubes-ash",
+  "title": "Farm Daily Sugar Cubes",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Farm Daily Sugar Cubes.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Farm Daily Sugar Cubes.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "e1439ee2d3624c92bb75d192dfab83d92b96debfad845a2c82a4dce97f635a6b",
+  "bytes": 2086,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "familiar"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "adventuring",
+      "automation",
+      "effects",
+      "farming"
+    ],
+    "meta": [
+      "iotm",
+      "properties",
+      "tracking",
+      "value",
+      "combat",
+      "profit",
+      "cubes",
+      "daily",
+      "farm",
+      "sugar",
+      "main",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: farm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farm",
+      "url": "https://wiki.kolmafia.us/index.php?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: daily",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=daily",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: daily",
+      "url": "https://wiki.kolmafia.us/index.php?search=daily",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sugar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sugar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sugar",
+      "url": "https://wiki.kolmafia.us/index.php?search=sugar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: cubes",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cubes",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cubes",
+      "url": "https://wiki.kolmafia.us/index.php?search=cubes",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "scripts/Farming/CheapFarm.ash",
+    "scripts/Helix Fossil/Helix Fossil Interface.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

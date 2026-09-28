@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-api-ash",
+  "title": "API",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/API.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/API.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "a8da5cfaae90bc2ab875ad1848d1ff5f991ff23b0bbb9de0563aca850810df17",
+  "bytes": 14826,
+  "author": "the javascript.",
+  "player": "the javascript.",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "clan",
+      "combat",
+      "relay"
+    ],
+    "sub": [
+      "consumption",
+      "effects",
+      "familiar",
+      "inventory",
+      "iotm",
+      "quests"
+    ],
+    "meta": [
+      "automation",
+      "cli",
+      "modifier",
+      "properties",
+      "stash",
+      "string",
+      "value",
+      "adventuring",
+      "profit",
+      "skills",
+      "api",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: api",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=api",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: api",
+      "url": "https://wiki.kolmafia.us/index.php?search=api",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "adventuring:attack"
+    ],
+    "import_safe": "unknown"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

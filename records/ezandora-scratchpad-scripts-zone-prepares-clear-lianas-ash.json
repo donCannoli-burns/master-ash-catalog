@@ -1,0 +1,91 @@
+{
+  "id": "ezandora-scratchpad-scripts-zone-prepares-clear-lianas-ash",
+  "title": "Clear Lianas",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Zone Prepares/Clear Lianas.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Zone Prepares/Clear Lianas.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "e5f788b8c0826f8f7ba9840286063663e2fb7a8c1ffef0a25ee9b7244e099117",
+  "bytes": 1525,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "adventuring"
+    ],
+    "sub": [
+      "automation",
+      "equipment",
+      "iotm",
+      "properties",
+      "skills",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "inventory",
+      "clear",
+      "lianas",
+      "adv1",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: clear",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=clear",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: clear",
+      "url": "https://wiki.kolmafia.us/index.php?search=clear",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lianas",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lianas",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lianas",
+      "url": "https://wiki.kolmafia.us/index.php?search=lianas",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "adv1",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

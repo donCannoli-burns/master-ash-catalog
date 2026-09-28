@@ -1,0 +1,97 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-avatar-of-sneaky-pete-ash",
+  "title": "Avatar of Sneaky Pete",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Avatar of Sneaky Pete.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Avatar of Sneaky Pete.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "9888ad36460bae946b40dc8fe92e8b62a305307dc8a6543f58e49bf09ead6b8d",
+  "bytes": 14865,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "cli"
+    ],
+    "sub": [
+      "combat",
+      "effects",
+      "iotm",
+      "outfit",
+      "string",
+      "pete"
+    ],
+    "meta": [
+      "sneaky",
+      "adventuring",
+      "equipment",
+      "inventory",
+      "profit",
+      "properties",
+      "quests",
+      "skills",
+      "tracking",
+      "avatar",
+      "of",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: avatar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=avatar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: avatar",
+      "url": "https://wiki.kolmafia.us/index.php?search=avatar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sneaky",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sneaky",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sneaky",
+      "url": "https://wiki.kolmafia.us/index.php?search=sneaky",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: pete",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pete",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pete",
+      "url": "https://wiki.kolmafia.us/index.php?search=pete",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathSneakyPeteGenerateResource",
+    "PathSneakyPeteGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

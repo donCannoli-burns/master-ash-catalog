@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-13-ash",
+  "title": "Level 13",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 13.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 13.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "cd407fa866cd97960ad282a5908eb320a21da0a835ae213f7c665605a1e24d3a",
+  "bytes": 89768,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "clan",
+      "equipment"
+    ],
+    "sub": [
+      "relay",
+      "modifier",
+      "automation",
+      "effects",
+      "iotm",
+      "string"
+    ],
+    "meta": [
+      "consumption",
+      "inventory",
+      "properties",
+      "quests",
+      "skills",
+      "level",
+      "generate",
+      "append",
+      "equals",
+      "list",
+      "method",
+      "potato"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "adventuring:attack"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "QLevel13GenerateTasks",
+    "QLevel13Init",
+    "TFWMInternalModifierEquals",
+    "generatePotatoSuggestion",
+    "generateTowerFamiliarWeightMethod",
+    "listAppend"
+  ],
+  "imports": [
+    "relay/Guide/Support/Item Filter.ash",
+    "relay/Guide/Support/Passive Damage.ash",
+    "relay/Guide/Support/Spell Damage.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

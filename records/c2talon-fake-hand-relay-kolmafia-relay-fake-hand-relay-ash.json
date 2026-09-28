@@ -1,0 +1,79 @@
+{
+  "id": "c2talon-fake-hand-relay-kolmafia-relay-fake-hand-relay-ash",
+  "title": "fake_hand_relay",
+  "archive_path": "archive/c2talon/fake-hand-relay/kolmafia/relay/fake_hand_relay.ash",
+  "source_id": "c2talon-owner--fake_hand_relay",
+  "source_url": "https://github.com/C2Talon/fake_hand_relay",
+  "repository_url": "https://github.com/C2Talon/fake_hand_relay",
+  "repository_path": "kolmafia/relay/fake_hand_relay.ash",
+  "commit": "79702d2af5a8a014347b0fc937514d9bd44ef355",
+  "sha256": "1be5deb92dc38afc9cee3659d36cad65d9fdbe9eee92411b97f2806322719f02",
+  "bytes": 968,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/fake-hand-relay/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/fake_hand_relay/blob/79702d2af5a8a014347b0fc937514d9bd44ef355/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "inventory",
+      "string"
+    ],
+    "sub": [
+      "fake_hand_relay",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fake_hand_relay",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fake_hand_relay",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fake_hand_relay",
+      "url": "https://wiki.kolmafia.us/index.php?search=fake_hand_relay",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unlikely"
+  },
+  "functions": [
+    "fake_hand_relay"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

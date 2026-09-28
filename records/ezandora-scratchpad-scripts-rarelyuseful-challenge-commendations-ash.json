@@ -1,0 +1,91 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-challenge-commendations-ash",
+  "title": "Challenge Commendations",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Challenge Commendations.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Challenge Commendations.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "b0bd05b452191ed6de9ed5662e41ee79100f3be34926961c9e745e1173577910",
+  "bytes": 5889,
+  "author": "Leaderboard Robot",
+  "player": "Leaderboard Robot",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "string",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "value",
+      "ascension",
+      "challenge",
+      "commendations",
+      "append"
+    ],
+    "meta": [
+      "by",
+      "components",
+      "joined",
+      "list",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: challenge",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=challenge",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: challenge",
+      "url": "https://wiki.kolmafia.us/index.php?search=challenge",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: commendations",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=commendations",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: commendations",
+      "url": "https://wiki.kolmafia.us/index.php?search=commendations",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "componentsJoinedByString",
+    "listAppend",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

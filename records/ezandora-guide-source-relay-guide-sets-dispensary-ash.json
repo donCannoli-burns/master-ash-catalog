@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-dispensary-ash",
+  "title": "Dispensary",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Dispensary.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Dispensary.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "a0044fd30827b65a582816a31a13b826b4a74ec4dc1deed1478c9b141ca1ead6",
+  "bytes": 2452,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "ascension"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "outfit",
+      "string",
+      "adventuring",
+      "equipment"
+    ],
+    "meta": [
+      "inventory",
+      "profit",
+      "quests",
+      "dispensary",
+      "generate",
+      "sdispensary",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: dispensary",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=dispensary",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: dispensary",
+      "url": "https://wiki.kolmafia.us/index.php?search=dispensary",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SDispensaryGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-scratchpad-scripts-information-tabs-ash",
+  "title": "Tabs",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Information/Tabs.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Information/Tabs.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "7cb01aba3ace6470336acfb7cf7a8f6ee84f04691e604bfaf07dc76ad840ac14",
+  "bytes": 807,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "tabs",
+      "main",
+      "relay / IOTM / automation",
+      "scripting",
+      "utility"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: tabs",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tabs",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tabs",
+      "url": "https://wiki.kolmafia.us/index.php?search=tabs",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

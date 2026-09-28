@@ -1,0 +1,80 @@
+{
+  "id": "c2talon-c2t-takerspace-relay-kolmafia-relay-choice-1537-ash",
+  "title": "choice.1537",
+  "archive_path": "archive/c2talon/c2t-takerspace-relay/kolmafia/relay/choice.1537.ash",
+  "source_id": "c2talon-owner--c2t_takerspace_relay",
+  "source_url": "https://github.com/C2Talon/c2t_takerSpace_relay",
+  "repository_url": "https://github.com/C2Talon/c2t_takerSpace_relay",
+  "repository_path": "kolmafia/relay/choice.1537.ash",
+  "commit": "46de209fa9569a48c58e0db6af11a7e80ba03a45",
+  "sha256": "9e27d63160783016f17d131d021240e013fc7d02aa5a7a5384af60982b94e3c7",
+  "bytes": 215,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-takerspace-relay/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_takerSpace_relay/blob/46de209fa9569a48c58e0db6af11a7e80ba03a45/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "string"
+    ],
+    "sub": [
+      "main",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "c2t_takerSpace_relay.ash",
+    "relay/choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2026-liba-heartstone-ash",
+  "title": "liba_heartstone",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2026/liba_heartstone.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2026/liba_heartstone.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "7ae78b928837b949854599adb9acd19c60e4ea9e7d3fd2de0ee361f839217c7e",
+  "bytes": 2068,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "effects",
+      "inventory"
+    ],
+    "sub": [
+      "liba_heartstone",
+      "liba_heartstone_have",
+      "liba_heartstone_item",
+      "community ASH",
+      "scripting",
+      "utility"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_heartstone",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_heartstone",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_heartstone",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_heartstone",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "liba_heartstone",
+    "liba_heartstone_have",
+    "liba_heartstone_item"
+  ],
+  "imports": [
+    "liba_equipCast.ash",
+    "liba_eternityCodpiece.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

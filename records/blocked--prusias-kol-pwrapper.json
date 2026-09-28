@@ -1,0 +1,10 @@
+{
+  "commit": "b2d763f380dba429c2d0fb2d6344492971769eb5",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/Prusias-kol/pwrapper",
+  "source_id": "prusias-pwrapper",
+  "status": "metadata-only; bytes not redistributed"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-crimbo2022training-ash",
+  "title": "Crimbo2022Training",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/Crimbo2022Training.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/Crimbo2022Training.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "659e2a4351359c839de3b20b762a4f0733c27f91b150a187efd45e3805c376c5",
+  "bytes": 3984,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "provenance_url": "https://docs.google.com/spreadsheets/d/1N-9Ohjv11ch8bhivYxqYs6JHdTx8Ug2vMeGNLDzMH70/edit#gid=0",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "inventory",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "properties",
+      "string",
+      "update",
+      "ascension",
+      "skills"
+    ],
+    "meta": [
+      "crimbo2022training",
+      "id",
+      "is",
+      "kolusername",
+      "main",
+      "or",
+      "player",
+      "valid",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: crimbo2022training",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=crimbo2022training",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: crimbo2022training",
+      "url": "https://wiki.kolmafia.us/index.php?search=crimbo2022training",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "purchasing:retrieve_item",
+      "execution:visit_url",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "isValidKOLUsernameOrPlayerID",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

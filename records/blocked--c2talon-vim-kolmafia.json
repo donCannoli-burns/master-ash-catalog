@@ -1,0 +1,10 @@
+{
+  "commit": "b085646409ce6a725e4793995ca3d60c8dbb4053",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/C2Talon/vim-kolmafia",
+  "source_id": "c2talon-owner--vim-kolmafia",
+  "status": "metadata-only; bytes not redistributed"
+}

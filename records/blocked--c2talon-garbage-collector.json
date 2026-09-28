@@ -1,0 +1,10 @@
+{
+  "commit": "2909e3ba66d60e0896c8758ac28b6e23347e9d3a",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/C2Talon/garbage-collector",
+  "source_id": "c2talon-owner--garbage-collector",
+  "status": "metadata-only; bytes not redistributed"
+}

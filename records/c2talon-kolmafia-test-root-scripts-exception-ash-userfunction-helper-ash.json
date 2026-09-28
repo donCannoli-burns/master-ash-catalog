@@ -1,0 +1,77 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-exception-ash-userfunction-helper-ash",
+  "title": "exception_ash_userfunction_helper",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/exception_ash_userfunction_helper.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/exception_ash_userfunction_helper.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "c985088bf0c0889a1e58aac2f178a4b6811b24a56ba36d5a5ad5bd197e7a561a",
+  "bytes": 283,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "tracking",
+      "exception_ash_userfunction_helper",
+      "returns_eleven"
+    ],
+    "sub": [
+      "throw_script_exception",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: exception_ash_userfunction_helper",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=exception_ash_userfunction_helper",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: exception_ash_userfunction_helper",
+      "url": "https://wiki.kolmafia.us/index.php?search=exception_ash_userfunction_helper",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "returns_eleven",
+    "throw_script_exception"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

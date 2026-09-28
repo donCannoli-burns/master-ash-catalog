@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-11-hidden-city-ash",
+  "title": "Level 11 - Hidden City",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 11 - Hidden City.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 11 - Hidden City.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "ef9e2c9715bbf7d416db6a199b1b68b4c26cf9bf6635571f573d836afd896dc6",
+  "bytes": 28348,
+  "author": "visiting",
+  "player": "visiting",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "inventory"
+    ],
+    "sub": [
+      "iotm",
+      "quests",
+      "relay",
+      "ascension",
+      "automation",
+      "effects"
+    ],
+    "meta": [
+      "logging",
+      "modifier",
+      "string",
+      "value",
+      "city",
+      "adventuring",
+      "equipment",
+      "hidden",
+      "properties",
+      "tracking",
+      "level",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hidden",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hidden",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hidden",
+      "url": "https://wiki.kolmafia.us/index.php?search=hidden",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: city",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=city",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: city",
+      "url": "https://wiki.kolmafia.us/index.php?search=city",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel11HiddenCityGenerateTasks",
+    "QLevel11HiddenCityInit",
+    "generateHiddenAreaUnlockForShrine",
+    "numberOfDenseLianaFoughtInShrine"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

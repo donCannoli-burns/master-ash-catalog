@@ -1,0 +1,187 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-items-of-the-month-import-ash",
+  "title": "Items of the Month import",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Items of the Month import.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Items of the Month import.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "29a4d3ded7e3f077f7e3f00d6ad6ffd4336646493ad5d835dd42b6be3ca5f771",
+  "bytes": 4271,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "iotm",
+      "clan",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "tracking",
+      "import",
+      "items",
+      "month"
+    ],
+    "meta": [
+      "of",
+      "the",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: items",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=items",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: items",
+      "url": "https://wiki.kolmafia.us/index.php?search=items",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: the",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: the",
+      "url": "https://wiki.kolmafia.us/index.php?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: month",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=month",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: month",
+      "url": "https://wiki.kolmafia.us/index.php?search=month",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: import",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=import",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: import",
+      "url": "https://wiki.kolmafia.us/index.php?search=import",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "imports": [
+    "relay/Guide/Items of the Month/Asdon Martin.ash",
+    "relay/Guide/Items of the Month/Backup Camera.ash",
+    "relay/Guide/Items of the Month/Barrel God.ash",
+    "relay/Guide/Items of the Month/Bastille Battalion.ash",
+    "relay/Guide/Items of the Month/Beach Comb.ash",
+    "relay/Guide/Items of the Month/Better Shrooms and Gardens catalog.ash",
+    "relay/Guide/Items of the Month/Bird-a-Day calendar.ash",
+    "relay/Guide/Items of the Month/BoomBox.ash",
+    "relay/Guide/Items of the Month/Boxing Daycare.ash",
+    "relay/Guide/Items of the Month/Cargo Cultist Shorts.ash",
+    "relay/Guide/Items of the Month/Cat Burglar.ash",
+    "relay/Guide/Items of the Month/Clan Floundry.ash",
+    "relay/Guide/Items of the Month/Comprehensive Cartography.ash",
+    "relay/Guide/Items of the Month/Crown of Thrones.ash",
+    "relay/Guide/Items of the Month/DNA.ash",
+    "relay/Guide/Items of the Month/Deck of Every Card.ash",
+    "relay/Guide/Items of the Month/Detective School.ash",
+    "relay/Guide/Items of the Month/Eight Days a Week Pill Keeper.ash",
+    "relay/Guide/Items of the Month/Emotion Chip.ash",
+    "relay/Guide/Items of the Month/Garbage Tote.ash",
+    "relay/Guide/Items of the Month/Gardens.ash",
+    "relay/Guide/Items of the Month/GenieBottle.ash",
+    "relay/Guide/Items of the Month/Getaway Campsite.ash",
+    "relay/Guide/Items of the Month/Gingerbread City.ash",
+    "relay/Guide/Items of the Month/God Lobster.ash",
+    "relay/Guide/Items of the Month/Grimstone.ash",
+    "relay/Guide/Items of the Month/Guzzlr tablet.ash",
+    "relay/Guide/Items of the Month/Haunted Doghouse.ash",
+    "relay/Guide/Items of the Month/Horsery.ash",
+    "relay/Guide/Items of the Month/Intergnat.ash",
+    "relay/Guide/Items of the Month/KGBriefcase.ash",
+    "relay/Guide/Items of the Month/Kramco Sausage-o-Matic.ash",
+    "relay/Guide/Items of the Month/Latte.ash",
+    "relay/Guide/Items of the Month/Libram.ash",
+    "relay/Guide/Items of the Month/Lil Doctor Bag.ash",
+    "relay/Guide/Items of the Month/Machine Elf.ash",
+    "relay/Guide/Items of the Month/May Saber.ash",
+    "relay/Guide/Items of the Month/Mayo Clinic.ash",
+    "relay/Guide/Items of the Month/Melodramedary.ash",
+    "relay/Guide/Items of the Month/Meteor Lore.ash",
+    "relay/Guide/Items of the Month/Miniature Crystal Ball.ash",
+    "relay/Guide/Items of the Month/Neverending Party.ash",
+    "relay/Guide/Items of the Month/New You.ash",
+    "relay/Guide/Items of the Month/Plastic Vampire Fangs.ash",
+    "relay/Guide/Items of the Month/Pocket Professor.ash",
+    "relay/Guide/Items of the Month/Portable Pantogram.ash",
+    "relay/Guide/Items of the Month/Potted Power Plant.ash",
+    "relay/Guide/Items of the Month/Powerful Glove.ash",
+    "relay/Guide/Items of the Month/Protonic Accelerator Pack.ash",
+    "relay/Guide/Items of the Month/Psychoanalytic.ash",
+    "relay/Guide/Items of the Month/Red-Nosed Snapper.ash",
+    "relay/Guide/Items of the Month/Retro Superhero Cape.ash",
+    "relay/Guide/Items of the Month/Rune Spoon.ash",
+    "relay/Guide/Items of the Month/Smithsness.ash",
+    "relay/Guide/Items of the Month/Snojo.ash",
+    "relay/Guide/Items of the Month/Source Terminal.ash",
+    "relay/Guide/Items of the Month/Space Jellyfish.ash",
+    "relay/Guide/Items of the Month/Spacegate.ash",
+    "relay/Guide/Items of the Month/Speakeasy.ash",
+    "relay/Guide/Items of the Month/Spinmaster Lathe.ash",
+    "relay/Guide/Items of the Month/Sugar.ash",
+    "relay/Guide/Items of the Month/Tea Tree.ash",
+    "relay/Guide/Items of the Month/Telegraph Office.ash",
+    "relay/Guide/Items of the Month/Thanksgarden.ash",
+    "relay/Guide/Items of the Month/Time-Spinner.ash",
+    "relay/Guide/Items of the Month/Tomes.ash",
+    "relay/Guide/Items of the Month/Tunnel of Love.ash",
+    "relay/Guide/Items of the Month/Vampire Cloak.ash",
+    "relay/Guide/Items of the Month/Voting Booth.ash",
+    "relay/Guide/Items of the Month/Witchess.ash",
+    "relay/Guide/Items of the Month/XO Skeleton.ash",
+    "relay/Guide/Items of the Month/Zutara.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

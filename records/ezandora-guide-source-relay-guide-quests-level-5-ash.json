@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-5-ash",
+  "title": "Level 5",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 5.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 5.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e1b62b3e6af0801371efe01b9861e2a33c78973ff1a3ddd6f4421fe3f0ad25c8",
+  "bytes": 10896,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "inventory"
+    ],
+    "sub": [
+      "quests",
+      "relay",
+      "automation",
+      "effects",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "outfit",
+      "string",
+      "value",
+      "adventuring",
+      "equipment",
+      "properties",
+      "skills",
+      "level",
+      "qlevel5generate",
+      "qlevel5init",
+      "tasks",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel5GenerateTasks",
+    "QLevel5Init"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-fight-a-rat-ash",
+  "title": "fight a rat",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/fight a rat.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/fight a rat.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a73dc017ecfd77aec555603e238213984a4830d2d0080bcfc268eb2ae72f5b32",
+  "bytes": 74,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "fight",
+      "rat",
+      "main",
+      "relay / IOTM / automation",
+      "scripting"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fight",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fight",
+      "url": "https://wiki.kolmafia.us/index.php?search=fight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: rat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=rat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: rat",
+      "url": "https://wiki.kolmafia.us/index.php?search=rat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

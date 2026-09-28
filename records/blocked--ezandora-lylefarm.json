@@ -1,0 +1,10 @@
+{
+  "commit": "f92f42642e8309a9486a23f21eb1548e8f4527ca",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/Ezandora/Lylefarm",
+  "source_id": "ezandora-owner--lylefarm",
+  "status": "metadata-only; bytes not redistributed"
+}

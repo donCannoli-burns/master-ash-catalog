@@ -1,0 +1,88 @@
+{
+  "id": "c2talon-insertselect2-kolmafia-relay-insertselect2-ash",
+  "title": "insertSelect2",
+  "archive_path": "archive/c2talon/insertselect2/kolmafia/relay/insertSelect2.ash",
+  "source_id": "c2talon-owner--insertselect2",
+  "source_url": "https://github.com/C2Talon/insertSelect2",
+  "repository_url": "https://github.com/C2Talon/insertSelect2",
+  "repository_path": "kolmafia/relay/insertSelect2.ash",
+  "commit": "6f1a26a448ba4695049c22c95c261fe9921f59b3",
+  "sha256": "e5ec6caac4e450f318e91fd3a89741a5787db48216d85f3a01958ff9e9663729",
+  "bytes": 1848,
+  "author": "inserting things where needed to make that happen",
+  "player": "inserting things where needed to make that happen",
+  "provenance_url": "https://code.jquery.com/jquery-3.7.1.min.js",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/insertselect2/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/insertSelect2/blob/6f1a26a448ba4695049c22c95c261fe9921f59b3/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "string",
+      "insert",
+      "select2"
+    ],
+    "sub": [
+      "select",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: insert",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=insert",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: insert",
+      "url": "https://wiki.kolmafia.us/index.php?search=insert",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: select2",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=select2",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: select2",
+      "url": "https://wiki.kolmafia.us/index.php?search=select2",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "insertSelect",
+    "insertSelect2"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-checklist-ash",
+  "title": "Checklist",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Checklist.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Checklist.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "eb1a10646bda31332a6d31501cae935811abf7a7ca6ccbb1c7231dae5ae193be",
+  "bytes": 52858,
+  "author": "importance level before output",
+  "player": "importance level before output",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "quests",
+      "modifier"
+    ],
+    "sub": [
+      "automation",
+      "checklist",
+      "iotm",
+      "properties",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "list",
+      "adventuring",
+      "ascension",
+      "generate",
+      "append",
+      "clear",
+      "entry",
+      "format",
+      "html",
+      "init",
+      "keys",
+      "prepend"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: checklist",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=checklist",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: checklist",
+      "url": "https://wiki.kolmafia.us/index.php?search=checklist",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "ChecklistFormatSubentry",
+    "ChecklistGenerate",
+    "ChecklistGenerateEntryHTML",
+    "ChecklistGenerateModifierSpan",
+    "ChecklistInit",
+    "listAppend",
+    "listAppendList",
+    "listClear",
+    "listPrepend",
+    "listRemoveKeys"
+  ],
+  "imports": [
+    "relay/Guide/Settings.ash",
+    "relay/Guide/Support/HTML.ash",
+    "relay/Guide/Support/KOLImage.ash",
+    "relay/Guide/Support/Library.ash",
+    "relay/Guide/Support/List.ash",
+    "relay/Guide/Support/Page.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

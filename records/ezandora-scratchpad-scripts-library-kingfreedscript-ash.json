@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-kingfreedscript-ash",
+  "title": "KingFreedScript",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/KingFreedScript.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/KingFreedScript.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "4f674234469b039cd387f69974e6034152b368e45ea56313f99447e6c8d4b540",
+  "bytes": 977,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "pvp",
+      "recovery"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "iotm",
+      "consumption",
+      "inventory",
+      "profit"
+    ],
+    "meta": [
+      "properties",
+      "freed",
+      "king",
+      "script",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: king",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=king",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: king",
+      "url": "https://wiki.kolmafia.us/index.php?search=king",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: freed",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=freed",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: freed",
+      "url": "https://wiki.kolmafia.us/index.php?search=freed",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

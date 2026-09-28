@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-latte-release-relay-choice-1329-ash",
+  "title": "choice.1329",
+  "archive_path": "archive/ezandora/latte/Release/relay/choice.1329.ash",
+  "source_id": "ezandora-owner--latte",
+  "source_url": "https://github.com/Ezandora/Latte",
+  "repository_url": "https://github.com/Ezandora/Latte",
+  "repository_path": "Release/relay/choice.1329.ash",
+  "commit": "7c349842116da4cb75eebbfa65d19e05ef60b053",
+  "sha256": "dde6bc10f40c309d77b2587bca11f956bf56b87852d40164579a34004f330cfd",
+  "bytes": 30097,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/latte/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Latte/blob/7c349842116da4cb75eebbfa65d19e05ef60b053/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "familiar"
+    ],
+    "sub": [
+      "iotm",
+      "ascension",
+      "automation",
+      "cli",
+      "diet",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "adventuring",
+      "combat",
+      "mall",
+      "profit",
+      "properties",
+      "quests",
+      "latte",
+      "auto",
+      "capitalise",
+      "first",
+      "handle"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "LatteIngredientSorter",
+    "autoRefillLatte",
+    "capitaliseFirstLetter1329",
+    "handleLatte",
+    "main"
+  ],
+  "imports": [
+    "relay/choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

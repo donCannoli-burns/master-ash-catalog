@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-libram-ash",
+  "title": "Libram",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Libram.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Libram.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "4ad38452d467d9cf6eda30874b7d41aa47c5e107606eaf3129fdafd2b140c121",
+  "bytes": 5919,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "relay",
+      "skills"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "modifier",
+      "string",
+      "ascension",
+      "combat"
+    ],
+    "meta": [
+      "properties",
+      "quests",
+      "libram",
+      "generate",
+      "iotmlibram",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: libram",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=libram",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: libram",
+      "url": "https://wiki.kolmafia.us/index.php?search=libram",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMLibramGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

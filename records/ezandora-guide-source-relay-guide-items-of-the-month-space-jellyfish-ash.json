@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-space-jellyfish-ash",
+  "title": "Space Jellyfish",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Space Jellyfish.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Space Jellyfish.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "1e92cb7a65c14df1f8dd2be7f9b0f70bd3fd02570e5de02f61e1a934ad6c89e2",
+  "bytes": 4783,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "iotm",
+      "string",
+      "jellyfish",
+      "ascension"
+    ],
+    "meta": [
+      "consumption",
+      "inventory",
+      "properties",
+      "space",
+      "generate",
+      "iotmspace",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: space",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=space",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: space",
+      "url": "https://wiki.kolmafia.us/index.php?search=space",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: jellyfish",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=jellyfish",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: jellyfish",
+      "url": "https://wiki.kolmafia.us/index.php?search=jellyfish",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMSpaceJellyfishGenerateResource",
+    "IOTMSpaceJellyfishGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

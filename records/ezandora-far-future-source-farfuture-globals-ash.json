@@ -1,0 +1,73 @@
+{
+  "id": "ezandora-far-future-source-farfuture-globals-ash",
+  "title": "Globals",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Globals.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Globals.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "4ca4a8a39b808ac83528f05a98bad8c6c2c10cf88111dae463cbf2e490be7bba",
+  "bytes": 1429,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "skills",
+      "globals",
+      "relay / IOTM / automation",
+      "scripting"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: globals",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=globals",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: globals",
+      "url": "https://wiki.kolmafia.us/index.php?search=globals",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

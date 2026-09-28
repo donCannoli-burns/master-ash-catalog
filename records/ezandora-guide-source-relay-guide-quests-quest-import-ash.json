@@ -1,0 +1,119 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-quest-import-ash",
+  "title": "Quest import",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Quest import.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Quest import.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "1ed41b4d7c53235bee7b18ea890d72207b3ec8a71bf86325b67366bf8c8b3e18",
+  "bytes": 1449,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "quests",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "profit",
+      "import",
+      "quest",
+      "relay / IOTM / automation",
+      "scripting"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: quest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quest",
+      "url": "https://wiki.kolmafia.us/index.php?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: import",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=import",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: import",
+      "url": "https://wiki.kolmafia.us/index.php?search=import",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "imports": [
+    "relay/Guide/Quests/Airport.ash",
+    "relay/Guide/Quests/Artist.ash",
+    "relay/Guide/Quests/Azazel.ash",
+    "relay/Guide/Quests/Felonia.ash",
+    "relay/Guide/Quests/Guild.ash",
+    "relay/Guide/Quests/Intergalaktik.ash",
+    "relay/Guide/Quests/Legendary Beat.ash",
+    "relay/Guide/Quests/Level 10.ash",
+    "relay/Guide/Quests/Level 11.ash",
+    "relay/Guide/Quests/Level 12.ash",
+    "relay/Guide/Quests/Level 13.ash",
+    "relay/Guide/Quests/Level 2.ash",
+    "relay/Guide/Quests/Level 3.ash",
+    "relay/Guide/Quests/Level 4.ash",
+    "relay/Guide/Quests/Level 5.ash",
+    "relay/Guide/Quests/Level 6.ash",
+    "relay/Guide/Quests/Level 7.ash",
+    "relay/Guide/Quests/Level 8.ash",
+    "relay/Guide/Quests/Level 9.ash",
+    "relay/Guide/Quests/Madness Bakery.ash",
+    "relay/Guide/Quests/Manor.ash",
+    "relay/Guide/Quests/Marty.ash",
+    "relay/Guide/Quests/Meatsmith.ash",
+    "relay/Guide/Quests/Memories.ash",
+    "relay/Guide/Quests/Nemesis.ash",
+    "relay/Guide/Quests/Old Landfill.ash",
+    "relay/Guide/Quests/Pirate.ash",
+    "relay/Guide/Quests/Sea.ash",
+    "relay/Guide/Quests/Space Elves.ash",
+    "relay/Guide/Quests/Spookyraven Lights Out.ash",
+    "relay/Guide/Quests/Subject 37.ash",
+    "relay/Guide/Quests/Untinker.ash",
+    "relay/Guide/Quests/White Citadel.ash",
+    "relay/Guide/Quests/Wizard of Ego.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

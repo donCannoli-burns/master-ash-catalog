@@ -1,0 +1,113 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-airport-ash",
+  "title": "Airport",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Airport.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Airport.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "f57e91225cfa0a229df99f44d610ce9c8b4c09118159b12e90edb4029f93c810",
+  "bytes": 68692,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "airport",
+      "generate",
+      "tasks"
+    ],
+    "sub": [
+      "pvp",
+      "quests",
+      "relay",
+      "qsleaze",
+      "qstench",
+      "qspooky"
+    ],
+    "meta": [
+      "stash",
+      "automation",
+      "cli",
+      "effects",
+      "equipment",
+      "inventory",
+      "iotm",
+      "modifier",
+      "string",
+      "adventuring",
+      "clan",
+      "profit"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: airport",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=airport",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: airport",
+      "url": "https://wiki.kolmafia.us/index.php?search=airport",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QAirportGenerate",
+    "QColdAirportGenerateTasks",
+    "QHotAirportGenerate",
+    "QHotAirportGenerateTasks",
+    "QHotAirportLavaCoLampGenerateTasks",
+    "QSleazeAirportAuditGenerateTasks",
+    "QSleazeAirportBacteriaGenerateTasks",
+    "QSleazeAirportCheeseburgerGenerateTasks",
+    "QSleazeAirportCocktailGenerateTasks",
+    "QSleazeAirportDebtGenerateTasks",
+    "QSleazeAirportFishGenerateTasks",
+    "QSleazeAirportGenerate",
+    "QSleazeAirportGenerateTasks",
+    "QSleazeAirportMushStashGenerateTasks",
+    "QSleazeAirportSaltGenerateTasks",
+    "QSleazeAirportSprinklesGenerateTasks",
+    "QSpookyAirportClipperGenerateTasks",
+    "QSpookyAirportEveGenerateTasks",
+    "QSpookyAirportFakeMediumGenerateTasks",
+    "QSpookyAirportGenerateTasks",
+    "QSpookyAirportGoreGenerateTasks",
+    "QSpookyAirportJunglePunGenerateTasks",
+    "QSpookyAirportOutOfOrderGenerateTasks",
+    "QSpookyAirportSerumGenerateTasks",
+    "QSpookyAirportSmokesGenerateTasks",
+    "QSpookyAirportWeirdeauxGenerateTasks",
+    "QStenchAirportFishTrashGenerateTasks",
+    "QStenchAirportGarbageGenerateTasks",
+    "QStenchAirportGenerateTasks",
+    "QStenchAirportGiveMeFuelGenerateTasks",
+    "QStenchAirportNastyBearsGenerateTasks",
+    "QStenchAirportSocialJusticeIGenerateTasks",
+    "QStenchAirportSocialJusticeIIGenerateTasks",
+    "QStenchAirportSuperLuberGenerateTasks",
+    "QStenchAirportWartDinseyGenerateTasks",
+    "QStenchAirportWillWorkForFoodGenerateTasks",
+    "QStenchAirportZippityDooDahGenerateTasks",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

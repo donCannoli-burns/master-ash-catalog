@@ -1,0 +1,98 @@
+{
+  "id": "ezandora-far-future-source-farfuture-farfuture-ash",
+  "title": "FarFuture",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/FarFuture.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/FarFuture.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "774cc3de0f4466ce3e74de073f1f090597a82d512bfd53aaff4b65762e8e2dbb",
+  "bytes": 8601,
+  "author": "sleep",
+  "player": "sleep",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "choice",
+      "pvp"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "combat",
+      "inventory",
+      "iotm",
+      "string"
+    ],
+    "meta": [
+      "consumption",
+      "profit",
+      "properties",
+      "tracking",
+      "far",
+      "future",
+      "game",
+      "main",
+      "run",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: far",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=far",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: far",
+      "url": "https://wiki.kolmafia.us/index.php?search=far",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: future",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=future",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: future",
+      "url": "https://wiki.kolmafia.us/index.php?search=future",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "runGame"
+  ],
+  "imports": [
+    "scripts/FarFuture/GameState.ash",
+    "scripts/FarFuture/Globals.ash",
+    "scripts/FarFuture/Parsing/Parse.ash",
+    "scripts/FarFuture/Running/Core.ash",
+    "scripts/FarFuture/Support/Library.ash",
+    "scripts/FarFuture/Support/Serialise.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

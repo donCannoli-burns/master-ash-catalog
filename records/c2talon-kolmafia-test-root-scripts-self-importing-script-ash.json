@@ -1,0 +1,76 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-self-importing-script-ash",
+  "title": "self_importing_script",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/self_importing_script.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/self_importing_script.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "82d7d0fb76834f8aa1218a69e39729990b892b16a819adda0fb587acdde8ed63",
+  "bytes": 85,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "self_importing_script",
+      "automation",
+      "ash"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: self_importing_script",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=self_importing_script",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: self_importing_script",
+      "url": "https://wiki.kolmafia.us/index.php?search=self_importing_script",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "imports": [
+    "self_importing_script.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-test-vykea-ash",
+  "title": "test_vykea",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/test_vykea.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/test_vykea.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "6a389bc8b558b51bb354e2aacb7f0d1483ffd8e483a09192c6b0fde0222bb88e",
+  "bytes": 119,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "string",
+      "test_vykea",
+      "automation"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: test_vykea",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=test_vykea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: test_vykea",
+      "url": "https://wiki.kolmafia.us/index.php?search=test_vykea",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

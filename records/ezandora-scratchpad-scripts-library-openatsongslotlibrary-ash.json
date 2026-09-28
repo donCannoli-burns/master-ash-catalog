@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-openatsongslotlibrary-ash",
+  "title": "OpenATSongSlotLibrary",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/OpenATSongSlotLibrary.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/OpenATSongSlotLibrary.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "514ea705d402ff4e95edb4e67b377644fe466fcb6d36fd5795292f4e5f2d32a7",
+  "bytes": 1016,
+  "author": "value.to_effect",
+  "player": "value.to_effect",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "iotm",
+      "value",
+      "atsong",
+      "equipment"
+    ],
+    "meta": [
+      "open",
+      "slot",
+      "library",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: open",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=open",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: open",
+      "url": "https://wiki.kolmafia.us/index.php?search=open",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: atsong",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=atsong",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: atsong",
+      "url": "https://wiki.kolmafia.us/index.php?search=atsong",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: slot",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=slot",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: slot",
+      "url": "https://wiki.kolmafia.us/index.php?search=slot",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "openATSongSlot"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

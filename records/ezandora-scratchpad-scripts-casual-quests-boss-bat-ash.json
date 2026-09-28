@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-boss-bat-ash",
+  "title": "Boss Bat",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Boss Bat.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Boss Bat.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "ca3025261e5473e3d82cc4cb59afa6ea7fd2c2053a113eec6e1647db40c56ee9",
+  "bytes": 525,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "combat",
+      "iotm",
+      "outfit",
+      "quests",
+      "equipment",
+      "inventory"
+    ],
+    "meta": [
+      "properties",
+      "tracking",
+      "bat",
+      "boss",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: boss",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=boss",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: boss",
+      "url": "https://wiki.kolmafia.us/index.php?search=boss",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: bat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bat",
+      "url": "https://wiki.kolmafia.us/index.php?search=bat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

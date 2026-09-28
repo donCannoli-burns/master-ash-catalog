@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-guide-source-relay-guide-plants-ash",
+  "title": "Plants",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Plants.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Plants.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "a70209edb7e86551d3f8c4086f7d0b57b2dcfdbca6b8cf907ca7ce4fed28eec5",
+  "bytes": 15497,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "properties",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "iotm",
+      "modifier",
+      "string",
+      "adventuring"
+    ],
+    "meta": [
+      "combat",
+      "effects",
+      "inventory",
+      "tracking",
+      "plants",
+      "florist",
+      "append",
+      "description",
+      "finalise",
+      "friar",
+      "generate",
+      "get"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: plants",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=plants",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: plants",
+      "url": "https://wiki.kolmafia.us/index.php?search=plants",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "finaliseSetUpFloristState",
+    "generateFloristFriar",
+    "getPlantDescription",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

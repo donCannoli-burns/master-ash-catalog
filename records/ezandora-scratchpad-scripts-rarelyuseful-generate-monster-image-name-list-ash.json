@@ -1,0 +1,106 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-generate-monster-image-name-list-ash",
+  "title": "Generate monster image name list",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Generate monster image name list.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Generate monster image name list.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6753ce2b93b74543e620072a9434417c601212f89f99d8de1cb8f61c8414939f",
+  "bytes": 402,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "combat",
+      "generate",
+      "image",
+      "list",
+      "monster"
+    ],
+    "meta": [
+      "name",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: generate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=generate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: generate",
+      "url": "https://wiki.kolmafia.us/index.php?search=generate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monster",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monster",
+      "url": "https://wiki.kolmafia.us/index.php?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: image",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=image",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: image",
+      "url": "https://wiki.kolmafia.us/index.php?search=image",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: name",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=name",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: name",
+      "url": "https://wiki.kolmafia.us/index.php?search=name",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

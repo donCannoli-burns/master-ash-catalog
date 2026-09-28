@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-bestsemi-rare-ash",
+  "title": "BestSemi-rare",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/BestSemi-rare.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/BestSemi-rare.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "8bedacc8b3320fc4944cda6ea81fcb53dd4721599faff4edd2e8c9ddf37f3858",
+  "bytes": 2648,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "profit",
+      "mall",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "value",
+      "adventuring",
+      "best",
+      "inventory"
+    ],
+    "meta": [
+      "properties",
+      "semi-rare",
+      "for",
+      "location",
+      "main",
+      "semirare",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: best",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=best",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: best",
+      "url": "https://wiki.kolmafia.us/index.php?search=best",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: semi-rare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=semi+rare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: semi-rare",
+      "url": "https://wiki.kolmafia.us/index.php?search=semi+rare",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "bestSemirareLocationForProfit",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "prusias-kol-pupdates-scripts-pupdates-ash",
+  "title": "pUpdates",
+  "archive_path": "archive/prusias-kol/pupdates/scripts/pUpdates.ash",
+  "source_id": "prusias-pupdates",
+  "source_url": "https://github.com/Prusias-kol/pUpdates",
+  "repository_url": "https://github.com/Prusias-kol/pUpdates",
+  "repository_path": "scripts/pUpdates.ash",
+  "commit": "89235d21eeb181ed11f9f184f5e5a14df3d78438",
+  "sha256": "15cd08d577abd73bd05efd48347ec656b18342dad0c61718649999e6871211be",
+  "bytes": 3896,
+  "author": "Prusias-kol",
+  "player": "Prusias",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/prusias-kol/pupdates/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Prusias-kol/pUpdates/blob/89235d21eeb181ed11f9f184f5e5a14df3d78438/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "update",
+      "properties",
+      "string"
+    ],
+    "sub": [
+      "updates",
+      "add",
+      "check",
+      "gold",
+      "help",
+      "htmlprint"
+    ],
+    "meta": [
+      "init",
+      "main",
+      "print",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: updates",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=updates",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: updates",
+      "url": "https://wiki.kolmafia.us/index.php?search=updates",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "likely"
+  },
+  "functions": [
+    "goldHTMLprint",
+    "main",
+    "pAddUpdate",
+    "pCheckUpdate",
+    "pInitUpdates",
+    "printHelp"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

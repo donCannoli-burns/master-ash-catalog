@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-11-palindome-ash",
+  "title": "Level 11 - Palindome",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 11 - Palindome.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 11 - Palindome.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "29d8208491757fcc5d3a99ec627e9158adf730d1dff841802fcf570ae76865a8",
+  "bytes": 21449,
+  "author": "completing the",
+  "player": "completing the",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "combat",
+      "familiar"
+    ],
+    "sub": [
+      "inventory",
+      "quests",
+      "relay",
+      "automation",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "outfit",
+      "string",
+      "value",
+      "adventuring",
+      "consumption",
+      "profit",
+      "properties",
+      "level",
+      "palindome",
+      "qlevel11palindome",
+      "generate",
+      "init"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: palindome",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=palindome",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: palindome",
+      "url": "https://wiki.kolmafia.us/index.php?search=palindome",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel11PalindomeGenerateTasks",
+    "QLevel11PalindomeInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

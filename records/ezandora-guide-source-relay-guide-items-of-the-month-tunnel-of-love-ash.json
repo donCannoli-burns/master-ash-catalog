@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-tunnel-of-love-ash",
+  "title": "Tunnel of Love",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Tunnel of Love.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Tunnel of Love.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "47150bf132745b7a65d0cd47bef639dab84fe9fe39313e4ccd1ea41f9024e839",
+  "bytes": 3961,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "equipment",
+      "iotm",
+      "string",
+      "love"
+    ],
+    "meta": [
+      "of",
+      "combat",
+      "inventory",
+      "profit",
+      "properties",
+      "tunnel",
+      "generate",
+      "iotmtunnel",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: tunnel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tunnel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tunnel",
+      "url": "https://wiki.kolmafia.us/index.php?search=tunnel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: love",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=love",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: love",
+      "url": "https://wiki.kolmafia.us/index.php?search=love",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMTunnelOfLoveGenerateResource",
+    "IOTMTunnelOfLoveGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

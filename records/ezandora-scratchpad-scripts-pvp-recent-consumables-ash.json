@@ -1,0 +1,94 @@
+{
+  "id": "ezandora-scratchpad-scripts-pvp-recent-consumables-ash",
+  "title": "Recent Consumables",
+  "archive_path": "archive/ezandora/scratchpad/scripts/PVP/Recent Consumables.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/PVP/Recent Consumables.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a886f007c9215fe1dab5502aa7bf36dd54febf2d11c9038718be6733492c7dda",
+  "bytes": 6461,
+  "author": "value.fullness",
+  "player": "value.fullness",
+  "year": 2016,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "consumption",
+      "relay",
+      "mall"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "value",
+      "inventory",
+      "profit"
+    ],
+    "meta": [
+      "consumables",
+      "recent",
+      "drinkable",
+      "main",
+      "regardless",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: recent",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=recent",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: recent",
+      "url": "https://wiki.kolmafia.us/index.php?search=recent",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: consumables",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=consumables",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: consumables",
+      "url": "https://wiki.kolmafia.us/index.php?search=consumables",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "drinkableRegardless",
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Support/Library.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

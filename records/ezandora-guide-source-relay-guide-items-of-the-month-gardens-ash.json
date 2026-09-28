@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-gardens-ash",
+  "title": "Gardens",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Gardens.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Gardens.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "242380c780fb5de5fd8c76d2c943b3d97d7be5bd27d80e89dfe30288587f0dc6",
+  "bytes": 4714,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "ascension",
+      "equipment",
+      "inventory",
+      "quests",
+      "gardens"
+    ],
+    "meta": [
+      "generate",
+      "entry",
+      "garden",
+      "iotmgardens",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: gardens",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gardens",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gardens",
+      "url": "https://wiki.kolmafia.us/index.php?search=gardens",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMGardensGenerateResource",
+    "generateGardenEntry"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

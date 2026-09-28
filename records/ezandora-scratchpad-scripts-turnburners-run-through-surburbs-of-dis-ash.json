@@ -1,0 +1,118 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-run-through-surburbs-of-dis-ash",
+  "title": "Run Through Surburbs of Dis",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Run Through Surburbs of Dis.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Run Through Surburbs of Dis.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "d0de3f22c2ebb25b3b6285f121299c9e4181fee5e9190e34814f7410a3c1cfcd",
+  "bytes": 9451,
+  "author": "gravy fairy",
+  "player": "gravy fairy",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "choice",
+      "inventory"
+    ],
+    "sub": [
+      "relay",
+      "cli",
+      "familiar",
+      "mall",
+      "skills",
+      "tracking"
+    ],
+    "meta": [
+      "adventuring",
+      "ascension",
+      "automation",
+      "effects",
+      "iotm",
+      "modifier",
+      "properties",
+      "string",
+      "dis",
+      "profit",
+      "of",
+      "run"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: run",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=run",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: run",
+      "url": "https://wiki.kolmafia.us/index.php?search=run",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: through",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=through",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: through",
+      "url": "https://wiki.kolmafia.us/index.php?search=through",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: surburbs",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=surburbs",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: surburbs",
+      "url": "https://wiki.kolmafia.us/index.php?search=surburbs",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: dis",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=dis",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: dis",
+      "url": "https://wiki.kolmafia.us/index.php?search=dis",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "purchasing:retrieve_item",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "acquire_item",
+    "disAdventure",
+    "listAppend",
+    "main",
+    "run_combat_replacement",
+    "try_throw_items",
+    "upkeepMinusCombat"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

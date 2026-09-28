@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-events-historical-scripts-sendcrate-ash",
+  "title": "sendcrate",
+  "archive_path": "archive/ezandora/events/Historical/scripts/sendcrate.ash",
+  "source_id": "ezandora-owner--events",
+  "source_url": "https://github.com/Ezandora/Events",
+  "repository_url": "https://github.com/Ezandora/Events",
+  "repository_path": "Historical/scripts/sendcrate.ash",
+  "commit": "3656bd353ff8474b741ae84a5079d7a95be5a4e5",
+  "sha256": "ac5c3c1e075f582ada7460433a32a1df43701e448a12596d236be450359306b9",
+  "bytes": 1720,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/events/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Events/blob/3656bd353ff8474b741ae84a5079d7a95be5a4e5/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "sendcrate",
+      "crate",
+      "main",
+      "run"
+    ],
+    "meta": [
+      "send",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: sendcrate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sendcrate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sendcrate",
+      "url": "https://wiki.kolmafia.us/index.php?search=sendcrate",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "runCrate",
+    "sendCrate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

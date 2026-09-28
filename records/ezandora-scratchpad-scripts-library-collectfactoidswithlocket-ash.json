@@ -1,0 +1,110 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-collectfactoidswithlocket-ash",
+  "title": "CollectFactoidsWithLocket",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/CollectFactoidsWithLocket.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/CollectFactoidsWithLocket.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "517095bed5b98f908e6eb13e7b81cc4a3fcf4cd73aeea39889a1b6acfb50f683",
+  "bytes": 1343,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "properties",
+      "collect",
+      "factoids"
+    ],
+    "meta": [
+      "locket",
+      "with",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: collect",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=collect",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: collect",
+      "url": "https://wiki.kolmafia.us/index.php?search=collect",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: factoids",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=factoids",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: factoids",
+      "url": "https://wiki.kolmafia.us/index.php?search=factoids",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: with",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=with",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: with",
+      "url": "https://wiki.kolmafia.us/index.php?search=with",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: locket",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=locket",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: locket",
+      "url": "https://wiki.kolmafia.us/index.php?search=locket",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

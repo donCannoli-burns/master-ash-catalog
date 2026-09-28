@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-portable-pantogram-ash",
+  "title": "Portable Pantogram",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Portable Pantogram.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Portable Pantogram.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "801294768455efcb2331601889c29d9904ee34a56507c29a57b3de27da7e99df",
+  "bytes": 3186,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "skills",
+      "automation"
+    ],
+    "sub": [
+      "combat",
+      "iotm",
+      "profit",
+      "string",
+      "equipment",
+      "inventory"
+    ],
+    "meta": [
+      "pantogram",
+      "quests",
+      "portable",
+      "generate",
+      "iotmportable",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: portable",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=portable",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: portable",
+      "url": "https://wiki.kolmafia.us/index.php?search=portable",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: pantogram",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pantogram",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pantogram",
+      "url": "https://wiki.kolmafia.us/index.php?search=pantogram",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMPortablePantogramGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

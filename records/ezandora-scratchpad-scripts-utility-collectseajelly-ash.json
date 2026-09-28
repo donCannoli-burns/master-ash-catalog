@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-utility-collectseajelly-ash",
+  "title": "CollectSeaJelly",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Utility/CollectSeaJelly.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Utility/CollectSeaJelly.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "0866e55c2f810fa97fb6956cc23650f990c929f11a0e8cb0c68384955d09dae5",
+  "bytes": 543,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "choice",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "collect",
+      "jelly",
+      "sea",
+      "main"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: collect",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=collect",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: collect",
+      "url": "https://wiki.kolmafia.us/index.php?search=collect",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sea",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sea",
+      "url": "https://wiki.kolmafia.us/index.php?search=sea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: jelly",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=jelly",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: jelly",
+      "url": "https://wiki.kolmafia.us/index.php?search=jelly",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

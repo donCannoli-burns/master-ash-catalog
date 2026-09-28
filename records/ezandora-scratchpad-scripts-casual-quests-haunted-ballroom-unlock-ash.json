@@ -1,0 +1,104 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-haunted-ballroom-unlock-ash",
+  "title": "Haunted Ballroom Unlock",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Haunted Ballroom Unlock.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Haunted Ballroom Unlock.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "c4f83abf11dfef257d53ddcf22f8fa4c85d55b5d1e532fde1d63165ba64fa362",
+  "bytes": 5294,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "familiar",
+      "cli"
+    ],
+    "sub": [
+      "combat",
+      "relay",
+      "ascension",
+      "automation",
+      "effects",
+      "iotm"
+    ],
+    "meta": [
+      "outfit",
+      "string",
+      "adventuring",
+      "equipment",
+      "inventory",
+      "properties",
+      "adventure",
+      "ballroom",
+      "haunted",
+      "unlock",
+      "do",
+      "free"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: haunted",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=haunted",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: haunted",
+      "url": "https://wiki.kolmafia.us/index.php?search=haunted",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: ballroom",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ballroom",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ballroom",
+      "url": "https://wiki.kolmafia.us/index.php?search=ballroom",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: unlock",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=unlock",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: unlock",
+      "url": "https://wiki.kolmafia.us/index.php?search=unlock",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "doFreeRunawayAdventure",
+    "doSneakyAdventure",
+    "freeRunawaysRemaining",
+    "main",
+    "sneakyAdventure"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

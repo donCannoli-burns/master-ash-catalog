@@ -1,0 +1,107 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-stuff-you-don-t-own-ash",
+  "title": "stuff you don't own",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/stuff you don't own.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/stuff you don't own.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a47ba3113432c6f0828f86c221595ff90427213ef70bc9f22b8e5dc7bb108a2f",
+  "bytes": 1494,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 2000,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "profit",
+      "inventory",
+      "don",
+      "own",
+      "stuff"
+    ],
+    "meta": [
+      "you",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: stuff",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=stuff",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: stuff",
+      "url": "https://wiki.kolmafia.us/index.php?search=stuff",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: you",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=you",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: you",
+      "url": "https://wiki.kolmafia.us/index.php?search=you",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: don",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=don",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: don",
+      "url": "https://wiki.kolmafia.us/index.php?search=don",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: own",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=own",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: own",
+      "url": "https://wiki.kolmafia.us/index.php?search=own",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

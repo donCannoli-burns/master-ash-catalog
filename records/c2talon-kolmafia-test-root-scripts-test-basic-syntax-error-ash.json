@@ -1,0 +1,73 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-test-basic-syntax-error-ash",
+  "title": "test_basic_syntax_error",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/test_basic_syntax_error.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/test_basic_syntax_error.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "16087cd50553ffd95a34f9e6cbd606b0856c2e14e025c8468afee68667ee4d5b",
+  "bytes": 37,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "test_basic_syntax_error",
+      "automation",
+      "ash"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: test_basic_syntax_error",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=test_basic_syntax_error",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: test_basic_syntax_error",
+      "url": "https://wiki.kolmafia.us/index.php?search=test_basic_syntax_error",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

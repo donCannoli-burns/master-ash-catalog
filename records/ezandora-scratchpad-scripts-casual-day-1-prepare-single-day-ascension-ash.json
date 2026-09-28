@@ -1,0 +1,110 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-day-1-prepare-single-day-ascension-ash",
+  "title": "Day 1 Prepare (single day ascension)",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Day 1 Prepare (single day ascension).ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Day 1 Prepare (single day ascension).ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a6a61b2ff50c67555fdfe07e369f03c3c37d18255506a4dd260f70d6c76ed15e",
+  "bytes": 174,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "iotm",
+      "properties",
+      "day",
+      "prepare"
+    ],
+    "meta": [
+      "single",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: day",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: day",
+      "url": "https://wiki.kolmafia.us/index.php?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: prepare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=prepare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: prepare",
+      "url": "https://wiki.kolmafia.us/index.php?search=prepare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: single",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=single",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: single",
+      "url": "https://wiki.kolmafia.us/index.php?search=single",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: ascension",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ascension",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ascension",
+      "url": "https://wiki.kolmafia.us/index.php?search=ascension",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

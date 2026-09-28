@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-witchess-ash",
+  "title": "Witchess",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Witchess.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Witchess.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "b393ff12f5aaaacbb7c7518fb7e7cbaac0897dc2738962340a5f110dc8b4d1c4",
+  "bytes": 5167,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "skills",
+      "combat"
+    ],
+    "sub": [
+      "pvp",
+      "relay",
+      "automation",
+      "effects",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "string",
+      "consumption",
+      "inventory",
+      "mall",
+      "profit",
+      "properties",
+      "quests",
+      "witchess",
+      "generate",
+      "iotmwitchess",
+      "resource",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: witchess",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=witchess",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: witchess",
+      "url": "https://wiki.kolmafia.us/index.php?search=witchess",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMWitchessGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

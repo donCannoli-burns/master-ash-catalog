@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-limit-mode-batfellow-ash",
+  "title": "Batfellow",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Limit Mode/Batfellow.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Limit Mode/Batfellow.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "35c74846ce0cd4021476085e654e502ed4a86168674063c4e00c10dccb564922",
+  "bytes": 19731,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "properties",
+      "relay"
+    ],
+    "sub": [
+      "batfellow",
+      "automation",
+      "generate",
+      "iotm",
+      "string",
+      "limit"
+    ],
+    "meta": [
+      "mode",
+      "inventory",
+      "tasks",
+      "resources",
+      "bat",
+      "bosses",
+      "cavern",
+      "checklists",
+      "downtown",
+      "general",
+      "jokester",
+      "resource"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: batfellow",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=batfellow",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: batfellow",
+      "url": "https://wiki.kolmafia.us/index.php?search=batfellow",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "BatfellowGenerateResource",
+    "LimitModeBatfellowBatCavernGenerateTaskResources",
+    "LimitModeBatfellowBossesGenerateTasks",
+    "LimitModeBatfellowDowntownGenerateTasks",
+    "LimitModeBatfellowGeneralGenerateTasks",
+    "LimitModeBatfellowGenerateChecklists",
+    "LimitModeBatfellowGenerateResources",
+    "LimitModeBatfellowJokesterGenerateTasks"
+  ],
+  "imports": [
+    "relay/Guide/Limit Mode/Batfellow State.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

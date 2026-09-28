@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-far-future-source-farfuture-running-borg-ash",
+  "title": "Borg",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Running/Borg.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Running/Borg.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "d153c355212dd4706b00e926e3c25f47c4b80df96c0cd1b13d90f1d964a0f500",
+  "bytes": 2690,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "borg",
+      "skills",
+      "action",
+      "choose"
+    ],
+    "meta": [
+      "next",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: borg",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=borg",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: borg",
+      "url": "https://wiki.kolmafia.us/index.php?search=borg",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "BorgChooseNextAction"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

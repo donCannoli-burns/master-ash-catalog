@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-numberology-ash",
+  "title": "Numberology",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Numberology.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Numberology.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "4da9e67fb22014d201665ef9325c69b9ab34b81414e6a8025212acdfadb513c6",
+  "bytes": 3390,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "ascension",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "value",
+      "consumption",
+      "numberology",
+      "tracking"
+    ],
+    "meta": [
+      "calculate",
+      "for",
+      "idlookup",
+      "initialise",
+      "input",
+      "moon",
+      "outputs",
+      "sign",
+      "values",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: numberology",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=numberology",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: numberology",
+      "url": "https://wiki.kolmafia.us/index.php?search=numberology",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "calculateNumberologyInputValuesForOutputs",
+    "initialiseMoonSignIDLookup"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

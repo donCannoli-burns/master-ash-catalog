@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-telegraph-office-ash",
+  "title": "Telegraph Office",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Telegraph Office.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Telegraph Office.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "8c791be80a5f5224475d1ba1446f59fec341f25291abeeb5d8d3168c63bf152a",
+  "bytes": 11508,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "choice",
+      "combat"
+    ],
+    "sub": [
+      "inventory",
+      "properties",
+      "quests",
+      "relay",
+      "ascension",
+      "automation"
+    ],
+    "meta": [
+      "effects",
+      "iotm",
+      "modifier",
+      "string",
+      "office",
+      "adventuring",
+      "pvp",
+      "telegraph",
+      "generate",
+      "iotmtelegraph",
+      "resource",
+      "tasks"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: telegraph",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=telegraph",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: telegraph",
+      "url": "https://wiki.kolmafia.us/index.php?search=telegraph",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: office",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=office",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: office",
+      "url": "https://wiki.kolmafia.us/index.php?search=office",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMTelegraphOfficeGenerateResource",
+    "IOTMTelegraphOfficeGenerateTasks"
+  ],
+  "imports": [
+    "relay/Guide/Support/Location Choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

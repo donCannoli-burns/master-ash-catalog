@@ -1,0 +1,109 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-parse-yesterday-s-raffle-winners-ash",
+  "title": "Parse yesterday's raffle winners",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Parse yesterday's raffle winners.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Parse yesterday's raffle winners.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6dd267192d8e7877f2c71dc2ac469dc0200ca07ca07386bf56208c184204ca68",
+  "bytes": 1080,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "mall",
+      "automation"
+    ],
+    "sub": [
+      "cli",
+      "iotm",
+      "string",
+      "tracking",
+      "parse",
+      "raffle"
+    ],
+    "meta": [
+      "winners",
+      "yesterday",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: parse",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=parse",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: parse",
+      "url": "https://wiki.kolmafia.us/index.php?search=parse",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: yesterday",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=yesterday",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: yesterday",
+      "url": "https://wiki.kolmafia.us/index.php?search=yesterday",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: raffle",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=raffle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: raffle",
+      "url": "https://wiki.kolmafia.us/index.php?search=raffle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: winners",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=winners",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: winners",
+      "url": "https://wiki.kolmafia.us/index.php?search=winners",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

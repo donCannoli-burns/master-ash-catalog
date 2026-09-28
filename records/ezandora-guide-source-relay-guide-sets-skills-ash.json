@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-skills-ash",
+  "title": "Skills",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Skills.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Skills.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "ede629592c1436d2c595b46ce76f4af06765d64f71cda9ec13557575c5a040f3",
+  "bytes": 11948,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "crafting",
+      "effects",
+      "inventory",
+      "iotm",
+      "string"
+    ],
+    "meta": [
+      "profit",
+      "properties",
+      "pvp",
+      "generate",
+      "sskills",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: skills",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=skills",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: skills",
+      "url": "https://wiki.kolmafia.us/index.php?search=skills",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SSkillsGenerateResource",
+    "SSkillsGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

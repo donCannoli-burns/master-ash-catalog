@@ -1,0 +1,89 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2025-liba-beret-ash",
+  "title": "liba_beret",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2025/liba_beret.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2025/liba_beret.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "1dffcb2e90a3a390577af7020b3aa0e1b4bd780478991f1f9ad2c42dd668926a",
+  "bytes": 15053,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "equipment",
+      "familiar"
+    ],
+    "sub": [
+      "effects",
+      "inventory",
+      "modifier",
+      "string",
+      "value",
+      "liba_beret"
+    ],
+    "meta": [
+      "properties",
+      "tracking",
+      "liba_beret_get",
+      "liba_beret_execute",
+      "liba_beret_have",
+      "liba_beret_left",
+      "liba_beret_print",
+      "liba_beret_used",
+      "power",
+      "score",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_beret",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_beret",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_beret",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_beret",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "purchasing:retrieve_item"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "liba_beret",
+    "liba_beret_execute",
+    "liba_beret_getPower",
+    "liba_beret_getScore",
+    "liba_beret_have",
+    "liba_beret_left",
+    "liba_beret_print",
+    "liba_beret_used"
+  ],
+  "imports": [
+    "liba_clamp.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

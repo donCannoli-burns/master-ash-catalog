@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-bird-a-day-calendar-ash",
+  "title": "Bird-a-Day calendar",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Bird-a-Day calendar.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Bird-a-Day calendar.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "32f67b639be6fe7573f4aee9d2bb35d0b6298606f39da7684b2fa5e730ff206d",
+  "bytes": 3943,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "skills",
+      "ascension"
+    ],
+    "sub": [
+      "automation",
+      "combat",
+      "inventory",
+      "iotm",
+      "modifier",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "calendar",
+      "properties",
+      "bird-a-day",
+      "aday",
+      "generate",
+      "iotmbird",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bird-a-day",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bird+a+day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bird-a-day",
+      "url": "https://wiki.kolmafia.us/index.php?search=bird+a+day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: calendar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=calendar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: calendar",
+      "url": "https://wiki.kolmafia.us/index.php?search=calendar",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMBirdADayCalendarGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

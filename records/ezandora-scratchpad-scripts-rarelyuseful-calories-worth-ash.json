@@ -1,0 +1,88 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-calories-worth-ash",
+  "title": "calories worth",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/calories worth.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/calories worth.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "d8243250dc7e0c3a128066a7753cfdc8d52ce8640cc8e62d5901069b76bd25a8",
+  "bytes": 2988,
+  "author": "value.caloriesForItem",
+  "player": "value.caloriesForItem",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "consumption",
+      "iotm",
+      "modifier",
+      "profit",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "calories",
+      "combat",
+      "tracking",
+      "worth",
+      "append",
+      "for",
+      "item",
+      "list",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: calories",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=calories",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: calories",
+      "url": "https://wiki.kolmafia.us/index.php?search=calories",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: worth",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=worth",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: worth",
+      "url": "https://wiki.kolmafia.us/index.php?search=worth",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "caloriesForItem",
+    "listAppend",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

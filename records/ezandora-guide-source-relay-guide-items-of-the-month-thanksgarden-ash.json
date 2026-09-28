@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-thanksgarden-ash",
+  "title": "Thanksgarden",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Thanksgarden.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Thanksgarden.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "248c6cb50082276724967d5b17a47f29f2d7a3360daa05439115ef3d307b2db8",
+  "bytes": 6442,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "adventuring",
+      "inventory",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "consumption",
+      "iotm",
+      "string",
+      "ascension",
+      "mall"
+    ],
+    "meta": [
+      "properties",
+      "quests",
+      "thanksgarden",
+      "generate",
+      "iotmthanksgarden",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: thanksgarden",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=thanksgarden",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: thanksgarden",
+      "url": "https://wiki.kolmafia.us/index.php?search=thanksgarden",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMThanksgardenGenerateResource",
+    "IOTMThanksgardenGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

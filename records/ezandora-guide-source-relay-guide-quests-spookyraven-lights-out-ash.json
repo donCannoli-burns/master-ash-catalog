@@ -1,0 +1,98 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-spookyraven-lights-out-ash",
+  "title": "Spookyraven Lights Out",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Spookyraven Lights Out.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Spookyraven Lights Out.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "0cdfc94c848a58bb473e51311842c4b1414e82126b1985a592b2c80042aa790f",
+  "bytes": 11753,
+  "author": "nightstand",
+  "player": "nightstand",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "adventuring",
+      "familiar",
+      "mall"
+    ],
+    "sub": [
+      "relay",
+      "tracking",
+      "ascension",
+      "automation",
+      "character",
+      "cli"
+    ],
+    "meta": [
+      "combat",
+      "inventory",
+      "iotm",
+      "string",
+      "lights",
+      "out",
+      "consumption",
+      "properties",
+      "quests",
+      "generate",
+      "qspookyraven",
+      "spookyraven"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spookyraven",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spookyraven",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spookyraven",
+      "url": "https://wiki.kolmafia.us/index.php?search=spookyraven",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lights",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lights",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lights",
+      "url": "https://wiki.kolmafia.us/index.php?search=lights",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: out",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=out",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: out",
+      "url": "https://wiki.kolmafia.us/index.php?search=out",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QSpookyravenLightsOutGenerateEntry",
+    "QSpookyravenLightsOutGenerateResource",
+    "QSpookyravenLightsOutGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

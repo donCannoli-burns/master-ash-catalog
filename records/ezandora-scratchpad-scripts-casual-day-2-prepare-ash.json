@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-day-2-prepare-ash",
+  "title": "Day 2 Prepare",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Day 2 Prepare.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Day 2 Prepare.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6800b8dbd291742858ab415791fc32226b6c8cb8dbeb6739449f2e825b5cc4cb",
+  "bytes": 1297,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "consumption",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "iotm",
+      "inventory",
+      "properties",
+      "day"
+    ],
+    "meta": [
+      "prepare",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: day",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: day",
+      "url": "https://wiki.kolmafia.us/index.php?search=day",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: prepare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=prepare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: prepare",
+      "url": "https://wiki.kolmafia.us/index.php?search=prepare",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

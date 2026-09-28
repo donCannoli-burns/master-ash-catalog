@@ -1,0 +1,172 @@
+{
+  "id": "prusias-kol-plooper-kolmafia-scripts-ploop-ash",
+  "title": "pLoop",
+  "archive_path": "archive/prusias-kol/plooper/kolmafia/scripts/pLoop.ash",
+  "source_id": "prusias-plooper",
+  "source_url": "https://github.com/Prusias-kol/pLooper",
+  "repository_url": "https://github.com/Prusias-kol/pLooper",
+  "repository_path": "kolmafia/scripts/pLoop.ash",
+  "commit": "4d07aeb1796f651e0506fab2aed23e8b307bb247",
+  "sha256": "767a75bc595063daf23f7cae7d74a40e54782738461f131515d83e5770d7403a",
+  "bytes": 75391,
+  "author": "ploop run next",
+  "player": "ploop run next",
+  "year": 2000,
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/prusias-kol/plooper/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Prusias-kol/pLooper/blob/4d07aeb1796f651e0506fab2aed23e8b307bb247/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "properties",
+      "clan",
+      "run"
+    ],
+    "sub": [
+      "ascension",
+      "profit",
+      "familiar",
+      "pvp",
+      "tracking",
+      "cli"
+    ],
+    "meta": [
+      "mall",
+      "skills",
+      "stash",
+      "post",
+      "automation",
+      "outfit",
+      "phase",
+      "string",
+      "update",
+      "value",
+      "ploop",
+      "chunk"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: loop",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=loop",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: loop",
+      "url": "https://wiki.kolmafia.us/index.php?search=loop",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "purchasing:buy",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "acquireSteelOrganIfNeeded",
+    "addAcquisitionListItem",
+    "addClanStashAcquireItem",
+    "addClanStashAcquiredTracking",
+    "appendItemToProperty",
+    "ascendToValhalla",
+    "augmentBreakfast",
+    "beforeScriptRuns",
+    "clearAcquisitionList",
+    "clearClanStashAcquireList",
+    "csInit",
+    "dmt_dupe",
+    "enableHalloweenMode",
+    "equipLeftHandManForNightcap",
+    "executePloopChunk",
+    "finishSmolRun",
+    "garboUsage",
+    "getPloopChunkIndex",
+    "haveAllLegendFoods",
+    "init",
+    "installPostLoopWorkshedIfNeeded",
+    "isHalloween",
+    "isPloopChunk",
+    "listSaves",
+    "loadAllProperties",
+    "main",
+    "makeLegendFoodIfNeeded",
+    "needToAcquireItem",
+    "nightcap",
+    "nightcapFamiliar",
+    "optional_help_info",
+    "ploopHelper",
+    "postAscendScriptCleanup",
+    "postRun",
+    "postRunNoGarbo",
+    "preCSrun",
+    "pre_ascend_pulls",
+    "prepPvp",
+    "prepareForPostRun",
+    "prepareLegendFoods",
+    "printPloopChunkHelp",
+    "promptAscensionProperties",
+    "promptBasicInitProperties",
+    "promptPostAscensionProperties",
+    "reentrantWrapper",
+    "resetRunNextTrackerIfNeeded",
+    "restoreHalloweenMPA",
+    "returnClanStashItems",
+    "robotInit",
+    "runAscensionPhase",
+    "runBreakfastPhase",
+    "runLeg1GarboPhase",
+    "runLeg2GarboPhase",
+    "runLoopScriptPhase",
+    "runNextPloopChunk",
+    "runNightcapPhase",
+    "runPloopChunk",
+    "runPostDayScript",
+    "runPostScriptPrepPhase",
+    "runPreAscensionPhase",
+    "saucegeyserAll",
+    "saveAllProperties",
+    "shouldRunPostRun",
+    "shrugAT",
+    "smokeMessage",
+    "smolInit",
+    "smolReadyForPrism",
+    "spendPvpFightsIfNeeded",
+    "tryInstallInductionOven",
+    "tunePostRunMoonIfNeeded",
+    "unequipFamiliarItem",
+    "useCombo",
+    "utsCodpieceCheck",
+    "utsInit",
+    "yachtzeeAccess"
+  ],
+  "imports": [
+    "ProfitTracking.ash",
+    "TimeTracking.ash",
+    "ptrack.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

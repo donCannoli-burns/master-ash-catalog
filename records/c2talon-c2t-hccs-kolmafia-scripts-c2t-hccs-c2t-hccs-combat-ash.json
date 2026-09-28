@@ -1,0 +1,87 @@
+{
+  "id": "c2talon-c2t-hccs-kolmafia-scripts-c2t-hccs-c2t-hccs-combat-ash",
+  "title": "c2t_hccs_combat",
+  "archive_path": "archive/c2talon/c2t-hccs/kolmafia/scripts/c2t_hccs/c2t_hccs_combat.ash",
+  "source_id": "c2talon-owner--c2t_hccs",
+  "source_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_path": "kolmafia/scripts/c2t_hccs/c2t_hccs_combat.ash",
+  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "sha256": "e9e025c10e9d86ec519a68b632836df7050093978d1027f9e170437ce8ebbb0c",
+  "bytes": 17728,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "tracking",
+      "familiar"
+    ],
+    "sub": [
+      "mall",
+      "skills",
+      "consult",
+      "effects",
+      "string",
+      "adventuring"
+    ],
+    "meta": [
+      "iotm",
+      "properties",
+      "c2t_hccs_combat",
+      "c2t_hccs_bb",
+      "c2t_hccs_bowl",
+      "c2t_hccs_portscan",
+      "darts",
+      "main",
+      "sideways",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_hccs_combat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_hccs_combat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_hccs_combat",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_hccs_combat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "adventuring:adv1"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "c2t_hccs_bbDarts",
+    "c2t_hccs_bowlSideways",
+    "c2t_hccs_portscan",
+    "main"
+  ],
+  "imports": [
+    "c2t_hccs_lib.ash",
+    "c2t_hccs_resources.ash",
+    "c2t_lib.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

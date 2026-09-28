@@ -1,0 +1,76 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-misc-liba-clamp-ash",
+  "title": "liba_clamp",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/misc/liba_clamp.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/misc/liba_clamp.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "9e910fdeceadf730022ee874d0218d232cf920b366aa75e1334577f3f48ae2e2",
+  "bytes": 468,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "value",
+      "liba_clamp",
+      "automation"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_clamp",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_clamp",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_clamp",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_clamp",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "liba_clamp"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

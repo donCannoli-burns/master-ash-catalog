@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-list-ash",
+  "title": "List",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/List.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/List.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "fc378234974b31b7863d94964870aa6751b7934ca15027cce60102cc40486031",
+  "bytes": 25528,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "list",
+      "relay",
+      "familiar"
+    ],
+    "sub": [
+      "value",
+      "automation",
+      "iotm",
+      "string",
+      "adventuring",
+      "combat"
+    ],
+    "meta": [
+      "effects",
+      "equipment",
+      "skills",
+      "object",
+      "append",
+      "for",
+      "index",
+      "key",
+      "keys",
+      "are",
+      "clear",
+      "components"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: list",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: list",
+      "url": "https://wiki.kolmafia.us/index.php?search=list",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "listAppend",
+    "listAppendList",
+    "listClear",
+    "listContainsValue",
+    "listFirstObject",
+    "listGetRandomObject",
+    "listJoinComponents",
+    "listKeyForIndex",
+    "listKeysMeetStrictRequirements",
+    "listLastObject",
+    "listPrepend",
+    "listRemoveKeys",
+    "listSum",
+    "llistKeyForIndex",
+    "mapsAreEqual"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

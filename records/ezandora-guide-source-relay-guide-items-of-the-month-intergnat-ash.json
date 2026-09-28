@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-intergnat-ash",
+  "title": "Intergnat",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Intergnat.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Intergnat.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e87158fd5d166740965b83fbfc710e7e39f6f1179ed18c332031c74b5051c2e0",
+  "bytes": 5465,
+  "author": "this point",
+  "player": "this point",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "inventory",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "iotm",
+      "string",
+      "ascension",
+      "combat"
+    ],
+    "meta": [
+      "consumption",
+      "mall",
+      "profit",
+      "properties",
+      "quests",
+      "intergnat",
+      "generate",
+      "iotmintergnat",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: intergnat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=intergnat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: intergnat",
+      "url": "https://wiki.kolmafia.us/index.php?search=intergnat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMIntergnatGenerateResource",
+    "IOTMIntergnatGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

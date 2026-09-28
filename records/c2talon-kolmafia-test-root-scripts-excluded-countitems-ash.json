@@ -1,0 +1,83 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-excluded-countitems-ash",
+  "title": "CountItems",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/Excluded/CountItems.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/Excluded/CountItems.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "6cf2037d27f0222c83517e5b242b2a589cd8427fd8964ee0e7395954759e60cc",
+  "bytes": 424,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "count",
+      "items",
+      "automation"
+    ],
+    "sub": [
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state",
+      "reference"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: count",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=count",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: count",
+      "url": "https://wiki.kolmafia.us/index.php?search=count",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: items",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=items",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: items",
+      "url": "https://wiki.kolmafia.us/index.php?search=items",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

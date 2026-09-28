@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-neverending-party-release-scripts-party-ash",
+  "title": "Party",
+  "archive_path": "archive/ezandora/neverending-party/Release/scripts/Party.ash",
+  "source_id": "ezandora-owner--neverending-party",
+  "source_url": "https://github.com/Ezandora/Neverending-Party",
+  "repository_url": "https://github.com/Ezandora/Neverending-Party",
+  "repository_path": "Release/scripts/Party.ash",
+  "commit": "5ae4439353fdea15684837f4c5d1c8c7995cf0f5",
+  "sha256": "62db740afa3aa77755d1ad760dd31596039922a554b5751f76da0abb01fb43f1",
+  "bytes": 15204,
+  "author": "default",
+  "player": "default",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/neverending-party/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Neverending-Party/blob/5ae4439353fdea15684837f4c5d1c8c7995cf0f5/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "tracking"
+    ],
+    "sub": [
+      "combat",
+      "inventory",
+      "mall",
+      "automation",
+      "equipment",
+      "iotm"
+    ],
+    "meta": [
+      "outfit",
+      "profit",
+      "properties",
+      "quests",
+      "string",
+      "consumption",
+      "party",
+      "choices",
+      "main",
+      "save",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: party",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=party",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: party",
+      "url": "https://wiki.kolmafia.us/index.php?search=party",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "purchasing:retrieve_item",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "savePartyChoices"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

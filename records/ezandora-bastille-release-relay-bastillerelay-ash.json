@@ -1,0 +1,85 @@
+{
+  "id": "ezandora-bastille-release-relay-bastillerelay-ash",
+  "title": "BastilleRelay",
+  "archive_path": "archive/ezandora/bastille/Release/relay/BastilleRelay.ash",
+  "source_id": "ezandora-owner--bastille",
+  "source_url": "https://github.com/Ezandora/Bastille",
+  "repository_url": "https://github.com/Ezandora/Bastille",
+  "repository_path": "Release/relay/BastilleRelay.ash",
+  "commit": "7d2377c836e2febf17cf19bcd9e4f44678c762d3",
+  "sha256": "ce5a59b8c32f726bdb7cdfbf71cbeb6c30b05344d1475aee4d926f3b10adab41",
+  "bytes": 20712,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/bastille/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Bastille/blob/7d2377c836e2febf17cf19bcd9e4f44678c762d3/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "mall",
+      "familiar"
+    ],
+    "sub": [
+      "iotm",
+      "automation",
+      "cli",
+      "modifier",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "bastille",
+      "inventory",
+      "profit",
+      "quests",
+      "tracking",
+      "calculate",
+      "handle",
+      "layout",
+      "as",
+      "average",
+      "cheese",
+      "entries"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bastille",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bastille",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bastille",
+      "url": "https://wiki.kolmafia.us/index.php?search=bastille",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "calculateAverageCheeseGained",
+    "calculateFinalStatgain",
+    "handleBastille",
+    "handleFormRelayRequest",
+    "layoutBastilleOptions",
+    "layoutEntriesAsUnwrappable",
+    "main"
+  ],
+  "imports": [
+    "scripts/bastille.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

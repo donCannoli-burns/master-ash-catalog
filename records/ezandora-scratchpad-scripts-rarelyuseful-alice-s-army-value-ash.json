@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-alice-s-army-value-ash",
+  "title": "Alice's Army Value",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Alice's Army Value.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Alice's Army Value.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "9f070fa5f56798120d9929966780b0236a011ad2e46965286d08830cf62e7db3",
+  "bytes": 1064,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "relay",
+      "value"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "profit",
+      "inventory",
+      "alice",
+      "army"
+    ],
+    "meta": [
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: alice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=alice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: alice",
+      "url": "https://wiki.kolmafia.us/index.php?search=alice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: army",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=army",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: army",
+      "url": "https://wiki.kolmafia.us/index.php?search=army",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: value",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=value",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: value",
+      "url": "https://wiki.kolmafia.us/index.php?search=value",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

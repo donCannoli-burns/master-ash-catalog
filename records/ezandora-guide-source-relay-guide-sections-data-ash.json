@@ -1,0 +1,73 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-data-ash",
+  "title": "Data",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Data.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Data.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "5525582b28b0951f2a7164cbd9c4b65d16e82668214f97c03d00e87517ca4a43",
+  "bytes": 41213,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "pvp",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "iotm",
+      "string",
+      "data",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: data",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=data",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: data",
+      "url": "https://wiki.kolmafia.us/index.php?search=data",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

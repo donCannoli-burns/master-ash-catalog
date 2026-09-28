@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-gingerbread-city-ash",
+  "title": "Gingerbread City",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Gingerbread City.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Gingerbread City.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "4ab7d462ddeb3f80751fe60625ece8af1756c727d80d5d9e1751cb76ce04a06f",
+  "bytes": 2980,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "provenance_url": "http://kol.coldfront.net/thekolwiki/index.php/A_GingerGuide_to_Gingerbread_City",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "choice",
+      "familiar"
+    ],
+    "sub": [
+      "iotm",
+      "relay",
+      "ascension",
+      "automation",
+      "combat",
+      "outfit"
+    ],
+    "meta": [
+      "string",
+      "adventuring",
+      "city",
+      "equipment",
+      "properties",
+      "tracking",
+      "gingerbread",
+      "generate",
+      "iotmgingerbread",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: gingerbread",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gingerbread",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gingerbread",
+      "url": "https://wiki.kolmafia.us/index.php?search=gingerbread",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: city",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=city",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: city",
+      "url": "https://wiki.kolmafia.us/index.php?search=city",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMGingerbreadCityGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

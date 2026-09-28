@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-library-switch-to-cannelloni-combat-script-ash",
+  "title": "switch to cannelloni combat script",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Library/switch to cannelloni combat script.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Library/switch to cannelloni combat script.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "5e1bf52d7634070a29372a3a3b4cfe8c81fff67470c98a865d9e3159f91ae955",
+  "bytes": 200,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "combat"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "iotm",
+      "properties",
+      "cannelloni",
+      "script"
+    ],
+    "meta": [
+      "switch",
+      "to",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: switch",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=switch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: switch",
+      "url": "https://wiki.kolmafia.us/index.php?search=switch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: cannelloni",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cannelloni",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cannelloni",
+      "url": "https://wiki.kolmafia.us/index.php?search=cannelloni",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: combat",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=combat",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: combat",
+      "url": "https://wiki.kolmafia.us/index.php?search=combat",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

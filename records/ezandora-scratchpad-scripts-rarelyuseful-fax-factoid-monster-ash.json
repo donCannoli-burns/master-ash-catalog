@@ -1,0 +1,103 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-fax-factoid-monster-ash",
+  "title": "Fax Factoid Monster",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Fax Factoid Monster.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Fax Factoid Monster.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "c582a72408271b7a50eef5901441efe0bd323312160ff5bb72854b67316ca704",
+  "bytes": 4264,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "properties",
+      "quests",
+      "string",
+      "combat",
+      "inventory",
+      "mall"
+    ],
+    "meta": [
+      "tracking",
+      "factoid",
+      "fax",
+      "monster",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fax",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fax",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fax",
+      "url": "https://wiki.kolmafia.us/index.php?search=fax",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: factoid",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=factoid",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: factoid",
+      "url": "https://wiki.kolmafia.us/index.php?search=factoid",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monster",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monster",
+      "url": "https://wiki.kolmafia.us/index.php?search=monster",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Support/List.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

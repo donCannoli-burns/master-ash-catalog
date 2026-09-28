@@ -1,0 +1,87 @@
+{
+  "id": "c2talon-kolmafia-src-relay-afterlife-1-ash",
+  "title": "afterlife.1",
+  "archive_path": "archive/c2talon/kolmafia/src/relay/afterlife.1.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "src/relay/afterlife.1.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "221511aa5eb0e771f318c7595056f2d05caf83516d44a671a9e6f80f1a636c48",
+  "bytes": 14887,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "provenance_url": "https://s3.amazonaws.com/images.kingdomofloathing.com/itemimages/ast_bludgeon.gif",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "cli",
+      "equipment"
+    ],
+    "sub": [
+      "modifier",
+      "string",
+      "value",
+      "consumption",
+      "effects",
+      "relay"
+    ],
+    "meta": [
+      "afterlife",
+      "append_consumable_divs",
+      "append_div",
+      "append_line",
+      "insert_class_sign_dropdowns",
+      "main",
+      "modify_decision",
+      "modify_deli",
+      "modify_pet_store",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: afterlife",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=afterlife",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: afterlife",
+      "url": "https://wiki.kolmafia.us/index.php?search=afterlife",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "append_consumable_divs",
+    "append_div",
+    "append_line",
+    "insert_class_sign_dropdowns",
+    "main",
+    "modify_decision",
+    "modify_deli",
+    "modify_pet_store"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

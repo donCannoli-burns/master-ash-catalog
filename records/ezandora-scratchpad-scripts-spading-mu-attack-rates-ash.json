@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-spading-mu-attack-rates-ash",
+  "title": "mu attack rates",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Spading/mu attack rates.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Spading/mu attack rates.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6a77ec47002e55ee898c07da3e27c9a3583b92213f02ab2e2d43db3db0fcaf31",
+  "bytes": 2976,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "automation",
+      "effects",
+      "iotm",
+      "modifier",
+      "recovery"
+    ],
+    "meta": [
+      "spading",
+      "string",
+      "adventuring",
+      "combat",
+      "skills",
+      "tracking",
+      "attack",
+      "mu",
+      "rates",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: attack",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=attack",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: attack",
+      "url": "https://wiki.kolmafia.us/index.php?search=attack",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: rates",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=rates",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: rates",
+      "url": "https://wiki.kolmafia.us/index.php?search=rates",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "scripts/Helix Fossil/Helix Fossil/Library.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

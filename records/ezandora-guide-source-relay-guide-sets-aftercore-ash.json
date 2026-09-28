@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-aftercore-ash",
+  "title": "Aftercore",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Aftercore.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Aftercore.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "2bcdd543051089e0cf6c51d6138b5ee6551cfbfd80be0e3bb42ad39db8a0c5c7",
+  "bytes": 13813,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "provenance_url": "http://kol.coldfront.net/thekolwiki/index.php/Quest_Spoilers",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "familiar",
+      "mall"
+    ],
+    "sub": [
+      "quests",
+      "relay",
+      "skills",
+      "ascension",
+      "automation",
+      "crafting"
+    ],
+    "meta": [
+      "effects",
+      "farming",
+      "iotm",
+      "string",
+      "adventuring",
+      "properties",
+      "aftercore",
+      "generate",
+      "saftercore",
+      "tasks",
+      "append",
+      "do"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: aftercore",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=aftercore",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: aftercore",
+      "url": "https://wiki.kolmafia.us/index.php?search=aftercore",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SAftercoreGenerateTasks",
+    "SAftercoreThingsToDoGenerateTasks",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

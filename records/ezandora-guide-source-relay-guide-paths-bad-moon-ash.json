@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-bad-moon-ash",
+  "title": "Bad Moon",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Bad Moon.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Bad Moon.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "d4cba4fc5bba65298b340f5dbaf31f7d105b87c9bd585c651374fb58ab439399",
+  "bytes": 30920,
+  "author": "one",
+  "player": "one",
+  "year": 2000,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "skills",
+      "automation",
+      "bad",
+      "effects",
+      "iotm",
+      "moon"
+    ],
+    "meta": [
+      "spading",
+      "string",
+      "adventuring",
+      "generate",
+      "inventory",
+      "path",
+      "profit",
+      "adventures",
+      "append",
+      "category",
+      "checklist",
+      "checklists"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bad",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bad",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bad",
+      "url": "https://wiki.kolmafia.us/index.php?search=bad",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: moon",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=moon",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: moon",
+      "url": "https://wiki.kolmafia.us/index.php?search=moon",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathBadMoonGenerateCategoryChecklistEntry",
+    "PathBadMoonGenerateChecklists",
+    "PathBadMoonGenerateResource",
+    "PathBadMoonGenerateTasks",
+    "initialiseStaticBadMoonAdventures",
+    "listAppend"
+  ],
+  "imports": [
+    "relay/Guide/QuestState.ash",
+    "relay/Guide/Support/LocationAvailable.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

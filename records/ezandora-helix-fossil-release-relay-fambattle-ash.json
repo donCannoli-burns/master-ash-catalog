@@ -1,0 +1,82 @@
+{
+  "id": "ezandora-helix-fossil-release-relay-fambattle-ash",
+  "title": "fambattle",
+  "archive_path": "archive/ezandora/helix-fossil/Release/relay/fambattle.ash",
+  "source_id": "ezandora-owner--helix-fossil",
+  "source_url": "https://github.com/Ezandora/Helix-Fossil",
+  "repository_url": "https://github.com/Ezandora/Helix-Fossil",
+  "repository_path": "Release/relay/fambattle.ash",
+  "commit": "d087db2040c857402ef2f0d1bb645e2876ca329f",
+  "sha256": "7e77f021406e0921807d827365f4582ec97e8093168b9cb11dbb6bfecde518cb",
+  "bytes": 1841,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/helix-fossil/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Helix-Fossil/blob/d087db2040c857402ef2f0d1bb645e2876ca329f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "familiar",
+      "automation"
+    ],
+    "sub": [
+      "cli",
+      "combat",
+      "iotm",
+      "string",
+      "value",
+      "consumption"
+    ],
+    "meta": [
+      "quests",
+      "fambattle",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fambattle",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fambattle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fambattle",
+      "url": "https://wiki.kolmafia.us/index.php?search=fambattle",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "scripts/Helix Fossil/Pocket Familiars.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

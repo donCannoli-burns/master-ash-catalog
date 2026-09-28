@@ -1,0 +1,118 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-conspiracy-island-radio-quest-ash",
+  "title": "Conspiracy Island Radio Quest",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Conspiracy Island Radio Quest.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Conspiracy Island Radio Quest.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "c85a93883a80fcb07b30ce26b1c9cfb443925a068095e84ea892847101788eda",
+  "bytes": 2979,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "familiar"
+    ],
+    "sub": [
+      "quests",
+      "relay",
+      "adventuring",
+      "automation",
+      "effects",
+      "equipment"
+    ],
+    "meta": [
+      "iotm",
+      "properties",
+      "quest",
+      "combat",
+      "inventory",
+      "profit",
+      "radio",
+      "conspiracy",
+      "island",
+      "clipper",
+      "gore",
+      "jungle"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: conspiracy",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=conspiracy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: conspiracy",
+      "url": "https://wiki.kolmafia.us/index.php?search=conspiracy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: island",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=island",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: island",
+      "url": "https://wiki.kolmafia.us/index.php?search=island",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: radio",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=radio",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: radio",
+      "url": "https://wiki.kolmafia.us/index.php?search=radio",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: quest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quest",
+      "url": "https://wiki.kolmafia.us/index.php?search=quest",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "ClipperQuest",
+    "GoreQuest",
+    "JunglePunsQuest",
+    "main",
+    "replyToRadio"
+  ],
+  "imports": [
+    "relay/Guide/QuestState.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

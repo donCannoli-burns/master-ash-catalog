@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-familiar-cost-ash",
+  "title": "Familiar cost",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Familiar cost.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Familiar cost.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a0b72b209b6c9a50e4760c64e5fe095ef67ff702a708bab7df3ddc2a2595178e",
+  "bytes": 688,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "mall",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "profit",
+      "value",
+      "cost",
+      "item_price"
+    ],
+    "meta": [
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: familiar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=familiar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: familiar",
+      "url": "https://wiki.kolmafia.us/index.php?search=familiar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: cost",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cost",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cost",
+      "url": "https://wiki.kolmafia.us/index.php?search=cost",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "item_price",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

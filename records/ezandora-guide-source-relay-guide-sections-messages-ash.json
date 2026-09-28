@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-messages-ash",
+  "title": "Messages",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Messages.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Messages.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "fa43bd83197df58eaa4e7de3b6cfb25fb525a130d41e46a29f90fcd18442d556",
+  "bytes": 49506,
+  "author": "sandworm",
+  "player": "sandworm",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "iotm",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "string",
+      "update",
+      "adventuring",
+      "ascension",
+      "inventory"
+    ],
+    "meta": [
+      "properties",
+      "quests",
+      "tracking",
+      "generate",
+      "message",
+      "messages",
+      "random",
+      "location",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: messages",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=messages",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: messages",
+      "url": "https://wiki.kolmafia.us/index.php?search=messages",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateRandomMessage",
+    "generateRandomMessageFamiliar",
+    "generateRandomMessageLocation"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

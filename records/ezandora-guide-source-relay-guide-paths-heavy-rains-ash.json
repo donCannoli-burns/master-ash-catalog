@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-heavy-rains-ash",
+  "title": "Heavy Rains",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Heavy Rains.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Heavy Rains.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "cf35469b27e7535e9560c4acc8b6dde7650d4e8e0e93d67b5f59fe9a29650754",
+  "bytes": 11240,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "inventory",
+      "relay"
+    ],
+    "sub": [
+      "skills",
+      "automation",
+      "cli",
+      "iotm",
+      "string",
+      "heavy"
+    ],
+    "meta": [
+      "rains",
+      "ascension",
+      "combat",
+      "effects",
+      "equipment",
+      "mall",
+      "profit",
+      "quests",
+      "generate",
+      "path",
+      "resource",
+      "tasks"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: heavy",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=heavy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: heavy",
+      "url": "https://wiki.kolmafia.us/index.php?search=heavy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: rains",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=rains",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: rains",
+      "url": "https://wiki.kolmafia.us/index.php?search=rains",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathHeavyRainsGenerateResource",
+    "PathHeavyRainsGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

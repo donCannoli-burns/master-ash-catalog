@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-farm-superduper-metal-ash",
+  "title": "Farm_superduper_metal",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Farm_superduper_metal.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Farm_superduper_metal.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "3f19914ce0f2238f37f43f1f9d0f1106eebb72366cc33fb5b70439df872c1514",
+  "bytes": 1263,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "familiar",
+      "inventory"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "adventuring",
+      "automation",
+      "iotm",
+      "properties"
+    ],
+    "meta": [
+      "string",
+      "consumption",
+      "effects",
+      "profit",
+      "farm_superduper_metal",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: farm_superduper_metal",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farm_superduper_metal",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farm_superduper_metal",
+      "url": "https://wiki.kolmafia.us/index.php?search=farm_superduper_metal",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

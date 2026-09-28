@@ -1,0 +1,73 @@
+{
+  "id": "c2talon-kolmafia-test-root-scripts-test-to-wiki-url-ash",
+  "title": "test_to_wiki_url",
+  "archive_path": "archive/c2talon/kolmafia/test/root/scripts/test_to_wiki_url.ash",
+  "source_id": "c2talon-owner--kolmafia",
+  "source_url": "https://github.com/C2Talon/kolmafia",
+  "repository_url": "https://github.com/C2Talon/kolmafia",
+  "repository_path": "test/root/scripts/test_to_wiki_url.ash",
+  "commit": "887e10e1f57abea957bd17dcfbe1f1425f913354",
+  "sha256": "4d3a0ebd8c89001291204ac8f3d7387d561ce099d104dd45530c9019ac7e7987",
+  "bytes": 231,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "BSD-style",
+    "evidence_path": "archive/c2talon/kolmafia/_source_license/LICENSE.md",
+    "evidence_url": "https://github.com/C2Talon/kolmafia/blob/887e10e1f57abea957bd17dcfbe1f1425f913354/LICENSE.md"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "combat",
+      "effects"
+    ],
+    "sub": [
+      "skills",
+      "test_to_wiki_url",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: test_to_wiki_url",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=test_to_wiki_url",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: test_to_wiki_url",
+      "url": "https://wiki.kolmafia.us/index.php?search=test_to_wiki_url",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

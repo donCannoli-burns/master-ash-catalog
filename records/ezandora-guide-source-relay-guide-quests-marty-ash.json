@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-marty-ash",
+  "title": "Marty",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Marty.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Marty.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "77b66b3239c6cbca61d943024846d2318ede7928d02c010bf332a13698ea150d",
+  "bytes": 4615,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "tracking",
+      "automation",
+      "combat",
+      "iotm",
+      "modifier",
+      "string"
+    ],
+    "meta": [
+      "adventuring",
+      "inventory",
+      "marty",
+      "qmarty",
+      "generate",
+      "init",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: marty",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=marty",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: marty",
+      "url": "https://wiki.kolmafia.us/index.php?search=marty",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QMartyGenerateTasks",
+    "QMartyInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

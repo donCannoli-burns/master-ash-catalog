@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-misc-tasks-ash",
+  "title": "Misc Tasks",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Misc Tasks.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Misc Tasks.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "60c29fe3933bb5e8353582706e7c296fcb1b70a95e5d16a5b37d43ad5019d4df",
+  "bytes": 15090,
+  "author": "Death",
+  "player": "Death",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "consumption",
+      "equipment",
+      "familiar"
+    ],
+    "sub": [
+      "quests",
+      "relay",
+      "rollover",
+      "automation",
+      "character",
+      "combat"
+    ],
+    "meta": [
+      "effects",
+      "iotm",
+      "modifier",
+      "outfit",
+      "string",
+      "adventuring",
+      "ascension",
+      "inventory",
+      "profit",
+      "properties",
+      "skills",
+      "tasks"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: misc",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=misc",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: misc",
+      "url": "https://wiki.kolmafia.us/index.php?search=misc",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: tasks",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tasks",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tasks",
+      "url": "https://wiki.kolmafia.us/index.php?search=tasks",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SMiscTasksGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

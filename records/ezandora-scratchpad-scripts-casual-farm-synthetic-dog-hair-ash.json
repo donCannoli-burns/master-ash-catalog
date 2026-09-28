@@ -1,0 +1,110 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-farm-synthetic-dog-hair-ash",
+  "title": "Farm synthetic dog hair",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Farm synthetic dog hair.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Farm synthetic dog hair.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "541a667057c5d1eb909fb7bc0627cb91a01f90f9be13e6ffcd00933c7eaeb8f1",
+  "bytes": 1362,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "familiar"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "effects",
+      "iotm",
+      "inventory",
+      "mall"
+    ],
+    "meta": [
+      "dog",
+      "farm",
+      "hair",
+      "synthetic",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: farm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farm",
+      "url": "https://wiki.kolmafia.us/index.php?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: synthetic",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=synthetic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: synthetic",
+      "url": "https://wiki.kolmafia.us/index.php?search=synthetic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: dog",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=dog",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: dog",
+      "url": "https://wiki.kolmafia.us/index.php?search=dog",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hair",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hair",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hair",
+      "url": "https://wiki.kolmafia.us/index.php?search=hair",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "purchasing:buy",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

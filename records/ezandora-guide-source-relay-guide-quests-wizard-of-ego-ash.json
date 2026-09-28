@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-wizard-of-ego-ash",
+  "title": "Wizard of Ego",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Wizard of Ego.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Wizard of Ego.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e9e09a2ba84928bdfeb47a6299bfcb46936fc7b9f0602c976be6f58a825bc70b",
+  "bytes": 6623,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "mall",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "combat",
+      "iotm",
+      "string",
+      "update"
+    ],
+    "meta": [
+      "value",
+      "ego",
+      "of",
+      "adventuring",
+      "wizard",
+      "qwizard",
+      "generate",
+      "init",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: wizard",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=wizard",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: wizard",
+      "url": "https://wiki.kolmafia.us/index.php?search=wizard",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: ego",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ego",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ego",
+      "url": "https://wiki.kolmafia.us/index.php?search=ego",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QWizardOfEgoGenerateTasks",
+    "QWizardOfEgoInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-far-future-source-farfuture-parsing-sublocation-ash",
+  "title": "Sublocation",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Parsing/Sublocation.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Parsing/Sublocation.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "e91e1f08c5dcd3c30d3a2391e08c26a94a10303047ba2f9988f4b190d07cabfe",
+  "bytes": 1334,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "adventuring",
+      "sublocation",
+      "recognise",
+      "to",
+      "try"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: sublocation",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sublocation",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sublocation",
+      "url": "https://wiki.kolmafia.us/index.php?search=sublocation",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "tryToRecogniseSublocation"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

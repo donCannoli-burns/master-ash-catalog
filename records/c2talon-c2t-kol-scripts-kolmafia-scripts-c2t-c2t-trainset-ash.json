@@ -1,0 +1,90 @@
+{
+  "id": "c2talon-c2t-kol-scripts-kolmafia-scripts-c2t-c2t-trainset-ash",
+  "title": "c2t_trainSet",
+  "archive_path": "archive/c2talon/c2t-kol-scripts/kolmafia/scripts/c2t/c2t_trainSet.ash",
+  "source_id": "c2talon-owner--c2t_kol_scripts",
+  "source_url": "https://github.com/C2Talon/c2t_kol_scripts",
+  "repository_url": "https://github.com/C2Talon/c2t_kol_scripts",
+  "repository_path": "kolmafia/scripts/c2t/c2t_trainSet.ash",
+  "commit": "1361354f6713e49eef302b6ea230562a8380d635",
+  "sha256": "99b7c5bc3ff302fc11b248da526d68e841366decbaea57b2c4baad5d9ffcb1c1",
+  "bytes": 2225,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-kol-scripts/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_kol_scripts/blob/1361354f6713e49eef302b6ea230562a8380d635/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "character",
+      "cli"
+    ],
+    "sub": [
+      "string",
+      "value",
+      "c2t_train",
+      "combat",
+      "equipment",
+      "profit"
+    ],
+    "meta": [
+      "set",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_train",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_train",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_train",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_train",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: set",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=set",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: set",
+      "url": "https://wiki.kolmafia.us/index.php?search=set",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "c2t_trainSet",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

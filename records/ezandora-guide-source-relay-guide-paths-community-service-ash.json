@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-community-service-ash",
+  "title": "Community Service",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Community Service.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Community Service.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "79b6cf836ce06444951db39c6e65d451ff8773e390e49f73629efd8e560b9669",
+  "bytes": 10998,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "combat",
+      "effects",
+      "iotm",
+      "modifier",
+      "skills"
+    ],
+    "meta": [
+      "string",
+      "community",
+      "inventory",
+      "properties",
+      "pvp",
+      "service",
+      "generate",
+      "path",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: community",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=community",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: community",
+      "url": "https://wiki.kolmafia.us/index.php?search=community",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: service",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=service",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: service",
+      "url": "https://wiki.kolmafia.us/index.php?search=service",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathCommunityServiceGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

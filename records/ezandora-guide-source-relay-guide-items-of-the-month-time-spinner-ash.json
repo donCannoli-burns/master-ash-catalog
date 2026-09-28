@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-time-spinner-ash",
+  "title": "Time-Spinner",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Time-Spinner.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Time-Spinner.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "f260ee1a29a7b07485dbed80316bb3d74b2e59a5297d21dbb55f49777dc8e1f9",
+  "bytes": 2722,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "equipment",
+      "iotm",
+      "skills",
+      "string",
+      "combat",
+      "consumption"
+    ],
+    "meta": [
+      "inventory",
+      "profit",
+      "properties",
+      "tracking",
+      "time-spinner",
+      "generate",
+      "iotmtime",
+      "resource",
+      "spinner",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: time-spinner",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=time+spinner",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: time-spinner",
+      "url": "https://wiki.kolmafia.us/index.php?search=time+spinner",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMTimeSpinnerGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

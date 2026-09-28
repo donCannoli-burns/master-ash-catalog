@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-far-future-source-farfuture-running-cloud-ash",
+  "title": "Cloud",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Running/Cloud.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Running/Cloud.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "f089b0f2716ee173be4ba49853837deca3396a1d769f58b51db873e522098629",
+  "bytes": 3846,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "cloud",
+      "action",
+      "choose",
+      "next"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: cloud",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cloud",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cloud",
+      "url": "https://wiki.kolmafia.us/index.php?search=cloud",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "CloudChooseNextAction"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

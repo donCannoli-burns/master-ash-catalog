@@ -1,0 +1,106 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-eight-days-a-week-pill-keeper-ash",
+  "title": "Eight Days a Week Pill Keeper",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Eight Days a Week Pill Keeper.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Eight Days a Week Pill Keeper.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "ae560eb1a88aac225395521949449d913d1eccfa322045dacd68d8e5d9175af4",
+  "bytes": 1932,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "equipment",
+      "iotm",
+      "string",
+      "consumption",
+      "days"
+    ],
+    "meta": [
+      "effects",
+      "keeper",
+      "pill",
+      "properties",
+      "eight",
+      "week",
+      "aweek",
+      "generate",
+      "iotmeight",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: eight",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=eight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: eight",
+      "url": "https://wiki.kolmafia.us/index.php?search=eight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: days",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=days",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: days",
+      "url": "https://wiki.kolmafia.us/index.php?search=days",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: week",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=week",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: week",
+      "url": "https://wiki.kolmafia.us/index.php?search=week",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: pill",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pill",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pill",
+      "url": "https://wiki.kolmafia.us/index.php?search=pill",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMEightDaysAweekPillKeeperGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

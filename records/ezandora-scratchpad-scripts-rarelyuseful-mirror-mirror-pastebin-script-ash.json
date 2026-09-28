@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-mirror-mirror-pastebin-script-ash",
+  "title": "Mirror, mirror pastebin script",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Mirror, mirror pastebin script.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Mirror, mirror pastebin script.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "f277f71e80bd636a40cb70c33275d3b696f34d74c6713e26cbc6bbe19c2a2c5b",
+  "bytes": 2667,
+  "author": "default",
+  "player": "default",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "mall",
+      "equipment"
+    ],
+    "sub": [
+      "familiar",
+      "pvp",
+      "quests",
+      "automation",
+      "iotm",
+      "profit"
+    ],
+    "meta": [
+      "string",
+      "value",
+      "inventory",
+      "mirror",
+      "pastebin",
+      "script",
+      "item_is_pvp_stealable",
+      "item_price",
+      "main",
+      "minimum",
+      "price",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: mirror",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=mirror",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: mirror",
+      "url": "https://wiki.kolmafia.us/index.php?search=mirror",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: pastebin",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pastebin",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pastebin",
+      "url": "https://wiki.kolmafia.us/index.php?search=pastebin",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "item_is_pvp_stealable",
+    "item_price",
+    "main",
+    "minimumMallPrice"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

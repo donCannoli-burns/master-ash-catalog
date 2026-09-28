@@ -1,0 +1,80 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-pulverise-ash",
+  "title": "Pulverise",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Pulverise.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Pulverise.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "5c23ac992ef0da8695ce9e638eb5036ff258dad0ce8e5024a1824ef311609edf",
+  "bytes": 6934,
+  "author": "word wrap",
+  "player": "word wrap",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "inventory",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "value",
+      "pulverise",
+      "ascension"
+    ],
+    "meta": [
+      "consumption",
+      "mall",
+      "profit",
+      "quests",
+      "skills",
+      "list",
+      "append",
+      "output",
+      "alter",
+      "for",
+      "generate",
+      "initialise"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pulverise",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pulverise",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pulverise",
+      "url": "https://wiki.kolmafia.us/index.php?search=pulverise",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SPulveriseGenerateResource",
+    "initialisePulverisations",
+    "listAppend",
+    "pulveriseAlterOutputList",
+    "pulveriseAppendOutputListForProducts"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-goblin-king-ash",
+  "title": "Goblin King",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Goblin King.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Goblin King.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "3707900b3bdc8613506af7882bb0cba6e3959f8612f32429efebe2c57d5a5d7c",
+  "bytes": 1990,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "combat",
+      "effects",
+      "iotm",
+      "outfit"
+    ],
+    "meta": [
+      "quests",
+      "string",
+      "adventuring",
+      "equipment",
+      "inventory",
+      "properties",
+      "tracking",
+      "goblin",
+      "king",
+      "free",
+      "adventure",
+      "do"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: goblin",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=goblin",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: goblin",
+      "url": "https://wiki.kolmafia.us/index.php?search=goblin",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: king",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=king",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: king",
+      "url": "https://wiki.kolmafia.us/index.php?search=king",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "doFreeRunawayAdventure",
+    "freeRunawaysRemaining",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

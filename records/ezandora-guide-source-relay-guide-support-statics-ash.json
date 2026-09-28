@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-statics-ash",
+  "title": "Statics",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Statics.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Statics.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "a5a6fff51ee4d2915f8a8730e91d58ee972625f59fd9437a0a55cd85d9eb1b4e",
+  "bytes": 12336,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "skills",
+      "combat"
+    ],
+    "sub": [
+      "familiar",
+      "iotm",
+      "relay",
+      "automation",
+      "crafting",
+      "logging"
+    ],
+    "meta": [
+      "modifier",
+      "outfit",
+      "string",
+      "value",
+      "initialise",
+      "adventuring",
+      "ascension",
+      "profit",
+      "properties",
+      "quests",
+      "tracking",
+      "statics"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: statics",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=statics",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: statics",
+      "url": "https://wiki.kolmafia.us/index.php?search=statics",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "initialiseCombatSkillsThatAreSpells",
+    "initialiseItems",
+    "initialiseLibramSkills",
+    "initialiseSkillsByClass",
+    "initialiseSnakes",
+    "lookupAWOLOilForMonster",
+    "my_path_id_legacy",
+    "numeric_modifier_replacement"
+  ],
+  "imports": [
+    "relay/Guide/Support/Ingredients.ash",
+    "relay/Guide/Support/List.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

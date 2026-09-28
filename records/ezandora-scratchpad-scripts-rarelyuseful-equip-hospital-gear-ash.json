@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-equip-hospital-gear-ash",
+  "title": "equip hospital gear",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/equip hospital gear.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/equip hospital gear.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "92c8c7fa53c11731fc790a78f200bed7f30d97e192c728485dba1f16cd29ba10",
+  "bytes": 531,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "combat",
+      "equipment",
+      "inventory",
+      "equip",
+      "gear",
+      "hospital"
+    ],
+    "meta": [
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: equip",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=equip",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: equip",
+      "url": "https://wiki.kolmafia.us/index.php?search=equip",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hospital",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hospital",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hospital",
+      "url": "https://wiki.kolmafia.us/index.php?search=hospital",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: gear",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gear",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gear",
+      "url": "https://wiki.kolmafia.us/index.php?search=gear",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

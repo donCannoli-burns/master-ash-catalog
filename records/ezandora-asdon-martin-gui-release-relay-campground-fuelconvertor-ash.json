@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-asdon-martin-gui-release-relay-campground-fuelconvertor-ash",
+  "title": "campground.fuelconvertor",
+  "archive_path": "archive/ezandora/asdon-martin-gui/Release/relay/campground.fuelconvertor.ash",
+  "source_id": "ezandora-owner--asdon-martin-gui",
+  "source_url": "https://github.com/Ezandora/Asdon-Martin-GUI",
+  "repository_url": "https://github.com/Ezandora/Asdon-Martin-GUI",
+  "repository_path": "Release/relay/campground.fuelconvertor.ash",
+  "commit": "14a0eb623230553b7792e577a6182afda928dc84",
+  "sha256": "8c0999b2377218fb1a0edcb5fbd791140922f7aeb4df2e96620ef1132e02cc1e",
+  "bytes": 73,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/asdon-martin-gui/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Asdon-Martin-GUI/blob/14a0eb623230553b7792e577a6182afda928dc84/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "quests",
+      "campground",
+      "fuelconvertor",
+      "main",
+      "relay / IOTM / automation",
+      "scripting"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: campground",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=campground",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: campground",
+      "url": "https://wiki.kolmafia.us/index.php?search=campground",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fuelconvertor",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fuelconvertor",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fuelconvertor",
+      "url": "https://wiki.kolmafia.us/index.php?search=fuelconvertor",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/AsdonMartinGUI.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

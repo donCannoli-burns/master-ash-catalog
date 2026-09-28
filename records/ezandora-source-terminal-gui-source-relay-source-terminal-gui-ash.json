@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-source-terminal-gui-source-relay-source-terminal-gui-ash",
+  "title": "Source_Terminal_GUI",
+  "archive_path": "archive/ezandora/source-terminal-gui/Source/relay/Source_Terminal_GUI.ash",
+  "source_id": "ezandora-owner--source-terminal-gui",
+  "source_url": "https://github.com/Ezandora/Source-Terminal-GUI",
+  "repository_url": "https://github.com/Ezandora/Source-Terminal-GUI",
+  "repository_path": "Source/relay/Source_Terminal_GUI.ash",
+  "commit": "74691e58b517ecb9172288f5f84b6bfb13dcaf1a",
+  "sha256": "f9dfef939380ce8ca2eff2d73ef93e0e5855f1145e756f750f8d37c00cc6cf4f",
+  "bytes": 38161,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/source-terminal-gui/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Source-Terminal-GUI/blob/74691e58b517ecb9172288f5f84b6bfb13dcaf1a/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "cli"
+    ],
+    "sub": [
+      "skills",
+      "automation",
+      "combat",
+      "effects",
+      "iotm",
+      "properties"
+    ],
+    "meta": [
+      "source",
+      "string",
+      "terminal",
+      "update",
+      "generate",
+      "handle",
+      "inventory",
+      "quests",
+      "source_terminal_gui",
+      "description",
+      "append",
+      "button"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: source_terminal_gui",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=source_terminal_gui",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: source_terminal_gui",
+      "url": "https://wiki.kolmafia.us/index.php?search=source_terminal_gui",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "generatePageTable",
+    "generateSourceTerminalCore",
+    "generateSourceTerminalEffectDescription",
+    "generateSourceTerminalItemDescription",
+    "generateSourceTerminalLeftSide",
+    "generateSourceTerminalRightSides",
+    "handleButtonClicked",
+    "handleRefresh",
+    "handleRelayRequest",
+    "handleSourceTerminalChoiceOverride",
+    "listAppend",
+    "main",
+    "removeHTMLFromText",
+    "sourceTerminalGUICheckForUpdates",
+    "sourceTerminalInitialise"
+  ],
+  "imports": [
+    "relay/Guide/Support/HTML.ash",
+    "relay/Guide/Support/Library.ash",
+    "relay/Guide/Support/Strings.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

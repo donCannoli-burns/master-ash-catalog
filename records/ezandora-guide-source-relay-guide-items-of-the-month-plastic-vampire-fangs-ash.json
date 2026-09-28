@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-plastic-vampire-fangs-ash",
+  "title": "Plastic Vampire Fangs",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Plastic Vampire Fangs.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Plastic Vampire Fangs.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "ad081984a12163b0e98f39e76d70e7d9ff1e13f60735632059c6460a5967ed40",
+  "bytes": 7975,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "character",
+      "equipment",
+      "iotm",
+      "modifier",
+      "string",
+      "fangs"
+    ],
+    "meta": [
+      "profit",
+      "properties",
+      "quests",
+      "vampire",
+      "plastic",
+      "generate",
+      "iotmplastic",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: plastic",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=plastic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: plastic",
+      "url": "https://wiki.kolmafia.us/index.php?search=plastic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: vampire",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=vampire",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: vampire",
+      "url": "https://wiki.kolmafia.us/index.php?search=vampire",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fangs",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fangs",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fangs",
+      "url": "https://wiki.kolmafia.us/index.php?search=fangs",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMPlasticVampireFangsGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

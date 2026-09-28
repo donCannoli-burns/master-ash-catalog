@@ -1,0 +1,82 @@
+{
+  "id": "prusias-kol-pchecklist-scripts-pchecklist-ash",
+  "title": "pChecklist",
+  "archive_path": "archive/prusias-kol/pchecklist/scripts/pChecklist.ash",
+  "source_id": "prusias-pchecklist",
+  "source_url": "https://github.com/Prusias-kol/pChecklist",
+  "repository_url": "https://github.com/Prusias-kol/pChecklist",
+  "repository_path": "scripts/pChecklist.ash",
+  "commit": "0e8672a88c5a4a3576bba203a33ef06354b62413",
+  "sha256": "f1113c3dd90a13f59ca640690b61109415a8be1dc9eefa277b47ae198cb90081",
+  "bytes": 5186,
+  "author": "Prusias-kol",
+  "player": "Prusias",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/prusias-kol/pchecklist/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Prusias-kol/pChecklist/blob/0e8672a88c5a4a3576bba203a33ef06354b62413/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "string",
+      "checklist"
+    ],
+    "sub": [
+      "mall",
+      "file",
+      "generate",
+      "item",
+      "new",
+      "print"
+    ],
+    "meta": [
+      "amount",
+      "custom",
+      "help",
+      "list",
+      "main",
+      "status",
+      "total",
+      "verfiy",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: checklist",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=checklist",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: checklist",
+      "url": "https://wiki.kolmafia.us/index.php?search=checklist",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateNewFile",
+    "generateNewFileCustomList",
+    "main",
+    "printHelp",
+    "printItemStatus",
+    "totalItemAmount",
+    "verfiyChecklist"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

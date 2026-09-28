@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-far-future-source-farfuture-running-replicate-ash",
+  "title": "Replicate",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Running/Replicate.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Running/Replicate.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "cc2969ee26563b0be132ed3f634d6757489cf5e059c8f4f215205b8aebaef8ac",
+  "bytes": 1990,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "replicate",
+      "tracking",
+      "action",
+      "choose"
+    ],
+    "meta": [
+      "next",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: replicate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=replicate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: replicate",
+      "url": "https://wiki.kolmafia.us/index.php?search=replicate",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "ReplicateChooseNextAction"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

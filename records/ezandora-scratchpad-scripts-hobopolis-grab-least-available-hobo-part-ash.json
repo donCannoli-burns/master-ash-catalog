@@ -1,0 +1,112 @@
+{
+  "id": "ezandora-scratchpad-scripts-hobopolis-grab-least-available-hobo-part-ash",
+  "title": "grab least available hobo part",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Hobopolis/grab least available hobo part.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Hobopolis/grab least available hobo part.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "35304117af3db41376a4a03fba4feede42606bbe9591d9ccba9a85fb1f0f7c45",
+  "bytes": 809,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "outfit",
+      "adventuring",
+      "equipment",
+      "available"
+    ],
+    "meta": [
+      "grab",
+      "hobo",
+      "least",
+      "part",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: grab",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=grab",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: grab",
+      "url": "https://wiki.kolmafia.us/index.php?search=grab",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: least",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=least",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: least",
+      "url": "https://wiki.kolmafia.us/index.php?search=least",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: available",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=available",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: available",
+      "url": "https://wiki.kolmafia.us/index.php?search=available",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hobo",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hobo",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hobo",
+      "url": "https://wiki.kolmafia.us/index.php?search=hobo",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "canadv.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

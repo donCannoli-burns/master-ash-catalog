@@ -1,0 +1,103 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2025-liba-cooleryeti-ash",
+  "title": "liba_coolerYeti",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2025/liba_coolerYeti.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2025/liba_coolerYeti.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "50ec7810f16b282283c9f7717b519244cbd1874fa6b3a1632f461e59031ccac4",
+  "bytes": 3983,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "familiar",
+      "liba_cooler"
+    ],
+    "sub": [
+      "equipment",
+      "string",
+      "yeti",
+      "effects",
+      "properties",
+      "yeti_get"
+    ],
+    "meta": [
+      "adventures",
+      "effect",
+      "ingredients",
+      "stat",
+      "yeti_enter",
+      "yeti_error",
+      "yeti_have",
+      "yeti_mode",
+      "yeti_print",
+      "yeti_used",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_cooler",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_cooler",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_cooler",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_cooler",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: yeti",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=yeti",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: yeti",
+      "url": "https://wiki.kolmafia.us/index.php?search=yeti",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "_liba_coolerYeti",
+    "liba_coolerYeti",
+    "liba_coolerYeti_enter",
+    "liba_coolerYeti_error",
+    "liba_coolerYeti_getAdventures",
+    "liba_coolerYeti_getEffect",
+    "liba_coolerYeti_getIngredients",
+    "liba_coolerYeti_getStat",
+    "liba_coolerYeti_have",
+    "liba_coolerYeti_mode",
+    "liba_coolerYeti_print",
+    "liba_coolerYeti_usedAdventures"
+  ],
+  "imports": [
+    "liba_inChoice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

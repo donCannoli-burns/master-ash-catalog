@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-3-ash",
+  "title": "Level 3",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 3.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 3.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "99c24d8effe342da8e5a0b42c58d6e7aeafc0e86cb7c03d73c70303fc7d25ac7",
+  "bytes": 6212,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "effects",
+      "iotm",
+      "modifier",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "adventuring",
+      "inventory",
+      "properties",
+      "skills",
+      "level",
+      "qlevel3generate",
+      "qlevel3init",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel3GenerateTasks",
+    "QLevel3Init"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

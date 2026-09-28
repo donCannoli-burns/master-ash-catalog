@@ -1,0 +1,109 @@
+{
+  "id": "ezandora-fantasyrealm-release-scripts-fantasyrealm-ash",
+  "title": "FantasyRealm",
+  "archive_path": "archive/ezandora/fantasyrealm/Release/scripts/FantasyRealm.ash",
+  "source_id": "ezandora-owner--fantasyrealm",
+  "source_url": "https://github.com/Ezandora/FantasyRealm",
+  "repository_url": "https://github.com/Ezandora/FantasyRealm",
+  "repository_path": "Release/scripts/FantasyRealm.ash",
+  "commit": "92e4ee0ea207999a8ef5c4a8a0a70acb2a0f8785",
+  "sha256": "c98a3296539a8c42081b61f691d76ce1cc03f928ffc8191e1e00869936bde06e",
+  "bytes": 77084,
+  "author": "LyleCo",
+  "player": "LyleCo",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/fantasyrealm/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/FantasyRealm/blob/92e4ee0ea207999a8ef5c4a8a0a70acb2a0f8785/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "fantasy",
+      "realm",
+      "relay"
+    ],
+    "sub": [
+      "combat",
+      "effects",
+      "string",
+      "automation",
+      "cli",
+      "equipment"
+    ],
+    "meta": [
+      "iotm",
+      "properties",
+      "skills",
+      "value",
+      "adventuring",
+      "inventory",
+      "quests",
+      "help",
+      "output",
+      "adventure",
+      "make",
+      "strategy"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fantasy",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fantasy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fantasy",
+      "url": "https://wiki.kolmafia.us/index.php?search=fantasy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: realm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=realm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: realm",
+      "url": "https://wiki.kolmafia.us/index.php?search=realm",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "purchasing:retrieve_item",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unlikely"
+  },
+  "functions": [
+    "FantasyRealmAdventure",
+    "FantasyRealmAutoPurchase",
+    "FantasyRealmCalculateAttackSkill",
+    "FantasyRealmCanTheoreticallyCompleteStrategy",
+    "FantasyRealmCombatMacroForLocation",
+    "FantasyRealmHelpOutputItemString",
+    "FantasyRealmHelpOutputMakeClickableCommand",
+    "FantasyRealmMakeConsumables",
+    "FantasyRealmOutputHelp",
+    "FantasyRealmPrepareToAdventure",
+    "FantasyRealmRunLoop",
+    "FantasyRealmStartQuest",
+    "FantasyRealmStrategyToString",
+    "have_at_least_one_of_item_somewhere",
+    "main"
+  ],
+  "imports": [
+    "scripts/gain.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

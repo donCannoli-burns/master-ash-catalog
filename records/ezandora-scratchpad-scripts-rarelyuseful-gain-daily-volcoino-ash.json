@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-gain-daily-volcoino-ash",
+  "title": "Gain Daily Volcoino",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Gain Daily Volcoino.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Gain Daily Volcoino.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "be3730ba69d97617ff04ae4c91501af1b410510502722a789025ebbf128696e4",
+  "bytes": 629,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "equipment",
+      "properties",
+      "daily",
+      "gain"
+    ],
+    "meta": [
+      "volcoino",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: gain",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gain",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gain",
+      "url": "https://wiki.kolmafia.us/index.php?search=gain",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: daily",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=daily",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: daily",
+      "url": "https://wiki.kolmafia.us/index.php?search=daily",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: volcoino",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=volcoino",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: volcoino",
+      "url": "https://wiki.kolmafia.us/index.php?search=volcoino",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

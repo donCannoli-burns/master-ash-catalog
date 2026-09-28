@@ -1,0 +1,103 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-counter-ash",
+  "title": "Counter",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Counter.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Counter.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e4c2acc06bf5820b85180039e6413614ef3e2ffae24dbde3a3d96728fc741283",
+  "bytes": 24531,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "counter",
+      "relay",
+      "properties"
+    ],
+    "sub": [
+      "tracking",
+      "automation",
+      "cli",
+      "hit",
+      "iotm",
+      "math"
+    ],
+    "meta": [
+      "string",
+      "turn",
+      "value",
+      "wandering",
+      "next",
+      "monster",
+      "adventuring",
+      "ascension",
+      "combat",
+      "counters",
+      "in",
+      "may"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: counter",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=counter",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: counter",
+      "url": "https://wiki.kolmafia.us/index.php?search=counter",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "CounterAdviseAboutToVisitAdventurePHP",
+    "CounterAdviseLastTurnAttemptedAdventurePHP",
+    "CounterDescription",
+    "CounterExists",
+    "CounterGetNextExactTurn",
+    "CounterIsExact",
+    "CounterIsRange",
+    "CounterMayHitInXTurns",
+    "CounterMayHitNextTurn",
+    "CounterWanderingMonsterCountersHaveRange",
+    "CounterWanderingMonsterMayHitInXTurns",
+    "CounterWanderingMonsterMayHitNextTurn",
+    "CounterWanderingMonsterWillHitInXTurns",
+    "CounterWanderingMonsterWillHitNextTurn",
+    "CounterWanderingMonstersCurrentlyActiveNextTurnAreFree",
+    "CounterWanderingMonstersCurrentlyAroundAreExact",
+    "CounterWanderingMonstersCurrentlyAroundAreFree",
+    "CounterWillHitExactlyInTurnRange",
+    "CounterWillHitNextTurn",
+    "CountersInit",
+    "CountersParseProperty",
+    "CountersReparse"
+  ],
+  "imports": [
+    "relay/Guide/Support/AdventurePHP Locations.ash",
+    "relay/Guide/Support/Library.ash",
+    "relay/Guide/Support/List.ash",
+    "relay/Guide/Support/Math.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

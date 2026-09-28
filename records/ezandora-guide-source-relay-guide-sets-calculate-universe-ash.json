@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-calculate-universe-ash",
+  "title": "Calculate Universe",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Calculate Universe.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Calculate Universe.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3b8db74dd2fb8f68851411b9846bd6f4f0715d2d5436251cf3529c0a9d716911",
+  "bytes": 7159,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "character"
+    ],
+    "sub": [
+      "effects",
+      "iotm",
+      "modifier",
+      "outfit",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "ascension",
+      "equipment",
+      "inventory",
+      "mall",
+      "profit",
+      "properties",
+      "quests",
+      "skills",
+      "tracking",
+      "universe",
+      "calculate",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: calculate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=calculate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: calculate",
+      "url": "https://wiki.kolmafia.us/index.php?search=calculate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: universe",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=universe",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: universe",
+      "url": "https://wiki.kolmafia.us/index.php?search=universe",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SCalculateUniverseGenerateResource"
+  ],
+  "imports": [
+    "relay/Guide/Support/Numberology.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

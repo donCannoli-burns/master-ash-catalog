@@ -1,0 +1,127 @@
+{
+  "id": "ezandora-far-future-release-scripts-farfuture-ash",
+  "title": "FarFuture",
+  "archive_path": "archive/ezandora/far-future/Release/scripts/FarFuture.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Release/scripts/FarFuture.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "67b7b1354a0674c8bb8fb46d4854ef975c9f7a94d60e6656657b1d30f68f1b04",
+  "bytes": 66401,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "string"
+    ],
+    "sub": [
+      "action",
+      "automation",
+      "choose",
+      "iotm",
+      "value",
+      "next"
+    ],
+    "meta": [
+      "adventuring",
+      "combat",
+      "properties",
+      "skills",
+      "far",
+      "file",
+      "future",
+      "list",
+      "state",
+      "to",
+      "try",
+      "append"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: far",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=far",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: far",
+      "url": "https://wiki.kolmafia.us/index.php?search=far",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: future",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=future",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: future",
+      "url": "https://wiki.kolmafia.us/index.php?search=future",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "BorgChooseNextAction",
+    "CloudChooseNextAction",
+    "CrystalsChooseNextAction",
+    "EmoticonsChooseNextAction",
+    "ErrorSet",
+    "KlingonsChooseNextAction",
+    "ReplicateChooseNextAction",
+    "UnknownChooseNextAction",
+    "chooseAndExecuteAction",
+    "deserialiseMap",
+    "escapeSublocation",
+    "executeOption",
+    "findOptionMatchingSubstrings",
+    "get_property_boolean",
+    "get_property_float",
+    "get_property_int",
+    "get_property_location",
+    "get_property_monster",
+    "initialisePersonInAreaMatches",
+    "listAppend",
+    "listAppendList",
+    "listJoinComponents",
+    "main",
+    "printSilent",
+    "printSilentNoEscape",
+    "processBlueMessages",
+    "processIntroMessages",
+    "readFileState",
+    "reassureCrewWithCleverLies",
+    "runGame",
+    "serialiseMap",
+    "stringAddSpacersEvery",
+    "stringMatchesRegex",
+    "testFileState",
+    "to_int_silent",
+    "tryToAcquireItem",
+    "tryToReachLocation",
+    "tryToRecogniseSublocation",
+    "writeFileState"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

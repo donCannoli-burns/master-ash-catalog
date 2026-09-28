@@ -1,0 +1,115 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-spend-spare-fishy-on-walford-quest-ash",
+  "title": "Spend Spare Fishy On Walford Quest",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Spend Spare Fishy On Walford Quest.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Spend Spare Fishy On Walford Quest.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "4dad14449e95765c6e2af1c97b98781fa678730fcee11b1b1da77b0b8a12ee08",
+  "bytes": 2686,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "effects",
+      "cli"
+    ],
+    "sub": [
+      "familiar",
+      "mall",
+      "quests",
+      "relay",
+      "adventuring",
+      "automation"
+    ],
+    "meta": [
+      "farming",
+      "iotm",
+      "properties",
+      "string",
+      "combat",
+      "equipment",
+      "inventory",
+      "profit",
+      "fishy",
+      "on",
+      "quest",
+      "spare"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spend",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spend",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spend",
+      "url": "https://wiki.kolmafia.us/index.php?search=spend",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spare",
+      "url": "https://wiki.kolmafia.us/index.php?search=spare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fishy",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fishy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fishy",
+      "url": "https://wiki.kolmafia.us/index.php?search=fishy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: walford",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=walford",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: walford",
+      "url": "https://wiki.kolmafia.us/index.php?search=walford",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "scripts/Farming/Perfect Ice Farming.ash",
+    "scripts/Helix Fossil/Helix Fossil Interface.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

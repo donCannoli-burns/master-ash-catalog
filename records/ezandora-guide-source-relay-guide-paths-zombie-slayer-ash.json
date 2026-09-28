@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-zombie-slayer-ash",
+  "title": "Zombie Slayer",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Zombie Slayer.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Zombie Slayer.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "f683150b8e61985d419d28a23b11dc8903cd8e7a6647f0ba6522e83e47369bd2",
+  "bytes": 3264,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "inventory",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "character",
+      "iotm",
+      "string",
+      "slayer",
+      "zombie"
+    ],
+    "meta": [
+      "combat",
+      "consumption",
+      "profit",
+      "properties",
+      "generate",
+      "path",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: zombie",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=zombie",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: zombie",
+      "url": "https://wiki.kolmafia.us/index.php?search=zombie",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: slayer",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=slayer",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: slayer",
+      "url": "https://wiki.kolmafia.us/index.php?search=slayer",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathZombieSlayerGenerateResource",
+    "PathZombieSlayerGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

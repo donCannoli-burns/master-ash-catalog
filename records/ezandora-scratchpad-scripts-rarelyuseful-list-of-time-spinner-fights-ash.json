@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-list-of-time-spinner-fights-ash",
+  "title": "list of time-spinner fights",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/list of time-spinner fights.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/list of time-spinner fights.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "2eec8622c7cc712320a82fbede2aa075ed942f6f7a1a656dc0be9a25b0b9c924",
+  "bytes": 416,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "value",
+      "fights",
+      "list",
+      "of"
+    ],
+    "meta": [
+      "time-spinner",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: list",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: list",
+      "url": "https://wiki.kolmafia.us/index.php?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: time-spinner",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=time+spinner",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: time-spinner",
+      "url": "https://wiki.kolmafia.us/index.php?search=time+spinner",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fights",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fights",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fights",
+      "url": "https://wiki.kolmafia.us/index.php?search=fights",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

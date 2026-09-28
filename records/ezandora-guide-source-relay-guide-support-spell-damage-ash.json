@@ -1,0 +1,93 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-spell-damage-ash",
+  "title": "Spell Damage",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Spell Damage.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Spell Damage.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "28e6fcf773f5b51c5f9c97d83e1d6b8fc20e22a7aa3a61b1bca71d36dc67ec12",
+  "bytes": 7384,
+  "author": "nature.",
+  "player": "nature.",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "effects"
+    ],
+    "sub": [
+      "iotm",
+      "math",
+      "modifier",
+      "spading",
+      "damage",
+      "combat"
+    ],
+    "meta": [
+      "quests",
+      "skills",
+      "spell",
+      "element",
+      "against",
+      "alternate",
+      "append",
+      "current",
+      "expected",
+      "flavour",
+      "for",
+      "list"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spell",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spell",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spell",
+      "url": "https://wiki.kolmafia.us/index.php?search=spell",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: damage",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=damage",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: damage",
+      "url": "https://wiki.kolmafia.us/index.php?search=damage",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "MLDamageMultiplier",
+    "currentFlavourElement",
+    "damageForElementAgainstElement",
+    "listAppend",
+    "skillExpectedDamageAlternate"
+  ],
+  "imports": [
+    "relay/Guide/Support/Math.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

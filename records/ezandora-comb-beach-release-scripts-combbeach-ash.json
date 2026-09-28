@@ -1,0 +1,114 @@
+{
+  "id": "ezandora-comb-beach-release-scripts-combbeach-ash",
+  "title": "CombBeach",
+  "archive_path": "archive/ezandora/comb-beach/Release/scripts/CombBeach.ash",
+  "source_id": "ezandora-owner--comb-beach",
+  "source_url": "https://github.com/Ezandora/Comb-Beach",
+  "repository_url": "https://github.com/Ezandora/Comb-Beach",
+  "repository_path": "Release/scripts/CombBeach.ash",
+  "commit": "115ef971229ba7ad4613fbaf511754732e4d4c58",
+  "sha256": "32495b23c1b10f5ad8ca0fc3894dddd15f3ded62fe21fc47283244737d15d115",
+  "bytes": 41058,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/comb-beach/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Comb-Beach/blob/115ef971229ba7ad4613fbaf511754732e4d4c58/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "list",
+      "familiar"
+    ],
+    "sub": [
+      "farming",
+      "value",
+      "automation",
+      "iotm",
+      "string",
+      "adventuring"
+    ],
+    "meta": [
+      "combat",
+      "effects",
+      "equipment",
+      "skills",
+      "tracking",
+      "beach",
+      "comb",
+      "object",
+      "append",
+      "archive",
+      "for",
+      "index"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: comb",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=comb",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: comb",
+      "url": "https://wiki.kolmafia.us/index.php?search=comb",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: beach",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=beach",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: beach",
+      "url": "https://wiki.kolmafia.us/index.php?search=beach",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "FarmingLogOutputDelta",
+    "convertRawCoordinateToMinutes",
+    "daysSinceEncounteringMinute",
+    "iteration",
+    "listAppend",
+    "listAppendList",
+    "listClear",
+    "listContainsValue",
+    "listFirstObject",
+    "listGetRandomObject",
+    "listJoinComponents",
+    "listKeyForIndex",
+    "listKeysMeetStrictRequirements",
+    "listLastObject",
+    "listPrepend",
+    "listRemoveKeys",
+    "listSum",
+    "llistKeyForIndex",
+    "main",
+    "mapsAreEqual",
+    "outputHelp",
+    "pickNextMinute",
+    "readArchive",
+    "visit_url_retry",
+    "writeArchive"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

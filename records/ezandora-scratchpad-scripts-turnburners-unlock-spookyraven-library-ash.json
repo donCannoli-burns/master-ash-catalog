@@ -1,0 +1,95 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-unlock-spookyraven-library-ash",
+  "title": "Unlock Spookyraven Library",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Unlock Spookyraven Library.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Unlock Spookyraven Library.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "f64723cdc3ec35b2d42a91e329fe437c83d2ff4d1be707ec46682aebcd6adcef",
+  "bytes": 2799,
+  "author": "sandworm",
+  "player": "sandworm",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "choice",
+      "cli"
+    ],
+    "sub": [
+      "combat",
+      "familiar",
+      "relay",
+      "adventuring",
+      "automation",
+      "effects"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "properties",
+      "consumption",
+      "inventory",
+      "library",
+      "spookyraven",
+      "unlock",
+      "main",
+      "upkeep",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: unlock",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=unlock",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: unlock",
+      "url": "https://wiki.kolmafia.us/index.php?search=unlock",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spookyraven",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spookyraven",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spookyraven",
+      "url": "https://wiki.kolmafia.us/index.php?search=spookyraven",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "upkeepSkills"
+  ],
+  "imports": [
+    "scripts/Helix Fossil/Helix Fossil Interface.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

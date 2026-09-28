@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-backup-camera-ash",
+  "title": "Backup Camera",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Backup Camera.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Backup Camera.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "65ac28eaba8b26f0e5825b8f656bc4430904c0208e870bd390cf801e296c5c17",
+  "bytes": 2817,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "inventory",
+      "iotm",
+      "string",
+      "camera",
+      "profit",
+      "properties"
+    ],
+    "meta": [
+      "backup",
+      "generate",
+      "iotmbackup",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: backup",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=backup",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: backup",
+      "url": "https://wiki.kolmafia.us/index.php?search=backup",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: camera",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=camera",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: camera",
+      "url": "https://wiki.kolmafia.us/index.php?search=camera",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMBackupCameraGenerate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

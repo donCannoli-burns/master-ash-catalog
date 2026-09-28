@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-resource-bar-ash",
+  "title": "Resource Bar",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Resource Bar.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Resource Bar.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3dc3b1abdd8525e92cfaf95ddc2f4cbb30b9ae029fad0e07a8cbffaa61e7cffe",
+  "bytes": 27922,
+  "author": "value.importance_level",
+  "player": "value.importance_level",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "equipment"
+    ],
+    "sub": [
+      "familiar",
+      "iotm",
+      "skills",
+      "automation",
+      "cli",
+      "combat"
+    ],
+    "meta": [
+      "consumption",
+      "string",
+      "update",
+      "value",
+      "adventuring",
+      "bar",
+      "profit",
+      "resource",
+      "tracking",
+      "generate",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: resource",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=resource",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: resource",
+      "url": "https://wiki.kolmafia.us/index.php?search=resource",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: bar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bar",
+      "url": "https://wiki.kolmafia.us/index.php?search=bar",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateResourceBar"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

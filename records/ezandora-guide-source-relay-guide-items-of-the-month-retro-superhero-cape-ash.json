@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-retro-superhero-cape-ash",
+  "title": "Retro Superhero Cape",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Retro Superhero Cape.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Retro Superhero Cape.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "936cabcbdd3dae9469f48e6ba333e9e44fe112a8ae8a91ddfb49a76a72876d5c",
+  "bytes": 6771,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "effects",
+      "relay",
+      "combat"
+    ],
+    "sub": [
+      "equipment",
+      "automation",
+      "inventory",
+      "iotm",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "ascension",
+      "cape",
+      "properties",
+      "skills",
+      "superhero",
+      "retro",
+      "generate",
+      "iotmretro",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: retro",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=retro",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: retro",
+      "url": "https://wiki.kolmafia.us/index.php?search=retro",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: superhero",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=superhero",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: superhero",
+      "url": "https://wiki.kolmafia.us/index.php?search=superhero",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: cape",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cape",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cape",
+      "url": "https://wiki.kolmafia.us/index.php?search=cape",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMRetroSuperheroCapeGenerate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

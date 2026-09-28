@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-scratchpad-scripts-shaq-ash",
+  "title": "shaq",
+  "archive_path": "archive/ezandora/scratchpad/scripts/shaq.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/shaq.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "640f9815b5b739b39a234cf132cf022e27fd82b9465912babe72f7bd8babe244",
+  "bytes": 189,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 2008,
+  "provenance_url": "http://www.zillow.com/blog/files//files/2008/06/shaq.png\\",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "tracking",
+      "shaq",
+      "main",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: shaq",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=shaq",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: shaq",
+      "url": "https://wiki.kolmafia.us/index.php?search=shaq",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

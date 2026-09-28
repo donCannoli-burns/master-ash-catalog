@@ -1,0 +1,88 @@
+{
+  "id": "c2talon-c2t-ascend-kolmafia-relay-relay-c2t-ascend-ash",
+  "title": "relay_c2t_ascend",
+  "archive_path": "archive/c2talon/c2t-ascend/kolmafia/relay/relay_c2t_ascend.ash",
+  "source_id": "c2talon-owner--c2t_ascend",
+  "source_url": "https://github.com/C2Talon/c2t_ascend",
+  "repository_url": "https://github.com/C2Talon/c2t_ascend",
+  "repository_path": "kolmafia/relay/relay_c2t_ascend.ash",
+  "commit": "19f30df3e9157282ef77e9c31d676577aeb17b53",
+  "sha256": "1faabf8aed7795f018c72325404a7a60d6a9c3bb6aa7d21cee7a128dc7402d8a",
+  "bytes": 4937,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-ascend/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_ascend/blob/19f30df3e9157282ef77e9c31d676577aeb17b53/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "skills",
+      "cli"
+    ],
+    "sub": [
+      "properties",
+      "string",
+      "value",
+      "c2t_ascend_write",
+      "ascension",
+      "relay_c2t_ascend"
+    ],
+    "meta": [
+      "checkbox",
+      "fail",
+      "input",
+      "main",
+      "select",
+      "success",
+      "text",
+      "th",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: relay_c2t_ascend",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=relay_c2t_ascend",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: relay_c2t_ascend",
+      "url": "https://wiki.kolmafia.us/index.php?search=relay_c2t_ascend",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "likely"
+  },
+  "functions": [
+    "c2t_ascend_writeCheckbox",
+    "c2t_ascend_writeFailSuccess",
+    "c2t_ascend_writeInput",
+    "c2t_ascend_writeSelect",
+    "c2t_ascend_writeText",
+    "c2t_ascend_writeTh",
+    "main"
+  ],
+  "imports": [
+    "c2t_ascend.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

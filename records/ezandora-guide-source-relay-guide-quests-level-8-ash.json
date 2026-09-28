@@ -1,0 +1,80 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-8-ash",
+  "title": "Level 8",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 8.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 8.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "30745eb1f051584685315e1c4012feacdda296e3870850c8ac0d0efe107dc950",
+  "bytes": 12179,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "cli",
+      "crafting",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "outfit",
+      "skills",
+      "string",
+      "value",
+      "adventuring",
+      "consumption",
+      "equipment",
+      "inventory",
+      "profit",
+      "properties",
+      "level",
+      "qlevel8generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel8GenerateTasks",
+    "QLevel8Init"
+  ],
+  "imports": [
+    "relay/Guide/Sets/Copied Monsters.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

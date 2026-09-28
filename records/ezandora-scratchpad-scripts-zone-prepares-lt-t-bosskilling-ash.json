@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-scratchpad-scripts-zone-prepares-lt-t-bosskilling-ash",
+  "title": "LT\u0026T bosskilling",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Zone Prepares/LT\u0026T bosskilling.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Zone Prepares/LT\u0026T bosskilling.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "7688ebdb7f46f9e4424cb73a076612d015db73b9541633dff78d98efc68a7cdf",
+  "bytes": 831,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "iotm",
+      "modifier",
+      "skills",
+      "properties"
+    ],
+    "meta": [
+      "quests",
+      "bosskilling",
+      "lt",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bosskilling",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bosskilling",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bosskilling",
+      "url": "https://wiki.kolmafia.us/index.php?search=bosskilling",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

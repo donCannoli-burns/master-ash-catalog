@@ -1,0 +1,103 @@
+{
+  "id": "ezandora-events-historical-scripts-eldritchfissuresevent-ash",
+  "title": "EldritchFissuresEvent",
+  "archive_path": "archive/ezandora/events/Historical/scripts/EldritchFissuresEvent.ash",
+  "source_id": "ezandora-owner--events",
+  "source_url": "https://github.com/Ezandora/Events",
+  "repository_url": "https://github.com/Ezandora/Events",
+  "repository_path": "Historical/scripts/EldritchFissuresEvent.ash",
+  "commit": "3656bd353ff8474b741ae84a5079d7a95be5a4e5",
+  "sha256": "446bf08a8a05dc3e702f1dbb69d6e9950098d655ffa5ed4f1d5e547d50ea225d",
+  "bytes": 3120,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/events/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Events/blob/3656bd353ff8474b741ae84a5079d7a95be5a4e5/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "relay",
+      "cli"
+    ],
+    "sub": [
+      "adventuring",
+      "automation",
+      "effects",
+      "iotm",
+      "recovery",
+      "string"
+    ],
+    "meta": [
+      "consumption",
+      "inventory",
+      "properties",
+      "eldritch",
+      "event",
+      "fissures",
+      "adventure",
+      "is",
+      "mafia",
+      "main",
+      "past",
+      "post"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: eldritch",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=eldritch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: eldritch",
+      "url": "https://wiki.kolmafia.us/index.php?search=eldritch",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fissures",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fissures",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fissures",
+      "url": "https://wiki.kolmafia.us/index.php?search=fissures",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: event",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=event",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: event",
+      "url": "https://wiki.kolmafia.us/index.php?search=event",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "mafiaIsPastRevision",
+    "main",
+    "postAdventure",
+    "preAdventure"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-scratchpad-scripts-pvp-ration-ash",
+  "title": "Ration",
+  "archive_path": "archive/ezandora/scratchpad/scripts/PVP/Ration.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/PVP/Ration.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "3207e46c1c1b306f7b57e1654ee86ac14052db3dd6c97efc474fcd9de44d96a6",
+  "bytes": 690,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "pvp",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "ration",
+      "main",
+      "relay / IOTM / automation",
+      "scripting",
+      "utility"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: ration",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ration",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ration",
+      "url": "https://wiki.kolmafia.us/index.php?search=ration",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

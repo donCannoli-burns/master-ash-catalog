@@ -1,0 +1,100 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-protonic-accelerator-pack-ash",
+  "title": "Protonic Accelerator Pack",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Protonic Accelerator Pack.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Protonic Accelerator Pack.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "795758a564663e0c7694eab9d86373df0f76a6966da943a8593ab6c3fab8951d",
+  "bytes": 8985,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "equipment",
+      "iotm",
+      "logging",
+      "modifier"
+    ],
+    "meta": [
+      "profit",
+      "string",
+      "accelerator",
+      "pack",
+      "adventuring",
+      "combat",
+      "mall",
+      "properties",
+      "tracking",
+      "protonic",
+      "generate",
+      "iotmprotonic"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: protonic",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=protonic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: protonic",
+      "url": "https://wiki.kolmafia.us/index.php?search=protonic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: accelerator",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=accelerator",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: accelerator",
+      "url": "https://wiki.kolmafia.us/index.php?search=accelerator",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: pack",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pack",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pack",
+      "url": "https://wiki.kolmafia.us/index.php?search=pack",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMProtonicAcceleratorPackGenerateResource",
+    "IOTMProtonicAcceleratorPackGenerateTasks"
+  ],
+  "imports": [
+    "relay/Guide/Support/Monster Data.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

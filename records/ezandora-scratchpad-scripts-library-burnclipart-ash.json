@@ -1,0 +1,91 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-burnclipart-ash",
+  "title": "BurnClipart",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/BurnClipart.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/BurnClipart.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "9db89c1b04c16dd77b4b5428c084179383824b3a254681a5a218869ff5ce24d6",
+  "bytes": 4736,
+  "author": "summon_value",
+  "player": "summon_value",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "mall",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "familiar",
+      "relay",
+      "automation",
+      "iotm",
+      "skills"
+    ],
+    "meta": [
+      "string",
+      "value",
+      "burn",
+      "clipart",
+      "effects",
+      "profit",
+      "properties",
+      "main",
+      "method1",
+      "method2",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: burn",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=burn",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: burn",
+      "url": "https://wiki.kolmafia.us/index.php?search=burn",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: clipart",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=clipart",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: clipart",
+      "url": "https://wiki.kolmafia.us/index.php?search=clipart",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "burnClipartMethod1",
+    "burnClipartMethod2",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

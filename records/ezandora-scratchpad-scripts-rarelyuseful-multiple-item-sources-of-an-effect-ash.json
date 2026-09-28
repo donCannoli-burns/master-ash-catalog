@@ -1,0 +1,106 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-multiple-item-sources-of-an-effect-ash",
+  "title": "Multiple item sources of an effect",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Multiple item sources of an effect.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Multiple item sources of an effect.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "f9ee1de0719b6d1e4f43fdfade833eeca46b66980d9344aa77a446cbb65adc33",
+  "bytes": 638,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "consumption",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "modifier",
+      "string",
+      "effects",
+      "an",
+      "effect"
+    ],
+    "meta": [
+      "item",
+      "multiple",
+      "of",
+      "sources",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: multiple",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=multiple",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: multiple",
+      "url": "https://wiki.kolmafia.us/index.php?search=multiple",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: item",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=item",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: item",
+      "url": "https://wiki.kolmafia.us/index.php?search=item",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sources",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sources",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sources",
+      "url": "https://wiki.kolmafia.us/index.php?search=sources",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: effect",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=effect",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: effect",
+      "url": "https://wiki.kolmafia.us/index.php?search=effect",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

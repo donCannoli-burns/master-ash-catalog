@@ -1,0 +1,80 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-nemesis-ash",
+  "title": "Nemesis",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Nemesis.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Nemesis.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "340eacd2e76f9b6a5267107bc164fece59e151e01a202b07c4971b36fb00067d",
+  "bytes": 39871,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "combat",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "effects",
+      "iotm",
+      "modifier",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "qnemesis",
+      "generate",
+      "inventory",
+      "properties",
+      "nemesis",
+      "tasks",
+      "cave",
+      "clown",
+      "init",
+      "island",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: nemesis",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=nemesis",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: nemesis",
+      "url": "https://wiki.kolmafia.us/index.php?search=nemesis",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QNemesisGenerate",
+    "QNemesisGenerateCaveTasks",
+    "QNemesisGenerateClownTasks",
+    "QNemesisGenerateIslandTasks",
+    "QNemesisInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

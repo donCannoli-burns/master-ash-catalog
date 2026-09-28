@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-11-copperhead-ash",
+  "title": "Level 11 - Copperhead",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 11 - Copperhead.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 11 - Copperhead.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "13ab628407c27d8c21e90f57b9f453cbeea7f8e1623d24eada4cef2953f18596",
+  "bytes": 20379,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "adventuring",
+      "combat",
+      "familiar"
+    ],
+    "sub": [
+      "inventory",
+      "iotm",
+      "quests",
+      "relay",
+      "tracking",
+      "automation"
+    ],
+    "meta": [
+      "cli",
+      "crafting",
+      "effects",
+      "equipment",
+      "modifier",
+      "string",
+      "value",
+      "copperhead",
+      "properties",
+      "skills",
+      "level",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: copperhead",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=copperhead",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: copperhead",
+      "url": "https://wiki.kolmafia.us/index.php?search=copperhead",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel11CopperheadInit",
+    "QLevel11RonGenerateTasks",
+    "QLevel11ShenGenerateTasks",
+    "QLevel11ShouldOutputCopperheadRoute"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

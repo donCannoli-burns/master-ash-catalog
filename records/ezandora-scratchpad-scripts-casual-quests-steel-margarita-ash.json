@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-steel-margarita-ash",
+  "title": "Steel Margarita",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Steel Margarita.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Steel Margarita.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "c85ae710cb6d9590077d71f6451ed24e0a89d98af2ce3bc1c31c9991fccef7ac",
+  "bytes": 3712,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "combat",
+      "familiar"
+    ],
+    "sub": [
+      "relay",
+      "adventuring",
+      "ascension",
+      "automation",
+      "iotm",
+      "outfit"
+    ],
+    "meta": [
+      "skills",
+      "string",
+      "effects",
+      "equipment",
+      "inventory",
+      "properties",
+      "quests",
+      "margarita",
+      "steel",
+      "band",
+      "give",
+      "have"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: steel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=steel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: steel",
+      "url": "https://wiki.kolmafia.us/index.php?search=steel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: margarita",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=margarita",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: margarita",
+      "url": "https://wiki.kolmafia.us/index.php?search=margarita",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "giveBandMember",
+    "haveUnicornItems",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

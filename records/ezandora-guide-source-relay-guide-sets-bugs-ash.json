@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-bugs-ash",
+  "title": "Bugs",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Bugs.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Bugs.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3929f94eb9d860b6da08ac7afa341a0f7fa04f25d4a4b2bcdbb6a68172358071",
+  "bytes": 6940,
+  "author": "the scroll bar.",
+  "player": "the scroll bar.",
+  "year": 2019,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "cli"
+    ],
+    "sub": [
+      "combat",
+      "iotm",
+      "string",
+      "tracking",
+      "adventuring",
+      "effects"
+    ],
+    "meta": [
+      "quests",
+      "skills",
+      "bugs",
+      "generate",
+      "sbugs",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bugs",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bugs",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bugs",
+      "url": "https://wiki.kolmafia.us/index.php?search=bugs",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SBugsGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

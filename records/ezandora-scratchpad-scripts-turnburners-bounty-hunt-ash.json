@@ -1,0 +1,98 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-bounty-hunt-ash",
+  "title": "Bounty Hunt",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Bounty Hunt.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Bounty Hunt.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "ea6dd2b1cd35132440a69be192dbdc09c916f462fe9114ad4208dd4d5aaaeed1",
+  "bytes": 4641,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "cli",
+      "combat"
+    ],
+    "sub": [
+      "familiar",
+      "relay",
+      "adventuring",
+      "automation",
+      "effects",
+      "farming"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "properties",
+      "string",
+      "value",
+      "bounty",
+      "inventory",
+      "mall",
+      "profit",
+      "hunt",
+      "fulfill",
+      "initialise"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bounty",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bounty",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bounty",
+      "url": "https://wiki.kolmafia.us/index.php?search=bounty",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: hunt",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hunt",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hunt",
+      "url": "https://wiki.kolmafia.us/index.php?search=hunt",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "initialiseBountyUnlocks",
+    "main",
+    "tryToFulfillBounty"
+  ],
+  "imports": [
+    "relay/Guide/Support/LocationAvailable.ash",
+    "scripts/Farming/CheapFarm.ash",
+    "scripts/Helix Fossil/Helix Fossil Interface.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

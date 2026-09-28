@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-scratchpad-scripts-pvp-pvp-library-ash",
+  "title": "PVP Library",
+  "archive_path": "archive/ezandora/scratchpad/scripts/PVP/PVP Library.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/PVP/PVP Library.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "99c1fe47e57c1c5351f0dd7db108e8353ef0d2b3c60a304e8aeed9e6372cf0c4",
+  "bytes": 2229,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "provenance_url": "http://127.0.0.1:60080/peevpee.php?action=log\u0026ff=1\u0026lid=394629\u0026place=logs\u0026pwd=fb0d4a3305bbf537e6ecc5d5e772c4e4",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "pvp",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "tracking",
+      "library",
+      "extract",
+      "from"
+    ],
+    "meta": [
+      "id",
+      "link",
+      "player",
+      "recurse",
+      "showplayer",
+      "table",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pvp",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pvp",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pvp",
+      "url": "https://wiki.kolmafia.us/index.php?search=pvp",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unlikely"
+  },
+  "functions": [
+    "extractPlayerIdFromShowplayerLink",
+    "recurseTable"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

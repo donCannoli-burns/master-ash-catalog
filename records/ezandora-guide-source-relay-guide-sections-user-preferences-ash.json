@@ -1,0 +1,94 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-user-preferences-ash",
+  "title": "User Preferences",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/User Preferences.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/User Preferences.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "7afa001b15076d6b16d81e623240f14b21f9d470c1b446021108e44e5cc45ba8",
+  "bytes": 2332,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "properties",
+      "string",
+      "value",
+      "preferences",
+      "user",
+      "preference"
+    ],
+    "meta": [
+      "get",
+      "set",
+      "boolean",
+      "process",
+      "read",
+      "write",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: user",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=user",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: user",
+      "url": "https://wiki.kolmafia.us/index.php?search=user",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: preferences",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=preferences",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: preferences",
+      "url": "https://wiki.kolmafia.us/index.php?search=preferences",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PreferenceGet",
+    "PreferenceGetBoolean",
+    "PreferenceSet",
+    "processSetUserPreferences",
+    "readUserPreferences",
+    "writeUserPreferences"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

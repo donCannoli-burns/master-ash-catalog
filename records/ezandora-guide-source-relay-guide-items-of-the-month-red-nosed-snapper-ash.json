@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-red-nosed-snapper-ash",
+  "title": "Red-Nosed Snapper",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Red-Nosed Snapper.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Red-Nosed Snapper.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "dbf06eb1fc46db36061bba5191b5402a7a5dfcabc1fe8fe7f8a94731cbaea8a7",
+  "bytes": 8137,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "tracking",
+      "combat"
+    ],
+    "sub": [
+      "familiar",
+      "inventory",
+      "automation",
+      "cli",
+      "iotm",
+      "string"
+    ],
+    "meta": [
+      "adventuring",
+      "ascension",
+      "consumption",
+      "effects",
+      "profit",
+      "properties",
+      "snapper",
+      "red-nosed",
+      "generate",
+      "iotmred",
+      "nosed",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: red-nosed",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=red+nosed",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: red-nosed",
+      "url": "https://wiki.kolmafia.us/index.php?search=red+nosed",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: snapper",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=snapper",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: snapper",
+      "url": "https://wiki.kolmafia.us/index.php?search=snapper",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMRedNosedSnapperGenerate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

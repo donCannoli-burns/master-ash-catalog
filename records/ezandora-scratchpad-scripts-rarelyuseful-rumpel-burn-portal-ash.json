@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-rumpel-burn-portal-ash",
+  "title": "Rumpel Burn Portal",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Rumpel Burn Portal.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Rumpel Burn Portal.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "fc035902d87aa2c9f130f3accb36643e05a9fccfd4ce6b165392f47b9f8d60cc",
+  "bytes": 174,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "burn",
+      "portal",
+      "rumpel",
+      "main",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: rumpel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=rumpel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: rumpel",
+      "url": "https://wiki.kolmafia.us/index.php?search=rumpel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: burn",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=burn",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: burn",
+      "url": "https://wiki.kolmafia.us/index.php?search=burn",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: portal",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=portal",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: portal",
+      "url": "https://wiki.kolmafia.us/index.php?search=portal",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

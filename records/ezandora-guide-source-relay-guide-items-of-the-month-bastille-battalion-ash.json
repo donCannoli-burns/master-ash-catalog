@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-bastille-battalion-ash",
+  "title": "Bastille Battalion",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Bastille Battalion.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Bastille Battalion.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "5b016df8c512c8dd6fc7a7fbe581a819488cf24cde2c72678d094302b5bedfeb",
+  "bytes": 3984,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "iotm",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "equipment",
+      "inventory",
+      "modifier",
+      "string",
+      "ascension"
+    ],
+    "meta": [
+      "battalion",
+      "mall",
+      "profit",
+      "bastille",
+      "generate",
+      "iotmbastille",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bastille",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bastille",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bastille",
+      "url": "https://wiki.kolmafia.us/index.php?search=bastille",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: battalion",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=battalion",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: battalion",
+      "url": "https://wiki.kolmafia.us/index.php?search=battalion",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMBastilleBattalionGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

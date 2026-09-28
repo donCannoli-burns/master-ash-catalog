@@ -1,0 +1,102 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-prechecksemirare-ash",
+  "title": "PrecheckSemirare",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/PrecheckSemirare.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/PrecheckSemirare.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "64f5d020028fa034a8dec5aeaa2a3256b88b1d84631bb95e9898325ba24500b2",
+  "bytes": 5019,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "adventuring",
+      "combat"
+    ],
+    "sub": [
+      "familiar",
+      "profit",
+      "ascension",
+      "choice",
+      "cli",
+      "consumption"
+    ],
+    "meta": [
+      "quests",
+      "relay",
+      "automation",
+      "effects",
+      "inventory",
+      "iotm",
+      "outfit",
+      "properties",
+      "string",
+      "precheck",
+      "semirare",
+      "mall"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: precheck",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=precheck",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: precheck",
+      "url": "https://wiki.kolmafia.us/index.php?search=precheck",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: semirare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=semirare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: semirare",
+      "url": "https://wiki.kolmafia.us/index.php?search=semirare",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "availableFullnessR",
+    "checkGhostQuest",
+    "main",
+    "precheckSemirare",
+    "precheckSemirareActual"
+  ],
+  "imports": [
+    "relay/Guide/Support/Counter.ash",
+    "relay/Guide/Support/LocationAvailable.ash",
+    "scripts/Destiny Ascension/Destiny Ascension/Support/Library.ash",
+    "scripts/Library/ArchiveEquipment.ash",
+    "scripts/Library/BestSemi-rare.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

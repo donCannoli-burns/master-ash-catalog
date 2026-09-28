@@ -1,0 +1,78 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-level-9-ash",
+  "title": "Level 9",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Level 9.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Level 9.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "42bbf9590bb07685d4caeb62ab70e20498b6387caaab33058010fcebba4553a9",
+  "bytes": 33641,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "familiar",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "combat",
+      "iotm",
+      "modifier",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "adventuring",
+      "effects",
+      "inventory",
+      "profit",
+      "properties",
+      "level",
+      "qlevel9generate",
+      "tasks",
+      "qlevel9init",
+      "sidequests",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: level",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=level",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: level",
+      "url": "https://wiki.kolmafia.us/index.php?search=level",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QLevel9GenerateTasks",
+    "QLevel9GenerateTasksSidequests",
+    "QLevel9Init"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

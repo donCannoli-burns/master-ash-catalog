@@ -1,0 +1,98 @@
+{
+  "id": "ezandora-guide-source-relay-guide-state-ash",
+  "title": "State",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/State.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/State.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "22616a3e29f59fe4664b8fdf3d433b589ff260469fb958addc5169afa55718ac",
+  "bytes": 36095,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "ascension",
+      "clan"
+    ],
+    "sub": [
+      "familiar",
+      "quests",
+      "relay",
+      "automation",
+      "combat",
+      "consumption"
+    ],
+    "meta": [
+      "effects",
+      "iotm",
+      "state",
+      "string",
+      "value",
+      "set",
+      "up",
+      "adventuring",
+      "inventory",
+      "properties",
+      "quest",
+      "compute"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: state",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=state",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: state",
+      "url": "https://wiki.kolmafia.us/index.php?search=state",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "computeFatLootTokens",
+    "finaliseSetUpState",
+    "setUpExampleState",
+    "setUpQuestState",
+    "setUpQuestStateViaMafia",
+    "setUpState"
+  ],
+  "imports": [
+    "relay/Guide/Plants.ash",
+    "relay/Guide/Pulls.ash",
+    "relay/Guide/QuestState.ash",
+    "relay/Guide/Quests.ash",
+    "relay/Guide/Sets.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

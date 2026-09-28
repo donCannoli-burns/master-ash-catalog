@@ -1,0 +1,101 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-cargo-cultist-shorts-ash",
+  "title": "Cargo Cultist Shorts",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Cargo Cultist Shorts.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Cargo Cultist Shorts.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "cefb749b691a4dadf29bdd742d8f2b39893b59191cc2ece307cdd04f5976a432",
+  "bytes": 9903,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "effects",
+      "relay",
+      "inventory"
+    ],
+    "sub": [
+      "automation",
+      "cargo",
+      "iotm",
+      "outfit",
+      "string",
+      "cultist"
+    ],
+    "meta": [
+      "equipment",
+      "handle",
+      "properties",
+      "quests",
+      "shorts",
+      "fights",
+      "free",
+      "generate",
+      "iotmcargo",
+      "items",
+      "pocket",
+      "select"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: cargo",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cargo",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cargo",
+      "url": "https://wiki.kolmafia.us/index.php?search=cargo",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: cultist",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cultist",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cultist",
+      "url": "https://wiki.kolmafia.us/index.php?search=cultist",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: shorts",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=shorts",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: shorts",
+      "url": "https://wiki.kolmafia.us/index.php?search=shorts",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "CargoHandleEffects",
+    "CargoHandleFreeFights",
+    "CargoHandleItems",
+    "CargoHandleStats",
+    "CargoSelectUnusedPocket",
+    "IOTMCargoCultistShortsGenerate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

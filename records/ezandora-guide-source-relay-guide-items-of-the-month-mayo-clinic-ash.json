@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-mayo-clinic-ash",
+  "title": "Mayo Clinic",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Mayo Clinic.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Mayo Clinic.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "1f9d17c48c78028a03edba88090d2e6392f9154a8314fad820c933b1d321d8b4",
+  "bytes": 4498,
+  "author": "mayo level.",
+  "player": "mayo level.",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "ascension"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "combat",
+      "consumption",
+      "effects",
+      "iotm"
+    ],
+    "meta": [
+      "string",
+      "clinic",
+      "inventory",
+      "profit",
+      "properties",
+      "mayo",
+      "generate",
+      "iotmmayo",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: mayo",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=mayo",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: mayo",
+      "url": "https://wiki.kolmafia.us/index.php?search=mayo",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: clinic",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=clinic",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: clinic",
+      "url": "https://wiki.kolmafia.us/index.php?search=clinic",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMMayoClinicGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

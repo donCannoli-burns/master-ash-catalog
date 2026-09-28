@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-boombox-ash",
+  "title": "BoomBox",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/BoomBox.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/BoomBox.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "992c128b0102f972326af084b1a8e9604212c15477b30f14101736b1bd328297",
+  "bytes": 1192,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "cli"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "box",
+      "consumption",
+      "profit",
+      "properties"
+    ],
+    "meta": [
+      "quests",
+      "boom",
+      "generate",
+      "iotmboom",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: boom",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=boom",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: boom",
+      "url": "https://wiki.kolmafia.us/index.php?search=boom",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: box",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=box",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: box",
+      "url": "https://wiki.kolmafia.us/index.php?search=box",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMBoomBoxGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

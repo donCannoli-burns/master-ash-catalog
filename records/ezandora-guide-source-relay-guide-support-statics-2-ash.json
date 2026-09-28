@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-statics-2-ash",
+  "title": "Statics 2",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Statics 2.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Statics 2.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "eba8ca53d9121a3df97fa822b37cea7a62d493c1d972a619f871609bb3b478c7",
+  "bytes": 423,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "pvp",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "consumption",
+      "iotm",
+      "statics",
+      "and",
+      "drinks",
+      "initialise"
+    ],
+    "meta": [
+      "pvpfood",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: statics",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=statics",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: statics",
+      "url": "https://wiki.kolmafia.us/index.php?search=statics",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "initialisePVPFoodAndDrinks"
+  ],
+  "imports": [
+    "relay/Guide/Support/Library.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

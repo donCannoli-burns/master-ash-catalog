@@ -1,0 +1,97 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-actually-ed-the-undying-ash",
+  "title": "Actually Ed the Undying",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Actually Ed the Undying.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Actually Ed the Undying.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "915d4eac8cc1e699a1f7eb9be38a44c6913d4a4f85f8bf0cebe7710b9baaa586",
+  "bytes": 18999,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "combat",
+      "inventory"
+    ],
+    "sub": [
+      "mall",
+      "quests",
+      "relay",
+      "automation",
+      "cli",
+      "iotm"
+    ],
+    "meta": [
+      "modifier",
+      "string",
+      "value",
+      "actually",
+      "undying",
+      "adventuring",
+      "consumption",
+      "properties",
+      "ed",
+      "the",
+      "edthe",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: actually",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=actually",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: actually",
+      "url": "https://wiki.kolmafia.us/index.php?search=actually",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: the",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: the",
+      "url": "https://wiki.kolmafia.us/index.php?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: undying",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=undying",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: undying",
+      "url": "https://wiki.kolmafia.us/index.php?search=undying",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathActuallyEdtheUndyingGenerateResource",
+    "PathActuallyEdtheUndyingGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

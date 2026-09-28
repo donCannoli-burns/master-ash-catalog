@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-fold-groups-ash",
+  "title": "Fold Groups",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Fold Groups.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Fold Groups.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "df27526b17cb1805b7b275405f23d39528bd2ecd272a9ff6c19f72f268b3816d",
+  "bytes": 822,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "fold",
+      "groups",
+      "foldables",
+      "generate",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fold",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fold",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fold",
+      "url": "https://wiki.kolmafia.us/index.php?search=fold",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: groups",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=groups",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: groups",
+      "url": "https://wiki.kolmafia.us/index.php?search=groups",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateFoldables"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

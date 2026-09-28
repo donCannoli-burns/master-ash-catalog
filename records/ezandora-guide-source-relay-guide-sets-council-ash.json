@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-council-ash",
+  "title": "Council",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Council.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Council.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "dba63501e17e41a0ed02fdf6049cdb934c8601675524cd959b7dd4bedb55da46",
+  "bytes": 1891,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "tracking",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "outfit",
+      "string",
+      "update",
+      "equipment"
+    ],
+    "meta": [
+      "council",
+      "generate",
+      "scouncil",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: council",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=council",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: council",
+      "url": "https://wiki.kolmafia.us/index.php?search=council",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SCouncilGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

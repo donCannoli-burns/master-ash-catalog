@@ -1,0 +1,98 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-what-to-halloween-farm-ash",
+  "title": "what to halloween farm",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/what to halloween farm.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/what to halloween farm.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "30c3bfdd2a1baffe9af8c5ba133be02e4c76dc3ca95751b2b1ba9ff65d2a60e0",
+  "bytes": 9700,
+  "author": "value.price",
+  "player": "value.price",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "cli",
+      "iotm",
+      "outfit",
+      "profit",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "effects",
+      "equipment",
+      "inventory",
+      "farm",
+      "halloween",
+      "to",
+      "what",
+      "append",
+      "have_outfit_components",
+      "list",
+      "main",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: what",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=what",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: what",
+      "url": "https://wiki.kolmafia.us/index.php?search=what",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: halloween",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=halloween",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: halloween",
+      "url": "https://wiki.kolmafia.us/index.php?search=halloween",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: farm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farm",
+      "url": "https://wiki.kolmafia.us/index.php?search=farm",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "have_outfit_components",
+    "listAppend",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-far-future-source-farfuture-parsing-person-in-area-ash",
+  "title": "Person In Area",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Parsing/Person In Area.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Parsing/Person In Area.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "94ab38a3b2f64777ed4441afbf60f4da793d3c3ec6b0673f90e38bc0e994189d",
+  "bytes": 1331,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "area",
+      "in",
+      "person",
+      "append",
+      "initialise"
+    ],
+    "meta": [
+      "list",
+      "matches",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: person",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=person",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: person",
+      "url": "https://wiki.kolmafia.us/index.php?search=person",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: area",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=area",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: area",
+      "url": "https://wiki.kolmafia.us/index.php?search=area",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "initialisePersonInAreaMatches",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

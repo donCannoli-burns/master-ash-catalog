@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-olfaction-ash",
+  "title": "Olfaction",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Olfaction.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Olfaction.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "9958b72da8b22a22b78dc6c9416940b987c7409528096fd8bb9c4b758c8dc325",
+  "bytes": 5936,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "adventuring",
+      "inventory",
+      "relay"
+    ],
+    "sub": [
+      "ascension",
+      "automation",
+      "effects",
+      "iotm",
+      "outfit",
+      "string"
+    ],
+    "meta": [
+      "combat",
+      "equipment",
+      "properties",
+      "quests",
+      "skills",
+      "olfaction",
+      "generate",
+      "solfaction",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: olfaction",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=olfaction",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: olfaction",
+      "url": "https://wiki.kolmafia.us/index.php?search=olfaction",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SOlfactionGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

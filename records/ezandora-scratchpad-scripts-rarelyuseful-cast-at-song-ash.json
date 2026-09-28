@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-cast-at-song-ash",
+  "title": "Cast AT Song",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Cast AT Song.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Cast AT Song.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "40e66e9e0c571f0e0a3b65627fdc8a61b7299ff0a07da8f57c5742ba79fe612f",
+  "bytes": 2321,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "cli",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "iotm",
+      "cast",
+      "at",
+      "song"
+    ],
+    "meta": [
+      "atsong",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: cast",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cast",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cast",
+      "url": "https://wiki.kolmafia.us/index.php?search=cast",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: song",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=song",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: song",
+      "url": "https://wiki.kolmafia.us/index.php?search=song",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "castATSong",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

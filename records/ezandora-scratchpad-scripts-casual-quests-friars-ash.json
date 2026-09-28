@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-scratchpad-scripts-casual-quests-friars-ash",
+  "title": "Friars",
+  "archive_path": "archive/ezandora/scratchpad/scripts/ Casual/Quests/Friars.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/ Casual/Quests/Friars.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "538785bce70f66c6d12b493224cc4f608609a7a7d488ad063a583236d22115ca",
+  "bytes": 1126,
+  "author": "Friar",
+  "player": "Friar",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "combat",
+      "effects",
+      "iotm",
+      "outfit",
+      "quests"
+    ],
+    "meta": [
+      "string",
+      "adventuring",
+      "equipment",
+      "inventory",
+      "properties",
+      "tracking",
+      "friars",
+      "adventure",
+      "main",
+      "sneaky",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: friars",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=friars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: friars",
+      "url": "https://wiki.kolmafia.us/index.php?search=friars",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "sneakyAdventure"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

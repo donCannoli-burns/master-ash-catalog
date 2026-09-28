@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-far-future-source-farfuture-parsing-intro-messages-ash",
+  "title": "Intro Messages",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Parsing/Intro Messages.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Parsing/Intro Messages.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "6568afea19a0f48929ca9349e3f9a55a2cdbecbbe5e8a198487537a8c8a5b8d0",
+  "bytes": 8736,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "intro",
+      "messages",
+      "skills",
+      "process"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: intro",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=intro",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: intro",
+      "url": "https://wiki.kolmafia.us/index.php?search=intro",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: messages",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=messages",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: messages",
+      "url": "https://wiki.kolmafia.us/index.php?search=messages",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "processIntroMessages"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

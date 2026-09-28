@@ -1,0 +1,80 @@
+{
+  "id": "ezandora-bastille-release-relay-choice-1315-ash",
+  "title": "choice.1315",
+  "archive_path": "archive/ezandora/bastille/Release/relay/choice.1315.ash",
+  "source_id": "ezandora-owner--bastille",
+  "source_url": "https://github.com/Ezandora/Bastille",
+  "repository_url": "https://github.com/Ezandora/Bastille",
+  "repository_path": "Release/relay/choice.1315.ash",
+  "commit": "7d2377c836e2febf17cf19bcd9e4f44678c762d3",
+  "sha256": "41ee6b4c44ca9078ed698c4088f298311144b621af011d7d8c3ba55215278401",
+  "bytes": 218,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/bastille/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Bastille/blob/7d2377c836e2febf17cf19bcd9e4f44678c762d3/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "iotm",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "string",
+      "main",
+      "relay / IOTM / automation",
+      "scripting",
+      "utility"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/BastilleRelay.ash",
+    "relay/choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

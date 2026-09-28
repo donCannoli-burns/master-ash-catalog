@@ -1,0 +1,119 @@
+{
+  "id": "ezandora-scratchpad-scripts-hobopolis-autotune-least-available-part-ash",
+  "title": "autotune least available part",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Hobopolis/autotune least available part.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Hobopolis/autotune least available part.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "e653ac66b1ac8c0f93464ec3bcf2063f4ec07a3b723233678dd3c9529b109dde",
+  "bytes": 3327,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "clan",
+      "relay",
+      "skills"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "autotune",
+      "available",
+      "least"
+    ],
+    "meta": [
+      "part",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: autotune",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=autotune",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: autotune",
+      "url": "https://wiki.kolmafia.us/index.php?search=autotune",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: least",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=least",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: least",
+      "url": "https://wiki.kolmafia.us/index.php?search=least",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: available",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=available",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: available",
+      "url": "https://wiki.kolmafia.us/index.php?search=available",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: part",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=part",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: part",
+      "url": "https://wiki.kolmafia.us/index.php?search=part",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

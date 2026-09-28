@@ -1,0 +1,82 @@
+{
+  "id": "c2talon-c2t-megg-relaycombat-kolmafia-relay-fight-ash",
+  "title": "fight",
+  "archive_path": "archive/c2talon/c2t-megg-relaycombat/kolmafia/relay/fight.ash",
+  "source_id": "c2talon-owner--c2t_megg_relaycombat",
+  "source_url": "https://github.com/C2Talon/c2t_megg_relayCombat",
+  "repository_url": "https://github.com/C2Talon/c2t_megg_relayCombat",
+  "repository_path": "kolmafia/relay/fight.ash",
+  "commit": "f2c9cf1610aa63e27f2c8887a0e0fa9487248a48",
+  "sha256": "9a5962953cada8e9f5c7c2beb6157ef70e99efb9337a50776b9aeb46baca9365",
+  "bytes": 235,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-megg-relaycombat/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_megg_relayCombat/blob/f2c9cf1610aa63e27f2c8887a0e0fa9487248a48/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "combat",
+      "fight"
+    ],
+    "sub": [
+      "main",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: fight",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fight",
+      "url": "https://wiki.kolmafia.us/index.php?search=fight",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "c2t_megg_relayCombat.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

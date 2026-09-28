@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-the-source-ash",
+  "title": "The Source",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/The Source.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/The Source.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "d8c0a01eeb71553dab0766dd0aa2dac3961dcbf1e7d0f32551378ffceb82321a",
+  "bytes": 6746,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "combat",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "cli",
+      "iotm",
+      "string",
+      "source"
+    ],
+    "meta": [
+      "the",
+      "adventuring",
+      "inventory",
+      "mall",
+      "profit",
+      "properties",
+      "generate",
+      "path",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: the",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: the",
+      "url": "https://wiki.kolmafia.us/index.php?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: source",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=source",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: source",
+      "url": "https://wiki.kolmafia.us/index.php?search=source",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathTheSourceGenerateResource",
+    "PathTheSourceGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

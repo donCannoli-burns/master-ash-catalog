@@ -1,0 +1,109 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-math-ash",
+  "title": "Math",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Math.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Math.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "90130fd733524d87e91af37ae70aa2b669d9ef4ef5dd483e7a15c76e079c76e2",
+  "bytes": 7690,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "math",
+      "value"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "string",
+      "vec2i",
+      "in",
+      "range"
+    ],
+    "meta": [
+      "vec2f",
+      "clamp",
+      "description",
+      "floor",
+      "for",
+      "output",
+      "round",
+      "abs",
+      "append",
+      "average",
+      "averagef",
+      "calculate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: math",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=math",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: math",
+      "url": "https://wiki.kolmafia.us/index.php?search=math",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "TriangularDistributionCalculateCDF",
+    "Vec2fAverage",
+    "Vec2fDescription",
+    "Vec2fValueInRange",
+    "Vec2iDescription",
+    "Vec2iEquals",
+    "Vec2iIntersectsWithVec2i",
+    "Vec2iValueInInterval",
+    "Vec2iValueInRange",
+    "abs",
+    "averagef",
+    "ceiling",
+    "clampNormalf",
+    "clampNormali",
+    "clampf",
+    "clampi",
+    "fabs",
+    "floor",
+    "floorForOutput",
+    "listAppend",
+    "numberIsInRangeInclusive",
+    "pow2f",
+    "pow2i",
+    "powf",
+    "powi",
+    "random_safe",
+    "randomf",
+    "round",
+    "roundForOutput",
+    "sqrt",
+    "to_int_silent"
+  ],
+  "imports": [
+    "relay/Guide/Support/Error.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

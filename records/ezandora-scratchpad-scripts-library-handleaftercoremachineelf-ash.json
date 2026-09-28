@@ -1,0 +1,117 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-handleaftercoremachineelf-ash",
+  "title": "HandleAftercoreMachineElf",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/HandleAftercoreMachineElf.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/HandleAftercoreMachineElf.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "71b44df2b5ae5774d9caa58d90ffd971b15cbdd03751419d45f8807d4eb95c5e",
+  "bytes": 5451,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "relay",
+      "choice"
+    ],
+    "sub": [
+      "cli",
+      "combat",
+      "familiar",
+      "adventuring",
+      "ascension",
+      "automation"
+    ],
+    "meta": [
+      "iotm",
+      "properties",
+      "value",
+      "consumption",
+      "elf",
+      "machine",
+      "mall",
+      "profit",
+      "aftercore",
+      "handle",
+      "main",
+      "powf"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: handle",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=handle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: handle",
+      "url": "https://wiki.kolmafia.us/index.php?search=handle",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: aftercore",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=aftercore",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: aftercore",
+      "url": "https://wiki.kolmafia.us/index.php?search=aftercore",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: machine",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=machine",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: machine",
+      "url": "https://wiki.kolmafia.us/index.php?search=machine",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: elf",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=elf",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: elf",
+      "url": "https://wiki.kolmafia.us/index.php?search=elf",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "purchasing:retrieve_item",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "machineElfRunTurns",
+    "main",
+    "powf"
+  ],
+  "imports": [
+    "scripts/RarelyUseful/machine elves.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

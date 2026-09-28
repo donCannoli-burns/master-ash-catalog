@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-beach-comb-ash",
+  "title": "Beach Comb",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Beach Comb.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Beach Comb.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e90b394bfeb5559f27ff15ba9a42b0f52592e77912f092d3a512d3e97a8994bb",
+  "bytes": 3031,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "equipment",
+      "iotm",
+      "string",
+      "comb",
+      "inventory",
+      "properties"
+    ],
+    "meta": [
+      "beach",
+      "generate",
+      "iotmbeach",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: beach",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=beach",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: beach",
+      "url": "https://wiki.kolmafia.us/index.php?search=beach",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: comb",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=comb",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: comb",
+      "url": "https://wiki.kolmafia.us/index.php?search=comb",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMBeachCombGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-dna-ash",
+  "title": "DNA",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/DNA.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/DNA.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "c637af34d201920223b16d540c69db0cfaa54e60d703ff9ebd5ee0494c2784f2",
+  "bytes": 27367,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "effects",
+      "iotm",
+      "outfit",
+      "string",
+      "ascension",
+      "combat"
+    ],
+    "meta": [
+      "equipment",
+      "inventory",
+      "profit",
+      "quests",
+      "skills",
+      "tracking",
+      "dna",
+      "iotmdnagenerate",
+      "phylum",
+      "append",
+      "current",
+      "dnabold"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: dna",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=dna",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: dna",
+      "url": "https://wiki.kolmafia.us/index.php?search=dna",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "DNABoldPhylumIfCurrentMonster",
+    "DNAHavePhylum",
+    "IOTMDNAGenerateResource",
+    "IOTMDNAGenerateTasks",
+    "IOTMDNAInit",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

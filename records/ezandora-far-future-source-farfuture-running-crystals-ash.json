@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-far-future-source-farfuture-running-crystals-ash",
+  "title": "Crystals",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Running/Crystals.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Running/Crystals.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "773d3591eafb750352ec06ba4ffc73c2723a19bbd6322c3013c4872bb961aea9",
+  "bytes": 2850,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "crystals",
+      "skills",
+      "action",
+      "choose"
+    ],
+    "meta": [
+      "next",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: crystals",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=crystals",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: crystals",
+      "url": "https://wiki.kolmafia.us/index.php?search=crystals",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "CrystalsChooseNextAction"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-castodelibrary-ash",
+  "title": "CastOdeLibrary",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/CastOdeLibrary.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/CastOdeLibrary.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "d217407a86cb86289eb0b0c17c6820d853edfcf603b3cc156c36a6eb9caa95e6",
+  "bytes": 880,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "skills",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "effects",
+      "iotm",
+      "cast",
+      "equipment",
+      "ode",
+      "library"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: cast",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=cast",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: cast",
+      "url": "https://wiki.kolmafia.us/index.php?search=cast",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: ode",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ode",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ode",
+      "url": "https://wiki.kolmafia.us/index.php?search=ode",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "castOde"
+  ],
+  "imports": [
+    "scripts/Library/OpenATSongSlotLibrary.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

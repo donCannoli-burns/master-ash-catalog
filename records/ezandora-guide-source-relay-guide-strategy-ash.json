@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-strategy-ash",
+  "title": "Strategy",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Strategy.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Strategy.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "5d5e7872f4838894feb788482418fbc973cc21d014c2a62dc2d72a1530eaccf4",
+  "bytes": 361,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "combat",
+      "iotm",
+      "consumption",
+      "strategy",
+      "generate",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: strategy",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=strategy",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: strategy",
+      "url": "https://wiki.kolmafia.us/index.php?search=strategy",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateStrategy"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

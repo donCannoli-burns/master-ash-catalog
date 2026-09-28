@@ -1,0 +1,109 @@
+{
+  "id": "ezandora-scratchpad-scripts-sea-do-entire-sea-don-t-fight-dad-ash",
+  "title": "Do entire sea, don't fight dad",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Sea/Do entire sea, don't fight dad.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Sea/Do entire sea, don't fight dad.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "e8decef2ce1ebdee276ea5b0f41f27ed3d21ce11b18bc3960e975a57d970cd4f",
+  "bytes": 863,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "consumption",
+      "effects",
+      "iotm",
+      "dad",
+      "do",
+      "don"
+    ],
+    "meta": [
+      "entire",
+      "fight",
+      "sea",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: entire",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=entire",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: entire",
+      "url": "https://wiki.kolmafia.us/index.php?search=entire",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sea",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sea",
+      "url": "https://wiki.kolmafia.us/index.php?search=sea",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: don",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=don",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: don",
+      "url": "https://wiki.kolmafia.us/index.php?search=don",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fight",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fight",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fight",
+      "url": "https://wiki.kolmafia.us/index.php?search=fight",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

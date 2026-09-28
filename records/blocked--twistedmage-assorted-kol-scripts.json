@@ -1,0 +1,10 @@
+{
+  "commit": "1b7f2f94eaa9e9969be6d26886664e2b9b1ea31a",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/twistedmage/assorted-kol-scripts",
+  "source_id": "twistedmage-assorted",
+  "status": "metadata-only; bytes not redistributed"
+}

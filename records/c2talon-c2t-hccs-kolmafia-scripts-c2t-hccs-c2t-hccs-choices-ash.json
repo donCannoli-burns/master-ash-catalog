@@ -1,0 +1,84 @@
+{
+  "id": "c2talon-c2t-hccs-kolmafia-scripts-c2t-hccs-c2t-hccs-choices-ash",
+  "title": "c2t_hccs_choices",
+  "archive_path": "archive/c2talon/c2t-hccs/kolmafia/scripts/c2t_hccs/c2t_hccs_choices.ash",
+  "source_id": "c2talon-owner--c2t_hccs",
+  "source_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_path": "kolmafia/scripts/c2t_hccs/c2t_hccs_choices.ash",
+  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "sha256": "3c386ab97d43ae01abdcbe53d6d26bd8ffad190bfbf6273ffb446a64943efe00",
+  "bytes": 10813,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "effects",
+      "cli"
+    ],
+    "sub": [
+      "tracking",
+      "combat",
+      "equipment",
+      "skills",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "adventuring",
+      "profit",
+      "properties",
+      "quests",
+      "c2t_hccs_choices",
+      "c2t_hccs_choice",
+      "main",
+      "mobius",
+      "ring",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_hccs_choices",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_hccs_choices",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_hccs_choices",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_hccs_choices",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "c2t_hccs_choiceMobiusRing",
+    "main"
+  ],
+  "imports": [
+    "c2t_hccs_lib.ash",
+    "c2t_lib.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

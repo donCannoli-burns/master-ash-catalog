@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-events-historical-scripts-lylefarm-ash",
+  "title": "Lylefarm",
+  "archive_path": "archive/ezandora/events/Historical/scripts/Lylefarm.ash",
+  "source_id": "ezandora-owner--events",
+  "source_url": "https://github.com/Ezandora/Events",
+  "repository_url": "https://github.com/Ezandora/Events",
+  "repository_path": "Historical/scripts/Lylefarm.ash",
+  "commit": "3656bd353ff8474b741ae84a5079d7a95be5a4e5",
+  "sha256": "3dd675a74903c0bd51c4a62da91ef67cf8ab6087f54c40d7cb30eca81887fe1d",
+  "bytes": 6392,
+  "author": "Ezandora.",
+  "player": "Ezandora.",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/events/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Events/blob/3656bd353ff8474b741ae84a5079d7a95be5a4e5/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "cli"
+    ],
+    "sub": [
+      "combat",
+      "inventory",
+      "pvp",
+      "farming",
+      "automation",
+      "equipment"
+    ],
+    "meta": [
+      "iotm",
+      "string",
+      "value",
+      "consumption",
+      "profit",
+      "lylefarm",
+      "escape",
+      "lyle",
+      "main",
+      "page",
+      "reach",
+      "run_choice_by_text"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: lylefarm",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lylefarm",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lylefarm",
+      "url": "https://wiki.kolmafia.us/index.php?search=lylefarm",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "escapeLyle",
+    "main",
+    "reachFarmingPage",
+    "run_choice_by_text"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

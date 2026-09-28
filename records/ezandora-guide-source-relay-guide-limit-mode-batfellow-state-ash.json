@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-limit-mode-batfellow-state-ash",
+  "title": "Batfellow State",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Limit Mode/Batfellow State.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Limit Mode/Batfellow State.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "89b3120c5352eb58b1643faa591345594fb23030897252f41968343159798655",
+  "bytes": 7833,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "value",
+      "batfellow",
+      "adventuring",
+      "combat",
+      "properties"
+    ],
+    "meta": [
+      "state",
+      "initialise",
+      "areas",
+      "boss",
+      "bosses",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: batfellow",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=batfellow",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: batfellow",
+      "url": "https://wiki.kolmafia.us/index.php?search=batfellow",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: state",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=state",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: state",
+      "url": "https://wiki.kolmafia.us/index.php?search=state",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "initialiseBatfellowBossAreas",
+    "initialiseBatfellowBosses"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

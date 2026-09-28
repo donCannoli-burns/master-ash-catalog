@@ -1,0 +1,100 @@
+{
+  "id": "ezandora-scratchpad-scripts-farming-spice-melange-ash",
+  "title": "Spice Melange",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Farming/Spice Melange.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Farming/Spice Melange.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "44bfccb960320ed101001d49c1ce5da9af5146b101aaed73a529211ca3a93669",
+  "bytes": 15130,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "profit",
+      "effects",
+      "equipment"
+    ],
+    "sub": [
+      "familiar",
+      "cli",
+      "iotm",
+      "mall",
+      "relay",
+      "skills"
+    ],
+    "meta": [
+      "farming",
+      "outfit",
+      "automation",
+      "maximizer",
+      "modifier",
+      "properties",
+      "string",
+      "value",
+      "combat",
+      "consumption",
+      "inventory",
+      "melange"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spice",
+      "url": "https://wiki.kolmafia.us/index.php?search=spice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: melange",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=melange",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: melange",
+      "url": "https://wiki.kolmafia.us/index.php?search=melange",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "equipOutfit",
+    "insureEffectCheaply",
+    "main",
+    "setUpKnownFarmingItems"
+  ],
+  "imports": [
+    "CheapFarm.ash",
+    "relay/Guide/Support/Counter.ash",
+    "relay/Guide/Support/Library.ash",
+    "scripts/Helix Fossil/Helix Fossil Interface.ash",
+    "scripts/Library/PrecheckSemirare.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

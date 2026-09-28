@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-what-to-fax-ash",
+  "title": "What to fax?",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/What to fax?.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/What to fax?.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "d7c89adf1dd50016769d9b437178f36d859835e815dac332572c8c6e18460b29",
+  "bytes": 17527,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 2008,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "combat",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "profit",
+      "string",
+      "effects",
+      "fax"
+    ],
+    "meta": [
+      "to",
+      "what",
+      "append",
+      "earnings",
+      "for",
+      "item_price",
+      "list",
+      "main",
+      "meat",
+      "monster",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: what",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=what",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: what",
+      "url": "https://wiki.kolmafia.us/index.php?search=what",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fax",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fax",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fax",
+      "url": "https://wiki.kolmafia.us/index.php?search=fax",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "item_price",
+    "listAppend",
+    "main",
+    "meatEarningsForMonster"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

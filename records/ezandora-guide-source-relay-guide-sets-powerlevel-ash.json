@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-powerlevel-ash",
+  "title": "Powerlevel",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Powerlevel.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Powerlevel.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "2da438fa87a85dd1e88c71200c4f27923e53342e4786e8782d226a15217626de",
+  "bytes": 7253,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 2000,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "inventory",
+      "automation"
+    ],
+    "sub": [
+      "character",
+      "cli",
+      "effects",
+      "iotm",
+      "string",
+      "adventuring"
+    ],
+    "meta": [
+      "ascension",
+      "combat",
+      "consumption",
+      "mall",
+      "profit",
+      "powerlevel",
+      "generate",
+      "spowerlevel",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: powerlevel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=powerlevel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: powerlevel",
+      "url": "https://wiki.kolmafia.us/index.php?search=powerlevel",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SPowerlevelGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

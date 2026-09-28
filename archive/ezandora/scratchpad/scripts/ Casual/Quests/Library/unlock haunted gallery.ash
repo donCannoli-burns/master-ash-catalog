@@ -1,0 +1,10 @@
+void main()
+{
+	if (available_amount($item[spookyraven gallery key]) > 0)
+		return;
+	if (available_amount($item[spookyraven library key]) == 0)
+	{
+		print("Get into the library first");
+		return;
+	}	cli_execute("call ../../Outfit experience");	cli_execute("call ../../Outfit -combat");	//Let's go for it:	cli_execute("set choiceAdventure80 = 99");	cli_execute("set choiceAdventure81 = 1");	cli_execute("set choiceAdventure87 = 2");	//Adventure until we get choice adventure 87:		//cli_execute("goal set 1 choiceadv");	//cli_execute("adventure * haunted library");	//ash print(adventure(1, $location[haunted library]));	//print(visit_url("adventure.php?snarfblat=104"));	boolean finished = false;	while (!finished)	{		cli_execute("restore hp; restore mp");		string adventure_results = visit_url("adventure.php?snarfblat=104");		if (contains_text(adventure_results, "You're fighting"))			run_combat();		if (contains_text(adventure_results, "Melvil Dewey Would Be Ashamed"))			visit_url("choice.php?whichchoice=163&option=4");		if (contains_text(adventure_results, "The Fall of the House of Spookyraven"))		{			visit_url("choice.php?whichchoice=81&option=1");			visit_url("choice.php?whichchoice=87&option=2");			finished = true;		}		if (contains_text(adventure_results, "The Rise of the House of Spookyraven"))		{			visit_url("choice.php?whichchoice=80&option=4");		}	}	//Now adventure in haunted conservatory:	cli_execute("call ../../Outfit experience");	cli_execute("call UseHipster.ash");	int turns_spent = 0;	int limit = 11;	while (available_amount($item[spookyraven gallery key]) == 0)	{		cli_execute("adventure 1 haunted conservatory");		turns_spent = turns_spent + 1;		if (turns_spent > limit)		{			print("INTERNAL ERROR - turns spent too high");			return;		}	}
+}

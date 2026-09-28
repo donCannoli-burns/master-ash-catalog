@@ -1,0 +1,68 @@
+//These settings are for development. Don't worry about editing them.
+string __version = "2.0.7";
+
+//Debugging:
+boolean __setting_debug_mode = false;
+boolean debug = __setting_debug_mode; //if (debug)
+boolean __setting_debug_enable_example_mode_in_aftercore = false; //for testing. Will give false information, so don't enable
+boolean __setting_debug_show_all_internal_states = false; //displays usable images/__misc_state/__misc_state_string/__misc_state_int/__quest_state
+
+//Display settings:
+boolean __setting_entire_area_clickable = false;
+boolean __setting_side_negative_space_is_dark = true;
+boolean __setting_newstyle_navbars = true;
+boolean __setting_fill_vertical = true;
+int __setting_image_width_large = 50;
+int __setting_image_width_medium = 50;
+int __setting_image_width_small = 30;
+
+boolean __show_importance_bar = true;
+boolean __setting_show_navbar = true;
+boolean __setting_navbar_has_proportional_widths = false; //doesn't look very good, remove?
+boolean __setting_gray_navbar = true;
+boolean __use_table_based_layouts = false; //backup implementation. not compatible with media queries. consider removing?
+boolean __use_flexbox_on_checklists = true;
+boolean __enable_showhide_feature = true;
+
+boolean __setting_use_kol_css = false; //images/styles.css
+boolean __setting_show_location_bar = true;
+boolean __setting_enable_location_popup_box = true;
+boolean __setting_location_bar_uses_last_location = false; //nextAdventure otherwise
+boolean __setting_location_bar_fixed_layout = true;
+boolean __setting_location_bar_limit_max_width = true;
+float __setting_location_bar_max_width_per_entry = 0.35;
+boolean __setting_small_size_uses_full_width = false; //implemented, but disabled - doesn't look amazing. reduced indention width instead to compensate
+boolean __setting_enable_outputting_all_numberology_options = true;
+
+//Do not use directly; use var() calls
+string __setting_unavailable_colour = "#7F7F7F"; //var(--unavailable_colour)
+string __setting_line_colour = "#B2B2B2"; //var(--line_colour)
+string __setting_dark_colour = "#C0C0C0"; //var(--dark_colour)
+string __setting_modifier_colour = "#404040"; //var(--modifier_colour)
+string __setting_navbar_background_colour = "#FFFFFF"; //var(--navbar_background_colour)
+string __setting_page_background_colour = "#F7F7F7"; //var(--page_background_colour)
+string __setting_main_content_background_colour = "#FFFFFF"; //var(--main_content_background_colour)
+string __setting_main_content_text_colour = "#000000"; //var(--main_content_text_colour)
+string __setting_hover_alternate_colour = "#CCCCCC"; //var(--hover_alternate_colour)
+
+//Inverted, dark mode versions of above:
+string __setting_unavailable_colour_dark = "#7F7F7F"; //var(--unavailable_colour)
+string __setting_line_colour_dark = "#4D4D4D"; //var(--line_colour)
+string __setting_dark_colour_dark = "#3F3F3F"; //var(--dark_colour)
+string __setting_modifier_colour_dark = "#BFBFBF"; //var(--modifier_colour)
+string __setting_navbar_background_colour_dark = "#000000"; //var(--navbar_background_colour)
+string __setting_page_background_colour_dark = "#3F3F3F"; //var(--page_background_colour)
+string __setting_main_content_background_colour_dark = "#000000"; //var(--main_content_background_colour)
+string __setting_main_content_text_colour_dark = "#FFFFFF"; //var(--main_content_text_colour)
+string __setting_hover_alternate_colour_dark = "#333333"; //var(--hover_alternate_colour)
+
+string __setting_media_query_large_size = "@media (min-width: 500px)";
+string __setting_media_query_medium_size = "@media (min-width: 350px) and (max-width: 500px)";
+string __setting_media_query_small_size = "@media (max-width: 350px) and (min-width: 225px)";
+string __setting_media_query_tiny_size = "@media (max-width: 225px)";
+
+float __setting_navbar_height_in_em = 2.3;
+string __setting_navbar_height = __setting_navbar_height_in_em + "em";
+int __setting_horizontal_width = 600;
+boolean __setting_ios_appearance = false; //no don't
+string __relay_filename;

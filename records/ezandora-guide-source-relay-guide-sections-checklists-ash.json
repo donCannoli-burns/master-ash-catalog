@@ -1,0 +1,82 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-checklists-ash",
+  "title": "Checklists",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Checklists.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Checklists.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "46b08ffc2fa28a4a835a702a49ac296ff1f05b9be0fac8f62c00dffefbca06d9",
+  "bytes": 15985,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "familiar",
+      "inventory"
+    ],
+    "sub": [
+      "pvp",
+      "quests",
+      "relay",
+      "rollover",
+      "skills",
+      "automation"
+    ],
+    "meta": [
+      "cli",
+      "iotm",
+      "modifier",
+      "string",
+      "checklists",
+      "adventuring",
+      "ascension",
+      "mall",
+      "properties",
+      "tracking",
+      "generate",
+      "misc"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: checklists",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=checklists",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: checklists",
+      "url": "https://wiki.kolmafia.us/index.php?search=checklists",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateChecklists",
+    "generateMisc",
+    "outputChecklists"
+  ],
+  "imports": [
+    "relay/Guide/Limit Mode/Batfellow.ash",
+    "relay/Guide/Sections/Tests.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

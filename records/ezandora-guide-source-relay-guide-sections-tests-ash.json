@@ -1,0 +1,85 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sections-tests-ash",
+  "title": "Tests",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sections/Tests.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sections/Tests.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "01573f804c32ce23de1d790a7c60402d618c48e29e4bac6ccd8d3dc3d72ca0a1",
+  "bytes": 7473,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "quests",
+      "automation"
+    ],
+    "sub": [
+      "cli",
+      "iotm",
+      "string",
+      "generate",
+      "test",
+      "adventuring"
+    ],
+    "meta": [
+      "combat",
+      "tests",
+      "all",
+      "banish",
+      "counter",
+      "data",
+      "image",
+      "major",
+      "minor",
+      "self",
+      "state",
+      "text"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: tests",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tests",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tests",
+      "url": "https://wiki.kolmafia.us/index.php?search=tests",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateAllTests",
+    "generateBanishTest",
+    "generateCounterTest",
+    "generateImageTest",
+    "generateMajorMinorText",
+    "generateSelfDataTest",
+    "generateStateTest"
+  ],
+  "imports": [
+    "relay/Guide/Support/Banishers.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

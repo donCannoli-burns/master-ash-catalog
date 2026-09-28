@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-scratchpad-scripts-utility-death-of-a-casual-ash",
+  "title": "death of a casual",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Utility/death of a casual.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Utility/death of a casual.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "8d76fd73363b891ab4bda35aff8f2d3a2b55881ae86edd3502730a05fa92cc4d",
+  "bytes": 15137,
+  "author": "hand.",
+  "player": "hand.",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "choice",
+      "combat"
+    ],
+    "sub": [
+      "equipment",
+      "cli",
+      "familiar",
+      "inventory",
+      "iotm",
+      "mall"
+    ],
+    "meta": [
+      "quests",
+      "relay",
+      "farming",
+      "adventuring",
+      "automation",
+      "profit",
+      "properties",
+      "string",
+      "consumption",
+      "effects",
+      "casual",
+      "death"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: death",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=death",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: death",
+      "url": "https://wiki.kolmafia.us/index.php?search=death",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: casual",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=casual",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: casual",
+      "url": "https://wiki.kolmafia.us/index.php?search=casual",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "burnAdventuresFarming",
+    "currentBeachTideLevel",
+    "farmSuperduperheatedMetal",
+    "main",
+    "twitch"
+  ],
+  "imports": [
+    "scripts/Farming/Farm daily generators-hairs-pills.ash",
+    "scripts/Helix Fossil/Helix Fossil Interface.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

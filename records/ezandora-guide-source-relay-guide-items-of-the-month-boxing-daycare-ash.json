@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-boxing-daycare-ash",
+  "title": "Boxing Daycare",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Boxing Daycare.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Boxing Daycare.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "495cdaed6dcdc7645d0aaefe8ec14e190a202fa409278c83e0c4a1e42433dcbd",
+  "bytes": 4774,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "pvp",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "equipment",
+      "iotm",
+      "modifier",
+      "string",
+      "daycare",
+      "ascension"
+    ],
+    "meta": [
+      "consumption",
+      "profit",
+      "properties",
+      "skills",
+      "tracking",
+      "boxing",
+      "generate",
+      "iotmboxing",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: boxing",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=boxing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: boxing",
+      "url": "https://wiki.kolmafia.us/index.php?search=boxing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: daycare",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=daycare",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: daycare",
+      "url": "https://wiki.kolmafia.us/index.php?search=daycare",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMBoxingDaycareGenerateResource",
+    "IOTMBoxingDaycareGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

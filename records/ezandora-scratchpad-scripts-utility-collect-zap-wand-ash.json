@@ -1,0 +1,107 @@
+{
+  "id": "ezandora-scratchpad-scripts-utility-collect-zap-wand-ash",
+  "title": "Collect Zap Wand",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Utility/Collect Zap Wand.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Utility/Collect Zap Wand.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "bb58a8d8b38603f697d33528e87329f23b5bff87510c0e4e387d1ea3874f7f4d",
+  "bytes": 3215,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "equipment",
+      "cli"
+    ],
+    "sub": [
+      "relay",
+      "adventuring",
+      "ascension",
+      "automation",
+      "combat",
+      "effects"
+    ],
+    "meta": [
+      "iotm",
+      "properties",
+      "skills",
+      "collect",
+      "consumption",
+      "inventory",
+      "profit",
+      "tracking",
+      "wand",
+      "zap",
+      "core",
+      "doom"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: collect",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=collect",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: collect",
+      "url": "https://wiki.kolmafia.us/index.php?search=collect",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: zap",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=zap",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: zap",
+      "url": "https://wiki.kolmafia.us/index.php?search=zap",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: wand",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=wand",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: wand",
+      "url": "https://wiki.kolmafia.us/index.php?search=wand",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adventure",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "collectZapWandCore",
+    "main",
+    "unlockDungeonOfDoom"
+  ],
+  "imports": [
+    "scripts/Helix Fossil/Helix Fossil Interface.ash",
+    "scripts/Library/ArchiveEquipment.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

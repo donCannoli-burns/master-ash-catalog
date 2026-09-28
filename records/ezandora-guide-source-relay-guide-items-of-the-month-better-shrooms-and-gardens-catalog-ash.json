@@ -1,0 +1,108 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-better-shrooms-and-gardens-catalog-ash",
+  "title": "Better Shrooms and Gardens catalog",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Better Shrooms and Gardens catalog.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Better Shrooms and Gardens catalog.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "b6600b9cb491e6883cbacfcfef1661a2a98482de340d9f0264c8be78203b92e6",
+  "bytes": 3873,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "inventory"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "and",
+      "gardens",
+      "shrooms",
+      "ascension"
+    ],
+    "meta": [
+      "properties",
+      "tracking",
+      "better",
+      "catalog",
+      "generate",
+      "iotmbetter",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: better",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=better",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: better",
+      "url": "https://wiki.kolmafia.us/index.php?search=better",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: shrooms",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=shrooms",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: shrooms",
+      "url": "https://wiki.kolmafia.us/index.php?search=shrooms",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: and",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=and",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: and",
+      "url": "https://wiki.kolmafia.us/index.php?search=and",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: gardens",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gardens",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gardens",
+      "url": "https://wiki.kolmafia.us/index.php?search=gardens",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMBetterShroomsAndGardensGenerate",
+    "IOTMBetterShroomsAndGardensGenerateResource",
+    "IOTMBetterShroomsAndGardensGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

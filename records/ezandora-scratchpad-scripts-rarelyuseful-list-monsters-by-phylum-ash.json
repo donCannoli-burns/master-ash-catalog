@@ -1,0 +1,100 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-list-monsters-by-phylum-ash",
+  "title": "list monsters by phylum",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/list monsters by phylum.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/list monsters by phylum.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "99b8a6357a0c44917f22ba9fdc6845db32ad9f6dcd746568d30cf84262539231",
+  "bytes": 2117,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "adventuring",
+      "combat",
+      "by",
+      "list",
+      "monsters"
+    ],
+    "meta": [
+      "phylum",
+      "generate",
+      "line",
+      "main",
+      "monster",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: list",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: list",
+      "url": "https://wiki.kolmafia.us/index.php?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monsters",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monsters",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monsters",
+      "url": "https://wiki.kolmafia.us/index.php?search=monsters",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: phylum",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=phylum",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: phylum",
+      "url": "https://wiki.kolmafia.us/index.php?search=phylum",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "generateMonsterLine",
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Support/List.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

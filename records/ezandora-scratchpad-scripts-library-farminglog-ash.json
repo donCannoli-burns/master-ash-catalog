@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-farminglog-ash",
+  "title": "FarmingLog",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/FarmingLog.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/FarmingLog.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a89f27849f20f676e5c60e51f12452627c0095217d8f1b9494d2b3f138cbcc79",
+  "bytes": 2475,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "farming",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "inventory",
+      "iotm",
+      "profit",
+      "string",
+      "value",
+      "consumption"
+    ],
+    "meta": [
+      "log",
+      "tracking",
+      "delta",
+      "output",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: farming",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=farming",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: farming",
+      "url": "https://wiki.kolmafia.us/index.php?search=farming",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: log",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=log",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: log",
+      "url": "https://wiki.kolmafia.us/index.php?search=log",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "FarmingLogOutputDelta"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

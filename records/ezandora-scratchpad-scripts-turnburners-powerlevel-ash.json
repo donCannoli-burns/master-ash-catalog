@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-scratchpad-scripts-turnburners-powerlevel-ash",
+  "title": "Powerlevel",
+  "archive_path": "archive/ezandora/scratchpad/scripts/TurnBurners/Powerlevel.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/TurnBurners/Powerlevel.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "1feb0bb99de9e98b958bec05a66c00509ce7428390d14b40eefae003ed989b56",
+  "bytes": 12342,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 2000,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "effects",
+      "choice",
+      "cli"
+    ],
+    "sub": [
+      "consumption",
+      "familiar",
+      "mall",
+      "relay",
+      "ascension",
+      "automation"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "profit",
+      "string",
+      "value",
+      "adventuring",
+      "combat",
+      "inventory",
+      "properties",
+      "powerlevel",
+      "available",
+      "drunkenness"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: powerlevel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=powerlevel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: powerlevel",
+      "url": "https://wiki.kolmafia.us/index.php?search=powerlevel",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "availableDrunkenness",
+    "main",
+    "pirate_tract_purchasable"
+  ],
+  "imports": [
+    "scripts/Destiny Ascension/Destiny Ascension/Support/Library.ash",
+    "scripts/Library/PreAdventureScript.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

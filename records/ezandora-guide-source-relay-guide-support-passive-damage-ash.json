@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-passive-damage-ash",
+  "title": "Passive Damage",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Passive Damage.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Passive Damage.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "7d8052b6049f78b9c48241b94852a91682e43a1b673bbe9420cca6ff8a7b704f",
+  "bytes": 10329,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "effects",
+      "combat",
+      "equipment"
+    ],
+    "sub": [
+      "familiar",
+      "relay",
+      "automation",
+      "iotm",
+      "skills",
+      "string"
+    ],
+    "meta": [
+      "tracking",
+      "damage",
+      "inventory",
+      "passive",
+      "properties",
+      "add",
+      "append",
+      "attack",
+      "call",
+      "could",
+      "do",
+      "list"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: passive",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=passive",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: passive",
+      "url": "https://wiki.kolmafia.us/index.php?search=passive",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: damage",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=damage",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: damage",
+      "url": "https://wiki.kolmafia.us/index.php?search=damage",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "adventuring:attack"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "PDSFamiliarCouldPossiblyAttack",
+    "PDSInitialiseDoNotCallThis",
+    "PassiveDamageSourceAddDamage",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

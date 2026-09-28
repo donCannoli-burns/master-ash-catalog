@@ -1,0 +1,80 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-familiars-ash",
+  "title": "Familiars",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Familiars.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Familiars.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "f51c2075d4fba9f9de089328fc6be0aeac6016cd0e8542f1897c2a923285f3d4",
+  "bytes": 23965,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "year": 2000,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "combat",
+      "equipment"
+    ],
+    "sub": [
+      "familiar",
+      "relay",
+      "automation",
+      "cli",
+      "consumption",
+      "effects"
+    ],
+    "meta": [
+      "iotm",
+      "mall",
+      "modifier",
+      "outfit",
+      "string",
+      "generate",
+      "inventory",
+      "profit",
+      "properties",
+      "quests",
+      "sfamiliars",
+      "skills"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: familiars",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=familiars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: familiars",
+      "url": "https://wiki.kolmafia.us/index.php?search=familiars",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SFamiliarsGenerateEntry",
+    "SFamiliarsGenerateResource",
+    "SFamiliarsGenerateTasks",
+    "SFamiliarsPuckGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

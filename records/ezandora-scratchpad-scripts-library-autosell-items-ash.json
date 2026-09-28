@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-autosell-items-ash",
+  "title": "Autosell Items",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/Autosell Items.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/Autosell Items.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "a920e9a11ec2c6c6f1336e9a7ac0775e1ee7bd5e2ff75e53c44a39898f330514",
+  "bytes": 1361,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "inventory",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "consumption",
+      "mall",
+      "profit",
+      "autosell"
+    ],
+    "meta": [
+      "items",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: autosell",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=autosell",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: autosell",
+      "url": "https://wiki.kolmafia.us/index.php?search=autosell",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: items",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=items",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: items",
+      "url": "https://wiki.kolmafia.us/index.php?search=items",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "purchasing:retrieve_item"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

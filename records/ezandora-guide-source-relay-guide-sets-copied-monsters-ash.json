@@ -1,0 +1,94 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-copied-monsters-ash",
+  "title": "Copied Monsters",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Copied Monsters.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Copied Monsters.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "c3ce2f8bf62fc42a908b8210c9947c987fc95f77413e8f8deff0cdec89e4d741",
+  "bytes": 25213,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "inventory",
+      "iotm"
+    ],
+    "sub": [
+      "relay",
+      "ascension",
+      "automation",
+      "cli",
+      "effects",
+      "modifier"
+    ],
+    "meta": [
+      "monsters",
+      "skills",
+      "string",
+      "generate",
+      "copied",
+      "adventuring",
+      "combat",
+      "equipment",
+      "properties",
+      "quests",
+      "scopied",
+      "for"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: copied",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=copied",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: copied",
+      "url": "https://wiki.kolmafia.us/index.php?search=copied",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monsters",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monsters",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monsters",
+      "url": "https://wiki.kolmafia.us/index.php?search=monsters",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "adventuring:attack"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "CopiedMonstersGenerateDescriptionForMonster",
+    "SCopiedMonstersGenerateResource",
+    "SCopiedMonstersGenerateResourceForCopyType",
+    "SCopiedMonstersGenerateTasks",
+    "generateCopiedMonstersEntry",
+    "generateNinjaSafetyGuide"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

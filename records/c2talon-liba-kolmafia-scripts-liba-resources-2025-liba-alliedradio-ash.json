@@ -1,0 +1,93 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2025-liba-alliedradio-ash",
+  "title": "liba_alliedRadio",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2025/liba_alliedRadio.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2025/liba_alliedRadio.ash",
+  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "sha256": "c99dfb076f0e3a48804eec8d1d665710070413234ee14dab7a6826c9dc5500f3",
+  "bytes": 3279,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "liba_allied",
+      "effects",
+      "inventory"
+    ],
+    "sub": [
+      "string",
+      "properties",
+      "quests",
+      "radio",
+      "radio_used",
+      "boon"
+    ],
+    "meta": [
+      "intel",
+      "materiel",
+      "radio_have",
+      "radio_is",
+      "radio_left",
+      "radio_to",
+      "request",
+      "valid",
+      "wildsun",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_allied",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_allied",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_allied",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_allied",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: radio",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=radio",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: radio",
+      "url": "https://wiki.kolmafia.us/index.php?search=radio",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "liba_alliedRadio",
+    "liba_alliedRadio_have",
+    "liba_alliedRadio_isValid",
+    "liba_alliedRadio_left",
+    "liba_alliedRadio_toRequest",
+    "liba_alliedRadio_used",
+    "liba_alliedRadio_usedMaterielIntel",
+    "liba_alliedRadio_usedWildsunBoon"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

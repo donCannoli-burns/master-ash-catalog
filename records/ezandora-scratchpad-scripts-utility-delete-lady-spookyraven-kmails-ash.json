@@ -1,0 +1,111 @@
+{
+  "id": "ezandora-scratchpad-scripts-utility-delete-lady-spookyraven-kmails-ash",
+  "title": "Delete Lady Spookyraven Kmails",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Utility/Delete Lady Spookyraven Kmails.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Utility/Delete Lady Spookyraven Kmails.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "f2252c2e19a2ff59b562b311f0a7c141db54620a59a8d0b029ebd23599703f7c",
+  "bytes": 6614,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "delete",
+      "kmails",
+      "lady",
+      "spookyraven",
+      "kmail"
+    ],
+    "meta": [
+      "main",
+      "save",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: delete",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=delete",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: delete",
+      "url": "https://wiki.kolmafia.us/index.php?search=delete",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lady",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lady",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lady",
+      "url": "https://wiki.kolmafia.us/index.php?search=lady",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spookyraven",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spookyraven",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spookyraven",
+      "url": "https://wiki.kolmafia.us/index.php?search=spookyraven",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: kmails",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=kmails",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: kmails",
+      "url": "https://wiki.kolmafia.us/index.php?search=kmails",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "KMailDeleteKmail",
+    "KMailSaveKmail",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

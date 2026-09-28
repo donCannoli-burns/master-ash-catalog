@@ -1,0 +1,101 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-bastilleallstats-ash",
+  "title": "BastilleAllStats",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/BastilleAllStats.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/BastilleAllStats.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "06219ad1a79b6c8044ff7ad482b59ce25b3a447ca3037e0da5819c69424007f7",
+  "bytes": 6122,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "iotm",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "string",
+      "value",
+      "tracking",
+      "all",
+      "bastille",
+      "stats"
+    ],
+    "meta": [
+      "configuration",
+      "best",
+      "better",
+      "is",
+      "main",
+      "of",
+      "two",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: bastille",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=bastille",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: bastille",
+      "url": "https://wiki.kolmafia.us/index.php?search=bastille",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: all",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=all",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: all",
+      "url": "https://wiki.kolmafia.us/index.php?search=all",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: stats",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=stats",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: stats",
+      "url": "https://wiki.kolmafia.us/index.php?search=stats",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "configurationBestOfTwo",
+    "configurationIsBetter",
+    "main"
+  ],
+  "imports": [
+    "relay/BastilleRelay.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

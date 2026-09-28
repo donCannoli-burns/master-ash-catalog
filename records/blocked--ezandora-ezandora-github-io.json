@@ -1,0 +1,10 @@
+{
+  "commit": "9942cbc62d5efe31863d054c836d82e1c6a7fbc8",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/Ezandora/ezandora.github.io",
+  "source_id": "ezandora-owner--ezandora.github.io",
+  "status": "metadata-only; bytes not redistributed"
+}

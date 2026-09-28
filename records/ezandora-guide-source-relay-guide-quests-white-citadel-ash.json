@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-white-citadel-ash",
+  "title": "White Citadel",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/White Citadel.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/White Citadel.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "b9dd956907332bea0fa3021dfd1477d5a97dc31a76e9e265504b2be0e0267826",
+  "bytes": 11804,
+  "author": "red spanners",
+  "player": "red spanners",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "inventory",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "combat",
+      "effects",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "string",
+      "value",
+      "citadel",
+      "adventuring",
+      "mall",
+      "profit",
+      "properties",
+      "white",
+      "qwhite",
+      "generate",
+      "init",
+      "tasks"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: white",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=white",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: white",
+      "url": "https://wiki.kolmafia.us/index.php?search=white",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: citadel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=citadel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: citadel",
+      "url": "https://wiki.kolmafia.us/index.php?search=citadel",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QWhiteCitadelGenerateTasks",
+    "QWhiteCitadelInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-way-of-the-surprising-fist-ash",
+  "title": "Way of the Surprising Fist",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Way of the Surprising Fist.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Way of the Surprising Fist.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "63f73e19c8fd90eded5e1dedb9c79177ed5955e256e848d27f9de23c4ca34631",
+  "bytes": 2653,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "properties",
+      "relay",
+      "skills"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "outfit",
+      "string",
+      "adventuring",
+      "equipment"
+    ],
+    "meta": [
+      "profit",
+      "fist",
+      "of",
+      "surprising",
+      "the",
+      "way",
+      "path",
+      "resource",
+      "wotsfgenerate",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: way",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=way",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: way",
+      "url": "https://wiki.kolmafia.us/index.php?search=way",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: the",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: the",
+      "url": "https://wiki.kolmafia.us/index.php?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: surprising",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=surprising",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: surprising",
+      "url": "https://wiki.kolmafia.us/index.php?search=surprising",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: fist",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=fist",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: fist",
+      "url": "https://wiki.kolmafia.us/index.php?search=fist",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathWOTSFGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-powerful-glove-ash",
+  "title": "Powerful Glove",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Powerful Glove.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Powerful Glove.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "f34d78d0c73176bb6b6925c5b8fb940e98f79513944b3f1ad9f00ba97c39b862",
+  "bytes": 1699,
+  "author": "50",
+  "player": "50",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "equipment",
+      "iotm",
+      "string",
+      "glove",
+      "properties",
+      "skills"
+    ],
+    "meta": [
+      "powerful",
+      "generate",
+      "iotmpowerful",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: powerful",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=powerful",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: powerful",
+      "url": "https://wiki.kolmafia.us/index.php?search=powerful",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: glove",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=glove",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: glove",
+      "url": "https://wiki.kolmafia.us/index.php?search=glove",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMPowerfulGloveGenerateResource"
+  ],
+  "imports": [
+    "relay/Guide/Items of the Month/Meteor Lore.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-pvp-list-expensive-pvpable-items-ash",
+  "title": "List Expensive PVPable Items",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/PVP/List Expensive PVPable Items.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/PVP/List Expensive PVPable Items.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "78fa746d660432a79748a3c87a15ae3e52447075b2784ea1eb63f6382105af6f",
+  "bytes": 1678,
+  "author": "prices",
+  "player": "prices",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "pvp",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "math",
+      "string",
+      "value",
+      "equipment"
+    ],
+    "meta": [
+      "profit",
+      "quests",
+      "expensive",
+      "items",
+      "list",
+      "pvpable",
+      "approximate",
+      "for",
+      "item_is_pvp_stealable",
+      "main",
+      "output",
+      "price"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: list",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: list",
+      "url": "https://wiki.kolmafia.us/index.php?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: expensive",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=expensive",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: expensive",
+      "url": "https://wiki.kolmafia.us/index.php?search=expensive",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: pvpable",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pvpable",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pvpable",
+      "url": "https://wiki.kolmafia.us/index.php?search=pvpable",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: items",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=items",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: items",
+      "url": "https://wiki.kolmafia.us/index.php?search=items",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "approximatePriceForOutput",
+    "item_is_pvp_stealable",
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Support/Math.ash",
+    "relay/Guide/Support/Strings.ash",
+    "scripts/RarelyUseful/Capital.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

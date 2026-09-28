@@ -1,0 +1,100 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-loadmonstermanuel-ash",
+  "title": "LoadMonsterManuel",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/LoadMonsterManuel.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/LoadMonsterManuel.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "eba9696c9619077ca6d6b89120cdc065200ed8e2ac1fd069375d7372298afc05",
+  "bytes": 299,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "properties",
+      "quests",
+      "string",
+      "combat",
+      "tracking",
+      "load"
+    ],
+    "meta": [
+      "manuel",
+      "monster",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: load",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=load",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: load",
+      "url": "https://wiki.kolmafia.us/index.php?search=load",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: monster",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monster",
+      "url": "https://wiki.kolmafia.us/index.php?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: manuel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=manuel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: manuel",
+      "url": "https://wiki.kolmafia.us/index.php?search=manuel",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

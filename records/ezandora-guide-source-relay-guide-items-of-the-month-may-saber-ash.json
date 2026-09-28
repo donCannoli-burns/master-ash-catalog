@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-may-saber-ash",
+  "title": "May Saber",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/May Saber.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/May Saber.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "79bfe8000b2a32f6ba9fe82fc4ffa132af82beceaad27a7c1b9e6b855dc3134d",
+  "bytes": 3493,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "equipment",
+      "iotm",
+      "skills",
+      "string"
+    ],
+    "meta": [
+      "saber",
+      "adventuring",
+      "ascension",
+      "inventory",
+      "properties",
+      "may",
+      "generate",
+      "iotmmay",
+      "party",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: may",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=may",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: may",
+      "url": "https://wiki.kolmafia.us/index.php?search=may",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: saber",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=saber",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: saber",
+      "url": "https://wiki.kolmafia.us/index.php?search=saber",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMMaySaberGenerateResource",
+    "IOTMMaySaberPartyGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

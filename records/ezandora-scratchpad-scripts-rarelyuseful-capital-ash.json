@@ -1,0 +1,82 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-capital-ash",
+  "title": "Capital",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/Capital.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/Capital.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "5b7615ba132bcc669fd78e7ec20bece69332adff50d97d798b1907e49d5a39f4",
+  "bytes": 6837,
+  "author": "default",
+  "player": "default",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "relay",
+      "familiar"
+    ],
+    "sub": [
+      "inventory",
+      "quests",
+      "string",
+      "automation",
+      "equipment",
+      "iotm"
+    ],
+    "meta": [
+      "modifier",
+      "profit",
+      "value",
+      "consumption",
+      "skills",
+      "capital",
+      "commas",
+      "convert",
+      "integer",
+      "main",
+      "minimum",
+      "price"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: capital",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=capital",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: capital",
+      "url": "https://wiki.kolmafia.us/index.php?search=capital",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "convertIntegerToStringWithCommas",
+    "main",
+    "minimumMallPrice",
+    "snowcones"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

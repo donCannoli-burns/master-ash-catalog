@@ -1,0 +1,76 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-kgbriefcase-ash",
+  "title": "KGBriefcase",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/KGBriefcase.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/KGBriefcase.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3b7ace9f8e11fd5903851d18c7c2427a424e654fb28848ba99fa028eff844701",
+  "bytes": 1636,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "iotm",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "combat",
+      "inventory",
+      "string",
+      "properties"
+    ],
+    "meta": [
+      "skills",
+      "kgbriefcase",
+      "generate",
+      "iotmkgbriefcase",
+      "resource",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: kgbriefcase",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=kgbriefcase",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: kgbriefcase",
+      "url": "https://wiki.kolmafia.us/index.php?search=kgbriefcase",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMKGBriefcaseGenerateResource"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

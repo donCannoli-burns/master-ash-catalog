@@ -1,0 +1,98 @@
+{
+  "id": "c2talon-c2t-megg-kolmafia-scripts-c2t-megg-ash",
+  "title": "c2t_megg",
+  "archive_path": "archive/c2talon/c2t-megg/kolmafia/scripts/c2t_megg.ash",
+  "source_id": "c2talon-owner--c2t_megg",
+  "source_url": "https://github.com/C2Talon/c2t_megg",
+  "repository_url": "https://github.com/C2Talon/c2t_megg",
+  "repository_path": "kolmafia/scripts/c2t_megg.ash",
+  "commit": "7b59be574dce7ed69f9939f6a755748f36f223d3",
+  "sha256": "0e524dd48a102ec96a2c402cfe7180c51d9f3aef9d2c8d7c0b5d7a8e610e934a",
+  "bytes": 20450,
+  "author": "parsing the preference containing mimic egg contents",
+  "player": "parsing the preference containing mimic egg contents",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-megg/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_megg/blob/7b59be574dce7ed69f9939f6a755748f36f223d3/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "relay"
+    ],
+    "sub": [
+      "choice",
+      "cli",
+      "mall",
+      "properties",
+      "string",
+      "tracking"
+    ],
+    "meta": [
+      "update",
+      "value",
+      "inventory",
+      "c2t_megg",
+      "c2t_megg_print",
+      "c2t_megg_is",
+      "c2t_megg_relay",
+      "page",
+      "adv",
+      "c2t_megg_donate",
+      "c2t_megg_error",
+      "c2t_megg_extract"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: c2t_megg",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=c2t_megg",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: c2t_megg",
+      "url": "https://wiki.kolmafia.us/index.php?search=c2t_megg",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "c2t_megg_donate",
+    "c2t_megg_error",
+    "c2t_megg_extract",
+    "c2t_megg_fight",
+    "c2t_megg_init",
+    "c2t_megg_isDonatePage",
+    "c2t_megg_isExtractPage",
+    "c2t_megg_numForms",
+    "c2t_megg_preAdv",
+    "c2t_megg_print",
+    "c2t_megg_printEggs",
+    "c2t_megg_printMaxed",
+    "c2t_megg_relay",
+    "c2t_megg_relayFight",
+    "c2t_megg_success",
+    "c2t_megg_update",
+    "c2t_megg_writeFile",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-counters-ash",
+  "title": "Counters",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Counters.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Counters.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "b15386ebb361a2ac7db389771dfa60cad7702ce24311fbe17473d0c13392f91f",
+  "bytes": 16483,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "familiar",
+      "relay",
+      "skills"
+    ],
+    "sub": [
+      "automation",
+      "effects",
+      "iotm",
+      "modifier",
+      "string",
+      "adventuring"
+    ],
+    "meta": [
+      "combat",
+      "inventory",
+      "properties",
+      "quests",
+      "scounters",
+      "counters",
+      "generate",
+      "entry",
+      "init",
+      "resource",
+      "tasks",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: counters",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=counters",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: counters",
+      "url": "https://wiki.kolmafia.us/index.php?search=counters",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SCountersGenerateEntry",
+    "SCountersGenerateResource",
+    "SCountersGenerateTasks",
+    "SCountersInit"
+  ],
+  "imports": [
+    "relay/Guide/Support/Counter.ash",
+    "relay/Guide/Support/Holiday.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

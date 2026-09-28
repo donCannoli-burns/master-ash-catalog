@@ -1,0 +1,101 @@
+{
+  "id": "prusias-kol-ptrack-kolmafia-scripts-ptracksuite-ptrack-ash",
+  "title": "ptrack",
+  "archive_path": "archive/prusias-kol/ptrack/kolmafia/scripts/ptrackSuite/ptrack.ash",
+  "source_id": "prusias-ptrack",
+  "source_url": "https://github.com/Prusias-kol/pTrack",
+  "repository_url": "https://github.com/Prusias-kol/pTrack",
+  "repository_path": "kolmafia/scripts/ptrackSuite/ptrack.ash",
+  "commit": "161022d49b653756b67d04210166048ba67c614e",
+  "sha256": "2c3437232517b06ebc16c32a89703ebfe48f8cb9178ce0a3f0693ac0576652a4",
+  "bytes": 16932,
+  "author": "giving the repeat a number.",
+  "player": "giving the repeat a number.",
+  "version": "10",
+  "license": {
+    "status": "allowed",
+    "name": "GPL",
+    "evidence_path": "archive/prusias-kol/ptrack/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Prusias-kol/pTrack/blob/161022d49b653756b67d04210166048ba67c614e/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "profit",
+      "tracking",
+      "mall"
+    ],
+    "sub": [
+      "cli",
+      "inventory",
+      "relay",
+      "update",
+      "browser",
+      "logging"
+    ],
+    "meta": [
+      "properties",
+      "string",
+      "value",
+      "consumption",
+      "ptrack",
+      "add",
+      "breakpoint",
+      "item",
+      "print",
+      "blacklist",
+      "breakpoints",
+      "compare"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: ptrack",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ptrack",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ptrack",
+      "url": "https://wiki.kolmafia.us/index.php?search=ptrack",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "purchasing:autosell",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "addBlacklistItem",
+    "addBreakpoint",
+    "addPriceOverrideItem",
+    "clearBlacklist",
+    "compareBreakpoints",
+    "compare_using_list_and_date",
+    "expressiveCompareBreakpoints",
+    "main",
+    "pBreakfast",
+    "printBreakpointList",
+    "printBreakpointListComparison",
+    "printHelp",
+    "ptrackCheckUpdate",
+    "redeemScreege",
+    "resetDailyTracking",
+    "useKolItemPriceSetting"
+  ],
+  "imports": [
+    "ProfitTracking.ash",
+    "TimeTracking.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

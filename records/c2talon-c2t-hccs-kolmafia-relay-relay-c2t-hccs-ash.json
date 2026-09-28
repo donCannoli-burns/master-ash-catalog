@@ -1,0 +1,98 @@
+{
+  "id": "c2talon-c2t-hccs-kolmafia-relay-relay-c2t-hccs-ash",
+  "title": "relay_c2t_hccs",
+  "archive_path": "archive/c2talon/c2t-hccs/kolmafia/relay/relay_c2t_hccs.ash",
+  "source_id": "c2talon-owner--c2t_hccs",
+  "source_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_url": "https://github.com/C2Talon/c2t_hccs",
+  "repository_path": "kolmafia/relay/relay_c2t_hccs.ash",
+  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "sha256": "00e1b151bd7a55abd0f04f91cb4629730db44a3754c1f37a3ef2efbdfe84ff5b",
+  "bytes": 8687,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "properties",
+      "relay",
+      "clan"
+    ],
+    "sub": [
+      "combat",
+      "effects",
+      "familiar",
+      "cli",
+      "equipment",
+      "iotm"
+    ],
+    "meta": [
+      "string",
+      "value",
+      "c2t_hccs_write",
+      "skills",
+      "tracking",
+      "relay_c2t_hccs",
+      "checkbox",
+      "fail",
+      "input",
+      "main",
+      "select",
+      "success"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: relay_c2t_hccs",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=relay_c2t_hccs",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: relay_c2t_hccs",
+      "url": "https://wiki.kolmafia.us/index.php?search=relay_c2t_hccs",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "Kingdom of Loathing Forums",
+      "url": "https://forums.kingdomofloathing.com/vb/",
+      "kind": "official/community"
+    },
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    },
+    {
+      "name": "Kingdom of Loathing",
+      "url": "https://www.kingdomofloathing.com/",
+      "kind": "official-game"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "signals": [
+      "preferences:set_property"
+    ],
+    "import_safe": "likely"
+  },
+  "functions": [
+    "c2t_hccs_writeCheckbox",
+    "c2t_hccs_writeFailSuccess",
+    "c2t_hccs_writeInput",
+    "c2t_hccs_writeSelect",
+    "c2t_hccs_writeText",
+    "c2t_hccs_writeTh",
+    "main"
+  ],
+  "imports": [
+    "c2t_hccs_properties.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

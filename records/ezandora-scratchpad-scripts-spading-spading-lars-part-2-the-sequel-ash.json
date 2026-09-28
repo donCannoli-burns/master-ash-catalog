@@ -1,0 +1,113 @@
+{
+  "id": "ezandora-scratchpad-scripts-spading-spading-lars-part-2-the-sequel-ash",
+  "title": "Spading LARS Part 2 The Sequel",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Spading/Spading LARS Part 2 The Sequel.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Spading/Spading LARS Part 2 The Sequel.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6e6527e6f889d6c5c21510d827942fd5ff4eb0534204a7ad98e19799727d722a",
+  "bytes": 2259,
+  "author": "that Rusted-Out Car",
+  "player": "that Rusted-Out Car",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "relay",
+      "spading"
+    ],
+    "sub": [
+      "adventuring",
+      "automation",
+      "effects",
+      "iotm",
+      "string",
+      "properties"
+    ],
+    "meta": [
+      "lars",
+      "part",
+      "sequel",
+      "the",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spading",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spading",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spading",
+      "url": "https://wiki.kolmafia.us/index.php?search=spading",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lars",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lars",
+      "url": "https://wiki.kolmafia.us/index.php?search=lars",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: part",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=part",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: part",
+      "url": "https://wiki.kolmafia.us/index.php?search=part",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: the",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: the",
+      "url": "https://wiki.kolmafia.us/index.php?search=the",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "adventuring:adv1"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/Guide/Support/Library.ash",
+    "relay/Guide/Support/LocationAvailable.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

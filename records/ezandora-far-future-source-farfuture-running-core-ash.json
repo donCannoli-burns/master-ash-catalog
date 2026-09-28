@@ -1,0 +1,90 @@
+{
+  "id": "ezandora-far-future-source-farfuture-running-core-ash",
+  "title": "Core",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Running/Core.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Running/Core.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "67e3015ef459b5658285ccccbaf33e59f928a899fd800a5d1ab0ee25328e5c43",
+  "bytes": 4922,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "adventuring",
+      "core",
+      "execute",
+      "action"
+    ],
+    "meta": [
+      "and",
+      "choose",
+      "option",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: core",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=core",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: core",
+      "url": "https://wiki.kolmafia.us/index.php?search=core",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unlikely"
+  },
+  "functions": [
+    "chooseAndExecuteAction",
+    "executeOption"
+  ],
+  "imports": [
+    "scripts/FarFuture/Running/Actions.ash",
+    "scripts/FarFuture/Running/Borg.ash",
+    "scripts/FarFuture/Running/Cloud.ash",
+    "scripts/FarFuture/Running/Crystals.ash",
+    "scripts/FarFuture/Running/Emoticons.ash",
+    "scripts/FarFuture/Running/Klingons.ash",
+    "scripts/FarFuture/Running/Replicate.ash",
+    "scripts/FarFuture/Running/Unknown.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

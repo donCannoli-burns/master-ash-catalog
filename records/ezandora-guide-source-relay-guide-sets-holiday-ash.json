@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-holiday-ash",
+  "title": "Holiday",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Holiday.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Holiday.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e8fd5b543b8e2951204e71df5ad3187ee891470582d4299870e426016c2579cc",
+  "bytes": 4446,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "outfit",
+      "string",
+      "adventuring",
+      "combat",
+      "equipment",
+      "inventory"
+    ],
+    "meta": [
+      "holiday",
+      "generate",
+      "sholiday",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: holiday",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=holiday",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: holiday",
+      "url": "https://wiki.kolmafia.us/index.php?search=holiday",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "SHolidayGenerateTasks"
+  ],
+  "imports": [
+    "relay/Guide/Support/Holiday.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

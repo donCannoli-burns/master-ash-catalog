@@ -1,0 +1,80 @@
+{
+  "id": "c2talon-c2t-megg-kolmafia-relay-choice-1516-ash",
+  "title": "choice.1516",
+  "archive_path": "archive/c2talon/c2t-megg/kolmafia/relay/choice.1516.ash",
+  "source_id": "c2talon-owner--c2t_megg",
+  "source_url": "https://github.com/C2Talon/c2t_megg",
+  "repository_url": "https://github.com/C2Talon/c2t_megg",
+  "repository_path": "kolmafia/relay/choice.1516.ash",
+  "commit": "7b59be574dce7ed69f9939f6a755748f36f223d3",
+  "sha256": "1bcf3469ce24b1fbb9b81bea842ab041211198f4d5f6a8ff813b946454101f9c",
+  "bytes": 387,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/c2t-megg/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/c2t_megg/blob/7b59be574dce7ed69f9939f6a755748f36f223d3/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "string"
+    ],
+    "sub": [
+      "main",
+      "community ASH",
+      "scripting",
+      "utility",
+      "workflow",
+      "game-state"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "c2t_megg.ash",
+    "relay/choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

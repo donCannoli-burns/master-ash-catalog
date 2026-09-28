@@ -1,0 +1,88 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-ingredients-ash",
+  "title": "Ingredients",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/Ingredients.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/Ingredients.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "27bdfe080a7055fe489efa73ae4aceab648d24afc39f35199992b3792baa7e88",
+  "bytes": 8017,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "crafting"
+    ],
+    "sub": [
+      "inventory",
+      "iotm",
+      "string",
+      "value",
+      "ingredients",
+      "internal"
+    ],
+    "meta": [
+      "parse",
+      "mall",
+      "profit",
+      "item",
+      "entry",
+      "add",
+      "coinmaster",
+      "coinmasters",
+      "concoction",
+      "concoctions",
+      "datafile",
+      "initialise"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: ingredients",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ingredients",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ingredients",
+      "url": "https://wiki.kolmafia.us/index.php?search=ingredients",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "InternalAddRecipe",
+    "InternalParseCoinmasterEntry",
+    "InternalParseCoinmasters",
+    "InternalParseConcoctionEntry",
+    "InternalParseConcoctions",
+    "initialiseItemIngredients",
+    "item_cannot_be_asdon_martined_because_it_was_purchased_from_a_store",
+    "item_is_purchasable_from_a_store",
+    "parseDatafileItem",
+    "testItemIngredients"
+  ],
+  "imports": [
+    "relay/Guide/Support/Strings.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

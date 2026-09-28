@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-paths-low-key-ash",
+  "title": "Low Key",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Paths/Low Key.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Paths/Low Key.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "3d8109e3b2be87b5ec86b23dac521bea165dfce90ee5d08e12415ec20c9d86cc",
+  "bytes": 8795,
+  "author": "starting the level 4 quest.",
+  "player": "starting the level 4 quest.",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "adventuring",
+      "equipment",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "cli",
+      "iotm",
+      "modifier",
+      "outfit"
+    ],
+    "meta": [
+      "string",
+      "key",
+      "low",
+      "profit",
+      "properties",
+      "generate",
+      "path",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: low",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=low",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: low",
+      "url": "https://wiki.kolmafia.us/index.php?search=low",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: key",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=key",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: key",
+      "url": "https://wiki.kolmafia.us/index.php?search=key",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "PathLowKeyGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

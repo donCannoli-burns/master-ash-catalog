@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-choice-override-choice-example-ash",
+  "title": "choice.example",
+  "archive_path": "archive/ezandora/choice-override/choice.example.ash",
+  "source_id": "ezandora-owner--choice-override",
+  "source_url": "https://github.com/Ezandora/Choice-Override",
+  "repository_url": "https://github.com/Ezandora/Choice-Override",
+  "repository_path": "choice.example.ash",
+  "commit": "ee6803c317d2050a7d71fdadb22baddc47234ef1",
+  "sha256": "7bada8c84127fc50b9d46c509c44421b158c67206a56acc28c171de20a6788c8",
+  "bytes": 342,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/choice-override/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Choice-Override/blob/ee6803c317d2050a7d71fdadb22baddc47234ef1/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "example",
+      "main",
+      "relay / IOTM / automation",
+      "scripting"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: example",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=example",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: example",
+      "url": "https://wiki.kolmafia.us/index.php?search=example",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

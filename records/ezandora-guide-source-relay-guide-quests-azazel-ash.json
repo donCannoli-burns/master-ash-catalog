@@ -1,0 +1,78 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-azazel-ash",
+  "title": "Azazel",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Azazel.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Azazel.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "0a7522113492e1353a6198b5854d9d3462eeb068ff2c72671eb25a2139da713b",
+  "bytes": 9560,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "combat",
+      "consumption",
+      "inventory",
+      "iotm",
+      "modifier"
+    ],
+    "meta": [
+      "string",
+      "adventuring",
+      "ascension",
+      "skills",
+      "azazel",
+      "qazazel",
+      "append",
+      "generate",
+      "init",
+      "list",
+      "tasks",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: azazel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=azazel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: azazel",
+      "url": "https://wiki.kolmafia.us/index.php?search=azazel",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QAzazelGenerateTasks",
+    "QAzazelInit",
+    "listAppend"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-scratchpad-scripts-rarelyuseful-monstertoyellowray-ash",
+  "title": "MonsterToYellowRay",
+  "archive_path": "archive/ezandora/scratchpad/scripts/RarelyUseful/MonsterToYellowRay.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/RarelyUseful/MonsterToYellowRay.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "f834eaac02d5f7a4a3fb4c9b11ebef0af4530c873b05de45f818d8dbc7f55a6f",
+  "bytes": 1434,
+  "author": "monster_profit",
+  "player": "monster_profit",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "profit",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "value",
+      "adventuring",
+      "combat",
+      "monster",
+      "ray"
+    ],
+    "meta": [
+      "to",
+      "yellow",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: monster",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: monster",
+      "url": "https://wiki.kolmafia.us/index.php?search=monster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: yellow",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=yellow",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: yellow",
+      "url": "https://wiki.kolmafia.us/index.php?search=yellow",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: ray",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=ray",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: ray",
+      "url": "https://wiki.kolmafia.us/index.php?search=ray",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

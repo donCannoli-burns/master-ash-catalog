@@ -1,0 +1,119 @@
+{
+  "id": "ezandora-detective-solver-detective-solver-detective-solver-ash",
+  "title": "Detective Solver",
+  "archive_path": "archive/ezandora/detective-solver/Detective Solver/Detective Solver.ash",
+  "source_id": "ezandora-owner--detective-solver",
+  "source_url": "https://github.com/Ezandora/Detective-Solver",
+  "repository_url": "https://github.com/Ezandora/Detective-Solver",
+  "repository_path": "Detective Solver/Detective Solver.ash",
+  "commit": "8ea94b963040ebb5bb1efed789fddda4ab7467a1",
+  "sha256": "ff1ac93496b95c5f49ab55721a3b193d30a529c233ff70bd85eac4da31e582f8",
+  "bytes": 170602,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/detective-solver/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Detective-Solver/blob/8ea94b963040ebb5bb1efed789fddda4ab7467a1/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "choice",
+      "string"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "parse",
+      "value",
+      "solve",
+      "individual"
+    ],
+    "meta": [
+      "state",
+      "adventuring",
+      "core",
+      "detective",
+      "information",
+      "solver",
+      "text",
+      "add",
+      "count",
+      "get",
+      "list",
+      "map"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: detective",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=detective",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: detective",
+      "url": "https://wiki.kolmafia.us/index.php?search=detective",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: solver",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=solver",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: solver",
+      "url": "https://wiki.kolmafia.us/index.php?search=solver",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "IndividualGetInformationCount",
+    "IndividualGetInformationCountIgnoringType",
+    "IndividualOutput",
+    "SolveStateAddIndividualInformation",
+    "SolveStateFindKiller",
+    "SolveStateOutput",
+    "SolveStateReverifyClaims",
+    "SolveStateVerifyLieHypothesis",
+    "capitaliseFirstLetter",
+    "collectTestData",
+    "coreTextMatchTypeDescription",
+    "initialiseCoreTextMatchers",
+    "lineariseMap",
+    "listAppend",
+    "listJoinComponents",
+    "main",
+    "parse",
+    "parseAccusation",
+    "parseCoreTextFromPageText",
+    "parseIndividualChoices",
+    "parseMap",
+    "parseMinutes",
+    "parseVisited",
+    "processEmptyStringAs",
+    "solveAllCases",
+    "stringAddSpacersEvery",
+    "to_buffer",
+    "to_int_silent",
+    "tryToSolveCase",
+    "verifyMatchers",
+    "visitAndParse"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

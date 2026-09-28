@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-briefcase-release-relay-place-kgb-ash",
+  "title": "place.kgb",
+  "archive_path": "archive/ezandora/briefcase/Release/relay/place.kgb.ash",
+  "source_id": "ezandora-owner--briefcase",
+  "source_url": "https://github.com/Ezandora/Briefcase",
+  "repository_url": "https://github.com/Ezandora/Briefcase",
+  "repository_path": "Release/relay/place.kgb.ash",
+  "commit": "2b41fedc2f1eb85aff8d0a42ea45ee225b8b9e02",
+  "sha256": "9f12364719d08411404d3278765d3b4bf3c5dcf54333173baf58f96545d9da25",
+  "bytes": 60,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/briefcase/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Briefcase/blob/2b41fedc2f1eb85aff8d0a42ea45ee225b8b9e02/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "iotm",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "kgb",
+      "place",
+      "main",
+      "relay / IOTM / automation",
+      "scripting",
+      "utility"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: place",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=place",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: place",
+      "url": "https://wiki.kolmafia.us/index.php?search=place",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: kgb",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=kgb",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: kgb",
+      "url": "https://wiki.kolmafia.us/index.php?search=kgb",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "Briefcase.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

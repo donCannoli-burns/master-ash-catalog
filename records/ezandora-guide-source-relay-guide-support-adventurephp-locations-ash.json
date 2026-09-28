@@ -1,0 +1,102 @@
+{
+  "id": "ezandora-guide-source-relay-guide-support-adventurephp-locations-ash",
+  "title": "AdventurePHP Locations",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Support/AdventurePHP Locations.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Support/AdventurePHP Locations.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e0f64a5bc2003ff95507dbf072ed2bd555143d528f9b0c1c0b704127b0edb70e",
+  "bytes": 3427,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "math",
+      "string",
+      "update",
+      "adventure",
+      "adventuring"
+    ],
+    "meta": [
+      "php",
+      "location",
+      "locations",
+      "allows",
+      "for",
+      "initialise",
+      "monsters",
+      "phplocations",
+      "snarfblat",
+      "visits",
+      "wandering",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: adventure",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=adventure",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: adventure",
+      "url": "https://wiki.kolmafia.us/index.php?search=adventure",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: php",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=php",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: php",
+      "url": "https://wiki.kolmafia.us/index.php?search=php",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: locations",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=locations",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: locations",
+      "url": "https://wiki.kolmafia.us/index.php?search=locations",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "initialiseAdventurePHPLocations",
+    "locationAllowsWanderingMonsters",
+    "locationVisitsAdventurePHP",
+    "snarfblatForLocation"
+  ],
+  "imports": [
+    "relay/Guide/Support/Math.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

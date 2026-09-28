@@ -1,0 +1,73 @@
+{
+  "id": "ezandora-guide-source-relay-guide-settings-ash",
+  "title": "Settings",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Settings.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Settings.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "1bb5c45f7949808fab7f19d4f915e94dec28fc172a8e65fd252f7765b6f4dc1b",
+  "bytes": 3971,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "cli",
+      "iotm",
+      "modifier",
+      "string",
+      "adventuring",
+      "quests"
+    ],
+    "meta": [
+      "tracking",
+      "settings",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: settings",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=settings",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: settings",
+      "url": "https://wiki.kolmafia.us/index.php?search=settings",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

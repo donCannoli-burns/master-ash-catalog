@@ -1,0 +1,91 @@
+{
+  "id": "ezandora-scratchpad-scripts-library-lov-tunnel-ash",
+  "title": "LOV Tunnel",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Library/LOV Tunnel.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Library/LOV Tunnel.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "4da29d2f5838f6244e557dc4b3c4560d9c3b61bfd7a786be82f01b0238a07c7b",
+  "bytes": 2670,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "familiar",
+      "cli"
+    ],
+    "sub": [
+      "combat",
+      "equipment",
+      "relay",
+      "automation",
+      "effects",
+      "iotm"
+    ],
+    "meta": [
+      "outfit",
+      "skills",
+      "string",
+      "inventory",
+      "profit",
+      "properties",
+      "tunnel",
+      "lov",
+      "main",
+      "run",
+      "kingdom-of-loathing",
+      "koLmafia"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: lov",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lov",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lov",
+      "url": "https://wiki.kolmafia.us/index.php?search=lov",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: tunnel",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=tunnel",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: tunnel",
+      "url": "https://wiki.kolmafia.us/index.php?search=tunnel",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main",
+    "runTunnel"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

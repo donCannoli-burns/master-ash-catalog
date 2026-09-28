@@ -1,0 +1,79 @@
+{
+  "id": "ezandora-far-future-source-farfuture-parsing-parse-ash",
+  "title": "Parse",
+  "archive_path": "archive/ezandora/far-future/Source/FarFuture/Parsing/Parse.ash",
+  "source_id": "ezandora-owner--far-future",
+  "source_url": "https://github.com/Ezandora/Far-Future",
+  "repository_url": "https://github.com/Ezandora/Far-Future",
+  "repository_path": "Source/FarFuture/Parsing/Parse.ash",
+  "commit": "7438f41656c5b53fa2959d29c0a5a2d59162c957",
+  "sha256": "29976cea201448466cfe61f8506c5cb1972e8d668b208cd1cdb545b255c1566f",
+  "bytes": 3972,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/far-future/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Far-Future/blob/7438f41656c5b53fa2959d29c0a5a2d59162c957/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "value",
+      "adventuring",
+      "parse",
+      "relay / IOTM / automation"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: parse",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=parse",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: parse",
+      "url": "https://wiki.kolmafia.us/index.php?search=parse",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "imports": [
+    "scripts/FarFuture/Parsing/Blue Messages.ash",
+    "scripts/FarFuture/Parsing/Intro Messages.ash",
+    "scripts/FarFuture/Parsing/Person In Area.ash",
+    "scripts/FarFuture/Parsing/Sublocation.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

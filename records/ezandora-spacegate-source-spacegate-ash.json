@@ -1,0 +1,85 @@
+{
+  "id": "ezandora-spacegate-source-spacegate-ash",
+  "title": "Spacegate",
+  "archive_path": "archive/ezandora/spacegate/Source/Spacegate.ash",
+  "source_id": "ezandora-owner--spacegate",
+  "source_url": "https://github.com/Ezandora/Spacegate",
+  "repository_url": "https://github.com/Ezandora/Spacegate",
+  "repository_path": "Source/Spacegate.ash",
+  "commit": "bd27bee2c91d20da3d83e2f60c6c61cea56a15ec",
+  "sha256": "e4423deed9112e32347b89b9b252d395448cd7039262349fb2c021133e604c8d",
+  "bytes": 12104,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/spacegate/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Spacegate/blob/bd27bee2c91d20da3d83e2f60c6c61cea56a15ec/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "equipment",
+      "choice",
+      "relay"
+    ],
+    "sub": [
+      "cli",
+      "familiar",
+      "inventory",
+      "iotm",
+      "mall",
+      "adventuring"
+    ],
+    "meta": [
+      "automation",
+      "combat",
+      "outfit",
+      "properties",
+      "string",
+      "tracking",
+      "value",
+      "consumption",
+      "recovery",
+      "spacegate",
+      "needed",
+      "acquire"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spacegate",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spacegate",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spacegate",
+      "url": "https://wiki.kolmafia.us/index.php?search=spacegate",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute",
+      "preferences:set_property"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "acquireAndEquipNeededEquipment",
+    "calculateEquipmentNeeded",
+    "main",
+    "pickPlanet",
+    "to_int_silent"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ezandora-scratchpad-scripts-pvp-pvp-equip-letter-outfit-ash",
+  "title": "PVP equip letter outfit",
+  "archive_path": "archive/ezandora/scratchpad/scripts/PVP/PVP equip letter outfit.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/PVP/PVP equip letter outfit.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "0e1c7278cc3103dbd21bf32370e4a80e2d3a8c5e4c1d3b175e6c9fc61d469f3f",
+  "bytes": 1468,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "pvp",
+      "equipment",
+      "familiar"
+    ],
+    "sub": [
+      "mall",
+      "relay",
+      "outfit",
+      "automation",
+      "inventory",
+      "iotm"
+    ],
+    "meta": [
+      "string",
+      "letter",
+      "profit",
+      "equip",
+      "item",
+      "item_price",
+      "length",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: pvp",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=pvp",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: pvp",
+      "url": "https://wiki.kolmafia.us/index.php?search=pvp",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: equip",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=equip",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: equip",
+      "url": "https://wiki.kolmafia.us/index.php?search=equip",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: letter",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=letter",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: letter",
+      "url": "https://wiki.kolmafia.us/index.php?search=letter",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: outfit",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=outfit",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: outfit",
+      "url": "https://wiki.kolmafia.us/index.php?search=outfit",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "itemLetterLength",
+    "item_price",
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

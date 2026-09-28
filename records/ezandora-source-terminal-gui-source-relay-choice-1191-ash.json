@@ -1,0 +1,80 @@
+{
+  "id": "ezandora-source-terminal-gui-source-relay-choice-1191-ash",
+  "title": "choice.1191",
+  "archive_path": "archive/ezandora/source-terminal-gui/Source/relay/choice.1191.ash",
+  "source_id": "ezandora-owner--source-terminal-gui",
+  "source_url": "https://github.com/Ezandora/Source-Terminal-GUI",
+  "repository_url": "https://github.com/Ezandora/Source-Terminal-GUI",
+  "repository_path": "Source/relay/choice.1191.ash",
+  "commit": "74691e58b517ecb9172288f5f84b6bfb13dcaf1a",
+  "sha256": "3e8aff584bfa40fb3e6bb6fcda0073d81fa4f6cfe7ecd8f3eebd9794639d6b45",
+  "bytes": 243,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/source-terminal-gui/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Source-Terminal-GUI/blob/74691e58b517ecb9172288f5f84b6bfb13dcaf1a/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "choice",
+      "relay",
+      "automation"
+    ],
+    "sub": [
+      "iotm",
+      "string",
+      "main",
+      "relay / IOTM / automation",
+      "scripting",
+      "utility"
+    ],
+    "meta": [
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility",
+      "historical",
+      "runtime",
+      "reference"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: choice",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=choice",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: choice",
+      "url": "https://wiki.kolmafia.us/index.php?search=choice",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "imports": [
+    "relay/Source_Terminal_GUI.ash",
+    "relay/choice.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

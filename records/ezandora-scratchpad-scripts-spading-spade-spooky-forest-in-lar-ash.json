@@ -1,0 +1,110 @@
+{
+  "id": "ezandora-scratchpad-scripts-spading-spade-spooky-forest-in-lar-ash",
+  "title": "Spade spooky forest in LAR",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Spading/Spade spooky forest in LAR.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Spading/Spade spooky forest in LAR.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "63d28401102bb507930a036159af66e3b1cf89fa51143c59e44868a211a73f2f",
+  "bytes": 535,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "cli",
+      "relay",
+      "adventuring"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "properties",
+      "forest",
+      "in",
+      "lar"
+    ],
+    "meta": [
+      "spade",
+      "spooky",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spade",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spade",
+      "url": "https://wiki.kolmafia.us/index.php?search=spade",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: spooky",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spooky",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spooky",
+      "url": "https://wiki.kolmafia.us/index.php?search=spooky",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: forest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=forest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: forest",
+      "url": "https://wiki.kolmafia.us/index.php?search=forest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lar",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lar",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lar",
+      "url": "https://wiki.kolmafia.us/index.php?search=lar",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:adv1",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

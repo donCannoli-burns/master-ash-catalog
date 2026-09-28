@@ -1,0 +1,10 @@
+{
+  "commit": "18c04e78d1fb403f078ad4593172a238a2b46d4e",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/C2Talon/kol",
+  "source_id": "c2talon-owner--kol",
+  "status": "metadata-only; bytes not redistributed"
+}

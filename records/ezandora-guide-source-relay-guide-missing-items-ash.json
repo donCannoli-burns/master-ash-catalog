@@ -1,0 +1,92 @@
+{
+  "id": "ezandora-guide-source-relay-guide-missing-items-ash",
+  "title": "Missing Items",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Missing Items.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Missing Items.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "8b8712d21e4aeb9d85dd877da4945b0d7d7b4f134b6ad998a688d37659e61f90",
+  "bytes": 14960,
+  "author": "w needed",
+  "player": "w needed",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "familiar",
+      "quests"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "character",
+      "cli",
+      "farming",
+      "iotm"
+    ],
+    "meta": [
+      "modifier",
+      "string",
+      "adventuring",
+      "ascension",
+      "inventory",
+      "items",
+      "missing",
+      "profit",
+      "properties",
+      "skills",
+      "append",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: missing",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=missing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: missing",
+      "url": "https://wiki.kolmafia.us/index.php?search=missing",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: items",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=items",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: items",
+      "url": "https://wiki.kolmafia.us/index.php?search=items",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "MissingItemsGenerate",
+    "listAppend"
+  ],
+  "imports": [
+    "relay/Guide/QuestState.ash",
+    "relay/Guide/Sets.ash",
+    "relay/Guide/Support/Checklist.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

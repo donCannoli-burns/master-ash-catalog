@@ -1,0 +1,89 @@
+{
+  "id": "ezandora-sweet-synthesis-release-scripts-synthesis-ash",
+  "title": "synthesis",
+  "archive_path": "archive/ezandora/sweet-synthesis/Release/scripts/synthesis.ash",
+  "source_id": "ezandora-owner--sweet-synthesis",
+  "source_url": "https://github.com/Ezandora/Sweet-Synthesis",
+  "repository_url": "https://github.com/Ezandora/Sweet-Synthesis",
+  "repository_path": "Release/scripts/synthesis.ash",
+  "commit": "fcd0fc5b47e247536cc6b214a63882e807e6e883",
+  "sha256": "d37e23a9e962708ca806dc959878f35dfc097c8ba69ecbbb72c8e204a0af508c",
+  "bytes": 19070,
+  "author": "Ezandora. This script is in the public domain.",
+  "player": "Ezandora. This script is in the public domain.",
+  "year": 1999,
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/sweet-synthesis/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Sweet-Synthesis/blob/fcd0fc5b47e247536cc6b214a63882e807e6e883/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "choice",
+      "inventory"
+    ],
+    "sub": [
+      "relay",
+      "automation",
+      "farming",
+      "iotm",
+      "profit",
+      "string"
+    ],
+    "meta": [
+      "value",
+      "ascension",
+      "consumption",
+      "effects",
+      "quests",
+      "skills",
+      "synthesis",
+      "candy",
+      "append",
+      "cost",
+      "effect",
+      "gain"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: synthesis",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=synthesis",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: synthesis",
+      "url": "https://wiki.kolmafia.us/index.php?search=synthesis",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "purchasing:buy",
+      "execution:cli_execute"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "costToGainEffect",
+    "historical_price_speculation",
+    "initialiseCandy",
+    "main",
+    "mall_price_speculation",
+    "slistAppend",
+    "smafiaIsPastRevision",
+    "synthesis_price",
+    "synthesiseCandy"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

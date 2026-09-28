@@ -1,0 +1,93 @@
+{
+  "id": "ezandora-guide-source-relay-guide-queststate-ash",
+  "title": "QuestState",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/QuestState.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/QuestState.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "e7a046dc1a1f2ce16123b6f7bdf00d3e5f721bd6bccf1cb7ab1b04579f0aca18",
+  "bytes": 3429,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "quests",
+      "relay",
+      "value"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "quest",
+      "string",
+      "state",
+      "properties"
+    ],
+    "meta": [
+      "property",
+      "tracking",
+      "mafia",
+      "number",
+      "parse",
+      "convert",
+      "equals",
+      "internal",
+      "past",
+      "step",
+      "to",
+      "kingdom-of-loathing"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: quest",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: quest",
+      "url": "https://wiki.kolmafia.us/index.php?search=quest",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: state",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=state",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: state",
+      "url": "https://wiki.kolmafia.us/index.php?search=state",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QuestStateConvertQuestPropertyValueToNumber",
+    "QuestStateEquals",
+    "QuestStateParseMafiaQuestProperty",
+    "QuestStateParseMafiaQuestPropertyValue",
+    "questPropertyPastInternalStepNumber"
+  ],
+  "imports": [
+    "relay/Guide/Support/Library.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

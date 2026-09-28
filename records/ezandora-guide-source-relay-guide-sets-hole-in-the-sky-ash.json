@@ -1,0 +1,99 @@
+{
+  "id": "ezandora-guide-source-relay-guide-sets-hole-in-the-sky-ash",
+  "title": "Hole in the Sky",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Sets/Hole in the Sky.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Sets/Hole in the Sky.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "4054cc4b2ae4817f69fa6b7fd5433cebbf087905961ff3ca6ad8b4a3a1bc362d",
+  "bytes": 11611,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "ascension",
+      "choice",
+      "combat"
+    ],
+    "sub": [
+      "familiar",
+      "quests",
+      "relay",
+      "automation",
+      "cli",
+      "equipment"
+    ],
+    "meta": [
+      "iotm",
+      "modifier",
+      "string",
+      "adventuring",
+      "inventory",
+      "properties",
+      "hole",
+      "in",
+      "qhits",
+      "sky",
+      "the",
+      "generate"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: hole",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=hole",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: hole",
+      "url": "https://wiki.kolmafia.us/index.php?search=hole",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: the",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: the",
+      "url": "https://wiki.kolmafia.us/index.php?search=the",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: sky",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=sky",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: sky",
+      "url": "https://wiki.kolmafia.us/index.php?search=sky",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "HITSStillRelevant",
+    "QHitsGenerateMissingItems",
+    "QHitsGenerateTasks",
+    "QHitsInit"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ezandora-scratchpad-scripts-information-list-areas-by-element-ash",
+  "title": "List areas by element",
+  "archive_path": "archive/ezandora/scratchpad/scripts/Information/List areas by element.ash",
+  "source_id": "ezandora-owner--scratchpad",
+  "source_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_url": "https://github.com/Ezandora/Scratchpad",
+  "repository_path": "scripts/Information/List areas by element.ash",
+  "commit": "09ab9c29c82918d9dd8bc4107b13711b1301251f",
+  "sha256": "6d2434dda4392e49a548f18b73453fe2a21111684a993e090086cfeedde0c2be",
+  "bytes": 2562,
+  "author": "1000000.0",
+  "player": "1000000.0",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/scratchpad/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Scratchpad/blob/09ab9c29c82918d9dd8bc4107b13711b1301251f/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "iotm"
+    ],
+    "sub": [
+      "string",
+      "value",
+      "adventuring",
+      "combat",
+      "areas",
+      "by"
+    ],
+    "meta": [
+      "element",
+      "list",
+      "main",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive",
+      "provenance",
+      "source-code",
+      "compatibility"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: list",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: list",
+      "url": "https://wiki.kolmafia.us/index.php?search=list",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: areas",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=areas",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: areas",
+      "url": "https://wiki.kolmafia.us/index.php?search=areas",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: element",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=element",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: element",
+      "url": "https://wiki.kolmafia.us/index.php?search=element",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "main"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

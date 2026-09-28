@@ -1,0 +1,86 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-spinmaster-lathe-ash",
+  "title": "Spinmaster Lathe",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Spinmaster Lathe.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Spinmaster Lathe.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "a006b5b86b36297f0811351e14d2c76abd208657874309be9f2d66157bc143ae",
+  "bytes": 5279,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "combat",
+      "inventory",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "iotm",
+      "logging",
+      "string",
+      "adventuring",
+      "ascension"
+    ],
+    "meta": [
+      "lathe",
+      "mall",
+      "profit",
+      "properties",
+      "skills",
+      "tracking",
+      "spinmaster",
+      "generate",
+      "iotmspinmaster",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: spinmaster",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=spinmaster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: spinmaster",
+      "url": "https://wiki.kolmafia.us/index.php?search=spinmaster",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: lathe",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=lathe",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: lathe",
+      "url": "https://wiki.kolmafia.us/index.php?search=lathe",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMSpinmasterLatheGenerate"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

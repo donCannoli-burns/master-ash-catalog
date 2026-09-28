@@ -1,0 +1,77 @@
+{
+  "id": "ezandora-guide-source-relay-guide-quests-subject-37-ash",
+  "title": "Subject 37",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Quests/Subject 37.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Quests/Subject 37.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "8d93a56d353eafcae53fbcbcbfaa6993b054935260443312c14411660f1080b1",
+  "bytes": 4611,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "mall",
+      "quests",
+      "relay"
+    ],
+    "sub": [
+      "automation",
+      "cli",
+      "inventory",
+      "iotm",
+      "modifier",
+      "string"
+    ],
+    "meta": [
+      "adventuring",
+      "ascension",
+      "combat",
+      "subject",
+      "qsubject37generate",
+      "qsubject37init",
+      "tasks",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: subject",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=subject",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: subject",
+      "url": "https://wiki.kolmafia.us/index.php?search=subject",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "QSubject37GenerateTasks",
+    "QSubject37Init"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

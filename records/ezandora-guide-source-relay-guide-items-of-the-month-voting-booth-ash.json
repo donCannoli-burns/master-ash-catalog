@@ -1,0 +1,87 @@
+{
+  "id": "ezandora-guide-source-relay-guide-items-of-the-month-voting-booth-ash",
+  "title": "Voting Booth",
+  "archive_path": "archive/ezandora/guide/Source/relay/Guide/Items of the Month/Voting Booth.ash",
+  "source_id": "ezandora-owner--guide",
+  "source_url": "https://github.com/Ezandora/Guide",
+  "repository_url": "https://github.com/Ezandora/Guide",
+  "repository_path": "Source/relay/Guide/Items of the Month/Voting Booth.ash",
+  "commit": "13d7da6e609d97098cf84efa93eef5bcf2c4b25b",
+  "sha256": "4ff10a2b01c08f61df1b13baad3b4eea6558c335bc3a5409e81041885f448fbb",
+  "bytes": 4482,
+  "author": "Ezandora",
+  "player": "Ezandora",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/ezandora/guide/_source_license/LICENSE",
+    "evidence_url": "https://github.com/Ezandora/Guide/blob/13d7da6e609d97098cf84efa93eef5bcf2c4b25b/LICENSE"
+  },
+  "keywords": {
+    "key": [
+      "relay",
+      "automation",
+      "cli"
+    ],
+    "sub": [
+      "equipment",
+      "iotm",
+      "modifier",
+      "skills",
+      "string",
+      "adventuring"
+    ],
+    "meta": [
+      "ascension",
+      "combat",
+      "inventory",
+      "properties",
+      "quests",
+      "booth",
+      "voting",
+      "boot",
+      "generate",
+      "iotmvoting",
+      "resource",
+      "tasks"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: voting",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=voting",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: voting",
+      "url": "https://wiki.kolmafia.us/index.php?search=voting",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: booth",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=booth",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: booth",
+      "url": "https://wiki.kolmafia.us/index.php?search=booth",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "read-mostly",
+    "import_safe": "likely"
+  },
+  "functions": [
+    "IOTMVotingBootGenerateResource",
+    "IOTMVotingBootGenerateTasks"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}
