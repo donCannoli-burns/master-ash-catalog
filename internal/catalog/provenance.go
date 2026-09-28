@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	reAuthor  = regexp.MustCompile(`(?im)^\\s*(?://+|#|/\\*|\\*)?\\s*(?:created\\s+by|author\\s*[:=])\\s*([A-Za-z0-9_. '()-]{2,60})\\s*$`)
+	reAuthor  = regexp.MustCompile(`(?im)^\s*(?://+|#|/\*|\*)?\s*(?:created\s+by|author\s*[:=])\s*([A-Za-z0-9_. '()-]{2,60})\s*$`)
 	reNotify  = regexp.MustCompile(`(?i)//\s*notify\s+["']?([^"';]+)`)
 	reVersion = regexp.MustCompile(`(?i)\bversion\s*[:=]?\s*([0-9][0-9A-Za-z._-]*)`)
 	reYear    = regexp.MustCompile(`\b(19[89][0-9]|20[0-3][0-9])\b`)
