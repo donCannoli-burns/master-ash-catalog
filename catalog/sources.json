@@ -777,7 +777,8 @@
       "category": "relay / profile / cosmetic / provenance",
       "author": "Irrat",
       "player": "Irrat",
-      "notes": "Forum thread for the KolSnowballs relay override; points to libraryaddict/KolSnowballs and relay/showplayer.ash."
+      "notes": "Forum thread for the KolSnowballs relay override; points to libraryaddict/KolSnowballs and relay/showplayer.ash.",
+      "title": "Hide snowballs in player profiles"
     },
     {
       "id": "bale-relay-overrides",

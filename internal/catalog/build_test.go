@@ -44,3 +44,45 @@ func TestScriptTemplateIncludesKnownProvenanceFields(t *testing.T) {
 		}
 	}
 }
+
+
+func TestIndexTemplateIncludesSearchableForumProvenance(t *testing.T) {
+	out := filepath.Join(t.TempDir(), "index.html")
+	cfg := Config{
+		Name: "master-ash-catalog",
+		UnofficialName: "ASH-WIKI",
+		Sources: []Source{{
+			ID: "irrat-hide-snowballs-forum",
+			Title: "Hide snowballs in player profiles",
+			URL: "https://kolmafia.us/threads/hide-snowballs-in-player-profiles.29556/",
+			Kind: "forum",
+			Category: "relay / profile / cosmetic / provenance",
+			Author: "Irrat",
+			Player: "Irrat",
+			Notes: "Forum thread for the KolSnowballs relay override; points to libraryaddict/KolSnowballs and relay/showplayer.ash.",
+		}},
+	}
+	if err := render(out, indexTemplate, pageData{
+		Config: cfg,
+		Counts: map[string]int{"scripts": 0, "records": 1, "sources": 1},
+	}); err != nil {
+		t.Fatal(err)
+	}
+	b, err := os.ReadFile(out)
+	if err != nil {
+		t.Fatal(err)
+	}
+	got := string(b)
+	for _, want := range []string{
+		"Hide snowballs in player profiles",
+		"https://kolmafia.us/threads/hide-snowballs-in-player-profiles.29556/",
+		"metadata-only forum reference",
+		"libraryaddict/KolSnowballs",
+		"relay/showplayer.ash",
+		"1 records",
+	} {
+		if !strings.Contains(got, want) {
+			t.Fatalf("generated index missing %q", want)
+		}
+	}
+}

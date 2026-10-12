@@ -13,6 +13,7 @@ type Config struct {
 
 type Source struct {
 	ID             string   `json:"id"`
+	Title          string   `json:"title,omitempty"`
 	URL            string   `json:"url"`
 	Kind           string   `json:"kind"` // repo, github-owner, file, forum, reference
 	Category       string   `json:"category,omitempty"`
