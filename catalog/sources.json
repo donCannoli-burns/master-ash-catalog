@@ -165,6 +165,11 @@
       "role": "pymafia reference"
     },
     {
+      "name": "libraryaddict",
+      "profile": "https://github.com/libraryaddict",
+      "role": "KoLmafia relay/script source owner"
+    },
+    {
       "name": "loathers",
       "profile": "https://github.com/loathers",
       "role": "KoLmafia ecosystem source owner"
@@ -752,6 +757,27 @@
       "url": "https://github.com/librity/gowiki",
       "kind": "reference",
       "category": "Go wiki reference"
+    },
+    {
+      "id": "libraryaddict-kolsnowballs",
+      "url": "https://github.com/libraryaddict/KolSnowballs",
+      "kind": "repo",
+      "category": "relay / profile / cosmetic",
+      "author": "Irrat",
+      "player": "Irrat",
+      "include": [
+        "relay/showplayer.ash"
+      ],
+      "notes": "Forum provenance: https://kolmafia.us/threads/hide-snowballs-in-player-profiles.29556/ . Normal repository license gate applies."
+    },
+    {
+      "id": "irrat-hide-snowballs-forum",
+      "url": "https://kolmafia.us/threads/hide-snowballs-in-player-profiles.29556/",
+      "kind": "forum",
+      "category": "relay / profile / cosmetic / provenance",
+      "author": "Irrat",
+      "player": "Irrat",
+      "notes": "Forum thread for the KolSnowballs relay override; points to libraryaddict/KolSnowballs and relay/showplayer.ash."
     },
     {
       "id": "bale-relay-overrides",
