@@ -6,7 +6,7 @@
   "source_url": "https://github.com/C2Talon/liba",
   "repository_url": "https://github.com/C2Talon/liba",
   "repository_path": "kolmafia/scripts/liba/misc/liba_incProperty.ash",
-  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "commit": "56133003afccfd93650c1e514191b644c0fba948",
   "sha256": "55d1f78e05a2ead9c40b52b68fa7a2b207043fe3b252fd10c739e3339cd649e0",
   "bytes": 636,
   "author": "C2Talon",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/liba/blob/56133003afccfd93650c1e514191b644c0fba948/LICENSE"
   },
   "classification": "community ASH",
   "description": "liba_incProperty is cataloged as community ASH. Indexed focus: properties, string, value. Static behavior classification: read-mostly.",

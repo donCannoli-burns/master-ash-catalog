@@ -1,0 +1,118 @@
+{
+  "id": "c2talon-liba-kolmafia-scripts-liba-resources-2026-liba-blackrosegarden-ash",
+  "title": "liba_blackRoseGarden",
+  "archive_path": "archive/c2talon/liba/kolmafia/scripts/liba/resources/2026/liba_blackRoseGarden.ash",
+  "source_id": "c2talon-owner--liba",
+  "source_url": "https://github.com/C2Talon/liba",
+  "repository_url": "https://github.com/C2Talon/liba",
+  "repository_path": "kolmafia/scripts/liba/resources/2026/liba_blackRoseGarden.ash",
+  "commit": "56133003afccfd93650c1e514191b644c0fba948",
+  "sha256": "1f16b9500d1df8de568b42fb111d14752bf9b2087caaaf2b8f2e811dc212305e",
+  "bytes": 5089,
+  "author": "C2Talon",
+  "player": "C2Talon",
+  "license": {
+    "status": "allowed",
+    "name": "MIT",
+    "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
+    "evidence_url": "https://github.com/C2Talon/liba/blob/56133003afccfd93650c1e514191b644c0fba948/LICENSE"
+  },
+  "classification": "community ASH",
+  "description": "liba_blackRoseGarden is cataloged as community ASH. Indexed focus: recovery, choice, combat. Static behavior classification: high-impact.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/C2Talon/liba.git",
+    "delete": "git delete C2Talon-liba",
+    "project_id": "C2Talon-liba"
+  },
+  "keywords": {
+    "key": [
+      "recovery",
+      "choice",
+      "combat"
+    ],
+    "sub": [
+      "liba_black",
+      "rose",
+      "string",
+      "consumption",
+      "garden",
+      "relay"
+    ],
+    "meta": [
+      "garden_enter",
+      "garden_fountain",
+      "garden_have",
+      "garden_print",
+      "garden_restore",
+      "garden_result",
+      "kingdom-of-loathing",
+      "koLmafia",
+      "ash-script",
+      "automation",
+      "community-script",
+      "archive"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: liba_black",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=liba_black",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: liba_black",
+      "url": "https://wiki.kolmafia.us/index.php?search=liba_black",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: rose",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=rose",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: rose",
+      "url": "https://wiki.kolmafia.us/index.php?search=rose",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoL Wiki: garden",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=garden",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: garden",
+      "url": "https://wiki.kolmafia.us/index.php?search=garden",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "high-impact",
+    "signals": [
+      "adventuring:run_combat",
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "_liba_blackRoseGarden_enter",
+    "_liba_blackRoseGarden_print",
+    "_liba_blackRoseGarden_restore",
+    "_liba_blackRoseGarden_result",
+    "liba_blackRoseGarden",
+    "liba_blackRoseGarden_fountain",
+    "liba_blackRoseGarden_have"
+  ],
+  "imports": [
+    "liba_inChoice.ash",
+    "liba_inCombat.ash"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "94123868b40e8358c1828172bcb01c9793dacd3f",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/dapanda1/weirdhouse",
+  "source_id": "dapanda1-weirdhouse",
+  "status": "metadata-only; bytes not redistributed"
+}

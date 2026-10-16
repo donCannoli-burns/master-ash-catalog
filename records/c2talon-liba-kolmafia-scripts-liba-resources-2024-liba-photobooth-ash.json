@@ -6,7 +6,7 @@
   "source_url": "https://github.com/C2Talon/liba",
   "repository_url": "https://github.com/C2Talon/liba",
   "repository_path": "kolmafia/scripts/liba/resources/2024/liba_photoBooth.ash",
-  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "commit": "56133003afccfd93650c1e514191b644c0fba948",
   "sha256": "db0ea48c11f8be29fcb718a98a3f9096cc836defcb90287da07940675d654337",
   "bytes": 2603,
   "author": "C2Talon",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/liba/blob/56133003afccfd93650c1e514191b644c0fba948/LICENSE"
   },
   "classification": "community ASH",
   "description": "liba_photoBooth is cataloged as community ASH. Indexed focus: choice, effects, clan. Static behavior classification: mutating.",

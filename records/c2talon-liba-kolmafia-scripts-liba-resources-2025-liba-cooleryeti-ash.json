@@ -6,7 +6,7 @@
   "source_url": "https://github.com/C2Talon/liba",
   "repository_url": "https://github.com/C2Talon/liba",
   "repository_path": "kolmafia/scripts/liba/resources/2025/liba_coolerYeti.ash",
-  "commit": "75f8bf5120ed06bcfbce248e5a806e99fd738ceb",
+  "commit": "56133003afccfd93650c1e514191b644c0fba948",
   "sha256": "50ec7810f16b282283c9f7717b519244cbd1874fa6b3a1632f461e59031ccac4",
   "bytes": 3983,
   "author": "C2Talon",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/liba/blob/75f8bf5120ed06bcfbce248e5a806e99fd738ceb/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/liba/blob/56133003afccfd93650c1e514191b644c0fba948/LICENSE"
   },
   "classification": "community ASH",
   "description": "liba_coolerYeti is cataloged as community ASH. Indexed focus: choice, familiar, liba_cooler. Static behavior classification: mutating.",

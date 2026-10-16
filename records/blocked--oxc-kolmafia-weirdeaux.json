@@ -1,0 +1,10 @@
+{
+  "commit": "cda928c343856790223b7549fd93a93242840f2b",
+  "license": {
+    "status": "blocked",
+    "reason": "No repository license file was detected. Public visibility is not permission to redistribute; metadata may be indexed, but script bytes are not vendored automatically."
+  },
+  "repository": "https://github.com/oxc/kolmafia-weirdeaux",
+  "source_id": "oxc-kolmafia-weirdeaux",
+  "status": "metadata-only; bytes not redistributed"
+}
