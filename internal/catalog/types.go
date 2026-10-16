@@ -24,6 +24,7 @@ type Source struct {
 	Discover       bool     `json:"discover,omitempty"`
 	MaxRepos       int      `json:"max_repos,omitempty"`
 	Notes          string   `json:"notes,omitempty"`
+	Searchable     bool     `json:"searchable,omitempty"`
 }
 
 type Link struct {

@@ -203,6 +203,16 @@
       "name": "chenjunqian",
       "profile": "https://github.com/chenjunqian",
       "role": "Go markup reference"
+    },
+    {
+      "name": "dapanda1",
+      "profile": "https://github.com/dapanda1",
+      "role": "KoLmafia ASH/script source owner"
+    },
+    {
+      "name": "oxc",
+      "profile": "https://github.com/oxc",
+      "role": "KoLmafia TypeScript/script source owner"
     }
   ],
   "keyword_seeds": {
@@ -823,6 +833,26 @@
       "url": "https://pkg.go.dev/go.abhg.dev/goldmark/wikilink",
       "kind": "reference",
       "category": "Go wiki-link reference"
+    },
+    {
+      "id": "dapanda1-weirdhouse",
+      "title": "weirdhouse — Mansion of Dr. Weirdeaux level 256",
+      "url": "https://github.com/dapanda1/weirdhouse",
+      "kind": "repo",
+      "category": "Mansion of Dr. Weirdeaux / power-leveling / combat automation",
+      "author": "dapanda1",
+      "searchable": true,
+      "notes": "KoLmafia ASH power-leveling automation for Moxie classes in The Mansion of Dr. Weirdeaux, aimed at reaching level 256. The README documents `git checkout dapanda1/weirdhouse main`. No recognized repository license is currently present, so the catalog license gate keeps script bytes metadata-only."
+    },
+    {
+      "id": "oxc-kolmafia-weirdeaux",
+      "title": "kolmafia-weirdeaux — Weirdeaux combat and analysis tooling",
+      "url": "https://github.com/oxc/kolmafia-weirdeaux",
+      "kind": "repo",
+      "category": "Mansion of Dr. Weirdeaux / combat / analysis / TypeScript",
+      "author": "Bernhard Frauendienst",
+      "searchable": true,
+      "notes": "Historical KoLmafia TypeScript tooling for Mansion of Dr. Weirdeaux combat, parsing, healing, and fight analysis. package.json declares GPL-3.0, but the repository contains no checked-in .ash file, so ASH-WIKI surfaces it as a searchable source reference rather than an archived ASH snapshot."
     }
   ]
 }

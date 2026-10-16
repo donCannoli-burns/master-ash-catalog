@@ -86,3 +86,45 @@ func TestIndexTemplateIncludesSearchableForumProvenance(t *testing.T) {
 		}
 	}
 }
+
+func TestIndexTemplateIncludesSearchableRepositoryReference(t *testing.T) {
+	out := filepath.Join(t.TempDir(), "index.html")
+	cfg := Config{
+		Name: "master-ash-catalog",
+		UnofficialName: "ASH-WIKI",
+		Sources: []Source{{
+			ID: "dapanda1-weirdhouse",
+			Title: "weirdhouse — Mansion of Dr. Weirdeaux level 256",
+			URL: "https://github.com/dapanda1/weirdhouse",
+			Kind: "repo",
+			Category: "Mansion of Dr. Weirdeaux / power-leveling / combat automation",
+			Author: "dapanda1",
+			Searchable: true,
+			Notes: "KoLmafia ASH power-leveling automation for Moxie classes in The Mansion of Dr. Weirdeaux.",
+		}},
+	}
+	if err := render(out, indexTemplate, pageData{
+		Config: cfg,
+		Counts: map[string]int{"scripts": 0, "records": 1, "sources": 1},
+	}); err != nil {
+		t.Fatal(err)
+	}
+	b, err := os.ReadFile(out)
+	if err != nil {
+		t.Fatal(err)
+	}
+	got := string(b)
+	for _, want := range []string{
+		"weirdhouse — Mansion of Dr. Weirdeaux level 256",
+		"https://github.com/dapanda1/weirdhouse",
+		"searchable source reference",
+		"source repository",
+		"Mansion of Dr. Weirdeaux",
+		"1 records",
+	} {
+		if !strings.Contains(got, want) {
+			t.Fatalf("generated index missing %q", want)
+		}
+	}
+}
+
