@@ -125,6 +125,11 @@
       "role": "ASH/script source owner"
     },
     {
+      "name": "niiseemoonoo",
+      "profile": "https://github.com/niiseemoonoo",
+      "role": "KoLmafia ASH/script source owner"
+    },
+    {
       "name": "Stary2001",
       "profile": "https://github.com/Stary2001",
       "role": "Python ecosystem reference"
@@ -561,6 +566,19 @@
       "category": "value / acquisition",
       "author": "Astro3207",
       "player": "Astro3207"
+    },
+    {
+      "id": "niiseemoonoo-gain",
+      "title": "Gain — efficient buffing",
+      "url": "https://github.com/niiseemoonoo/Gain",
+      "kind": "repo",
+      "category": "value / acquisition / buffing",
+      "author": "niiseemoonoo",
+      "include": [
+        "Release/scripts/"
+      ],
+      "searchable": true,
+      "notes": "Forked from Astro3207/Gain on October 16, 2026. Efficient buffing with a documented `sim` flag. The repository uses the Unlicense/Public Domain, so the normal catalog license gate may archive the ASH snapshot."
     },
     {
       "id": "ez-consume",
