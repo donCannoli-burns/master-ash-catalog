@@ -1,0 +1,104 @@
+{
+  "id": "niiseemoonoo-gain-release-scripts-gain-ash",
+  "title": "gain",
+  "archive_path": "archive/niiseemoonoo/gain/Release/scripts/gain.ash",
+  "source_id": "niiseemoonoo-gain",
+  "source_url": "https://github.com/niiseemoonoo/Gain",
+  "repository_url": "https://github.com/niiseemoonoo/Gain",
+  "repository_path": "Release/scripts/gain.ash",
+  "commit": "33ffbb2cbc55b725d1d262234559b8706befae64",
+  "sha256": "4bff70c421efdc9d17fc9ee1a87644a8fee667d2149587bf843729636f54436e",
+  "bytes": 38879,
+  "author": "niiseemoonoo",
+  "license": {
+    "status": "allowed",
+    "name": "Unlicense/Public Domain",
+    "evidence_path": "archive/niiseemoonoo/gain/_source_license/LICENSE",
+    "evidence_url": "https://github.com/niiseemoonoo/Gain/blob/33ffbb2cbc55b725d1d262234559b8706befae64/LICENSE"
+  },
+  "classification": "value / acquisition / buffing",
+  "description": "gain is cataloged as value / acquisition / buffing. Indexed focus: modifier, effects, familiar. Static behavior classification: mutating.",
+  "install": {
+    "available": true,
+    "checkout": "git checkout https://github.com/niiseemoonoo/Gain.git",
+    "delete": "git delete niiseemoonoo-Gain",
+    "project_id": "niiseemoonoo-Gain"
+  },
+  "keywords": {
+    "key": [
+      "modifier",
+      "effects",
+      "familiar"
+    ],
+    "sub": [
+      "mall",
+      "skills",
+      "equipment",
+      "combat",
+      "string",
+      "value"
+    ],
+    "meta": [
+      "inventory",
+      "profit",
+      "relay",
+      "tracking",
+      "upkeep",
+      "gain",
+      "entry",
+      "initialize",
+      "simulate",
+      "user",
+      "add",
+      "between"
+    ]
+  },
+  "wiki_searches": [
+    {
+      "name": "KoL Wiki: gain",
+      "url": "https://wiki.kingdomofloathing.com/Special:Search?search=gain",
+      "kind": "wiki-search"
+    },
+    {
+      "name": "KoLmafia Wiki: gain",
+      "url": "https://wiki.kolmafia.us/index.php?search=gain",
+      "kind": "wiki-search"
+    }
+  ],
+  "official_links": [
+    {
+      "name": "KoLmafia Forums",
+      "url": "https://kolmafia.us/",
+      "kind": "community"
+    }
+  ],
+  "behavior": {
+    "class": "mutating",
+    "signals": [
+      "execution:visit_url"
+    ],
+    "import_safe": "unknown"
+  },
+  "functions": [
+    "ModifierAddUserModifier",
+    "ModifierConvertUserModifierToMafia",
+    "ModifierOutputExampleUsage",
+    "ModifierUpkeepEffects",
+    "ModifierUpkeepEntryDescription",
+    "ModifierUpkeepEntryEfficiency",
+    "SimulateBuff",
+    "SimulateModifierUpkeep",
+    "blockLimitedBuffs",
+    "gain_fabs",
+    "haveEquipment",
+    "initialiseModifiers",
+    "initialiseMutuallyExclusiveEffects",
+    "initializeBlockedItems",
+    "initializeRequiredEquipment",
+    "isBetween",
+    "main",
+    "my_active_basestat",
+    "numeric_modifier_including_percentages_on_base_modifiers"
+  ],
+  "indexed_at": "1970-01-01T00:00:00Z"
+}
