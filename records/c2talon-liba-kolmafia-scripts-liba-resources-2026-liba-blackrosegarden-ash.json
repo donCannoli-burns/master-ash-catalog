@@ -6,16 +6,16 @@
   "source_url": "https://github.com/C2Talon/liba",
   "repository_url": "https://github.com/C2Talon/liba",
   "repository_path": "kolmafia/scripts/liba/resources/2026/liba_blackRoseGarden.ash",
-  "commit": "56133003afccfd93650c1e514191b644c0fba948",
-  "sha256": "1f16b9500d1df8de568b42fb111d14752bf9b2087caaaf2b8f2e811dc212305e",
-  "bytes": 5089,
+  "commit": "be832258074fae6036debae3afac9782ae8fc566",
+  "sha256": "660e8b07b4a3c79a87fd7be041924c76ac919bc4859c997a14e4feba3f755abd",
+  "bytes": 6087,
   "author": "C2Talon",
   "player": "C2Talon",
   "license": {
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/liba/blob/56133003afccfd93650c1e514191b644c0fba948/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/liba/blob/be832258074fae6036debae3afac9782ae8fc566/LICENSE"
   },
   "classification": "community ASH",
   "description": "liba_blackRoseGarden is cataloged as community ASH. Indexed focus: recovery, choice, combat. Static behavior classification: high-impact.",
@@ -32,26 +32,26 @@
       "combat"
     ],
     "sub": [
+      "cli",
       "liba_black",
       "rose",
       "string",
       "consumption",
-      "garden",
-      "relay"
+      "garden"
     ],
     "meta": [
+      "inventory",
+      "properties",
+      "relay",
+      "adv",
       "garden_enter",
       "garden_fountain",
       "garden_have",
+      "garden_post",
+      "garden_pre",
       "garden_print",
       "garden_restore",
-      "garden_result",
-      "kingdom-of-loathing",
-      "koLmafia",
-      "ash-script",
-      "automation",
-      "community-script",
-      "archive"
+      "garden_result"
     ]
   },
   "wiki_searches": [
@@ -97,12 +97,14 @@
     "class": "high-impact",
     "signals": [
       "adventuring:run_combat",
-      "execution:visit_url"
+      "execution:cli_execute"
     ],
     "import_safe": "unknown"
   },
   "functions": [
     "_liba_blackRoseGarden_enter",
+    "_liba_blackRoseGarden_postAdv",
+    "_liba_blackRoseGarden_preAdv",
     "_liba_blackRoseGarden_print",
     "_liba_blackRoseGarden_restore",
     "_liba_blackRoseGarden_result",

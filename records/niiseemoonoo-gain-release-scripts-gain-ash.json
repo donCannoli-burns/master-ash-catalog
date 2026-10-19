@@ -6,15 +6,15 @@
   "source_url": "https://github.com/niiseemoonoo/Gain",
   "repository_url": "https://github.com/niiseemoonoo/Gain",
   "repository_path": "Release/scripts/gain.ash",
-  "commit": "33ffbb2cbc55b725d1d262234559b8706befae64",
-  "sha256": "4bff70c421efdc9d17fc9ee1a87644a8fee667d2149587bf843729636f54436e",
-  "bytes": 38879,
+  "commit": "ca9c9be0429d0a4b8f9e6cba11010da515ae171a",
+  "sha256": "95689574a77325cac2d08bacf9dc29a99688d9c7066be3639eb85d269f9a4aaa",
+  "bytes": 39367,
   "author": "niiseemoonoo",
   "license": {
     "status": "allowed",
     "name": "Unlicense/Public Domain",
     "evidence_path": "archive/niiseemoonoo/gain/_source_license/LICENSE",
-    "evidence_url": "https://github.com/niiseemoonoo/Gain/blob/33ffbb2cbc55b725d1d262234559b8706befae64/LICENSE"
+    "evidence_url": "https://github.com/niiseemoonoo/Gain/blob/ca9c9be0429d0a4b8f9e6cba11010da515ae171a/LICENSE"
   },
   "classification": "value / acquisition / buffing",
   "description": "gain is cataloged as value / acquisition / buffing. Indexed focus: modifier, effects, familiar. Static behavior classification: mutating.",

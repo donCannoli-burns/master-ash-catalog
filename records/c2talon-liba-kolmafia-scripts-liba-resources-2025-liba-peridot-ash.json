@@ -6,7 +6,7 @@
   "source_url": "https://github.com/C2Talon/liba",
   "repository_url": "https://github.com/C2Talon/liba",
   "repository_path": "kolmafia/scripts/liba/resources/2025/liba_peridot.ash",
-  "commit": "56133003afccfd93650c1e514191b644c0fba948",
+  "commit": "be832258074fae6036debae3afac9782ae8fc566",
   "sha256": "264473b25ebecb4cc5c85d222de4a9f164e9fb6012b09968b6ab1cb945ce4e17",
   "bytes": 12192,
   "author": "C2Talon",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/liba/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/liba/blob/56133003afccfd93650c1e514191b644c0fba948/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/liba/blob/be832258074fae6036debae3afac9782ae8fc566/LICENSE"
   },
   "classification": "community ASH",
   "description": "liba_peridot is cataloged as community ASH. Indexed focus: choice, combat, cli. Static behavior classification: high-impact.",
