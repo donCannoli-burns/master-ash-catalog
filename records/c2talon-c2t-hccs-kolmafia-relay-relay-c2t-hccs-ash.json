@@ -6,7 +6,7 @@
   "source_url": "https://github.com/C2Talon/c2t_hccs",
   "repository_url": "https://github.com/C2Talon/c2t_hccs",
   "repository_path": "kolmafia/relay/relay_c2t_hccs.ash",
-  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "commit": "d5acbf31326de19dd0b2fc3ff9a428bc2b6ba1d5",
   "sha256": "00e1b151bd7a55abd0f04f91cb4629730db44a3754c1f37a3ef2efbdfe84ff5b",
   "bytes": 8687,
   "author": "C2Talon",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/d5acbf31326de19dd0b2fc3ff9a428bc2b6ba1d5/LICENSE"
   },
   "classification": "community ASH",
   "description": "relay_c2t_hccs is cataloged as community ASH. Indexed focus: properties, relay, clan. Static behavior classification: read-mostly.",

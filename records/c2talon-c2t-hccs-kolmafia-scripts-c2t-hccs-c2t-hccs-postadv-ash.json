@@ -6,7 +6,7 @@
   "source_url": "https://github.com/C2Talon/c2t_hccs",
   "repository_url": "https://github.com/C2Talon/c2t_hccs",
   "repository_path": "kolmafia/scripts/c2t_hccs/c2t_hccs_postAdv.ash",
-  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "commit": "d5acbf31326de19dd0b2fc3ff9a428bc2b6ba1d5",
   "sha256": "0d1c7dd75f77e9e7c907499def3f8a5c71cede25a7c01f02700779064b382920",
   "bytes": 355,
   "author": "C2Talon",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/d5acbf31326de19dd0b2fc3ff9a428bc2b6ba1d5/LICENSE"
   },
   "classification": "community ASH",
   "description": "c2t_hccs_postAdv is cataloged as community ASH. Indexed focus: relay, adventuring, inventory. Static behavior classification: read-mostly.",

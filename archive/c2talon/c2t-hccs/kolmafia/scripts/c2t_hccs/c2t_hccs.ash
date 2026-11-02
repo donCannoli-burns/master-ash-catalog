@@ -565,9 +565,12 @@ boolean c2t_hccs_preCoil() {
 		}
 	}
 
-	//buy toy accordion
-	if (my_class() != $class[accordion thief])
+	//buy toy accordion if needed
+	if (my_class() != $class[accordion thief]
+		&& available_amount($item[legendary acorndion]) == 0)
+	{
 		retrieve_item(1,$item[toy accordion]);
+	}
 	
 	// equip mp stuff
 	maximize(`-tie,mp,-equip {c2t_pilcrow($item[kramco sausage-o-matic&trade;])},-equip {c2t_pilcrow($item[&quot;i voted!&quot; sticker])}`,false);

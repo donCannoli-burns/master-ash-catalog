@@ -6,7 +6,7 @@
   "source_url": "https://github.com/C2Talon/c2t_hccs",
   "repository_url": "https://github.com/C2Talon/c2t_hccs",
   "repository_path": "kolmafia/scripts/c2t_hccs/c2t_hccs_combat.ash",
-  "commit": "b4b648f0de6ac257fa97994e21c1daa5ff233f08",
+  "commit": "d5acbf31326de19dd0b2fc3ff9a428bc2b6ba1d5",
   "sha256": "e9e025c10e9d86ec519a68b632836df7050093978d1027f9e170437ce8ebbb0c",
   "bytes": 17728,
   "author": "C2Talon",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/c2talon/c2t-hccs/_source_license/LICENSE",
-    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/b4b648f0de6ac257fa97994e21c1daa5ff233f08/LICENSE"
+    "evidence_url": "https://github.com/C2Talon/c2t_hccs/blob/d5acbf31326de19dd0b2fc3ff9a428bc2b6ba1d5/LICENSE"
   },
   "classification": "community ASH",
   "description": "c2t_hccs_combat is cataloged as community ASH. Indexed focus: combat, tracking, familiar. Static behavior classification: mutating.",
