@@ -6,7 +6,7 @@
   "source_url": "https://github.com/Prusias-kol/pLooper",
   "repository_url": "https://github.com/Prusias-kol/pLooper",
   "repository_path": "kolmafia/scripts/ploophelpers/tapion_praccess.ash",
-  "commit": "aa63953aeecfe8b84d74735cac878892578d244f",
+  "commit": "ec728362dd9579c8637eec6273dd9151570f793a",
   "sha256": "6fc66fbfff59265a605240d5be390fc128c3a0c934363dccb782b6f5977ce613",
   "bytes": 7345,
   "author": "Prusias-kol",
@@ -15,7 +15,7 @@
     "status": "allowed",
     "name": "MIT",
     "evidence_path": "archive/prusias-kol/plooper/_source_license/LICENSE",
-    "evidence_url": "https://github.com/Prusias-kol/pLooper/blob/aa63953aeecfe8b84d74735cac878892578d244f/LICENSE"
+    "evidence_url": "https://github.com/Prusias-kol/pLooper/blob/ec728362dd9579c8637eec6273dd9151570f793a/LICENSE"
   },
   "classification": "automation loop",
   "description": "tapion_praccess is cataloged as automation loop. Indexed focus: choice, familiar, cli. Static behavior classification: high-impact.",
